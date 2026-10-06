@@ -1,0 +1,1 @@
+{"quoteUpdates":[{"path":"boundaryReview.tail.startQuote","quote":"它们像同一张底图换了三个数字。"},{"path":"boundaryReview.tail.endQuote","quote":"我盯着那三张图，手从鼠标上挪开了。"},{"path":"volumeRange.heaviestQuote","quote":"我盯着那三张图，手从鼠标上挪开了。"}]}

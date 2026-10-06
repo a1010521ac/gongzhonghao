@@ -1,0 +1,1 @@
+{"quoteUpdates":[{"path":"emotionSources[5].quote","quote":"他图快，后脚就改成了‘通车通畅、路灯通明’。"}]}

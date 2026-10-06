@@ -1,0 +1,58 @@
+﻿{
+    "version":  2,
+    "status":  "audited",
+    "rewriteDate":  "2026-10-01",
+    "chapterNumber":  3,
+    "title":  "第003章 头像半夜从屏幕里钻了出来",
+    "causalSpine":  {
+                        "openingState":  "承接上一章已发生结果，不把大纲预告当事实。",
+                        "trigger":  "小蓝在退款低谷首次出现，指出三张示例截图的时间和统计矛盾，许成提交证据。",
+                        "choice":  "许成在可见证据和现实约束下推进当章任务。",
+                        "immediateResult":  "小蓝在退款低谷首次出现，指出三张示例截图的时间和统计矛盾，许成提交证据。",
+                        "newProblem":  "下一章必须处理正文末留下的具体未结事项。"
+                    },
+    "primaryChoice":  {
+                          "actor":  "许成",
+                          "desire":  "在不丢掉工作和家庭现金边界的前提下让公众号产生真实进展。",
+                          "action":  "小蓝在退款低谷首次出现，指出三张示例截图的时间和统计矛盾，许成提交证据。",
+                          "whyNotReplaceable":  "他的程序员式记录习惯、已有关系和当晚可用时间决定了动作顺序。",
+                          "abandonedOption":  "继续等待、继续加钱或只争口舌。",
+                          "cost":  "时间、现金、睡眠或继续承担交付义务。"
+                      },
+    "agency":  {
+                   "whoMovesFirst":  "课程方、读者、商户或竞争者均有主动行动。",
+                   "protagonistRole":  "判断、取证、核验、写作或谈判。",
+                   "others":  "配角按自身利益提出要求、纠错、付款或竞争。",
+                   "withoutProtagonist":  "问题不会自动消失，商户和竞争者会按自己的节奏继续行动。"
+               },
+    "causalFriction":  [
+                           "白天本职工作与夜间副业时间冲突",
+                           "平台数字、合同金额和实际到账不能混为一谈"
+                       ],
+    "residue":  [
+                    "未完成的新需求或商业承诺",
+                    "个人现金与家庭转款边界仍然存在"
+                ],
+    "narrative":  "短段落、第一人称限知、事件驱动。",
+    "fingerprint":  "重写版第1—10章",
+    "differenceFromRecentChapters":  "每章推进一个不同的现实动作，不用突然插入无来源判断。",
+    "evidence":  {
+                     "choice":  "我第二天没有立刻申请退款。",
+                     "consequence":  "我第二天没有立刻申请退款。",
+                     "agency":  "我第二天没有立刻申请退款。",
+                     "residue":  "我第二天没有立刻申请退款。"
+                 },
+    "counterfactualReview":  {
+                                 "replaceProtagonist":  "会改变资料整理、谈判和关系后果。",
+                                 "protagonistAbsent":  "当章问题不会按同样顺序解决。",
+                                 "easiestSolution":  "直接加钱、夸大承诺或跳过核验均被正文排除。",
+                                 "deleteChapter":  "会丢失本卷关键因果或回报。"
+                             },
+    "checks":  {
+                   "wordCount":  true,
+                   "firstReadRounds":  2,
+                   "continuity":  "pass",
+                   "cognition":  "pass",
+                   "reality":  "pass"
+               }
+}

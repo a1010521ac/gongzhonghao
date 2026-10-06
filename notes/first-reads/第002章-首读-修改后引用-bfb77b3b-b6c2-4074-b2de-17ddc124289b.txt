@@ -1,0 +1,1 @@
+{"quoteUpdates":[{"path":"emotionSources[7].quote","quote":"我看着那几句话，想起账户里剩下的4741元。"}]}

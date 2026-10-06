@@ -1,0 +1,582 @@
+{
+  "version": 1,
+  "rewriteDate": "2026-10-02",
+  "promises": [
+    {
+      "id": "P-0001",
+      "type": "threat",
+      "content": "公司只先发放部分工资，剩余工资的补发时间和公司是否继续缩减仍未确定。",
+      "introducedChapter": 1,
+      "status": "open",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "后续章节",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0001",
+        "F-0002"
+      ]
+    },
+    {
+      "id": "P-0002",
+      "type": "mystery",
+      "content": "王栋的课程是否真能提供从零起号、涨粉和流量主开通的可执行结果，以及客服所说“基础课就这些”之外是否仍会产生进阶费用，尚待验证。",
+      "introducedChapter": 1,
+      "status": "abandoned",
+      "lastAdvancedChapter": 4,
+      "plannedWindow": "第2章起",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0010",
+        "F-0011",
+        "F-0012",
+        "F-0014",
+        "F-0015"
+      ],
+      "abandonedVolume": 1,
+      "abandonReason": "王栋同意退款协议且款项已到账，许成拒绝继续课程并停止追查课程承诺能否兑现。"
+    },
+    {
+      "id": "P-0003",
+      "type": "mystery",
+      "content": "“临江杂谈”仍为0关注，测试文仅有4次阅读；许成能否找到明确读者并验证所谓的第一步仍无答案。",
+      "introducedChapter": 1,
+      "status": "resolved",
+      "lastAdvancedChapter": 6,
+      "plannedWindow": "",
+      "resolutionChapter": 6,
+      "relatedFactIds": [
+        "F-0007",
+        "F-0008",
+        "F-0015"
+      ]
+    },
+    {
+      "id": "P-0004",
+      "type": "relationship",
+      "content": "周敏要求许成只试一次、控制投入并在无效果时放弃；许成必须用结果证明这次尝试，不能把亏空带回家里。",
+      "introducedChapter": 1,
+      "status": "resolved",
+      "lastAdvancedChapter": 4,
+      "plannedWindow": "后续章节",
+      "resolutionChapter": 4,
+      "relatedFactIds": [
+        "F-0013"
+      ]
+    },
+    {
+      "id": "P-0005",
+      "type": "mystery",
+      "content": "基础营在不续费3999元进阶营的情况下，是否仍会继续提供可执行的下一步；广告中的涨粉和流量主开通究竟是基础交付还是升级诱因。",
+      "introducedChapter": 2,
+      "status": "abandoned",
+      "lastAdvancedChapter": 4,
+      "plannedWindow": "第3章起",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0022",
+        "F-0026",
+        "F-0027",
+        "F-0028",
+        "F-0035"
+      ],
+      "abandonedVolume": 1,
+      "abandonReason": "许成拒绝内部陪跑名额和高阶群私了，获全额退款后不再验证不续费情况下基础营是否继续交付。"
+    },
+    {
+      "id": "P-0006",
+      "type": "mystery",
+      "content": "三张置顶收益截图是否造假，它们使用同一底图的发现能否成为攻击课程宣传可信度的证据。",
+      "introducedChapter": 2,
+      "status": "abandoned",
+      "lastAdvancedChapter": 4,
+      "plannedWindow": "后续章节",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0029",
+        "F-0030"
+      ],
+      "abandonedVolume": 1,
+      "abandonReason": "三张收益图最终没有获得官方说法，许成明确不再追查对方是否搞全盘骗局，也未将其用于攻击课程宣传。"
+    },
+    {
+      "id": "P-0007",
+      "type": "mystery",
+      "content": "许成准备退款申请，但课程交付是否构成未兑现、款项能否退回仍未确定。",
+      "introducedChapter": 2,
+      "status": "resolved",
+      "lastAdvancedChapter": 4,
+      "plannedWindow": "后续章节",
+      "resolutionChapter": 4,
+      "relatedFactIds": [
+        "F-0022",
+        "F-0032",
+        "F-0033"
+      ]
+    },
+    {
+      "id": "P-0008",
+      "type": "relationship",
+      "content": "许成同时打开删除文章、退出群聊和注销账号三个确认入口，尚未点击；他是否会放弃公众号或继续写仍无答案。",
+      "introducedChapter": 2,
+      "status": "resolved",
+      "lastAdvancedChapter": 4,
+      "plannedWindow": "第3章起",
+      "resolutionChapter": 4,
+      "relatedFactIds": [
+        "F-0020",
+        "F-0025",
+        "F-0034"
+      ]
+    },
+    {
+      "id": "P-0009",
+      "type": "threat",
+      "content": "基础营要求当晚八点前提交第二篇，并称连续完成三篇可优先获得进阶营名额；许成尚未写第二篇，是否补交或借此继续课程仍未决。",
+      "introducedChapter": 3,
+      "status": "resolved",
+      "lastAdvancedChapter": 4,
+      "plannedWindow": "第4章",
+      "resolutionChapter": 4,
+      "relatedFactIds": [
+        "F-0037",
+        "F-0038",
+        "F-0039"
+      ]
+    },
+    {
+      "id": "P-0010",
+      "type": "mystery",
+      "content": "小蓝从“临江杂谈”的头像中钻出，身份、来源、出现条件和“准备做选择”的含义均未解释。",
+      "introducedChapter": 3,
+      "status": "open",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "后续章节",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0051",
+        "F-0052",
+        "F-0057"
+      ]
+    },
+    {
+      "id": "P-0011",
+      "type": "relationship",
+      "content": "文章唯一留言的读者在询问临江东站凌晨下班后的末班车，许成尚未回复；他能否用实地核验给出准确答案仍待验证。",
+      "introducedChapter": 4,
+      "status": "resolved",
+      "lastAdvancedChapter": 5,
+      "plannedWindow": "第5章",
+      "resolutionChapter": 5,
+      "relatedFactIds": [
+        "F-0074",
+        "F-0077",
+        "F-0079"
+      ]
+    },
+    {
+      "id": "P-0012",
+      "type": "mystery",
+      "content": "许成已约杜勇明晚十二点二十后跟测夜班回家路线，但尚未决定要核东站通宵班还是往南站方向的中巴，末班车、换乘、照明和深夜餐饮信息仍未知。",
+      "introducedChapter": 4,
+      "status": "resolved",
+      "lastAdvancedChapter": 5,
+      "plannedWindow": "第5章",
+      "resolutionChapter": 5,
+      "relatedFactIds": [
+        "F-0078",
+        "F-0079"
+      ]
+    },
+    {
+      "id": "P-0013",
+      "type": "threat",
+      "content": "王栋在许成拒绝撤诉并坚持全额退款后警告他以后圈子里路会变窄，这一威胁是否会兑现仍悬置。",
+      "introducedChapter": 4,
+      "status": "open",
+      "lastAdvancedChapter": 4,
+      "plannedWindow": "后续章节",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0064"
+      ]
+    },
+    {
+      "id": "P-0014",
+      "type": "threat",
+      "content": "明早7点的公司周会上，王文洁将追企业客户项目的交付进度，许成需在通宵跟测后承受工作和责任压力。",
+      "introducedChapter": 5,
+      "status": "resolved",
+      "lastAdvancedChapter": 6,
+      "plannedWindow": "第6章",
+      "resolutionChapter": 6,
+      "relatedFactIds": [
+        "F-0099"
+      ]
+    },
+    {
+      "id": "P-0015",
+      "type": "relationship",
+      "content": "杜勇表示以后若有不耽误交班的按工时跑腿活仍可叫他，双方是否再次合作及其用途未知。",
+      "introducedChapter": 5,
+      "status": "open",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "后续章节",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0100"
+      ]
+    },
+    {
+      "id": "P-0016",
+      "type": "threat",
+      "content": "东平夜班线路标称末班00:30，实际00:15空车回库，服务热线仅以临时调度解释；黑中巴坐地起价和无警示施工绕行等通勤风险尚未改变。",
+      "introducedChapter": 5,
+      "status": "open",
+      "lastAdvancedChapter": 6,
+      "plannedWindow": "后续章节",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0084",
+        "F-0085",
+        "F-0086",
+        "F-0087",
+        "F-0089",
+        "F-0090"
+      ]
+    },
+    {
+      "id": "P-0017",
+      "type": "threat",
+      "content": "陈骏的“临江潮生活”文章疑似照抄许成的核心路线信息，还公开写入与现场不符的防汛堤通行判断；许成是否公开纠正、补充取证或正面应对尚未决定。",
+      "introducedChapter": 6,
+      "status": "open",
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "近期章节",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0115",
+        "F-0116",
+        "F-0117",
+        "F-0118"
+      ]
+    },
+    {
+      "id": "P-0018",
+      "type": "mystery",
+      "content": "临江东站凌晨下班后的末班车、换乘和深夜餐饮尚无实测答案，小唐与旧留言都在等；许成已登记三项待核信息，何时完成第二段路核验并发布仍未定。",
+      "introducedChapter": 6,
+      "status": "open",
+      "lastAdvancedChapter": 6,
+      "plannedWindow": "第7章起",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0109",
+        "F-0110"
+      ]
+    },
+    {
+      "id": "P-0019",
+      "type": "relationship",
+      "content": "老街夜宵铺要求先看推广方案和预算；许成不懂报价、交付和拍摄，是否合作以及怎样给出可执行方案仍未解决。",
+      "introducedChapter": 6,
+      "status": "resolved",
+      "lastAdvancedChapter": 7,
+      "plannedWindow": "近期章节",
+      "resolutionChapter": 7,
+      "relatedFactIds": [
+        "F-0119",
+        "F-0120",
+        "F-0121",
+        "F-0122"
+      ]
+    },
+    {
+      "id": "P-0020",
+      "type": "mystery",
+      "content": "流量主申请已经提交，审核结果和后续收入仍未知。",
+      "introducedChapter": 6,
+      "status": "resolved",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "后续章节",
+      "resolutionChapter": 10,
+      "relatedFactIds": [
+        "F-0113"
+      ]
+    },
+    {
+      "id": "P-0021",
+      "type": "relationship",
+      "content": "赵老板已支付首款并认可初稿，却只提出后天发布，未提协议约定的尾款1500元；许成必须在发稿前催结，否则预收与交付可能变成糊涂账。",
+      "introducedChapter": 7,
+      "status": "resolved",
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "第8章，发稿前",
+      "resolutionChapter": 9,
+      "relatedFactIds": [
+        "F-0133",
+        "F-0137",
+        "F-0138"
+      ]
+    },
+    {
+      "id": "P-0022",
+      "type": "threat",
+      "content": "陈骏正在征集南门老街深夜餐饮资源，可能低价接触赵老板，导致许成已成稿项目的发布时间和尾款生变。",
+      "introducedChapter": 7,
+      "status": "resolved",
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "第8章起",
+      "resolutionChapter": 9,
+      "relatedFactIds": [
+        "F-0115",
+        "F-0116",
+        "F-0118",
+        "F-0138",
+        "F-0140",
+        "F-0141"
+      ]
+    },
+    {
+      "id": "P-0023",
+      "type": "threat",
+      "content": "次日8:30智慧水务接口例会要求许成拿出改好的排期表；若迟到或未交，会被王文洁当众追问，与夜间催款和发稿准备形成时间冲突。",
+      "introducedChapter": 7,
+      "status": "resolved",
+      "lastAdvancedChapter": 8,
+      "plannedWindow": "第8章",
+      "resolutionChapter": 8,
+      "relatedFactIds": [
+        "F-0137",
+        "F-0138",
+        "F-0139"
+      ]
+    },
+    {
+      "id": "P-0024",
+      "type": "relationship",
+      "content": "赵老板答应次日一早找表舅把挡门头的补胎铁牌向马路内侧挪半米，能否落实会影响顾客发现门店和后续宣传效果。",
+      "introducedChapter": 7,
+      "status": "resolved",
+      "lastAdvancedChapter": 8,
+      "plannedWindow": "第8章",
+      "resolutionChapter": 8,
+      "relatedFactIds": [
+        "F-0128",
+        "F-0142"
+      ]
+    },
+    {
+      "id": "P-0025",
+      "type": "relationship",
+      "content": "许成欠杜勇现场实测劳务300元，约定项目验收后结清；若项目生变，这笔费用仍需优先处理。",
+      "introducedChapter": 7,
+      "status": "resolved",
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "项目验收后",
+      "resolutionChapter": 9,
+      "relatedFactIds": [
+        "F-0127",
+        "F-0134"
+      ]
+    },
+    {
+      "id": "P-0026",
+      "type": "relationship",
+      "content": "赵老板口头承诺明早盘账后转1500元尾款，却以只来两名客人和卤蛋送出量为观察条件；许成能否收回尾款并结清杜勇300元仍待定。",
+      "introducedChapter": 8,
+      "status": "resolved",
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "第9章明早",
+      "resolutionChapter": 9,
+      "relatedFactIds": [
+        "F-0161",
+        "F-0162"
+      ]
+    },
+    {
+      "id": "P-0027",
+      "type": "relationship",
+      "content": "南门汽配城周边路线和图文推广的陌生询价尚未回复，是否接单、如何报价和交付仍未知。",
+      "introducedChapter": 8,
+      "status": "resolved",
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "后续章节",
+      "resolutionChapter": 9,
+      "relatedFactIds": [
+        "F-0163"
+      ]
+    },
+    {
+      "id": "P-0028",
+      "type": "threat",
+      "content": "水厂客户提前半小时到，王文洁要求许成十分钟后进会议室联调；许成刚被叫醒，能否及时到岗并完成联调成为眼前危机。",
+      "introducedChapter": 8,
+      "status": "resolved",
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "第9章即刻",
+      "resolutionChapter": 9,
+      "relatedFactIds": [
+        "F-0164"
+      ]
+    },
+    {
+      "id": "P-0029",
+      "type": "threat",
+      "content": "陈骏明早9点将带商务组去南门汽配城落实首批入驻协议，重点名单含宏达货车流动救援中心负责人杨长发；这是否会抢先接触老杨、动摇许成明晚8:30约见的2000元合作尚未解决。",
+      "introducedChapter": 9,
+      "status": "open",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "第10章上午",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0185",
+        "F-0186",
+        "F-0177"
+      ]
+    },
+    {
+      "id": "P-0030",
+      "type": "threat",
+      "content": "南桥施工点今晨加焊铁皮挡板并封死便道，B稿现有路线已经失效或必须更新，夜班读者仍可能照旧绕行。",
+      "introducedChapter": 9,
+      "status": "open",
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "近期章节",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0188",
+        "F-0157"
+      ]
+    },
+    {
+      "id": "P-0031",
+      "type": "relationship",
+      "content": "老杨已接受2000元实地路线图文档，并与许成约定明晚8:30在汽配城东门见面；夜间货车路线、施工断头路和通宵救援点仍待实测，成单与交付未定。",
+      "introducedChapter": 9,
+      "status": "open",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "第10章晚",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0175",
+        "F-0176",
+        "F-0177",
+        "F-0179"
+      ]
+    },
+    {
+      "id": "P-0032",
+      "type": "relationship",
+      "content": "周敏要求许成副业一周最多两晚、不得影响正职；许成已口头答应，但公司临时联调和新客户排期如何守住边界仍待验证。",
+      "introducedChapter": 9,
+      "status": "open",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "后续章节",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0182",
+        "F-0183"
+      ]
+    },
+    {
+      "id": "P-0033",
+      "type": "threat",
+      "content": "第二十六天前必须寄回家12000元，目前个人可用余额9140元，尚缺2860元，公司欠薪又无准信，这笔硬缺口如何补上仍未解决。",
+      "introducedChapter": 9,
+      "status": "open",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "第二十六天前",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0180",
+        "F-0181"
+      ]
+    },
+    {
+      "id": "P-0034",
+      "type": "relationship",
+      "content": "许成在语音中答应赵老板当晚回出租屋补发1500元尾款收据，但章内后续只交代了文章修改截图，收据是否交付仍悬置。",
+      "introducedChapter": 9,
+      "status": "open",
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "第9章当夜或后续",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0169",
+        "F-0173"
+      ]
+    },
+    {
+      "id": "P-0035",
+      "type": "threat",
+      "content": "次日8:30公司项目复盘会要求全员到齐，接口补充文档先交王经理且不得迟到；许成认为连半天假都不能请，正职与汽配城商机的时间冲突升级。",
+      "introducedChapter": 10,
+      "status": "open",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "明日8:30",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0189"
+      ]
+    },
+    {
+      "id": "P-0036",
+      "type": "relationship",
+      "content": "顺通重卡希望进入下一篇推荐并约详谈，却要求许成今晚8:30到店，负责人9:30离开且次日上午已约别的团队；许成尚未接受，合作和路线推荐位未决。",
+      "introducedChapter": 10,
+      "status": "open",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "本章当晚8:30",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0204",
+        "F-0207"
+      ]
+    },
+    {
+      "id": "P-0037",
+      "type": "relationship",
+      "content": "杜勇已答应明晚7:40在汽配城东门废加油站旁带许成认路，许成承诺另结工时；这趟实地核验能否赶在陈骏明早9点抢签杨长发前谈成2000元合作仍未定。",
+      "introducedChapter": 10,
+      "status": "open",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "明日19:40",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0199",
+        "F-0198",
+        "F-0208"
+      ]
+    },
+    {
+      "id": "P-0038",
+      "type": "mystery",
+      "content": "《临江夜班人的归家路与深夜热汤》48小时阅读24600、关注2860，流量主昨日仅预估收益38.62元；峰值已过且后台积压8条商业私信，如何把流量转成不越工作边界的稳定订单仍未解决。",
+      "introducedChapter": 10,
+      "status": "open",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "近期章节",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0200",
+        "F-0201",
+        "F-0202",
+        "F-0203"
+      ]
+    },
+    {
+      "id": "P-0039",
+      "type": "relationship",
+      "content": "周敏明确社保公积金与正职是全家底线，并要求未签合同、未到账的钱不要计入心理预期；许成后续能否在8:30复盘会和连续夜访之间守住这条线未定。",
+      "introducedChapter": 10,
+      "status": "open",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "后续章节",
+      "resolutionChapter": null,
+      "relatedFactIds": [
+        "F-0206",
+        "F-0189"
+      ]
+    }
+  ]
+}

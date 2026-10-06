@@ -1,0 +1,738 @@
+{
+  "version": 3,
+  "auditMode": "deep",
+  "modeBasis": {
+    "source": "project-plan",
+    "reason": "本章叙事安排明确要求核对现金、家庭转款、房租、账号初始数据、课程销售承诺与付款证据，项目又规定逐章闭环并按固定模式审计，因此沿用 deep 审计。"
+  },
+  "minimumChecks": {
+    "highImpactInformation": "pass",
+    "abilityAndAuthority": "pass",
+    "adjacentContinuity": "pass",
+    "realityRisk": "pass"
+  },
+  "minimumCheckReasons": {
+    "highImpactInformation": "工资只发一部分、项目收缩、课程报价与付款等会改变行动的信息均由公司群通知、组长当面交代、客服聊天或付款页面在本章正文给出出处。",
+    "abilityAndAuthority": "许成以程序员身份处理接口，用个人设备和账户注册个人主体公众号，并在听取周敏条件后支付自己的1999元，没有越权读取后台或调用他人权限。",
+    "adjacentContinuity": "本章没有上一章，按指示只核对内部时间与空间：下午五点十七分到晚上、十一点四十二分及付款后深夜顺序推进，公司、便利店、出租屋和线上流程地点连续。",
+    "realityRisk": "公司部分发薪、个人银行余额、个人主体账号注册、预览后发布、微信支付与扫码进群均符合现实流程，未出现平台权限或物理规则上的硬冲突。"
+  },
+  "cognitionAssessment": {
+    "riskPresent": true,
+    "reason": "王栋、客服和广告页面提供了影响付款的课程收益与交付承诺，许成在结果未经验证时据此支付1999元；正文明确这些信息来自广告、群聊、语音和客服回复，没有让叙述者凭空知道后台真相。"
+  },
+  "claims": [
+    {
+      "type": "时刻与时长",
+      "quote": "下午五点十七分，财务在公司群里发了一条消息。",
+      "assertion": "财务通知发生在下午五点十七分。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "正文直接给出五点十七分这一时刻，后面晚上加班的时点均在其之后。"
+    },
+    {
+      "type": "时刻与时长",
+      "quote": "光标在屏幕上闪了十几秒，我一个字也敲不出来。",
+      "assertion": "许成盯屏幕停顿了十几秒。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "十几秒是本节内的短时停顿，前后没有与之冲突的计时口径。"
+    },
+    {
+      "type": "时刻与时长",
+      "quote": "晚上九点多，我才从公司出来。",
+      "assertion": "许成晚上九点多离开公司。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "该时点接在下午五点十七分和持续加班之后，顺序成立。"
+    },
+    {
+      "type": "时刻与时长",
+      "quote": "十分钟后，阅读数还是零。",
+      "assertion": "测试内容发布十分钟后阅读仍为零。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "这是发布后的首个统计时点，与先发布再刷新后台的动作顺序一致。"
+    },
+    {
+      "type": "时刻与时长",
+      "quote": "半小时后，数字停在4。",
+      "assertion": "发布半小时后阅读数累计为4。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "半小时晚于十分钟，阅读数由0增至4，不构成倒序或数量回退。"
+    },
+    {
+      "type": "时刻与时长",
+      "quote": "我看了一眼时间，十一点四十二分。",
+      "assertion": "客服报价后当前时间为十一点四十二分。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "该时刻在广告出现和客服说明零点截止之前，仍留有报名时间。"
+    },
+    {
+      "type": "时刻与时长",
+      "quote": "电话响了两声就接通了，她压着声音，怕吵醒孩子。",
+      "assertion": "周敏在电话响两声后接通。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "两声是瞬时响应描述，与深夜通话场景相符。"
+    },
+    {
+      "type": "距离与移动",
+      "quote": "我三十七岁，一个人在临江上班，妻子和孩子在老家。",
+      "assertion": "许成在临江工作，妻儿留在老家生活。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "正文明确两地生活状态，与人物档案中异地工作安排一致。"
+    },
+    {
+      "type": "距离与移动",
+      "quote": "晚上九点多，我才从公司出来。",
+      "assertion": "许成从公司离开并向出租屋方向移动。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "后文接路过便利店并回出租屋吃便当，离开公司的移动链连续。"
+    },
+    {
+      "type": "距离与移动",
+      "quote": "路过便利店时，我买了一盒最便宜的便当，坐在出租屋的小桌边吃。",
+      "assertion": "许成从便利店买便当后回到出租屋。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "公司、便利店、出租屋的顺序构成完整下班动线，没有距离或地点冲突。"
+    },
+    {
+      "type": "身体与恢复",
+      "quote": "我把手机扣在桌上，手指搭在屏幕边缘。",
+      "assertion": "许成看到通知后有一个停顿的身体动作。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "扣手机和手指搭在屏幕边缘是可见动作，符合他查看消息后停住的反应。"
+    },
+    {
+      "type": "身体与恢复",
+      "quote": "我夹着一块冷掉的鸡蛋，忘了往嘴里送。",
+      "assertion": "许成吃饭时因注意力被视频吸引而停止进食。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "夹起冷鸡蛋却未送入口，是可见的进食中断和注意力变化。"
+    },
+    {
+      "type": "身体与恢复",
+      "quote": "放下手机，我去洗了把脸。镜子里的自己眼下发青，头发也有些乱。",
+      "assertion": "许成通过洗脸试图恢复，并看到疲劳迹象。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "洗脸是恢复动作，眼下发青和头发乱与长期压力及熬夜状态相互印证。"
+    },
+    {
+      "type": "权限与工具",
+      "quote": "我把软件关掉，又打开电脑，准备继续改项目里的接口。",
+      "assertion": "许成具备并正在使用程序员岗位所需的电脑与项目工具。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "人物档案说明他做企业网站、业务后台和活动页面开发，处理接口属于其身份与能力范围。"
+    },
+    {
+      "type": "权限与工具",
+      "quote": "我打开公众号注册页面，按照提示申请了一个个人主体账号。",
+      "assertion": "许成以个人身份注册个人主体公众号。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "个人主体账号可由本人按平台提示注册，且正文明确不是公司账号或后台特权。"
+    },
+    {
+      "type": "权限与工具",
+      "quote": "我最终还是输入了支付密码。",
+      "assertion": "许成用自己的支付授权完成1999元付款。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "付款发生在周敏电话之后，使用许成个人账户与密码，没有挪用家庭账户或他人权限。"
+    },
+    {
+      "type": "数量与资源",
+      "quote": "个人账户里，真正还能拿来处理眼前事情的余额是6740元。",
+      "assertion": "付款前许成个人可动用余额为6740元。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "这是个人现金口径，与人物档案和大纲锁定的6740元起始余额一致，并未并入家庭储备。"
+    },
+    {
+      "type": "数量与资源",
+      "quote": "这个月已经给家里转了12000元；这个月还要交1600元房租。",
+      "assertion": "许成本月已转家庭12000元，尚需支付1600元房租。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "12000元家庭转款和1600元个人房租与人物档案、大纲的家庭账及月租设定一致，房贷未被重复扣个人账。"
+    },
+    {
+      "type": "数量与资源",
+      "quote": "家里应该还有几万元存款，这个是应急储备，是周敏和孩子最后一道缓冲。",
+      "assertion": "家庭另有几万元应急储备，不等同于许成个人余额。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "正文明确该储备属于家庭缓冲，与6740元个人可动用余额分账。"
+    },
+    {
+      "type": "数量与资源",
+      "quote": "关注人数：0。",
+      "assertion": "新注册的临江杂谈初始关注人数为零。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "正文两次显示关注人数0，与大纲新号无历史读者、从零起步的初始数据一致。"
+    },
+    {
+      "type": "数量与资源",
+      "quote": "1999元，占掉我个人可动用余额的将近三成。",
+      "assertion": "课程费1999元约占许成6740元个人余额的三成。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "1999除以6740约为0.2966，即约29.7%，将近三成的表述成立。"
+    },
+    {
+      "type": "数量与资源",
+      "quote": "账户余额从6740元变成4741元。",
+      "assertion": "付款后许成个人余额由6740元降至4741元。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "6740减1999等于4741，支付前后流水和余额重算一致。"
+    },
+    {
+      "type": "数量与资源",
+      "quote": "客服随后告诉我，原价三千九百九十九元，今晚报名优惠一半，名额只留到十二点。",
+      "assertion": "原价3999元，当晚按约一半优惠，并设零点截止。",
+      "priorRef": "本章首次",
+      "verdict": "降精度",
+      "basis": "3999的一半理论值为1999.5元，实际报价1999元是销售场景中的整数约数表达，不是新的现金冲突。"
+    },
+    {
+      "type": "数量与资源",
+      "quote": "王栋把课程分成七天，第一天讲账号定位，第二天讲目标读者，第三天讲选题和标题，后面还有内容发布、合规涨粉、流量主申请，以及第一次商业合作的基础判断。",
+      "assertion": "课程安排为七天并列出后续内容。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "正文逐日说明前三天并概括后续四天内容，七天总数与课程页面描述一致。"
+    },
+    {
+      "type": "制度与流程",
+      "quote": "白天组长把我叫到工位旁，说项目组要缩一缩，预算一直没批。",
+      "assertion": "公司项目组收缩且预算未获批准。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "组长在工位旁当面交代项目与预算状态，属于直接职场信息来源。"
+    },
+    {
+      "type": "制度与流程",
+      "quote": "他让我先把手上两个接口收尾，没提裁员，也没让我交接。",
+      "assertion": "许成仍被要求完成接口，未发生裁员或交接。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "正文明确仍安排在手工作，与开篇在职做号、第一次真实裁撤后置的设定一致。"
+    },
+    {
+      "type": "制度与流程",
+      "quote": "预览打开后，我顺着可见内容又复核了一遍，最后点了发布。",
+      "assertion": "许成先预览复核再发布测试文章。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "预览与发布被明确区分为两个动作，符合公众号发文流程，没有把草稿当成已通知读者。"
+    },
+    {
+      "type": "制度与流程",
+      "quote": "我把广告页、课程大纲、报价和这条回复分别截了图。",
+      "assertion": "许成保存了课程销售与客服回复证据。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "广告页、大纲、报价和聊天回复均可由普通用户自行截图保存，不涉及读取他人后台。"
+    },
+    {
+      "type": "物理与感知",
+      "quote": "街边的烧烤摊已经支起了棚子，油烟和雨后的潮气混在一起。",
+      "assertion": "许成离开公司后感知到烧烤摊、油烟和雨后潮气。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "街面摊位与空气感受属于第一人称可见可感信息，符合当时从公司出来的场景。"
+    },
+    {
+      "type": "物理与感知",
+      "quote": "视频里的男人坐在一间采光很好的书房里，身后是两排书和一块写着“内容资产”的白板。",
+      "assertion": "许成在视频画面中看到书房、书架和白板。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "这些内容都是手机视频画面中的可见元素，来源是许成正在观看的短视频。"
+    },
+    {
+      "type": "物理与感知",
+      "quote": "我盯着那句话看了很久，直到手机自动暗下去，才重新点亮屏幕。",
+      "assertion": "许成持续注视屏幕，直到手机自动息屏。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "注视、自动暗屏和重新点亮均属第一人称可直接感知的设备变化。"
+    },
+    {
+      "type": "自指计数与引用",
+      "quote": "我把视频看了两遍，随后点进微信，搜索“公众号怎么做”。",
+      "assertion": "许成将视频看了两遍后转向搜索。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "两遍是许成对自身观看次数的计数，后续动作与搜索行为顺序一致。"
+    },
+    {
+      "type": "自指计数与引用",
+      "quote": "里面只留了一句“本月工资先按现有回款情况发放一部分”，没写部门、金额和发放时间。",
+      "assertion": "测试内容只引用工资通知的一句话并省略可识别信息。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "所引原句确为本章财务通知的一部分，且正文明确没有写部门、金额和发放时间。"
+    },
+    {
+      "type": "自指计数与引用",
+      "quote": "我还不知道，所谓的第一步，到底是那张付款成功的截图，还是我在0关注的后台里，第一次认真想清楚：我究竟想写给谁看。",
+      "assertion": "结尾回指付款成功截图和0关注后台两个前文事实。",
+      "priorRef": "本章首次",
+      "verdict": "通过",
+      "basis": "付款成功与关注人数0均在本章前文明确出现，结尾引用没有指向未发生事实。"
+    }
+  ],
+  "claimsAbsent": [],
+  "cognition": [
+    {
+      "speaker": "许成",
+      "citedInfo": "工资只发一部分，意味着事情已经不是晚一点那么简单。",
+      "acquisition": "下午五点十七分在公司群看到财务通知，结合近期项目收缩作出判断。",
+      "sourceQuote": "【各位同事，本月工资先按现有回款情况发放一部分，剩余部分公司会尽快安排，请大家理解】",
+      "sourceWhere": "chapter",
+      "verdict": "pass"
+    },
+    {
+      "speaker": "许成",
+      "citedInfo": "今天我第一次认真想，如果以后工资都只发一部分我该怎么办？",
+      "acquisition": "在组长当面交代项目缩编与预算未批后，独自计算长期支出时产生这一问题。",
+      "sourceQuote": "白天组长把我叫到工位旁，说项目组要缩一缩，预算一直没批。",
+      "sourceWhere": "chapter",
+      "verdict": "pass"
+    },
+    {
+      "speaker": "许成",
+      "citedInfo": "我懂电脑，会写代码，会处理资料，也能把一套乱七八糟的表格整理成别人看得懂的东西。",
+      "acquisition": "依据自己多年的程序员工作经历判断。",
+      "sourceQuote": "有十余年应用开发经验，能独立处理常规项目和维护遗留业务，但不是架构专家或管理层，也没有职业公众号运营经历。",
+      "sourceWhere": "profile",
+      "verdict": "pass"
+    },
+    {
+      "speaker": "许成",
+      "citedInfo": "我连标题怎么起、读者从哪里来、什么叫流量主，都只停留在听说过的程度。",
+      "acquisition": "他判断自己已有电脑能力，但首次面对公众号运营问题时承认知识边界。",
+      "sourceQuote": "却不知道写给谁、怎样让陌生人关注、何时可以申请流量主。",
+      "sourceWhere": "profile",
+      "verdict": "pass"
+    },
+    {
+      "speaker": "许成",
+      "citedInfo": "我看了一眼时间，十一点四十二分。",
+      "acquisition": "看到客服给出零点截止的限时报价后，用手机确认当前时间。",
+      "sourceQuote": "客服随后告诉我，原价三千九百九十九元，今晚报名优惠一半，名额只留到十二点。",
+      "sourceWhere": "chapter",
+      "verdict": "pass"
+    },
+    {
+      "speaker": "周敏",
+      "citedInfo": "别指望买个课就发财。真要能挣，拿结果给我看；挣不到，别把窟窿带到家里。",
+      "acquisition": "电话中听许成说明工资可能只发一部分及1999元课程后，提出结果条件和家庭风险边界。",
+      "sourceQuote": "我想要另外找一条路，我看到一个做公众号的课，报名费1999，我想要试一下。",
+      "sourceWhere": "chapter",
+      "verdict": "pass"
+    },
+    {
+      "speaker": "课程客服",
+      "citedInfo": "基础课就这些，进阶服务看个人需求。",
+      "acquisition": "许成私聊追问是否还有后续费用，客服据此回复。",
+      "sourceQuote": "我又问了一句：“1999之后还有别的费用吗？”",
+      "sourceWhere": "chapter",
+      "verdict": "pass"
+    },
+    {
+      "speaker": "王栋",
+      "citedInfo": "公众号不是玄学，先把定位做对，再把内容稳定发出来。没有人带，新手很容易在错误的方向上坚持几个月。",
+      "acquisition": "王栋在课程群发语音，向新学员说明课程价值。",
+      "sourceQuote": "过了一会儿，王栋本人也在群聊里发了语音，声音不高，语气却很笃定：",
+      "sourceWhere": "chapter",
+      "verdict": "pass"
+    },
+    {
+      "speaker": "许成",
+      "citedInfo": "1999元，占掉我个人可动用余额的将近三成。",
+      "acquisition": "支付前依据刚查到的个人余额与课程报价重新计算。",
+      "sourceQuote": "个人账户里，真正还能拿来处理眼前事情的余额是6740元。",
+      "sourceWhere": "chapter",
+      "verdict": "pass"
+    },
+    {
+      "speaker": "许成",
+      "citedInfo": "账户余额从6740元变成4741元。",
+      "acquisition": "输入支付密码并看到扣款成功后，核对账户余额变化。",
+      "sourceQuote": "扣款成功。",
+      "sourceWhere": "chapter",
+      "verdict": "pass"
+    },
+    {
+      "speaker": "许成",
+      "citedInfo": "我刚进群，里面已经有一百多人。",
+      "acquisition": "扫码进入课程群后查看群内人数与消息。",
+      "sourceQuote": "支付页面跳转到一个二维码，提示我添加班主任，再扫码进入课程群。",
+      "sourceWhere": "chapter",
+      "verdict": "pass"
+    }
+  ],
+  "majorEventReaction": [
+    {
+      "character": "许成",
+      "isFocusCharacter": true,
+      "layer1Quote": "工资只发一部分，意味着事情已经不是晚一点那么简单。",
+      "oldExplanationQuote": "公司这一阵回款慢，项目也缩了。",
+      "failedAttemptQuote": "光标在屏幕上闪了十几秒，我一个字也敲不出来。",
+      "ineffectiveActionQuote": "我继续搜“公众号涨粉”。",
+      "verdict": "pass"
+    }
+  ],
+  "noMajorEvent": false,
+  "inadequacy": {
+    "presentThisChapter": true,
+    "windowExhausted": false,
+    "form": "stated",
+    "character": "许成",
+    "quote": "我连标题怎么起、读者从哪里来、什么叫流量主，都只停留在听说过的程度。",
+    "sourceWhere": "chapter",
+    "looksLess": true,
+    "verdict": "pass"
+  },
+  "standing": {
+    "flat": false,
+    "ladderSource": null,
+    "pairs": [
+      {
+        "superior": "组长",
+        "subordinate": "许成",
+        "setting": "private",
+        "asymmetryQuote": "白天组长把我叫到工位旁，说项目组要缩一缩，预算一直没批。",
+        "basisQuote": "白天组长把我叫到工位旁，说项目组要缩一缩，预算一直没批。",
+        "basisWhere": "chapter",
+        "crossedLine": false,
+        "verdict": "pass"
+      },
+      {
+        "superior": "王栋",
+        "subordinate": "许成",
+        "setting": "public",
+        "asymmetryQuote": "过了一会儿，王栋本人也在群聊里发了语音，声音不高，语气却很笃定：“公众号不是玄学，先把定位做对，再把内容稳定发出来。没有人带，新手很容易在错误的方向上坚持几个月。”",
+        "basisQuote": "卖自媒体课程和高价升级服务，擅长用收益截图、假稀缺名额、群体气氛促成付款。",
+        "basisWhere": "profile",
+        "crossedLine": false,
+        "verdict": "pass"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "type": "内部时间轴",
+      "note": "下午通知、加班、夜间短视频、十一点四十二分付款和进群按顺序推进，没有倒置。",
+      "quote": "下午五点十七分，财务在公司群里发了一条消息。",
+      "sourceWhere": "chapter",
+      "verdict": "pass"
+    },
+    {
+      "type": "家庭现金边界",
+      "note": "6740元明确是个人可动用余额，12000元家庭转款和几万元应急储备分开记录，付款后倒推为4741元。",
+      "quote": "个人账户里，真正还能拿来处理眼前事情的余额是6740元。",
+      "sourceWhere": "chapter",
+      "verdict": "pass"
+    },
+    {
+      "type": "试错授权",
+      "note": "周敏在付款前要求不能投入太多、没效果就放弃，并未把家庭储备视作可继续追加的资金。",
+      "quote": "你想试，我不拦。但是你不能投入太多，你这个课程试了如果没效果就放弃。",
+      "sourceWhere": "chapter",
+      "verdict": "pass"
+    },
+    {
+      "type": "账号初始数据",
+      "note": "临江杂谈是本人新申请的个人主体账号，后台显示0关注，没有旧文章或旧读者。",
+      "quote": "临江杂谈，关注人数0。",
+      "sourceWhere": "chapter",
+      "verdict": "pass"
+    },
+    {
+      "type": "付款与沟通证据",
+      "note": "许成分别保存广告页、课程大纲、报价和客服回复，交易承诺来源清楚。",
+      "quote": "我把广告页、课程大纲、报价和这条回复分别截了图。",
+      "sourceWhere": "chapter",
+      "verdict": "pass"
+    },
+    {
+      "type": "熟人可见性",
+      "note": "他因微信中有组长和同事而删除简介里的职业信息并检查测试稿，平台内容与线下熟人暴露风险衔接合理。",
+      "quote": "微信里躺着组长和半个公司的同事，要是有人刷到，明天组里多半就会有人拿这个开玩笑。",
+      "sourceWhere": "chapter",
+      "verdict": "pass"
+    },
+    {
+      "type": "高影响信息出处",
+      "note": "部分发薪直接改变许成后续搜索课程和付款的选择，来源为公司群中的财务消息。",
+      "quote": "【各位同事，本月工资先按现有回款情况发放一部分，剩余部分公司会尽快安排，请大家理解】",
+      "sourceWhere": "chapter",
+      "verdict": "pass"
+    },
+    {
+      "type": "平台门槛",
+      "note": "本章只出现搜索词层面的流量主条件，未给具体资格门槛；具体资格、申请和开通状态应转交后续平台规则核验。",
+      "quote": "怎么定位、怎么找选题、如何写标题、怎样涨粉、达到多少粉丝可以申请流量主。",
+      "sourceWhere": "chapter",
+      "verdict": "deferred",
+      "deferredTo": "第一卷平台规则校验：第5章流量主申请／开通阶段，按知识库R02核验100粉门槛与实际状态分离记录"
+    }
+  ],
+  "dialogueExposition": {
+    "present": true,
+    "entries": [
+      {
+        "quote": "当然可以，老师就是带新手。很多学员进来时都是0粉，关键是别自己瞎摸索。",
+        "provided": true,
+        "via": "dialogue"
+      },
+      {
+        "quote": "基础课就这些，进阶服务看个人需求。",
+        "provided": true,
+        "via": "dialogue"
+      },
+      {
+        "quote": "公众号不是玄学，先把定位做对，再把内容稳定发出来。没有人带，新手很容易在错误的方向上坚持几个月。",
+        "provided": true,
+        "via": "dialogue"
+      },
+      {
+        "quote": "原价三千九百九十九元，今晚报名优惠一半，名额只留到十二点。",
+        "provided": true,
+        "via": "trade"
+      },
+      {
+        "quote": "你想试，我不拦。但是你不能投入太多，你这个课程试了如果没效果就放弃。",
+        "provided": true,
+        "via": "dialogue"
+      },
+      {
+        "quote": "从今天开始，不要再把公众号当成碰运气。我们先把账号做成一个能被具体读者记住的东西。",
+        "provided": true,
+        "via": "dialogue"
+      }
+    ]
+  },
+  "intensity": {
+    "scenePushed": true,
+    "peakQuote": "我最终还是输入了支付密码。",
+    "peakKind": "破格",
+    "scaleTier": "low",
+    "scaleQuote": "熟人可有自然粗口、讽刺和不留情面的反击，但不把恶意谩骂当主要娱乐。",
+    "rawQuote": "别指望买个课就发财。真要能挣，拿结果给我看；挣不到，别把窟窿带到家里。",
+    "costQuote": "账户余额从6740元变成4741元。",
+    "reason": "许成在理智明确质疑课程效果的情况下仍支付1999元，突破了自己有限的现金安全边界，付款已经发生无法靠心理活动撤回。",
+    "verdict": "pass"
+  },
+  "verdict": "pass",
+  "joins": {
+    "auditedToNext": {
+      "auditedTailQuote": "我还不知道，所谓的第一步，到底是那张付款成功的截图，还是我在0关注的后台里，第一次认真想清楚：我究竟想写给谁看。",
+      "nextHeadQuote": "第二天早上六点四十，我被课程群的提示音吵醒。",
+      "verdict": "pass"
+    }
+  },
+  "auditPhase": "retrospective",
+  "evidenceVersion": 1,
+  "auditId": "106a1ea9-b5ec-4706-b766-9df1368c82eb",
+  "inputSnapshot": {
+    "version": 1,
+    "auditedChapter": 1,
+    "auditMode": "deep",
+    "modeConfig": "{\"mode\":\"deep\",\"basis\":{\"source\":\"project-standard\",\"reason\":\"公众号平台规则、角色知情差、精灵推断、就业与现金口径相互影响，需追踪信息传播和现实风险。\"}}",
+    "window": [
+      1,
+      2
+    ],
+    "files": [
+      {
+        "role": "chapter",
+        "path": "chapters/第001章 1999块，我买了个“有人带你走一遍”.md",
+        "sha256": "ea61d7ff75efc7e6774e796595892efbf0651ebb178bd9a72721d5dceb590ada"
+      },
+      {
+        "role": "next",
+        "path": "chapters/第002章 阅读没涨，群里先热闹起来了.md",
+        "sha256": "a4e46e5e921416460b0f5ac422c2369140396e01a73f82ff2395ecc31c26a1ec"
+      },
+      {
+        "role": "profile",
+        "path": "00-人物档案.md",
+        "sha256": "6ebc130a124c64dfc1e4a08f21a5e3e1b7a66f54fadb0eb8dfe31fe99acc49f7"
+      },
+      {
+        "role": "knowledge",
+        "path": "notes/knowledge-matrix.json",
+        "sha256": "4b4f34fb8b8b7b36074d89b43e66719e23bb057a15ea8b429b3e81230a3c28ff"
+      },
+      {
+        "role": "standard",
+        "path": "03-本书写作规范.md",
+        "sha256": "bf80715d4bdbaa61995d7f7119a263d0b5b45f0e739f74fb7c840f5061452cdf"
+      },
+      {
+        "role": "outline",
+        "path": "01-大纲.md",
+        "sha256": "58eef8cbc5271d8c81a1062123f491db0a8f1a1a4ad405f8e848914e7391aa21"
+      },
+      {
+        "role": "authorialProfile",
+        "path": "notes/authorial-profile.md",
+        "sha256": "d4306827b417bc15d86cfe422f15dc5a5850f307bba4590c5b02a3cb486a7e1f"
+      },
+      {
+        "role": "eventCard",
+        "path": null,
+        "sha256": "13bead887060a9283c0e9ef4b7df209bc3441d24a4d65bef67ea238b8f6901f7"
+      }
+    ]
+  },
+  "inputSha256": "901f09bdc63d5e88a036a54f0ce3ad2e40b501f6061a3c41ce7f79361d83a3da",
+  "bodySha256": "ea61d7ff75efc7e6774e796595892efbf0651ebb178bd9a72721d5dceb590ada",
+  "auditedAt": "2026-10-05T00:06:09.620Z",
+  "auditedChapter": 1,
+  "window": [
+    1,
+    2
+  ],
+  "draftNormalization": {
+    "version": 1,
+    "changes": [
+      {
+        "path": "languageReview",
+        "before": {
+          "checks": {
+            "semanticPunctuation": {
+              "verdict": "pass",
+              "quote": "今天我第一次认真想，如果以后工资都只发一部分我该怎么办？",
+              "basis": "文中询问与心理反问均规范使用问号（如“如果以后工资都只发一部分我该怎么办？”、“你还没睡？”）；深夜夫妻压低声音通话与面对困境的心理自述低沉平稳，无呼喊、警示或强烈情绪爆发，未用感叹号完全契合真实场景氛围。"
+            },
+            "dashUsage": {
+              "verdict": "pass",
+              "quote": "王栋把课程分成七天，第一天讲账号定位，第二天讲目标读者，第三天讲选题和标题，后面还有内容发布、合规涨粉、流量主申请，以及第一次商业合作的基础判断。",
+              "basis": "全章正文未出现任何破折号，相关列举与解释均使用逗号与句号自然推进，无滥用破折号替代正常叙述停顿的情况。"
+            },
+            "chineseUsage": {
+              "verdict": "pass",
+              "quote": "光标在屏幕上闪了十几秒，我一个字也敲不出来。",
+              "basis": "全文行文自然地道，叙述克制平实，无冗余代词、机械连接或名词化翻译腔，贴合三十七岁程序员遭遇职场动荡与家庭压力时的心理与语言特征。"
+            },
+            "sentenceFlow": {
+              "verdict": "pass",
+              "quote": "“我知道”",
+              "basis": "叙事与对话节奏自然连贯，无生硬断句。独立成段的短对白“我知道”在6字以内且无句内停顿，依本书规范不带句号，对话交接紧凑合理。"
+            }
+          },
+          "candidates": {
+            "L36-7a978b814f95": {
+              "verdict": "pass",
+              "basis": "末分句“你只要肯尝试就一定能成功”为表达条件与断定的陈述句，不含任何询问、反问、确认或质问意图；扫描识别为疑问行为系误报，句末使用句号规范无误。",
+              "questionAct": false
+            }
+          },
+          "scan": {
+            "version": 1,
+            "bodySha256": "ea61d7ff75efc7e6774e796595892efbf0651ebb178bd9a72721d5dceb590ada",
+            "candidates": [
+              {
+                "id": "L36-7a978b814f95",
+                "line": 36,
+                "quote": "阅读、广告、合作、收入，几个词被用醒目的黄色框圈起来。视频里的男人说得很轻松：“很多人觉得做公众号很难，其实并没有什么门槛，你只要肯尝试就一定能成功。”",
+                "kinds": [
+                  "question"
+                ],
+                "reasons": [
+                  "末分句疑似真实询问：你只要肯尝试就一定能成功"
+                ]
+              }
+            ],
+            "diagnostics": [
+              "共有 28 段对白但没有感叹号。缺失本身不是错误；请确认本章是否确实没有喊叫、喝止、警告或情绪爆发。"
+            ]
+          }
+        },
+        "why": "语言复核由程序独立调用并保存；核心审计回复里的这一份不采用"
+      }
+    ]
+  },
+  "languageReview": {
+    "checks": {
+      "semanticPunctuation": {
+        "verdict": "pass",
+        "quote": "今天我第一次认真想，如果以后工资都只发一部分我该怎么办？",
+        "basis": "文中询问与心理反问均规范使用问号（如“如果以后工资都只发一部分我该怎么办？”、“你还没睡？”）；深夜夫妻压低声音通话与面对困境的心理自述低沉平稳，无呼喊、警示或强烈情绪爆发，未用感叹号完全契合真实场景氛围。"
+      },
+      "dashUsage": {
+        "verdict": "pass",
+        "quote": "王栋把课程分成七天，第一天讲账号定位，第二天讲目标读者，第三天讲选题和标题，后面还有内容发布、合规涨粉、流量主申请，以及第一次商业合作的基础判断。",
+        "basis": "全章正文未出现任何破折号，相关列举与解释均使用逗号与句号自然推进，无滥用破折号替代正常叙述停顿的情况。"
+      },
+      "chineseUsage": {
+        "verdict": "pass",
+        "quote": "光标在屏幕上闪了十几秒，我一个字也敲不出来。",
+        "basis": "全文行文自然地道，叙述克制平实，无冗余代词、机械连接或名词化翻译腔，贴合三十七岁程序员遭遇职场动荡与家庭压力时的心理与语言特征。"
+      },
+      "sentenceFlow": {
+        "verdict": "pass",
+        "quote": "“我知道”",
+        "basis": "叙事与对话节奏自然连贯，无生硬断句。独立成段的短对白“我知道”在6字以内且无句内停顿，依本书规范不带句号，对话交接紧凑合理。"
+      }
+    },
+    "candidates": {
+      "L36-7a978b814f95": {
+        "verdict": "pass",
+        "basis": "末分句“你只要肯尝试就一定能成功”为表达条件与断定的陈述句，不含任何询问、反问、确认或质问意图；扫描识别为疑问行为系误报，句末使用句号规范无误。",
+        "questionAct": false
+      }
+    },
+    "scan": {
+      "version": 1,
+      "bodySha256": "ea61d7ff75efc7e6774e796595892efbf0651ebb178bd9a72721d5dceb590ada",
+      "candidates": [
+        {
+          "id": "L36-7a978b814f95",
+          "line": 36,
+          "quote": "阅读、广告、合作、收入，几个词被用醒目的黄色框圈起来。视频里的男人说得很轻松：“很多人觉得做公众号很难，其实并没有什么门槛，你只要肯尝试就一定能成功。”",
+          "kinds": [
+            "question"
+          ],
+          "reasons": [
+            "末分句疑似真实询问：你只要肯尝试就一定能成功"
+          ]
+        }
+      ],
+      "diagnostics": [
+        "共有 28 段对白但没有感叹号。缺失本身不是错误；请确认本章是否确实没有喊叫、喝止、警告或情绪爆发。"
+      ]
+    }
+  },
+  "auditProtocol": {
+    "version": 2,
+    "validatorSha256": "24c29463dcee1b2e071a79c6460bc8226982b84fae5b7141c9d6c50a9ff3273d",
+    "recordSha256": "83f7d30806cb858ecb1b69f04437c3763d0707a8dc84cf0dc3e2888ff7dea72f",
+    "modelCalls": 0,
+    "protocolRepairs": 0,
+    "source": "existing-report",
+    "sourceReportSha256": "783906fb6413a3c3de8f96e55257f9d5cfe1d57d0ff3280d50235d41e36cbff0",
+    "reuse": {
+      "kind": "inputs-outside-chapter",
+      "reason": "本章正文、人物档案与写作规范都没变，只有邻章或知情矩阵变了"
+    },
+    "contentProblems": []
+  }
+}

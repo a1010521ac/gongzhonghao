@@ -1,0 +1,1908 @@
+{
+  "version": 1,
+  "rewriteDate": "2026-10-02",
+  "lastCompletedChapter": 3,
+  "current": {
+    "timeline": "第3章小蓝首次出现，许成建立课程退款证据文件夹，退款尚未到账。",
+    "location": "临江公司工位、出租屋",
+    "characters": {
+      "许成": "37岁，已婚有孩子，程序员出身，对公众号运营缺少认知；仍在职并面对部分欠薪",
+      "周敏": "妻子，在老家工作，本章只通过消息关心许成休息，未知道课程付款",
+      "王栋": "课程销售者，以从零起号、涨粉和流量主开通作为卖点"
+    },
+    "objects": {
+      "临江杂谈": "新申请个人主体公众号，0关注，无历史文章和旧读者",
+      "课程": "价格1999元，已付款，交付待验证",
+      "余额": "付款前6740元，付款后4741元",
+      "首篇数据": "阅读15、关注0；部分来自群内互推，自然来源待验证",
+      "退款证据": "广告、付款、课程交付、客服文字回复与原始聊天已保存"
+    },
+    "resources": {
+      "personalCash": 4741,
+      "coursePayment": 1999,
+      "businessIncomeReceived": 0,
+      "householdReserve": "未动用",
+      "unpaidSalary": "公司欠付，金额和补发日期待后续确认",
+      "employment": "在职",
+      "pendingUpgradeQuote": 3999
+    },
+    "systems": {
+      "小蓝": "许成可见可交流；只能读取许成已打开的材料，不替代平台权限或商家结果"
+    }
+  },
+  "facts": [
+    {
+      "id": "F-0001",
+      "kind": "现实证据",
+      "statement": "财务在公司群通知：本月工资先按现有回款情况发放一部分，剩余部分将尽快安排。",
+      "sourceChapter": 1,
+      "evidence": "下午五点十七分，财务在公司群里发了一条消息。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0002",
+      "kind": "人物处境",
+      "statement": "公司回款慢且项目缩减，组长让许成先收尾两个接口，没有提裁员或交接；许成仍在岗，但职业稳定已经出现裂缝。",
+      "sourceChapter": 1,
+      "evidence": "公司这一阵回款慢，项目也缩了。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0003",
+      "kind": "人物关系",
+      "statement": "许成37岁，独自在临江上班；妻子和孩子在老家，孩子8岁，家庭承担房贷、生活费及学校缴费。",
+      "sourceChapter": 1,
+      "evidence": "我三十七岁，一个人在临江上班，妻子和孩子在老家。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0004",
+      "kind": "财务事实",
+      "statement": "许成本月已给家里转12000元，尚需支付1600元房租；家里另有数万元应急储备，个人账户可动用余额为6740元。",
+      "sourceChapter": 1,
+      "evidence": "这个月已经给家里转了12000元；这个月还要交1600元房租。",
+      "status": "superseded",
+      "supersededBy": "F-0190"
+    },
+    {
+      "id": "F-0005",
+      "kind": "宣传内容",
+      "statement": "一则短视频宣称普通人靠公众号能取得超过工资的月收入，并称无门槛、肯尝试就一定能成功；评论区话术称零粉可做，首批粉丝和收入不会太远。",
+      "sourceChapter": 1,
+      "evidence": "视频里的男人说得很轻松：“很多人觉得做公众号很难，其实并没有什么门槛，你只要肯尝试就一定能成功。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0006",
+      "kind": "人物认知",
+      "statement": "许成会写代码和处理资料，但不懂如何起标题、寻找读者以及公众号流量主等运营知识。",
+      "sourceChapter": 1,
+      "evidence": "我连标题怎么起、读者从哪里来、什么叫流量主，都只停留在听说过的程度。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0007",
+      "kind": "现实证据",
+      "statement": "许成申请了个人主体公众号“临江杂谈”，头像为江边夜景；他删除了“在临江做程序开发”的职业信息，以免同事认出后拿此事开玩笑。",
+      "sourceChapter": 1,
+      "evidence": "临提交前，我把“在临江做程序开发”那半句删了。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0008",
+      "kind": "现实证据",
+      "statement": "许成发布了一篇抹去项目、组长和同事指向信息、仅保留部分工资通知内容的测试文章；发布后10分钟阅读为0，30分钟后为4。",
+      "sourceChapter": 1,
+      "evidence": "半小时后，数字停在4。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0009",
+      "kind": "商业宣传",
+      "statement": "王栋的“从零起号实战营”为期七天，覆盖账号定位、目标读者、选题标题、内容发布、合规涨粉、流量主申请和首次商业合作判断。",
+      "sourceChapter": 1,
+      "evidence": "王栋把课程分成七天，第一天讲账号定位，第二天讲目标读者，第三天讲选题和标题，后面还有内容发布、合规涨粉、流量主申请，以及第一次商业合作的基础判断。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0010",
+      "kind": "销售主张",
+      "statement": "客服称新号和零粉丝也可参加；王栋称无人带的新手容易在错误方向上坚持数月，并承诺课程会讲涨粉、流量主开通条件和后续变现。",
+      "sourceChapter": 1,
+      "evidence": "对方回得很快：“当然可以，老师就是带新手。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0011",
+      "kind": "商业承诺",
+      "statement": "许成询问1999元之后是否还有其他费用，客服只回复基础课就这些、进阶服务看个人需求；许成截图保留了广告、大纲、报价和该回复。",
+      "sourceChapter": 1,
+      "evidence": "对方说：“基础课就这些，进阶服务看个人需求。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0012",
+      "kind": "促销事实",
+      "statement": "客服声称课程原价3999元，当晚优惠一半且名额只留到12点，优惠后1999元即可进群；当时时间为23时42分。",
+      "sourceChapter": 1,
+      "evidence": "“优惠后1999，进群就开始。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0013",
+      "kind": "人物关系",
+      "statement": "周敏在夜间电话中得知公司后续可能只发部分工资和许成想花1999元试课；她同意试一次，但要求投入不能多、没效果就放弃，不要指望买课发财，也不能把亏空带回家里。",
+      "sourceChapter": 1,
+      "evidence": "她停了两秒：“你想试，我不拦。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0014",
+      "kind": "现实证据",
+      "statement": "许成支付后进入已有100多人的课程群；王栋发布欢迎语，并要求当晚完成定位、目标读者和第一篇选题，许成随后准备查看“从零第一课”。",
+      "sourceChapter": 1,
+      "evidence": "我刚进群，里面已经有一百多人。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0015",
+      "kind": "销售主张",
+      "statement": "王栋在课程群中承诺，只要第一步做对，后面的路会越来越快。",
+      "sourceChapter": 1,
+      "evidence": "只要第一步做对，后面的路会越来越快。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0016",
+      "kind": "现实证据",
+      "statement": "王栋布置第一天作业为“找到一个具体的人”，并强调不要写给所有人，因为不是所有人都是读者。",
+      "sourceChapter": 2,
+      "evidence": "王栋在群里发了一张白板照片，标题是“第一天作业：找到一个具体的人”。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0017",
+      "kind": "现实证据",
+      "statement": "课程群提供二十多页定位模板，要求填写最熟悉的场景、读者正在承受的麻烦和能持续提供的内容；许成只填前两栏，第三栏因不知道能持续提供什么而留空。",
+      "sourceChapter": 2,
+      "evidence": "我点开群文件，里面有一个二十多页的定位模板，第一栏是“你最熟悉的场景”，第二栏是“读者正在承受的麻烦”，第三栏是“你能持续提供的内容”。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0018",
+      "kind": "人物定位",
+      "statement": "许成在群内发布定位：自己是在临江工作的普通程序员，记录工资不确定后如何从零做公众号，写给想找第二收入的上班族。",
+      "sourceChapter": 2,
+      "evidence": "“一个在临江工作的普通程序员，记录工资不确定之后，如何从零尝试做公众号，写给同样想找第二收入的上班族。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0019",
+      "kind": "课程规则",
+      "statement": "王栋要求学员定一个系列主题连续写三篇，不追热点；新号首要目标不是爆，而是让读者知道下一篇还会写什么。",
+      "sourceChapter": 2,
+      "evidence": "过了十几分钟，王栋在群公告里发了新的任务：确定一个系列主题，连续写三篇，不要一上来就追热点。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0020",
+      "kind": "现实证据",
+      "statement": "许成中午发布第一篇文章《37岁上班族，0粉丝开始做公众号，第一步到底该做什么？》，注明是个人尝试，未写公司名称和具体工资，并把链接发群并@班主任。",
+      "sourceChapter": 2,
+      "evidence": "“37岁上班族，0粉丝开始做公众号，第一步到底该做什么？”",
+      "status": "superseded",
+      "supersededBy": "F-0073"
+    },
+    {
+      "id": "F-0021",
+      "kind": "教学反馈",
+      "statement": "王栋评价许成方向可以，但要求标题再收，不要急着写大结论。",
+      "sourceChapter": 2,
+      "evidence": "王栋很快回复：“方向可以，标题再收一点，别急着写大结论。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0022",
+      "kind": "课程规则",
+      "statement": "课程群公告将内容修改归为进阶服务，明确基础营只负责方法和作业点评。",
+      "sourceChapter": 2,
+      "evidence": "“内容修改属于进阶服务，基础营只负责方法和作业点评。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0023",
+      "kind": "现实证据",
+      "statement": "管理员要求学员把文章链接发接龙，并随机选三篇阅读、点赞、关注以做账号活跃度；许成照做并阅读三篇。",
+      "sourceChapter": 2,
+      "evidence": "管理员要求每个人把自己的链接发到接龙里，再从接龙中随机选三篇阅读、点赞、关注。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0024",
+      "kind": "现实证据",
+      "statement": "许成文章发布10分钟后阅读3，1小时后阅读8，关注数仍为0。",
+      "sourceChapter": 2,
+      "evidence": "十分钟后，后台阅读数变成3。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0025",
+      "kind": "现实证据",
+      "statement": "发布9小时后文章阅读15、关注0、留言0、收益0.03元，后台无明显外部来源。",
+      "sourceChapter": 2,
+      "evidence": "阅读15，关注0，留言0，点赞几条，收益0.03元，后台没有出现什么明显的外部来源。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0026",
+      "kind": "商业宣传",
+      "statement": "管理员限时出售199元曝光素材包，包含三条预热文案、十个社群转发位和一次公众号名片推荐，明确不保证涨粉；许成未购买。",
+      "sourceChapter": 2,
+      "evidence": "“基础营限时开放曝光素材包，199元一份，含三条预热文案、十个社群转发位和一次公众号名片推荐。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0027",
+      "kind": "商业报价",
+      "statement": "课程群推出3999元进阶营，宣称包含一对一定位诊断、标题修改和流量主路径拆解，并给当晚报名者老学员价；许成未报名。",
+      "sourceChapter": 2,
+      "evidence": "想继续提高的，可以申请进阶营，增加一对一定位诊断、标题修改和流量主路径拆解。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0028",
+      "kind": "销售主张",
+      "statement": "王栋称基础营解决“会不会做”，进阶营解决“做了有没有结果”，并称想涨粉不能只靠自己试错。",
+      "sourceChapter": 2,
+      "evidence": "王栋在语音里解释，基础营解决的是“会不会做”，进阶营解决的是“做了有没有结果”。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0029",
+      "kind": "现实证据",
+      "statement": "管理员置顶186.42元、137.26元和98.30元三张收益截图，以“执行力不一样，结果就不一样”催促报名，王栋也点名催学员私聊领优惠。",
+      "sourceChapter": 2,
+      "evidence": "管理员又挑出三张收益截图置顶，分别写着186.42元、137.26元和98.30元，配了一句“执行力不一样，结果就不一样”。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0030",
+      "kind": "现实证据",
+      "statement": "三张置顶收益图的背景完全一致，左上角橙色桌角、木纹断口和旁边灰点的位置一模一样，像同一底图只换了三个数字。",
+      "sourceChapter": 2,
+      "evidence": "它们像同一张底图换了三个数字。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0031",
+      "kind": "人物规则",
+      "statement": "许成给自己设定的课程试错上限是2000元；已花1999元，再买3999元进阶营就越过边界。",
+      "sourceChapter": 2,
+      "evidence": "我给自己设过的试错上限是2000元。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0032",
+      "kind": "现实证据",
+      "statement": "许成拒绝追加消费，保存3999元二维码作为证据，并将广告页面、客服聊天、课程大纲、付款记录和当天作业点评按时间归档。",
+      "sourceChapter": 2,
+      "evidence": "是为了留证据。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0033",
+      "kind": "现实证据",
+      "statement": "许成新建文档写下“退款申请”，记录付款时间、课程承诺和当天交付；他想列课程未兑现条目，但多次输入后文档仍只有第一段。",
+      "sourceChapter": 2,
+      "evidence": "我新建了一个文档，第一行写下“退款申请”。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0034",
+      "kind": "人物处境",
+      "statement": "凌晨一点，许成把课程群设为免打扰，备份第一篇文章原稿，删除第二篇草稿，同时打开删除文章、退出群聊和注销账号三个确认入口，但均未点击。",
+      "sourceChapter": 2,
+      "evidence": "三个页面叠在屏幕上，确认按钮都亮着。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0035",
+      "kind": "人物关系",
+      "statement": "王栋私聊许成，称其方向有潜力，建议尽快进阶以做涨粉和流量主；许成没有回复。",
+      "sourceChapter": 2,
+      "evidence": "想把涨粉和流量主一起做起来，建议尽快进阶。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0036",
+      "kind": "现实证据",
+      "statement": "第二天财务群没有新消息，剩余工资的补发时间仍无人公开追问。",
+      "sourceChapter": 2,
+      "evidence": "财务群没有新消息。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0037",
+      "kind": "课程规则",
+      "statement": "第二天课程群催促作业，王栋要求基础营第二篇在晚上八点前提交，主题为“你的读者最怕什么”。",
+      "sourceChapter": 3,
+      "evidence": "王栋说基础营的第二篇内容要在晚上八点前提交，主题是“你的读者最怕什么”。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0038",
+      "kind": "课程规则",
+      "statement": "课程群公告称连续完成三篇作业的学员可以优先获得进阶营名额。",
+      "sourceChapter": 3,
+      "evidence": "群公告下面还挂着一行小字：连续完成三篇作业的学员，可以优先获得进阶营名额。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0039",
+      "kind": "人物行动",
+      "statement": "许成第二天没有按课程群要求写第二篇作业。",
+      "sourceChapter": 3,
+      "evidence": "我没有写第二篇。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0040",
+      "kind": "人物认知",
+      "statement": "许成判断第一篇文章的15个阅读中至少有几个来自课程群互推，不能证明真的有人期待下一篇。",
+      "sourceChapter": 3,
+      "evidence": "昨天的15个阅读里，至少有几个人是群里的互推成员。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0041",
+      "kind": "销售沟通",
+      "statement": "许成私信质问课程宣称“手把手走一遍”却缺少对个人文章的具体反馈；王栋回复基础营是方法课、不是代运营，要求先按框架连续做。",
+      "sourceChapter": 3,
+      "evidence": "过了十分钟，他回复：“基础营是方法课，不是代运营。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0042",
+      "kind": "销售沟通",
+      "statement": "许成追问流量主开通路径何时讲，王栋称要等账号数据达到阶段要求，过早关注变现会影响内容心态。",
+      "sourceChapter": 3,
+      "evidence": "这一次，他隔了更久才回复：“等账号数据达到阶段要求，再讲才有意义。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0043",
+      "kind": "销售话术",
+      "statement": "下午三点王栋在群语音中把追问收益的学员归因于把结果放在行动前面，称课程不是魔法，真正能做起来的人懂得持续投入。",
+      "sourceChapter": 3,
+      "evidence": "下午三点，王栋在群里发了一段新的语音，说有些同学基础还没打牢，就急着问收益，是“把结果放在了行动前面”。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0044",
+      "kind": "现实证据",
+      "statement": "许成整理课程材料制作“课程交付核对”文档，记录实际交付以定位模板、标题公式、群内互推、作业提醒为主，针对个人文章的具体反馈很少。",
+      "sourceChapter": 3,
+      "evidence": "实际交付：定位模板、标题公式、群内互推、作业提醒，针对个人文章的具体反馈很少。",
+      "status": "superseded",
+      "supersededBy": "F-0061"
+    },
+    {
+      "id": "F-0045",
+      "kind": "人物认知",
+      "statement": "许成的核对指出涨粉停留在群内互推，流量主被要求等阶段要求，而阶段要求没有明确说明。",
+      "sourceChapter": 3,
+      "evidence": "实际交付：涨粉停留在群内互推，流量主被告知等阶段要求，阶段要求没有明确说明。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0046",
+      "kind": "课程规则",
+      "statement": "课程群公告更新称基础营资料已经全部上传，已查看资料的学员视为课程开始交付。",
+      "sourceChapter": 3,
+      "evidence": "【基础营资料已经全部上传，已查看资料的学员视为课程开始交付】",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0047",
+      "kind": "销售条款",
+      "statement": "客服明确表示课程资料已全部交付，虚拟服务一经开通不支持退款。",
+      "sourceChapter": 3,
+      "evidence": "“亲，课程资料已全部交付，课程属于虚拟服务，一经开通不支持退款。",
+      "status": "superseded",
+      "supersededBy": "F-0068"
+    },
+    {
+      "id": "F-0048",
+      "kind": "销售条款",
+      "statement": "客服表示涨粉和流量主需完成基础作业后由老师统一安排。",
+      "sourceChapter": 3,
+      "evidence": "关于涨粉和流量主，需完成基础作业后由老师统一安排。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0049",
+      "kind": "人物行动",
+      "statement": "许成按小蓝建议向客服发送三个具体追问并要求书面回复，收到回复后导出原始聊天和课程条款，把文件夹命名为“课程退款证据-第1版”。",
+      "sourceChapter": 3,
+      "evidence": "“课程退款证据-第1版”。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0050",
+      "kind": "人物行动",
+      "statement": "章末许成输入要求客服列明定位、选题、标题、涨粉和流量主开通内容及对应文件位置的追问，但没有按发送键。",
+      "sourceChapter": 3,
+      "evidence": "这一次，我没有按发送键。",
+      "status": "superseded",
+      "supersededBy": "F-0060"
+    },
+    {
+      "id": "F-0051",
+      "kind": "作品规则",
+      "statement": "蓝光从“临江杂谈”的江面头像中渗出，一个拇指长、淡蓝短发、蓝白短外套、半透明薄翼的小人从头像中翻出，悬在屏幕与许成之间。",
+      "sourceChapter": 3,
+      "evidence": "下一秒，一个拇指长的小人从头像里翻了出来。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0052",
+      "kind": "作品规则",
+      "statement": "小蓝的声音不通过音箱，而是直接出现在许成脑中，许成能与它对话。",
+      "sourceChapter": 3,
+      "evidence": "它直接出现在我脑子里，清清楚楚，像有人贴着耳膜说话。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0053",
+      "kind": "作品规则",
+      "statement": "小蓝指出广告里的“从零带你走一遍”与群公告里的“资料上传完成”不是同一承诺，并确认宣传承诺与实际交付不一致。",
+      "sourceChapter": 3,
+      "evidence": "“宣传承诺和实际交付不一样。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0054",
+      "kind": "现实证据",
+      "statement": "小蓝检查三张收益图时发现三块二维码的窄边落在同一位置，宽窄分毫不差。",
+      "sourceChapter": 3,
+      "evidence": "它们的窄边落在同一个位置上，宽窄分毫不差。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0055",
+      "kind": "现实证据",
+      "statement": "三条收益截图消息都在同一个下午、前后差不了几分钟发出，包含三个不同的到账数字和打码名字。",
+      "sourceChapter": 3,
+      "evidence": "三条消息挨在一起，都在同一个下午，前后差不了几分钟，里面是三个不同的到账数字和三张打了码的名字。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0056",
+      "kind": "人物建议",
+      "statement": "小蓝建议保存原始聊天而非只留截图，不要急于称为诈骗或删除群聊，继续追问课程的具体交付范围。",
+      "sourceChapter": 3,
+      "evidence": "小蓝没有碰屏幕，只说：“保存原始聊天，不要只留截图。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0057",
+      "kind": "作品规则",
+      "statement": "小蓝表示自己不会一直替许成盯屏幕，只有当许成真的在看材料并准备做选择时呼唤它，它才可能出现。",
+      "sourceChapter": 3,
+      "evidence": "“如果你真的在看材料，也真的准备做选择。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0058",
+      "kind": "现实证据",
+      "statement": "售后平台起初只通知“商家同意协商退款”，并非原路退款或平台判定商家违规，款项当时尚未到账。",
+      "sourceChapter": 4,
+      "evidence": "还没等我把手机扣回桌面，屏幕顶端先弹出了售后平台的系统通知。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0059",
+      "kind": "作品规则",
+      "statement": "小蓝指出协商退款距钱进许成账户还差两道手续，并建议他抓住付款金额、承诺清单、交付明细及二者不符之处，删除自证清白式解释。",
+      "sourceChapter": 4,
+      "evidence": "小蓝松开手，那根光线在半空微颤着散开，“距离钱进你账户，还差着两道手续。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0060",
+      "kind": "人物行动",
+      "statement": "许成最终发送了上一章未发出的追问，要求王栋按实付1999元，逐项对应基础营承诺的定位、选题、标题、涨粉和流量主开通在网盘中的文件名与目录，并解释销售页与客服口径差异。",
+      "sourceChapter": 4,
+      "evidence": "请依据我支付1999元后收到的实际文件，逐项指明基础营内承诺的定位、选题、标题、涨粉与流量主开通分别对应网盘中的哪几个文件，标注具体文件名和所在文件夹路径。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0061",
+      "kind": "现实证据",
+      "statement": "许成核对指出，网盘实际只有几套通用排版模板和旧录播链接，核心内容为空，销售页承诺的定位、选题、标题、涨粉与流量主开通没有对应核心文件。",
+      "sourceChapter": 4,
+      "evidence": "网盘实际交付的只有几套通用排版模板和旧录播链接，核心内容全空着。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0062",
+      "kind": "销售回应",
+      "statement": "王栋称销售页只是全套服务体系概览，具体履约节点以课程协议为准，却未按许成要求指出协议条款编号。",
+      "sourceChapter": 4,
+      "evidence": "两分钟过去，王栋才甩过来一句：“销售页展示的是全套服务体系概览，具体履约节点以课程协议为准。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0063",
+      "kind": "销售沟通",
+      "statement": "王栋称退款必须走财务周期、慢则十五个工作日，并提出可替许成申请“内部孵化陪跑名额”。",
+      "sourceChapter": 4,
+      "evidence": "第二条说公司退款必须走财务周期，慢则十五个工作日。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0064",
+      "kind": "销售沟通",
+      "statement": "王栋提出只要许成先撤下平台投诉，就私下开放高阶实操群权限私了；被拒绝后警告许成在圈子里路会变窄。",
+      "sourceChapter": 4,
+      "evidence": "“许哥，非要这么较真，以后圈子里路可就窄了。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0065",
+      "kind": "人物行动",
+      "statement": "许成拒绝曝光课程群其他学员，计划除王栋和官方客服外，对其余人的头像、昵称和发言全部打码，只保留能证明销售承诺的文字和自己的付款凭证。",
+      "sourceChapter": 4,
+      "evidence": "“除了王栋和官方客服，其余人的头像、昵称、发言全部打码盖住。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0066",
+      "kind": "现实证据",
+      "statement": "许成重新整理付款、承诺、交付、核对四类材料，上传平台并申请对宣传条款与实际交付明细进行仲裁核对；工单状态变为“材料已补充，等待商家处理”。",
+      "sourceChapter": 4,
+      "evidence": "申请对宣传条款与实际交付明细进行平台仲裁核对。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0067",
+      "kind": "人物行动",
+      "statement": "许成拒绝撤诉换权限，明确只接受原路退回1999元，其他补偿方案一概不谈，并对王栋设置消息免打扰。",
+      "sourceChapter": 4,
+      "evidence": "我回得极短：“我只接受原路退回1999元，其他补偿方案一概不谈。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0068",
+      "kind": "现实证据",
+      "statement": "下午14时17分，售后平台显示商家已同意退款协议、等待买家确认，退款金额为1999元；许成核对账单后点击同意退款。",
+      "sourceChapter": 4,
+      "evidence": "售后平台推送消息：商家已同意退款协议，等待买家确认。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0069",
+      "kind": "财务事实",
+      "statement": "下午16时17分，招商银行短信显示尾号4820账户入账1999元，当前活期余额为6740.32元。",
+      "sourceChapter": 4,
+      "evidence": "“您账户尾号4820于16:17完成银联入账人民币1999.00元，当前活期余额6740.32元。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0070",
+      "kind": "人物行动",
+      "statement": "许成在个人财务备忘录中把课程支出改为课程全额退款、原路收回且不计入个人收入。",
+      "sourceChapter": 4,
+      "evidence": "我打开个人财务的备忘录表格，在支出一栏把原先标红的“自媒体培训1999元”划去，备注改成：课程全额退款，原路收回，不计入个人收入。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0071",
+      "kind": "工作现实",
+      "statement": "许成发现客户新版接口文档漏了状态字段，按该结构开发会使后端批量导出卡死；王文洁要求他以业务逻辑需要双方复核的口径沟通，会议最终将该字段延到二期。",
+      "sourceChapter": 4,
+      "evidence": "客户发来的版本漏了个状态字段，按这个结构做，后端的批量导出肯定卡死。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0072",
+      "kind": "课程群回应",
+      "statement": "课程群新学员询问基础营是否包含涨粉实操和流量主开通时，王栋仍称课程体系完整，具体落地要结合作业由导师一对一指导；被追问是否必须完成作业才讲后不再回应。",
+      "sourceChapter": 4,
+      "evidence": "王栋在群里回得飞快：“课程体系都是完整的，但师傅领进门修行在个人，具体落地要结合学员作业情况，由导师一对一针对性指导。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0073",
+      "kind": "现实证据",
+      "statement": "小蓝在虚空中展示的第一篇文章标题为《在临江生活的第十二天：一个普通人的下班记录》；许成说其内容是程序员在临江第十二天的碎碎念，配江风和路灯照片。",
+      "sourceChapter": 4,
+      "evidence": "《在临江生活的第十二天：一个普通人的下班记录》。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0074",
+      "kind": "现实证据",
+      "statement": "文章收到唯一一条留言，询问临江东站凌晨下班后还有没有回住处的末班车；许成因网上班次信息不一、部分线路去年已停而没有回复。",
+      "sourceChapter": 4,
+      "evidence": "问临江东站凌晨下班后还有没有回住处的末班车。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0075",
+      "kind": "人物建议",
+      "statement": "周敏得知退款到账后劝许成不再折腾课程，并建议他把每天真实经历的末班车、通宵后门、深夜摊位等写成具体夜归信息，帮助一个具体的人解决具体的小麻烦。",
+      "sourceChapter": 4,
+      "evidence": "能帮一个具体的人解决一个具体的小麻烦，你这号就算没白开。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0076",
+      "kind": "人物建议",
+      "statement": "小蓝判定第一篇文章通篇是情绪，没有能让读者转头就用的落地信息，并指出那条留言是在索取具体方案。",
+      "sourceChapter": 4,
+      "evidence": "“通篇都是情绪，没有一条能落地的有效信息。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0077",
+      "kind": "人物行动",
+      "statement": "许成把公众号功能介绍改为“专为临江凌晨下班的夜班族而写。实地核验夜班公交、地铁末班、通宵换乘与深夜食堂，让你夜半归家少走一步弯路”。",
+      "sourceChapter": 4,
+      "evidence": "“专为临江凌晨下班的夜班族而写。",
+      "status": "superseded",
+      "supersededBy": "F-0081"
+    },
+    {
+      "id": "F-0078",
+      "kind": "人物交易",
+      "statement": "许成邀杜勇明晚按平时下班路线做夜班回家路线测试，按兼职支付300元，要求记录时间、换乘间隔、沿途亮灯便利店与小摊并拍站牌但不拍人正脸；杜勇约定不绕道、不临时加码。",
+      "sourceChapter": 4,
+      "evidence": "三百，跑完微信秒转。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0079",
+      "kind": "现实证据",
+      "statement": "杜勇平时十二点二十至十二点半从东平仓储物流园南三门交班；许成需提前在门口传达室边等待，并穿最旧套头衫。",
+      "sourceChapter": 4,
+      "evidence": "定位显示在东平仓储物流园南三门。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0080",
+      "kind": "现实证据",
+      "statement": "“临江杂谈”后台收到两条非读者营销私信，兜售五十元五百真实活跃粉、包过原创门槛和洗号提权；许成举报并拉黑。",
+      "sourceChapter": 5,
+      "evidence": "点开一看，不是读者，全是同一种营销号话术：“新号冷启动扶持，五十元包五百真实活跃粉，包过原创门槛，洗号提权技术加V详聊……另有互推资源，包上推荐。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0081",
+      "kind": "人物行动",
+      "statement": "小蓝指出简介仍然太宽后，许成把功能介绍改为“写给在临江上夜班、凌晨回家的人。路线、末班车、绕行和还开着的店，我先走一遍再写”。",
+      "sourceChapter": 5,
+      "evidence": "路线、末班车、绕行和还开着的店，我先走一遍再写。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0082",
+      "kind": "人物行动",
+      "statement": "许成决定同时核验读者提到的东站正规线路和南站中巴，前者被指等到零点四十仍无车，后者被杜勇称为野路子。",
+      "sourceChapter": 5,
+      "evidence": "“两趟都得看。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0083",
+      "kind": "现场证据",
+      "statement": "跟测前杜勇立规矩：不许拍他的工牌、反光背心或正脸，必须按他平时的走法记录，不能自行想象补全。",
+      "sourceChapter": 5,
+      "evidence": "杜勇指了指胸口印着物流公司名字的白布条，“别拿手机对着我拍，工牌、反光背心、正脸，一律不许进镜头。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0084",
+      "kind": "现实证据",
+      "statement": "东平大道与仓储路交叉口的夜班线路站牌标注末班发车时间为00:30。",
+      "sourceChapter": 5,
+      "evidence": "铁皮上白底黑字写得很清楚：夜班线路，末班发车时间：00:30。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0085",
+      "kind": "现场证据",
+      "statement": "00:21，一辆亮着“暂停运营”的绿皮大巴没有减速停站，直接拐上回库高架；杜勇称该车是00:15从总站放出的空车。",
+      "sourceChapter": 5,
+      "evidence": "司机没减速，贴着路中绿化带一晃而过，直接拐上了回库高架。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0086",
+      "kind": "现实证据",
+      "statement": "公交服务热线称夜班线路因夜间车辆周转与临时调度，部分班次执行空车回送，并建议乘客改选其他交通方式。",
+      "sourceChapter": 5,
+      "evidence": "接线员声音发困，像在照着稿子念：“您好，临江公交服务热线……您反映的夜班线路车次，系统显示因夜间车辆周转与临时调度，部分班次执行空车回送。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0087",
+      "kind": "现场证据",
+      "statement": "立交桥匝道下停有两辆拆掉后排座椅的金杯面包车，悬挂“直达南站客运站”纸牌；单人票价30元，凑满七人发车，包车200元，单人不走且不发固定班次。",
+      "sourceChapter": 5,
+      "evidence": "凑齐七个走，不等人就包车，两百。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0088",
+      "kind": "现场证据",
+      "statement": "同一方向白天大巴票价为4元，夜间中巴司机以时段不同为由维持30元报价。",
+      "sourceChapter": 5,
+      "evidence": "“白天大巴才四块钱。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0089",
+      "kind": "现场证据",
+      "statement": "河边无路名沥青路前方有2米多高蓝铁皮围挡，封死非机动车道和半幅人行道，没有反光警示和绕行说明。",
+      "sourceChapter": 5,
+      "evidence": "往前七八百米，两米多高的蓝铁皮围挡横在路上，没有反光警示，也没写怎么绕。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0090",
+      "kind": "现场证据",
+      "statement": "绕行涵洞土路布满油污水坑，松动排污铁盖会翘起，下面是下水渠暗流；前天二号仓分拣小妹骑共享单车经过时前轮卡进翻板并摔断锁骨。",
+      "sourceChapter": 5,
+      "evidence": "前天二号仓有个分拣小妹下夜班骑共享单车抄这儿，前轮卡进翻板，当场摔断了锁骨。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0091",
+      "kind": "现场证据",
+      "statement": "城南生活区七八家小吃摊均被防暴铁马拦闭，唯一亮灯的是二十四小时便利店；店内可接免费热水，关东煮两点后打半折。",
+      "sourceChapter": 5,
+      "evidence": "沿街七八家小吃摊都被防暴铁马拦着，卷帘门锁死，整条街只有一家二十四小时便利店亮着。",
+      "status": "superseded",
+      "supersededBy": "F-0107"
+    },
+    {
+      "id": "F-0092",
+      "kind": "现实证据",
+      "statement": "从物流园南三门绕行至该便利店的步行距离为3.2公里。",
+      "sourceChapter": 5,
+      "evidence": "从物流园南三门到这家便利店，绕行步行距离三点二公里。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0093",
+      "kind": "财务事实",
+      "statement": "许成从尾号4820活期账户转出300元给杜勇，活期余额从6740.32元降至6440.32元，个人可动用余额同步减少300元。",
+      "sourceChapter": 5,
+      "evidence": "银行卡活期余额从6740.32元变成6440.32元，个人可动用余额也跟着少了三百。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0094",
+      "kind": "人物行动",
+      "statement": "发布前许成裁掉站牌旁的普通路人、桥洞照中的厂区标牌及抓拍中露出的工作证一角，并删除中巴司机骂人的话，只保留要价规则和单人不走、不发固定班次的现场事实。",
+      "sourceChapter": 5,
+      "evidence": "站牌照片裁掉了旁边的路人；桥洞特写用画笔涂黑了远处的厂区标牌；杜勇推着电瓶车的那张抓拍里，露出的工作证一角也裁在画框外。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0095",
+      "kind": "人物行动",
+      "statement": "凌晨回屋后，许成先按后台习惯制作“东平仓储物流园南门至城南夜班通勤路线”的Markdown表格，标题拟为《东平物流园至城南夜班通勤路线参数核验及替代方案》。",
+      "sourceChapter": 5,
+      "evidence": "我打开文本编辑器，三两下拉出一张 Markdown 表格：",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0096",
+      "kind": "人物建议",
+      "statement": "小蓝否定技术文档式写法，要求按夜班读者所处顺序先给结论，标题问读者而不是向他汇报。",
+      "sourceChapter": 5,
+      "evidence": "问他，而不是向他汇报。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0097",
+      "kind": "现实证据",
+      "statement": "许成推翻技术文档框架，改题为《凌晨一点下班，临江这几段路怎么回家》，并按夜路遭遇顺序写成实用路线文后发布。",
+      "sourceChapter": 5,
+      "evidence": "《凌晨一点下班，临江这几段路怎么回家》",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0098",
+      "kind": "现实证据",
+      "statement": "清晨5时10分文章群发成功；5时15分前后，文章阅读1、在看0、关注0，没有新留言或关注提示。",
+      "sourceChapter": 5,
+      "evidence": "右下角显示：阅读 1，在看 0。关注人数：0。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0099",
+      "kind": "人物处境",
+      "statement": "许成把闹铃定在7点，准备随后挤早高峰去公司周会，向王文洁汇报企业客户项目交付进度。",
+      "sourceChapter": 5,
+      "evidence": "还有不到两个小时，我就得换衣服，挤早高峰，去公司周会面对王文洁追企业客户项目的交付进度。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0100",
+      "kind": "人物关系",
+      "statement": "杜勇收款后说，若还有按工时结算的跑腿活且不耽误交班，可以继续叫他。",
+      "sourceChapter": 5,
+      "evidence": "他紧绷的眉头松开，笑了，“下回要是还有这种按工时结账的跑腿活，只要不耽误我交班，继续叫我。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0101",
+      "kind": "现实证据",
+      "statement": "早晨7点，许成发现前一晚发布文章的阅读数从1涨到37，但在看、关注和留言仍均为0。",
+      "sourceChapter": 6,
+      "evidence": "今早发布时那个“1”，变成了三十七。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0102",
+      "kind": "现实证据",
+      "statement": "当天8:15文章阅读为52；12:30阅读为112、关注为1，期间增长曾明显停滞。",
+      "sourceChapter": 6,
+      "evidence": "阅读数停在了一百一十二。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0103",
+      "kind": "工作任务",
+      "statement": "王文洁要求许成在15:00前交齐智慧水务后端三个数据导出接口文档，并称周五要做初步联调；许成承诺14:30前发送文档和接口说明。",
+      "sourceChapter": 6,
+      "evidence": "“今天下午三点前，把智慧水务后端的三个数据导出接口文档交齐。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0104",
+      "kind": "人物行动",
+      "statement": "许成在14:28将技术文档和自测报告发送给王文洁并抄送项目组，完成本次交付要求。",
+      "sourceChapter": 6,
+      "evidence": "一点半继续改接口文档，两点二十打包测试数据，两点二十八分把技术文档和自测报告发进王文洁邮箱，抄送项目组。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0105",
+      "kind": "现实证据",
+      "statement": "18:00文章阅读为412、新增关注38、留言6，留言均为具体追问、现场经历或实地纠错。",
+      "sourceChapter": 6,
+      "evidence": "刷新后，数字变了。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0106",
+      "kind": "读者反馈",
+      "statement": "小唐留言称自己下周一开始去东平仓储园上大夜班，询问摩托车能否从蓝铁皮封路旁推过去。",
+      "sourceChapter": 6,
+      "evidence": "“作者你好，我下周一开始要去东平仓储园上大夜班，正愁下班怎么回城南。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0107",
+      "kind": "现实证据",
+      "statement": "阿灰纠正便利店规则：凌晨2点后常只开小窗卖烟且门反锁，热水壶有时2:30断电清洗，关东煮2点后折扣取决于店员和剩余批次；许成当晚遇到折扣属于偶合。",
+      "sourceChapter": 6,
+      "evidence": "城南那家二十四小时便利店，平时夜里两点以后经常只开一个小窗卖烟，门是反锁的。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0108",
+      "kind": "人物行动",
+      "statement": "许成回复小唐称封路旁摩托车过不去、必须绕桥洞，并提醒贴左侧干水泥沿行走、出发前再问物流园保安；他还将阿灰的纠错设为置顶。",
+      "sourceChapter": 6,
+      "evidence": "接着回复小唐：“摩托车别从封路旁边硬挤。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0109",
+      "kind": "读者反馈",
+      "statement": "小唐追问许成是否还会继续发路线，并请他测试临江东站凌晨下班路线；东站问题此前也由旧模板稿留言提出，成为新的待核选题。",
+      "sourceChapter": 6,
+      "evidence": "东站那边凌晨下班怎么走，能不能也测一下？”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0110",
+      "kind": "人物建议",
+      "statement": "小蓝提醒许成不能把一次运气当成流水线，许成因此明确东站相关内容没跑之前不写，并记下三项待核信息。",
+      "sourceChapter": 6,
+      "evidence": "我说，“没跑之前不写。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0111",
+      "kind": "现实证据",
+      "statement": "次日早晨7点，文章累计阅读3218、关注342、在看36、分享转发120多次；许成重新登录确认数据未变。",
+      "sourceChapter": 6,
+      "evidence": "累计阅读：3218。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0112",
+      "kind": "现实证据",
+      "statement": "发布满48小时的清晨5:12，文章累计阅读5860、关注586、在看56、分享243；许成抄录并截图保存。",
+      "sourceChapter": 6,
+      "evidence": "累计阅读次数：5860。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0113",
+      "kind": "现实证据",
+      "statement": "关注数过100后流量主申请入口开放，许成提交申请；平台未显示收入数字，只称以后台通知为准。",
+      "sourceChapter": 6,
+      "evidence": "我点进去，一页一页把平台提示看完，照着账号资料提交了申请。",
+      "status": "superseded",
+      "supersededBy": "F-0201"
+    },
+    {
+      "id": "F-0114",
+      "kind": "现实证据",
+      "statement": "杜勇发来三张群聊截图：有人主动把文章转到物流园夜班群，工友称按桥洞左侧行走未踩泥，另一群因绿皮中巴单人加价规则骂调度；杜勇称自己没要求转发，并认可文章帮上了人。",
+      "sourceChapter": 6,
+      "evidence": "杜勇最后发来一句：“我什么也没说，他们自己转的。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0115",
+      "kind": "人物关系",
+      "statement": "陈骏当面提及“临江杂谈”，说明他已知道该号属于许成且看到本地群转发；他贬称内容粗糙、无商业价值、成不了气候。",
+      "sourceChapter": 6,
+      "evidence": "他扫了我一眼，脚步慢了半拍：“老许，你那个写夜班路线的号，叫‘临江杂谈’？”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0116",
+      "kind": "现实证据",
+      "statement": "“临江潮生活”发布陈骏署名的《凌晨下班别乱跑！临江夜班族最全避坑指南，末班车与夜宵全收录》，该号由文化传媒公司认证、常读用户数万；文章发布20多分钟阅读过千，章末涨到1300。",
+      "sourceChapter": 6,
+      "evidence": "作者那一栏写着两个字：陈骏。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0117",
+      "kind": "现实证据",
+      "statement": "许成对比发现陈骏文章的段落顺序和关键信息点与自己的A稿高度一致，包括仓储园、暂停运营中巴、蓝铁皮、桥洞左侧和出洞后热食；翻查历史未找到更早同类路线，但页面证据不足以证明逐句抄袭。",
+      "sourceChapter": 6,
+      "evidence": "第一段都对仓储园。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0118",
+      "kind": "现实证据",
+      "statement": "陈骏文中称防汛堤步道可正常通行且照明良好，与许成和杜勇实测蓝铁皮前断头、只能折返绕桥洞不符；许成截屏保存了差异、发布时间和阅读数。",
+      "sourceChapter": 6,
+      "evidence": "写到蓝铁皮封路，陈骏写的是：“沿河景观道虽有部分施工围挡，但行人与非机动车仍可沿防汛堤步道正常通行，夜间照明良好，建议步行通过。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0119",
+      "kind": "商业沟通",
+      "statement": "“老街夜宵铺”私信称店铺在南门往西两百米，主营砂锅米线和炒粉、通宵营业，询问许成是否接推广以及一篇多少钱。",
+      "sourceChapter": 6,
+      "evidence": "我们店就在南门往西两百米，主营砂锅米线和炒粉，通宵营业。",
+      "status": "superseded",
+      "supersededBy": "F-0133"
+    },
+    {
+      "id": "F-0120",
+      "kind": "商业沟通",
+      "statement": "许成先报出“图文发布500起”，随后承认不清楚交付形式和效果，撤回该报价并追问营业时段、桌数、后厨人数及堂食外卖比例。",
+      "sourceChapter": 6,
+      "evidence": "“图文发布五百起。”",
+      "status": "superseded",
+      "supersededBy": "F-0133"
+    },
+    {
+      "id": "F-0121",
+      "kind": "商业沟通",
+      "statement": "老街夜宵铺回复营业时间为22:00至5:00、六张桌子、后厨两人，客群主要是网约车司机和夜班工人、堂食打包兼有，并要求先看方案和预算再决定见面。",
+      "sourceChapter": 6,
+      "evidence": "“晚上十点到早上五点，六张桌子，后厨两个人。",
+      "status": "superseded",
+      "supersededBy": "F-0131"
+    },
+    {
+      "id": "F-0122",
+      "kind": "人物处境",
+      "statement": "小蓝指出许成没有报价、交付和拍摄经验，并问他这次先拿什么给夜宵铺看。",
+      "sourceChapter": 6,
+      "evidence": "“报价、交付、拍摄，你一样都没干过。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0123",
+      "kind": "商业沟通",
+      "statement": "许成把报价与交付拆成七条发给老街夜宵铺，包括手机实景图两组、两千字以内体验稿及配图、发布另行确认、修改限两次文字微调、素材仅限门面和店主朋友圈、不承诺客流销量，以及3000元一口价、首付1500元、初稿确认后结清1500元。",
+      "sourceChapter": 7,
+      "evidence": "七、项目一口价三千元，首付一千五启动，初稿确认结清余款一千五，含一次本号商业发布。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0124",
+      "kind": "商业沟通",
+      "statement": "赵老板语音提出先免费发布一篇，若效果好，下月大学城第二家分店的全案宣传都交给许成，并承诺以后长期合作。",
+      "sourceChapter": 7,
+      "evidence": "这样，你先免费给我上一篇，看看能带过来多少车队和工人。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0125",
+      "kind": "商业沟通",
+      "statement": "许成拒绝免费试做，坚持以3000元、首付1500元、交稿确认后结清余款为条件，否则不耽误赵老板做生意。",
+      "sourceChapter": 7,
+      "evidence": "我这边三千块不讲价，首付一千五启动，交稿确认结清余款。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0126",
+      "kind": "现实证据",
+      "statement": "杜勇称小唐按许成写的夜班路线走，实际省了二十分钟，并在车间逢人就讲；杜勇本人当日22:30交接班，询问许成今晚是否继续跑线。",
+      "sourceChapter": 7,
+      "evidence": "昨晚那条路神了，我们车间小唐今天逢人就说按你写的走，硬是省了二十分钟。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0127",
+      "kind": "人物交易",
+      "statement": "许成约杜勇19:30在南门转角报刊亭会合，请他陪同到老街夜宵铺做两个多小时的现场实测、停车与步数记录，按300元结算；费用从客户预付款成本支出，项目黄了也由许成承担前期调研费。",
+      "sourceChapter": 7,
+      "evidence": "七点半，南门转角那个报刊亭见。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0128",
+      "kind": "现场证据",
+      "statement": "老街夜宵铺藏在南门往西背街，门头被一块两米多高、写有“二十四小时补胎电焊”的大红铁牌挡住，生客很难发现。",
+      "sourceChapter": 7,
+      "evidence": "顺着路走，先看到的是一块写着“二十四小时补胎电焊”字样的大红铁牌，足有两米多高，横在人行道边上。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0129",
+      "kind": "人物关系",
+      "statement": "挡住门店招牌的修车铺老板是赵老板表舅的小舅子，地皮也属于对方，赵老板因此无法直接要求挪走铁牌。",
+      "sourceChapter": 7,
+      "evidence": "赵老板自己点上，吸了一大口，烟雾在冷空气里散开：“没办法，那修车铺老板是我表舅的小舅子，地皮也是人家的，我能说什么？",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0130",
+      "kind": "现场证据",
+      "statement": "老街夜宵铺面积不大，外头摆四张桌、里头摆两张桌，门口架着一直熬骨汤的大铁锅。",
+      "sourceChapter": 7,
+      "evidence": "店面不大，六张油腻的仿木纹桌子，外头摆了四张，里头两张。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0131",
+      "kind": "现实证据",
+      "statement": "赵老板更正营业时间：冬季若2:30以后连续半小时没客，他就会熄火休息，一般最晚撑到约4点，并非私信所称营业至5点。",
+      "sourceChapter": 7,
+      "evidence": "要是两点半以后连着半小时没客，我就熄火睡了。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0132",
+      "kind": "现实证据",
+      "statement": "菜单上的砂锅米线为12元一锅，晚上不加价，配雪菜肉沫和炸花生，分量按塑封菜单执行。",
+      "sourceChapter": 7,
+      "evidence": "赵老板从柜台底下抽出塑封菜单，指了指砂锅米线那栏：“十二块一锅，晚上不加价。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0133",
+      "kind": "人物交易",
+      "statement": "赵老板当场签下两份简易协议，接受3000元总价、首付1500元、交稿确认后结清1500元，约定明晚交初稿、后天发布，并接受修改次数、素材授权和商业推广标识等条件。",
+      "sourceChapter": 7,
+      "evidence": "赵老板抓起圆珠笔，在两份纸上歪歪扭扭签上自己的名字，“要是发了稿三天内连十个人都引不来，许工，我可要找你说道说道的！”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0134",
+      "kind": "财务事实",
+      "statement": "收到1500元首款后，许成微信钱包可用余额变为7940元；他查看银行余额未变，工资短信最近仍是月初那笔部分发放。",
+      "sourceChapter": 7,
+      "evidence": "可用余额变成了七千九百四十块。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0135",
+      "kind": "素材与路线",
+      "statement": "杜勇和许成补拍补胎铁牌与巷口入口的对比图，并确定路线提示为认准补胎牌、从牌子右边的水泥岔口往里走十五步。",
+      "sourceChapter": 7,
+      "evidence": "杜勇指着那块挡路的大红牌子，“一定要告诉大家，认准这块补胎牌子，从牌子右边的水泥岔口往里走十五步，就是夜宵铺。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0136",
+      "kind": "人物行动",
+      "statement": "拍摄进店司机时，小蓝提醒避开正脸；许成只拍了司机埋头吃粉的背影和砂锅热气。",
+      "sourceChapter": 7,
+      "evidence": "几个跑夜车的司机进店吃粉，我想拍个全景，小蓝立刻在耳边提醒：“避开正脸，拍背影。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0137",
+      "kind": "人物行动",
+      "statement": "凌晨1:15，许成完成初稿并生成预览链接发给赵老板，图片和文字按路线、出餐、价格、优惠及实际营业时间重新编排。",
+      "sourceChapter": 7,
+      "evidence": "敲完最后一个字，时间已经是凌晨一点十五分。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0138",
+      "kind": "合同履约",
+      "statement": "赵老板语音认可初稿，只要求后天发布，没有按照协议主动提出结清尾款1500元；许成判断必须在发稿前催款，否则会变成糊涂账。",
+      "sourceChapter": 7,
+      "evidence": "行，明天中午我让我堂弟帮我打印两张‘凭文章送卤蛋’的纸贴墙上，你后天发吧！”",
+      "status": "superseded",
+      "supersededBy": "F-0158"
+    },
+    {
+      "id": "F-0139",
+      "kind": "工作任务",
+      "statement": "次日8:30许成还有王文洁主持的智慧水务接口例会，若迟到或拿不出改好的排期表，会被她当众追问。",
+      "sourceChapter": 7,
+      "evidence": "八点半，公司还有王经理主持的智慧水务接口例会。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0140",
+      "kind": "商业威胁",
+      "statement": "陈骏在本地自媒体交流群征集临江工农路和南门老街的深夜餐饮资源，称“临江潮生活”下周要做全城深夜食堂盘点，有资源者私聊并带茶水费。",
+      "sourceChapter": 7,
+      "evidence": "‘临江潮生活’下周推一期‘全城深夜食堂大盘点’，重点推几家老店，有资源的私聊，带茶水费。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0141",
+      "kind": "现实后果",
+      "statement": "杜勇称陈骏的大号把防汛堤写成正常通行，害得几个跑网约车的陷进泥巴地里；许成据此知道陈骏的错误路线信息已造成实际损失。",
+      "sourceChapter": 7,
+      "evidence": "昨晚防汛堤那边堵路，陈骏那个大号写着正常通行，害得几个跑网约车的陷进泥巴地里。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0142",
+      "kind": "人物承诺",
+      "statement": "赵老板答应次日一早找表舅，把挡门头的补胎铁牌向马路内侧挪半米，以便大路上能看见跑马灯黄光。",
+      "sourceChapter": 7,
+      "evidence": "赵老板在旁边看着我们拍，搓着手应承：“行，明早我就去说，给他送两包软白沙！”",
+      "status": "superseded",
+      "supersededBy": "F-0156"
+    },
+    {
+      "id": "F-0143",
+      "kind": "工作任务",
+      "statement": "早间智慧水务接口例会要求许成当天15:30前拿出联调环境通联结果；原因是南桥北引桥下排污管施工导致设备箱移位，遥测终端多出十六进制校验位，后端解析脚本报错，且次日水务客户要看实时水质走线。",
+      "sourceChapter": 8,
+      "evidence": "三点半必须给我看通联结果，客户随时可能把测试数据提前推进来。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0144",
+      "kind": "工作现实",
+      "statement": "许成先解决校验位与正则解析，又补齐控制字符过滤；18:40终端测试全部通过，王文洁停止当晚改分支，并安排次日9:30客户现场连线。",
+      "sourceChapter": 8,
+      "evidence": "排查、改正则、跑单元测试，一直折腾到傍晚六点四十分，终端屏幕上才跳出全部绿色的通过日志。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0145",
+      "kind": "现实证据",
+      "statement": "临江潮生活于11:40抢先发布《南门夜归全攻略：南桥通车，老街深夜食堂热气腾腾！》，不到中午阅读已近两千，引用上周五市政通报后直接接南门老街夜班路线，列出四五家深夜餐饮店，并把老街夜宵铺砂锅米线12元排在第二，配图是网扒的模糊街景。",
+      "sourceChapter": 8,
+      "evidence": "发文时间是上午十一点四十分，阅读量已经往两千上窜。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0146",
+      "kind": "宣传内容",
+      "statement": "陈骏该文第三段宣称南桥改造圆满竣工、双向四车道平整通畅、桥头路灯通明，并称桥头二十四小时便利店和中石化加油站全天候补给，直行可畅达老街。",
+      "sourceChapter": 8,
+      "evidence": "“……南桥改造工程圆满竣工，双向四车道平整通畅，桥头路灯通明。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0147",
+      "kind": "商业沟通",
+      "statement": "一名自称潮生活业务员的人加赵老板微信，称下期大盘点只要500元茶水费，就能把店名加粗置顶并附带大众点评跳转链接。",
+      "sourceChapter": 8,
+      "evidence": "刚才还有个自称潮生活业务员的加我微信，说下期大盘点只要出五百块茶水费，就能把我的店名加粗置顶，还附带大众点评的跳转链接！”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0148",
+      "kind": "商业沟通",
+      "statement": "赵老板到店后又说，潮生活业务员再次联系他，称美食续集最后留一个置顶位，只要掏500元就能把老街夜宵铺排在第一个。",
+      "sourceChapter": 8,
+      "evidence": "刚才陈骏那个业务员又给我发信息了，说最后留一个置顶位，只要我掏五百块钱，明天的‘美食续集’就把我排在第一个。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0149",
+      "kind": "商业威胁",
+      "statement": "赵老板因陈骏抢发和阅读量压力，要求许成当晚拿出与陈骏不同的内容，否则要重新考虑已签合同；许成承诺当晚给文章，拿不出新东西任赵老板掂量。",
+      "sourceChapter": 8,
+      "evidence": "今晚你要是拿不出跟大号不一样的东西，咱昨天签的那份字，我可得重新掂量掂量！”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0150",
+      "kind": "人物判断",
+      "statement": "小蓝通过市政通报中的调试阶段与陈骏后文的路灯通明相矛盾，并结合王文洁所述桥下施工，判断陈骏没去桥头核过，至少那几句不是现场所见。",
+      "sourceChapter": 8,
+      "evidence": "他要是真按自己写的路线走过一趟，不会把没通电的灯写成路灯通明。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0151",
+      "kind": "现场证据",
+      "statement": "19:20南桥现场高杆灯已立但灯头裹防尘膜、未接电线；主桥入口被水马和水泥墩堵住大半幅，仅剩不足两米便道，路面泥坑碎石，并立有桥面未验收、减速绕行的铁牌。",
+      "sourceChapter": 8,
+      "evidence": "桥两侧的高杆路灯确实立起来了，但上面的灯头全裹着厚厚的白色防尘塑料薄膜，根本没有接通电线。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0152",
+      "kind": "现场证据",
+      "statement": "桥头所谓二十四小时便利店卷帘门拉下一大半，告示店面转让、夜间暂停、7:00至23:00营业；中石化加油站因管道抢修拉警戒带，夜间暂停加油与进站，值班室无人。",
+      "sourceChapter": 8,
+      "evidence": "旁边紧挨着的中石化加油站更绝，进站口直接拉了两道反光警戒带，立着一块铁牌：“管道抢修，夜间暂停加油与进站”。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0153",
+      "kind": "现实证据",
+      "statement": "杜勇称前一晚西仓一名送货伙计在南桥烂泥坑滑翻车，膝盖擦掉一大块皮。",
+      "sourceChapter": 8,
+      "evidence": "昨晚我们西仓有个送货的伙计，就是在这烂泥坑里滑翻了车，膝盖蹭掉一大块皮！”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0154",
+      "kind": "人物行动",
+      "statement": "许成从19:28起用拍照水印拍摄南桥引桥全景、水泥墩泥地、便利店停业告示和加油站警戒线，记录现场证据。",
+      "sourceChapter": 8,
+      "evidence": "迎着江风，我先拍下引桥全景，时间戳亮着七点二十八分，背景里路灯裹着的塑料薄膜被车灯一晃，反着惨白的光。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0155",
+      "kind": "人物行动",
+      "statement": "赵老板次日早上未按约去找表舅挪补胎牌，到20:10仍称忙备料没去；许成要求当晚发稿前必须让入口无遮挡，否则读者只会看到补胎铺。",
+      "sourceChapter": 8,
+      "evidence": "赵老板愣了一下，脸上有些挂不住：“那……那是我表舅小舅子的地盘，白天我忙着备料，还没顾上去说……”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0156",
+      "kind": "现场证据",
+      "statement": "赵老板当晚亲手将专业补胎打气铁皮招牌向墙根推进一尺半并卡在排水管后，窄巷和店内红灯笼从马路可见；许成补拍无遮挡入口照。",
+      "sourceChapter": 8,
+      "evidence": "赵老板憋足了劲，硬是把沉重的大铁牌向里侧凹陷的墙根推进去了一尺半，死死卡在排水管后头。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0157",
+      "kind": "现实证据",
+      "statement": "B稿定题为《避坑提醒：南桥路灯未通、半幅封闭！深夜回南门请走便道（附老街砂锅入口实拍）》，内容包括封路避坑、泥地绕行、补给纠错和入口地标，并标注合作声明、凭文送卤蛋、便利店23时后歇业、加油站暂停及夜宵铺供至2:30。",
+      "sourceChapter": 8,
+      "evidence": "标题定下：《避坑提醒：南桥路灯未通、半幅封闭！",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0158",
+      "kind": "现实证据",
+      "statement": "B稿于22:10正式群发推送。",
+      "sourceChapter": 8,
+      "evidence": "晚上十点十分。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0159",
+      "kind": "现实证据",
+      "statement": "次晨B稿阅读量已超过520，留言区多为夜班工人询问老街夜宵铺具体收摊时间。",
+      "sourceChapter": 8,
+      "evidence": "昨晚十点多发出的那篇避坑指南，阅读量已经冲到了五百二十多，留言区里全是夜班工人的回复，还有好几个询问老街那家米线具体几点收摊。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0160",
+      "kind": "读者反馈",
+      "statement": "陈骏文章评论区翻车，热评称按其路线走南桥差点撞水泥墩、车胎扎钉、灯未亮、路封着、便利店和加油站关门、推车三公里，并推荐临江杂谈的实景避坑稿。",
+      "sourceChapter": 8,
+      "evidence": "昨晚老子听你的走南桥，黑灯瞎火差点撞水泥墩子上！",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0161",
+      "kind": "商业结果",
+      "statement": "次晨两名附近机械厂蓝装夜班工人拿着B稿到老街夜宵铺吃砂锅米线并问送卤蛋；赵老板语音称这一轮算许成成了。",
+      "sourceChapter": 8,
+      "evidence": "照片是在店里拍的，晨光透过门帘照进来，两个穿着附近机械厂蓝色工装的小伙子正坐在桌前，手里捧着热气腾腾的砂锅米线，碗边各放着一枚剥了壳的卤蛋。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0162",
+      "kind": "合同履约",
+      "statement": "赵老板口头称第一轮验收算过，却以只来两人、需看卤蛋送出多少和盘账为由，未在当天支付1500元尾款，只承诺明早对账后转账。",
+      "sourceChapter": 8,
+      "evidence": "口头说第一轮验收算过了，但一千五百块尾款，到底还是没在当天打过来。",
+      "status": "superseded",
+      "supersededBy": "F-0169"
+    },
+    {
+      "id": "F-0163",
+      "kind": "商业沟通",
+      "statement": "后台陌生读者头像为汽配零件，询问是否接南门汽配城周边路线和图文推广及收费。",
+      "sourceChapter": 8,
+      "evidence": "“您好，请问接南门汽配城周边的路线和图文推广吗？",
+      "status": "superseded",
+      "supersededBy": "F-0175"
+    },
+    {
+      "id": "F-0164",
+      "kind": "工作威胁",
+      "statement": "章末王文洁来电称水厂客户提前半小时到，要求许成十分钟后进会议室联调。",
+      "sourceChapter": 8,
+      "evidence": "水厂的客户提前半小时到了，十分钟后进会议室联调。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0165",
+      "kind": "人物关系",
+      "statement": "杜勇当晚在仓库外吃炒面、10:30交接夜班，答应二十分钟到南桥补漏核验；许成再次确认该趟算入老街项目，等尾款到账后连同此前300元转给他。",
+      "sourceChapter": 8,
+      "evidence": "杜勇的声音还带着沙哑，“十点半交接夜班，咋了？”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0166",
+      "kind": "人物建议",
+      "statement": "小蓝为B稿排出四段结构：先放南桥封路实况并直接亮避坑，再写泥地绕行，第三段纠错补给，第四段用挪牌后的老街入口做地标，最后更正营业时间。",
+      "sourceChapter": 8,
+      "evidence": "小蓝坐在屏幕右上角，伸手一划，把拍好的实景图排成一组对比流：“第一段放南桥封路实况，标题直接亮避坑；第二段放便道泥地绕行路线；第三段做补给纠错，把便利店十一点关门和加油站停摆写死，提醒工友在厂区带好热水；第四段接老街入口，用刚才挪开牌子的实景图做地标；最后加营业时间更正，夜宵铺备料供应至凌晨两点半。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0167",
+      "kind": "工作现实",
+      "statement": "第9章联调中，水厂三号出水井数据流全为红色告警、HTTP状态码三行500；根因是水厂机房今早临时升级安全网关，跨域请求头缺少租户标识符，被其安全设备熔断，并非接口程序报错。",
+      "sourceChapter": 9,
+      "evidence": "我把断点直接挂在网关鉴权那一层，插了两行调试代码，控制台立刻吐出一行被拦截的报文：对方机房今早临时升级了安全网关，跨域请求头里少配了一个租户标识符。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0168",
+      "kind": "工作结果",
+      "statement": "老周联系机房后三分钟下发白名单字段策略，告警灯全部转绿；王文洁当场认可许成排查稳妥，并宣布按计划走验收流程。",
+      "sourceChapter": 9,
+      "evidence": "三分钟后，策略下发，屏幕上的告警灯一排接一排跳成了绿色。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0169",
+      "kind": "财务与履约",
+      "statement": "10:28赵建国向许成微信转账1500元，附言“砂锅店图文尾款结清”；上午会于10:40结束，老街3000元合同至此全额收齐。",
+      "sourceChapter": 9,
+      "evidence": "“微信转账到账通知：收到赵建国转账1500.00元。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0170",
+      "kind": "商业结果",
+      "statement": "赵老板盘账称一早上来了四拨夜班工人，连隔壁机械厂倒班焊工也来询问卤蛋，九点前一锅卤蛋售罄，说明文章实际带来到店客流。",
+      "sourceChapter": 9,
+      "evidence": "今早我们盘了盘流水，好家伙，一早上来了四拨夜班工人，连隔壁机械厂倒班的焊工都摸过来了！",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0171",
+      "kind": "商业沟通",
+      "statement": "赵老板的表舅认为文章写南桥施工泥烂、路灯未通会让老街像黑煤窑，要求删掉泥路段并在店名后加“每天限量五十个蛋”；赵老板还责怪许成未早说这是第一单商业文案，最终指示中午只补限量提示、其他别乱动。",
+      "sourceChapter": 9,
+      "evidence": "中午先只补限量那句，别的别乱动。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0172",
+      "kind": "平台规则",
+      "statement": "“临江杂谈”已发图文的网页修改入口只允许改标题和文末少数文字，正文段落点不进去，也没有重发和换图按钮，导致赵老板要求的删除泥路段无法直接执行。",
+      "sourceChapter": 9,
+      "evidence": "修改页上只有标题栏和文末几处文字能点。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0173",
+      "kind": "人物行动",
+      "statement": "许成在店铺营业时间后添加“【注：卤蛋每日限量，售完即止】”，提交成功并把刷新后的截图发给赵老板，赵老板回以大拇指。",
+      "sourceChapter": 9,
+      "evidence": "我又刷新了一遍文章页面，新增提示已经显示在店铺营业时间后面。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0174",
+      "kind": "商业规则",
+      "statement": "许成将旧报价“基础图文合作，1000—2000元”替换为《临江杂谈商户服务标准V1.0》：800元基础整理不到场、不承诺转化；2000元含夜间实地路线核验和图文指引；4500元起做商圈节点连带推广与多期追踪，不承诺全网爆量。",
+      "sourceChapter": 9,
+      "evidence": "我依照小蓝的口吻把文档逐条敲定，保存为《临江杂谈商户服务标准V1.0》。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0175",
+      "kind": "商业沟通",
+      "statement": "南门汽配城老杨经营夜间货车流动补胎和电路抢修；夜班大货车常在南环线趴窝，司机分不清哪些修车铺通宵有人，因此请许成做周边路线和店铺指引并询问费用及最快发布时间。",
+      "sourceChapter": 9,
+      "evidence": "我们是在南门汽配城做夜间货车流动补胎和电路抢修的，夜班大货车经常在南环线上趴窝，司机根本摸不清我们这几个修车铺哪个通宵有人。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0176",
+      "kind": "商业报价",
+      "statement": "许成向老杨给出两档：商家自行提供位置、电话和工位照片并在资质核验后排版发布为800元；下班后实地跑夜间货车进出路线、标注施工断头路和通宵救援点并配实拍为2000元，且因全职工作实测须提前两天预约。",
+      "sourceChapter": 9,
+      "evidence": "由于白天有全职工作，实测必须提前两天预约排期。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0177",
+      "kind": "人物交易",
+      "statement": "老杨接受2000元实地档并要求许成到现场，提议次日晚上八点后见面；许成把见面定在“后天晚上八点半，汽配城东门”。",
+      "sourceChapter": 9,
+      "evidence": "我敲下回复：“后天晚上八点半，汽配城东门见。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0178",
+      "kind": "人物交易",
+      "statement": "许成用微信转给杜勇300元，备注“南桥现场核验劳务”；杜勇确认收款并说原以为这笔钱会拖到赵老板月底盘账。",
+      "sourceChapter": 9,
+      "evidence": "我掏出手机点开微信，调出转账界面，输入300元，备注写上“南桥现场核验劳务”，直接发了过去。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0179",
+      "kind": "现实证据",
+      "statement": "杜勇所在仓库的货车都在南门汽配城保养；他说南环路那截路灯比南桥还暗，路上有渣土车掉落的碎石子，并主动提出后天晚上骑电瓶车带许成认路。",
+      "sourceChapter": 9,
+      "evidence": "南环路那半截路灯比南桥还瞎，路上全是拉渣土的大车掉下来的碎石子。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0180",
+      "kind": "财务事实",
+      "statement": "许成核算老街首单：合同3000元全额收齐，扣除杜勇300元劳务及300元踩点拍照交通杂费后净落袋2400元，个人账户可用余额稳定在9140元。",
+      "sourceChapter": 9,
+      "evidence": "目前个人账户可用余额稳定在9140元。",
+      "status": "superseded",
+      "supersededBy": "F-0191"
+    },
+    {
+      "id": "F-0181",
+      "kind": "家庭财务压力",
+      "statement": "许成必须在第二十六天寄回家12000元，按当前9140元可用余额仍缺2860元；公司未发齐的工资没有准信，这笔钱不能乱花。",
+      "sourceChapter": 9,
+      "evidence": "但离第二十六天必须寄回家的12000元家庭转款，还差着两千八百六十块的硬缺口。",
+      "status": "superseded",
+      "supersededBy": "F-0191"
+    },
+    {
+      "id": "F-0182",
+      "kind": "家庭财务",
+      "statement": "周敏告诉许成，下个月老家房贷5800元，加上全家开销，家庭硬性支出是12000元。",
+      "sourceChapter": 9,
+      "evidence": "下个月老家房贷五千八，加上全家开销，硬杠杠是一万二。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0183",
+      "kind": "人物约束",
+      "statement": "周敏要求许成副业一周最多抽两个晚上，不能影响正职，否则会因小失大；许成同意今晚不出门并整理接口文档。",
+      "sourceChapter": 9,
+      "evidence": "你的正职千万不能出差错，副业一周最多只能抽两晚上，真要是把工作耽误了被公司抓到把柄，因小失大！”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0184",
+      "kind": "工作任务",
+      "statement": "周二通话后许成重过接口文档，周三公司临时加联调，他九点后才回出租屋，十点十分才坐到桌前。",
+      "sourceChapter": 9,
+      "evidence": "第二天公司临时加了一场联调，回到家已经过了九点。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0185",
+      "kind": "商业威胁",
+      "statement": "公司部门群公告称下月起启动本地数字化商户名录，南门片区由陈骏牵头并先整理重点商户走访名单；陈骏当晚宣布明早九点带商务组去南门汽配城落实首批入驻协议，争取一周内签完优质商户。",
+      "sourceChapter": 9,
+      "evidence": "“各位同事，明天上午九点，我带商务组去南门汽配城走访重点汽修商户，落实本地数字化名录的首批入驻协议。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0186",
+      "kind": "商业名单",
+      "statement": "陈骏发布的走访名单第三行列出“临江市南门汽配城宏达货车流动救援中心，负责人，杨长发”，与许成约见的老杨直接重合。",
+      "sourceChapter": 9,
+      "evidence": "临江市南门汽配城宏达货车流动救援中心，负责人，杨长发。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0187",
+      "kind": "现实证据",
+      "statement": "陈骏在茶水间称许成昨晚那篇避坑稿公开阅读数已冲到八百多，并将其增长归因于南桥施工时间差；许成查看读者追问收摊时间的留言，但未向陈骏展示收入。",
+      "sourceChapter": 9,
+      "evidence": "陈骏压低了嗓门，语气里带着点漫不经心的调侃，“不过我今天早上点开那个公众号的公开页面看了一眼，你昨晚那篇的阅读数已经冲到八百多了？”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0188",
+      "kind": "现场反馈",
+      "statement": "部门群“现场反馈”称南桥施工点当天上午加焊铁皮挡板，便道已封，行人须绕北口。",
+      "sourceChapter": 9,
+      "evidence": "“南桥施工点今天上午加焊铁皮挡板，便道已封，行人绕北口。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0189",
+      "kind": "工作任务",
+      "statement": "组长在群内通知，次日上午八点半项目组到二楼会议室开复盘会，每人须先打印接口补充文档并在进会议室时交给王经理，不得迟到。",
+      "sourceChapter": 10,
+      "evidence": "各自的接口补充文档打印好，进会议室先交给王经理，不得迟到。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0190",
+      "kind": "财务事实",
+      "statement": "房东老魏要求许成本月房租1600元、上月水电100元，共1700元；许成已通过微信指纹转账付清。",
+      "sourceChapter": 10,
+      "evidence": "我点开语音，老魏那口临江普通话从听筒里挤出来：“小许，本月房租一千六，上个月水电按表走是一百整，一共一千七。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0191",
+      "kind": "财务事实",
+      "statement": "付给老魏1700元后，许成建设银行卡活期余额由9140元降至7440元；距第二十六天向家转12000元还差4560元。",
+      "sourceChapter": 10,
+      "evidence": "现在建行卡里净剩七千四百四十。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0192",
+      "kind": "家庭财务",
+      "statement": "许成的孩子然然下个月读小学二年级，秋季班与托管费是家庭下一笔固定支出。",
+      "sourceChapter": 10,
+      "evidence": "老家按揭房每月五千八，银行自动扣，少一分征信都亮红灯；然然下个月读小学二年级的秋季班和托管费摆在那儿。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0193",
+      "kind": "人物关系",
+      "statement": "许成与杜勇曾合租，两轻一重的敲门节奏是两人合租时留下的暗号。",
+      "sourceChapter": 10,
+      "evidence": "先是轻磕两下，接着重重敲了一下，这是我和杜勇合租时留下的暗号。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0194",
+      "kind": "现实证据",
+      "statement": "赵老板委托杜勇带给许成一张收款收据，写明收到网络推广技术服务费3000元，盖有模糊的个体户印油戳和红手印。",
+      "sourceChapter": 10,
+      "evidence": "最普通的收款收据本上撕下来的单联，蓝黑墨水写得歪歪扭扭：“收到许成网络推广技术服务费叁仟元整。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0195",
+      "kind": "人物处境",
+      "statement": "杜勇把许成刚转给他的300元工钱存进父亲买药的银行卡。",
+      "sourceChapter": 10,
+      "evidence": "“你刚才转我的三百块工钱，我存我爸买药那张卡里了。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0196",
+      "kind": "人物处境",
+      "statement": "杨长发手下有七八台救援车，脾气冲得很。",
+      "sourceChapter": 10,
+      "evidence": "杨长发手底下有七八台救援车，脾气冲得很。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0197",
+      "kind": "现场环境",
+      "statement": "南门汽配城占地几百亩，夜里路灯很少，杜勇认为许成夜里进去会分不清方向。",
+      "sourceChapter": 10,
+      "evidence": "汽配城那片占地几百亩，路灯都没几盏，夜里进去连东西南北都分不清。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0198",
+      "kind": "商业威胁",
+      "statement": "杜勇在路口打印店看见陈骏与两名穿西装的人印制大量数字化入驻方案，并听他们说先找杨长发和几家大汽修厂把协议签死。",
+      "sourceChapter": 10,
+      "evidence": "不过有件事我得提醒你，刚才在楼下，我碰见你们公司那个姓陈的商务了，还有两个穿西装的，在路口打印店印了一大摞什么数字化入驻方案。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0199",
+      "kind": "人物交易",
+      "statement": "杜勇答应明晚下白班后骑电瓶车带许成进汽配城，双方约定明晚19:40在南门汽配城东门废加油站旁会合；许成承诺按之前说好的另结工时费。",
+      "sourceChapter": 10,
+      "evidence": "杜勇站起身，拍了拍裤腿上的灰，“明晚七点四十，我在南门汽配城东门那个废加油站旁边等你。”",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0200",
+      "kind": "作品数据",
+      "statement": "公众号后台显示《临江夜班人的归家路与深夜热汤》已发布满48小时，累计阅读24600，当前账号总关注2860。",
+      "sourceChapter": 10,
+      "evidence": "【48小时累计阅读次数：24,600】",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0201",
+      "kind": "平台收入",
+      "statement": "流量主申请已过审，底部广告位开通；昨日广告曝光18420次，预估收益38.62元。",
+      "sourceChapter": 10,
+      "evidence": "【昨日广告曝光量：18,420】",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0202",
+      "kind": "人物判断",
+      "statement": "小蓝判断文章峰值已过，长尾流量仍在，但未来24小时新增阅读不会超过2000。",
+      "sourceChapter": 10,
+      "evidence": "长尾流量还在走，但二十四小时内新增阅读不会超过两千。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0203",
+      "kind": "商业线索",
+      "statement": "公众号消息列表已积压几十条未读留言，其中8条是谈生意的私信。",
+      "sourceChapter": 10,
+      "evidence": "有读者打卡，有报路况的，还有八条是来谈生意的。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0204",
+      "kind": "商业线索",
+      "statement": "顺通重卡配件维修在南门汽配城中区有2000平方米大车维修车间，专做重卡底盘和发动机大修、24小时夜间救援，希望被列进下一篇路线推荐，预算可谈，并约许成次日上午10点去店详谈。",
+      "sourceChapter": 10,
+      "evidence": "他们在南门汽配城中区有两千平方米的大车维修车间，专做重卡底盘和发动机大修，夜间救援二十四小时通宵，想在下一篇路线里被列为推荐站点，预算好商量，希望明天上午十点去店里详谈。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0205",
+      "kind": "商业线索",
+      "statement": "一家开在南门附近的洗车加气站询问包月推广怎么算、能否留电话；许成先问对方要推单次活动还是长期到店。",
+      "sourceChapter": 10,
+      "evidence": "第二条是一家开在南门附近的洗车加气站，问包月推广怎么算，能不能留电话。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0206",
+      "kind": "人物约束",
+      "statement": "周敏认可3000元尾款全额收回说明公众号确实有动静，但仍说这笔钱连一个月工资都顶不上；她明确每月缴纳的社保公积金是全家的底线，要求许成正常打卡，且不要把未签合同、未到账的虚数放进心里。",
+      "sourceChapter": 10,
+      "evidence": "你明天还得正常打卡上班，水厂那个项目公司虽然拖着工资，但每个月社保公积金还在交，这是全家的底线。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0207",
+      "kind": "商业沟通",
+      "statement": "许成告诉顺通10点无法到店，提出今晚9点后电话或明晚现场看路线和车间；顺通要求他今晚8:30到店，称负责人9:30离开，且次日上午已约别的团队。",
+      "sourceChapter": 10,
+      "evidence": "你要真有诚意，八点半到店，先看车流和夜班交接。",
+      "status": "active",
+      "supersededBy": null
+    },
+    {
+      "id": "F-0208",
+      "kind": "人物行动",
+      "statement": "因顺通与老杨都把关键时间卡在8:30，许成给老杨发消息称自己7:50到东门、询问能否提前，老杨一直没有回复；顺通对话框仍显示对方正在输入。",
+      "sourceChapter": 10,
+      "evidence": "我先给老杨发了一句：“我七点五十到东门，能不能提前？”",
+      "status": "active",
+      "supersededBy": null
+    }
+  ],
+  "historicalDraftFacts": "旧版中的213粉旧号、停更、旧读者等设定不属于当前正典"
+}
