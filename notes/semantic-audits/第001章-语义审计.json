@@ -549,7 +549,7 @@
   },
   "auditPhase": "retrospective",
   "evidenceVersion": 1,
-  "auditId": "106a1ea9-b5ec-4706-b766-9df1368c82eb",
+  "auditId": "1afe86f6-e96c-4a3a-8d9b-12c69130741d",
   "inputSnapshot": {
     "version": 1,
     "auditedChapter": 1,
@@ -578,7 +578,7 @@
       {
         "role": "knowledge",
         "path": "notes/knowledge-matrix.json",
-        "sha256": "4b4f34fb8b8b7b36074d89b43e66719e23bb057a15ea8b429b3e81230a3c28ff"
+        "sha256": "5c9dab895da78a9d636cdba79d8223ee591ea3634b9704cfb6a194de87c4444e"
       },
       {
         "role": "standard",
@@ -602,9 +602,9 @@
       }
     ]
   },
-  "inputSha256": "901f09bdc63d5e88a036a54f0ce3ad2e40b501f6061a3c41ce7f79361d83a3da",
+  "inputSha256": "4933a320a6e56a45343fba813cc176bf7cd0e1aee7fe4554fae785756641f7e3",
   "bodySha256": "ea61d7ff75efc7e6774e796595892efbf0651ebb178bd9a72721d5dceb590ada",
-  "auditedAt": "2026-10-05T00:06:09.620Z",
+  "auditedAt": "2026-10-06T04:35:35.337Z",
   "auditedChapter": 1,
   "window": [
     1,
@@ -724,11 +724,11 @@
   "auditProtocol": {
     "version": 2,
     "validatorSha256": "24c29463dcee1b2e071a79c6460bc8226982b84fae5b7141c9d6c50a9ff3273d",
-    "recordSha256": "83f7d30806cb858ecb1b69f04437c3763d0707a8dc84cf0dc3e2888ff7dea72f",
+    "recordSha256": "ea7d51f1e70d93f1f40d74c4b27383c0554a2c940d8e12bbc5c481804bed7d69",
     "modelCalls": 0,
     "protocolRepairs": 0,
     "source": "existing-report",
-    "sourceReportSha256": "783906fb6413a3c3de8f96e55257f9d5cfe1d57d0ff3280d50235d41e36cbff0",
+    "sourceReportSha256": "3a64cc7cb839e027abdea7fe026cf9931eef765cd4123815f401c20bf0f308bc",
     "reuse": {
       "kind": "inputs-outside-chapter",
       "reason": "本章正文、人物档案与写作规范都没变，只有邻章或知情矩阵变了"

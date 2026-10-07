@@ -247,8 +247,8 @@
             2
           ],
           "auditPhase": "retrospective",
-          "inputSha256": "901f09bdc63d5e88a036a54f0ce3ad2e40b501f6061a3c41ce7f79361d83a3da",
-          "auditId": "106a1ea9-b5ec-4706-b766-9df1368c82eb",
+          "inputSha256": "4933a320a6e56a45343fba813cc176bf7cd0e1aee7fe4554fae785756641f7e3",
+          "auditId": "1afe86f6-e96c-4a3a-8d9b-12c69130741d",
           "reportPath": "notes/semantic-audits/第001章-语义审计.json",
           "verdict": "pass"
         }
@@ -301,7 +301,7 @@
       "volumeNumber": 1,
       "title": "阅读没涨，群里先热闹起来了",
       "filePath": "chapters/第002章 阅读没涨，群里先热闹起来了.md",
-      "status": "in_progress",
+      "status": "completed",
       "chapterRole": "骗局交付低谷章",
       "readerPayoff": "许成及时停止追加投入，算清课程承诺和实际交付的差距，确认低谷不是因为自己不肯努力。",
       "mustHappen": [
@@ -339,7 +339,7 @@
       "comedyExecution": null,
       "wordCount": 3230,
       "wordCountPass": true,
-      "qualityPass": false,
+      "qualityPass": true,
       "validationRounds": 11,
       "checks": {
         "agentFirstRead": {
@@ -356,10 +356,23 @@
             3
           ],
           "auditPhase": "retrospective",
-          "inputSha256": "61f9867fc418d8fcf12fbda3a1a0cd657258165b5f6506f53c7aa8f57bb6d3d3",
-          "auditId": "b1bde4f3-497f-4a95-b234-93acec927672",
+          "inputSha256": "18d7daa0b7c85e78adfc4f61191931eda005ca6ecf2500a6b08643c982bf0883",
+          "auditId": "1ad1ac80-f3a0-4f54-a6cf-251c277465a1",
           "reportPath": "notes/semantic-audits/第002章-语义审计.json",
           "verdict": "pass"
+        },
+        "scriptExitCodes": {
+          "check_chapter_wordcount": 0,
+          "check_body_format": 0,
+          "check_prose": 0,
+          "check_dialogue_punctuation": 0,
+          "check_style_fingerprint": 0,
+          "check_semantic_audit": 0,
+          "check_language_review": 0,
+          "check_agent_first_read": 0,
+          "check_plot_fingerprint": 0,
+          "check_continuity_candidate": 0,
+          "plotFingerprint": 0
         }
       },
       "retrofitReason": "?2026-10-02?????????????????????????15???0??????3999???????????????????",
@@ -410,7 +423,7 @@
       "volumeNumber": 1,
       "title": "头像半夜从屏幕里钻了出来",
       "filePath": "chapters/第003章 头像半夜从屏幕里钻了出来.md",
-      "status": "in_progress",
+      "status": "completed",
       "chapterRole": "小蓝首次登场章",
       "readerPayoff": "许成在最低谷第一次得到无法复制的助攻，拿到可保存、可追问的截图证据，也确认小蓝不是电脑弹窗。",
       "mustHappen": [
@@ -448,8 +461,8 @@
       "comedyExecution": null,
       "wordCount": 3326,
       "wordCountPass": true,
-      "qualityPass": false,
-      "validationRounds": 5,
+      "qualityPass": true,
+      "validationRounds": 7,
       "checks": {
         "agentFirstRead": {
           "mode": "background-free-independent-agent",
@@ -465,31 +478,44 @@
             4
           ],
           "auditPhase": "retrospective",
-          "inputSha256": "01f728d3f50606208c6c1f31142025608f923e26754340d322dacfd4bce18abb",
-          "auditId": "65631eb6-ede6-49ef-9baa-58d504a6008f",
+          "inputSha256": "23157d810da2b9218c96ad2c2790eb3463e0b9bb1bcc42728bf88903814ec81d",
+          "auditId": "3e341fe0-47b7-44d1-80d1-27534aa3efe4",
           "reportPath": "notes/semantic-audits/第003章-语义审计.json",
           "verdict": "pass"
+        },
+        "scriptExitCodes": {
+          "check_chapter_wordcount": 0,
+          "check_body_format": 0,
+          "check_prose": 0,
+          "check_dialogue_punctuation": 0,
+          "check_style_fingerprint": 0,
+          "check_semantic_audit": 0,
+          "check_language_review": 0,
+          "check_agent_first_read": 0,
+          "check_plot_fingerprint": 0,
+          "check_continuity_candidate": 0,
+          "plotFingerprint": 0
         }
       },
       "retrofitReason": "?2026-10-02?????????????????????????????????????????????????????????????????",
       "firstReadStatus": "pass",
       "validationProgress": {
         "version": 1,
-        "bodyDigest": "4dbb762f005db40ba5322ff3c316ff732b996b2c1129759de9ce87b8d362e05c",
-        "blockerFingerprint": "abe5f517ffdb174bad0e3813749a9c26593660738c1f3a08eff3b81eeb3c065d",
+        "bodyDigest": "88843c53eac2084b9c7dceb35c276cee337fabf1906de489ded43f3a0b40e4fa",
+        "blockerFingerprint": "f830b0f7fcf1409592df1e516763e169ca99712ba63b519e2da470bfd70a20da",
         "blockers": [
           {
             "id": "check_semantic_audit",
             "what": "语义审计记录的引用落地与五项覆盖门槛（区分「未发现」与「没去看」）",
             "outcome": "fail",
             "exitCode": 1,
-            "reason": "退出码 1：\n[硬错误]\n- 以下 1 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\n- 阻断项 observations 第1项：判定 fail\ntype: 计划兑现\nquote: “宣传承诺和实际交付不一样。”小蓝说，“你已经发现了，只是不敢把它说完整。”\nnote: 本章叙事安排要求“小蓝指出三张截图的同一划痕、不同身份说明和时间矛盾”，但正文里小蓝只对比了广告页“从零带你走一遍”与群公告“资料上传完成”，三张收益截图的矛盾在本章全文没有出现，也没有任何角色再提；而第4章“今天却在没有解释三张截图的情况下直接同意退款”仍把三张截图当成未解问题，这一章的破绽线因此断了一格。期望：在第3章补一次对小蓝截图矛盾的当面指认，或调整计划把该破绽整体挪到后面并同步改第4章措辞。\nsourceWhere: chapter\nverdict: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n结论：失败，共 2 项硬错误。",
-            "stdout": "==============================================================\r\n语义审计记录检查（只验证记录与引用，不判断小说语义）\r\n==============================================================\r\n被审章节：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\05154270-70a3-432a-b1c4-fea0785ad38b\\stage\\chapters\\第003章 头像半夜从屏幕里钻了出来.md\r\n审计记录：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\05154270-70a3-432a-b1c4-fea0785ad38b\\stage\\notes\\semantic-audits\\第003章-语义审计.json\r\n[已转交阶段校验，本章不阻塞] observations 第3项 → 第4章语义审计与第一卷分卷校验时核对退款提交动作与售后平台回复的先后\r\n\r\n[硬错误]\r\n  - 以下 1 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\r\n  - 阻断项 observations 第1项：判定 fail\r\n  type: 计划兑现\r\n  quote: “宣传承诺和实际交付不一样。”小蓝说，“你已经发现了，只是不敢把它说完整。”\r\n  note: 本章叙事安排要求“小蓝指出三张截图的同一划痕、不同身份说明和时间矛盾”，但正文里小蓝只对比了广告页“从零带你走一遍”与群公告“资料上传完成”，三张收益截图的矛盾在本章全文没有出现，也没有任何角色再提；而第4章“今天却在没有解释三张截图的情况下直接同意退款”仍把三张截图当成未解问题，这一章的破绽线因此断了一格。期望：在第3章补一次对小蓝截图矛盾的当面指认，或调整计划把该破绽整体挪到后面并同步改第4章措辞。\r\n  sourceWhere: chapter\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n\r\n结论：失败，共 2 项硬错误。\r\n",
+            "reason": "退出码 1：\n[硬错误]\n- 以下 2 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\n- 阻断项 minimumChecks.realityRisk：判定 fail\n条目原文: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n- 阻断项 claims 第20项：判定 冲突\ntype: 物理与感知\nquote: 电脑屏幕恢复了原来的亮度。\npriorRef: 本章“屏幕黑了，风扇声也停了。”与“我没答它，把机箱后面的网线也拽了下来。网口的灯灭了。”\nassertion: 小蓝退回头像后电脑屏幕与运行状态恢复\nbasis: 前文已把机箱电源线从插排拔下、网线拽掉并写明“屏幕黑了，风扇声也停了”，此后从未写插回；可“屏幕上确实是我的名字”“我把第三张图放到满屏”“我打开聊天框”都要电脑通电运行，结尾“电脑屏幕恢复了原来的亮度”“出租屋里依旧只有风扇声”与断电状态直接冲突。小蓝按档案“不能碰动物理物品、不受电量影响”也不能替电脑通电。需补一个重新通电的动作，或改写停电叙述。\nverdict: 冲突\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n结论：失败，共 3 项硬错误。",
+            "stdout": "==============================================================\r\n语义审计记录检查（只验证记录与引用，不判断小说语义）\r\n==============================================================\r\n被审章节：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\3344c17b-b6e8-4593-b32b-966ba37c417e\\stage\\chapters\\第003章 头像半夜从屏幕里钻了出来.md\r\n审计记录：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\3344c17b-b6e8-4593-b32b-966ba37c417e\\stage\\notes\\semantic-audits\\第003章-语义审计.json\r\n[已转交阶段校验，本章不阻塞] observations 第5项 → 第一卷分卷校验（核对账号诊断钩子是否已在第4章兑现）\r\n\r\n[硬错误]\r\n  - 以下 2 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\r\n  - 阻断项 minimumChecks.realityRisk：判定 fail\r\n  条目原文: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 claims 第20项：判定 冲突\r\n  type: 物理与感知\r\n  quote: 电脑屏幕恢复了原来的亮度。\r\n  priorRef: 本章“屏幕黑了，风扇声也停了。”与“我没答它，把机箱后面的网线也拽了下来。网口的灯灭了。”\r\n  assertion: 小蓝退回头像后电脑屏幕与运行状态恢复\r\n  basis: 前文已把机箱电源线从插排拔下、网线拽掉并写明“屏幕黑了，风扇声也停了”，此后从未写插回；可“屏幕上确实是我的名字”“我把第三张图放到满屏”“我打开聊天框”都要电脑通电运行，结尾“电脑屏幕恢复了原来的亮度”“出租屋里依旧只有风扇声”与断电状态直接冲突。小蓝按档案“不能碰动物理物品、不受电量影响”也不能替电脑通电。需补一个重新通电的动作，或改写停电叙述。\r\n  verdict: 冲突\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n\r\n结论：失败，共 3 项硬错误。\r\n",
             "stderr": "",
             "argv": [
               "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
               "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_semantic_audit.py",
-              "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\05154270-70a3-432a-b1c4-fea0785ad38b\\stage",
+              "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\3344c17b-b6e8-4593-b32b-966ba37c417e\\stage",
               "--chapter",
               "3"
             ],
@@ -498,52 +524,20 @@
               "argv": [
                 "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
                 "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_semantic_audit.py",
-                "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\05154270-70a3-432a-b1c4-fea0785ad38b\\stage",
+                "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\3344c17b-b6e8-4593-b32b-966ba37c417e\\stage",
                 "--chapter",
                 "3"
               ],
               "exitCode": 1,
-              "stdout": "==============================================================\r\n语义审计记录检查（只验证记录与引用，不判断小说语义）\r\n==============================================================\r\n被审章节：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\05154270-70a3-432a-b1c4-fea0785ad38b\\stage\\chapters\\第003章 头像半夜从屏幕里钻了出来.md\r\n审计记录：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\05154270-70a3-432a-b1c4-fea0785ad38b\\stage\\notes\\semantic-audits\\第003章-语义审计.json\r\n[已转交阶段校验，本章不阻塞] observations 第3项 → 第4章语义审计与第一卷分卷校验时核对退款提交动作与售后平台回复的先后\r\n\r\n[硬错误]\r\n  - 以下 1 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\r\n  - 阻断项 observations 第1项：判定 fail\r\n  type: 计划兑现\r\n  quote: “宣传承诺和实际交付不一样。”小蓝说，“你已经发现了，只是不敢把它说完整。”\r\n  note: 本章叙事安排要求“小蓝指出三张截图的同一划痕、不同身份说明和时间矛盾”，但正文里小蓝只对比了广告页“从零带你走一遍”与群公告“资料上传完成”，三张收益截图的矛盾在本章全文没有出现，也没有任何角色再提；而第4章“今天却在没有解释三张截图的情况下直接同意退款”仍把三张截图当成未解问题，这一章的破绽线因此断了一格。期望：在第3章补一次对小蓝截图矛盾的当面指认，或调整计划把该破绽整体挪到后面并同步改第4章措辞。\r\n  sourceWhere: chapter\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n\r\n结论：失败，共 2 项硬错误。\r\n",
+              "stdout": "==============================================================\r\n语义审计记录检查（只验证记录与引用，不判断小说语义）\r\n==============================================================\r\n被审章节：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\3344c17b-b6e8-4593-b32b-966ba37c417e\\stage\\chapters\\第003章 头像半夜从屏幕里钻了出来.md\r\n审计记录：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\3344c17b-b6e8-4593-b32b-966ba37c417e\\stage\\notes\\semantic-audits\\第003章-语义审计.json\r\n[已转交阶段校验，本章不阻塞] observations 第5项 → 第一卷分卷校验（核对账号诊断钩子是否已在第4章兑现）\r\n\r\n[硬错误]\r\n  - 以下 2 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\r\n  - 阻断项 minimumChecks.realityRisk：判定 fail\r\n  条目原文: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 claims 第20项：判定 冲突\r\n  type: 物理与感知\r\n  quote: 电脑屏幕恢复了原来的亮度。\r\n  priorRef: 本章“屏幕黑了，风扇声也停了。”与“我没答它，把机箱后面的网线也拽了下来。网口的灯灭了。”\r\n  assertion: 小蓝退回头像后电脑屏幕与运行状态恢复\r\n  basis: 前文已把机箱电源线从插排拔下、网线拽掉并写明“屏幕黑了，风扇声也停了”，此后从未写插回；可“屏幕上确实是我的名字”“我把第三张图放到满屏”“我打开聊天框”都要电脑通电运行，结尾“电脑屏幕恢复了原来的亮度”“出租屋里依旧只有风扇声”与断电状态直接冲突。小蓝按档案“不能碰动物理物品、不受电量影响”也不能替电脑通电。需补一个重新通电的动作，或改写停电叙述。\r\n  verdict: 冲突\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n\r\n结论：失败，共 3 项硬错误。\r\n",
               "stderr": "",
               "timedOut": false,
-              "startedAt": "2026-10-04T05:48:39.706Z",
-              "ms": 115
-            }
-          },
-          {
-            "id": "check_language_review",
-            "what": "标点/断句/破折号/翻译腔语义复核：每个候选都有处置，缺失或过期须重建证据",
-            "outcome": "fail",
-            "exitCode": 1,
-            "reason": "退出码 1：\n[硬错误]\n位置：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\05154270-70a3-432a-b1c4-fea0785ad38b\\stage\\notes\\semantic-audits\\第003章-语义审计.json\n语言问题 languageReview.checks.semanticPunctuation：原句 '“基础营具体交付了哪些模块；涨粉和流量主开通的教学安排在哪个文件；如果课程与宣传存在差异，退款规则是什么。”'；依据与修改要求：三个分句都没有母句把它们降格为宾语从句，疑问词语（哪些模块／哪个文件／是什么）各自独立成问；下一段主角正是「把三个问题逐条发给客服」，说明这三句就是待发出的问话，末句收句号把问的语气压平了。改法：逐问收问号——“基础营具体交付了哪些模块？涨粉和流量主开通的教学安排在哪个文件？如果课程与宣传存在差异，退款规则是什么？”若坚持保留分号列举，至少末句「退款规则是什么」必须改成问号。本章其余发问（哪三个？你能看到这里面的内容？那你能做什么？）都已用问号，短白省句号也合规，故本项整体判 fail 仅指向这一处。\n语言问题 languageReview.candidates.L171-e3b9c0c785ab：原句 '“基础营具体交付了哪些模块；涨粉和流量主开通的教学安排在哪个文件；如果课程与宣传存在差异，退款规则是什么。”'；依据与修改要求：B\n期望值：标点、断句、破折号和中文表达符合具体语义\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点",
-            "stdout": "[硬错误]\r\n位置：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\05154270-70a3-432a-b1c4-fea0785ad38b\\stage\\notes\\semantic-audits\\第003章-语义审计.json\r\n语言问题 languageReview.checks.semanticPunctuation：原句 '“基础营具体交付了哪些模块；涨粉和流量主开通的教学安排在哪个文件；如果课程与宣传存在差异，退款规则是什么。”'；依据与修改要求：三个分句都没有母句把它们降格为宾语从句，疑问词语（哪些模块／哪个文件／是什么）各自独立成问；下一段主角正是「把三个问题逐条发给客服」，说明这三句就是待发出的问话，末句收句号把问的语气压平了。改法：逐问收问号——“基础营具体交付了哪些模块？涨粉和流量主开通的教学安排在哪个文件？如果课程与宣传存在差异，退款规则是什么？”若坚持保留分号列举，至少末句「退款规则是什么」必须改成问号。本章其余发问（哪三个？你能看到这里面的内容？那你能做什么？）都已用问号，短白省句号也合规，故本项整体判 fail 仅指向这一处。\r\n语言问题 languageReview.candidates.L171-e3b9c0c785ab：原句 '“基础营具体交付了哪些模块；涨粉和流量主开通的教学安排在哪个文件；如果课程与宣传存在差异，退款规则是什么。”'；依据与修改要求：B\r\n期望值：标点、断句、破折号和中文表达符合具体语义\r\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点\r\n",
-            "stderr": "",
-            "argv": [
-              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_language_review.py",
-              "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\05154270-70a3-432a-b1c4-fea0785ad38b\\stage",
-              "--chapter",
-              "3"
-            ],
-            "evidence": {
-              "script": "check_language_review.py",
-              "argv": [
-                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_language_review.py",
-                "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\05154270-70a3-432a-b1c4-fea0785ad38b\\stage",
-                "--chapter",
-                "3"
-              ],
-              "exitCode": 1,
-              "stdout": "[硬错误]\r\n位置：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\05154270-70a3-432a-b1c4-fea0785ad38b\\stage\\notes\\semantic-audits\\第003章-语义审计.json\r\n语言问题 languageReview.checks.semanticPunctuation：原句 '“基础营具体交付了哪些模块；涨粉和流量主开通的教学安排在哪个文件；如果课程与宣传存在差异，退款规则是什么。”'；依据与修改要求：三个分句都没有母句把它们降格为宾语从句，疑问词语（哪些模块／哪个文件／是什么）各自独立成问；下一段主角正是「把三个问题逐条发给客服」，说明这三句就是待发出的问话，末句收句号把问的语气压平了。改法：逐问收问号——“基础营具体交付了哪些模块？涨粉和流量主开通的教学安排在哪个文件？如果课程与宣传存在差异，退款规则是什么？”若坚持保留分号列举，至少末句「退款规则是什么」必须改成问号。本章其余发问（哪三个？你能看到这里面的内容？那你能做什么？）都已用问号，短白省句号也合规，故本项整体判 fail 仅指向这一处。\r\n语言问题 languageReview.candidates.L171-e3b9c0c785ab：原句 '“基础营具体交付了哪些模块；涨粉和流量主开通的教学安排在哪个文件；如果课程与宣传存在差异，退款规则是什么。”'；依据与修改要求：B\r\n期望值：标点、断句、破折号和中文表达符合具体语义\r\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点\r\n",
-              "stderr": "",
-              "timedOut": false,
-              "startedAt": "2026-10-04T05:48:39.830Z",
-              "ms": 150
+              "startedAt": "2026-10-06T03:31:53.962Z",
+              "ms": 434
             }
           }
         ],
-        "updatedAt": "2026-10-04T05:48:40.319Z"
+        "updatedAt": "2026-10-06T03:31:54.870Z"
       }
     },
     {
@@ -870,7 +864,7 @@
       "volumeNumber": 1,
       "title": "“先做着看，以后长期合作”",
       "filePath": "chapters/第007章 “先做着看，以后长期合作”.md",
-      "status": "completed",
+      "status": "in_progress",
       "chapterRole": "首单谈判章",
       "readerPayoff": "许成挡住免费试做和长期合作画饼，谈清3000元服务范围并收到1500元首付款。",
       "mustHappen": [
@@ -901,7 +895,7 @@
       "comedyExecution": null,
       "wordCount": null,
       "wordCountPass": null,
-      "validationRounds": 2,
+      "validationRounds": 3,
       "checks": {
         "agentFirstRead": {
           "mode": "background-free-independent-agent",
@@ -921,22 +915,9 @@
           "auditId": "ce34e886-6572-41ba-ba10-8ec4f5442947",
           "reportPath": "notes/semantic-audits/第007章-语义审计.json",
           "verdict": "pass"
-        },
-        "scriptExitCodes": {
-          "check_chapter_wordcount": 0,
-          "check_body_format": 0,
-          "check_prose": 0,
-          "check_dialogue_punctuation": 0,
-          "check_style_fingerprint": 0,
-          "check_semantic_audit": 0,
-          "check_language_review": 0,
-          "check_agent_first_read": 0,
-          "check_plot_fingerprint": 0,
-          "check_continuity_candidate": 0,
-          "plotFingerprint": 0
         }
       },
-      "qualityPass": true,
+      "qualityPass": false,
       "retrofitReason": "旧版使用213粉停更旧号；新版需改为0粉新号、部分欠薪、从零涨粉与流量主开通教学线。",
       "firstReadStatus": "requires-new-setting-first-read",
       "validationProgress": {
@@ -1163,7 +1144,7 @@
       "comedyExecution": null,
       "wordCount": null,
       "wordCountPass": null,
-      "validationRounds": 6,
+      "validationRounds": 9,
       "checks": {
         "agentFirstRead": {
           "mode": "background-free-independent-agent",
@@ -1265,7 +1246,7 @@
       "comedyExecution": null,
       "wordCount": null,
       "wordCountPass": null,
-      "validationRounds": 6,
+      "validationRounds": 8,
       "checks": {
         "agentFirstRead": {
           "mode": "background-free-independent-agent",
@@ -1358,5 +1339,521 @@
       10
     ],
     "oldDraftPolicy": "第1—10章旧正文保留在chapters目录，作为历史草稿；未完成重写前不得称为新设定正典。"
+  },
+  "serialWorkflow": {
+    "version": 1,
+    "delivered": {
+      "1": {
+        "bodySha256": "ea61d7ff75efc7e6774e796595892efbf0651ebb178bd9a72721d5dceb590ada",
+        "source": "delivery-history",
+        "evidence": [
+          {
+            "receipt": "deliveries/05154270-70a3-432a-b1c4-fea0785ad38b",
+            "createdAt": "2026-10-04T05:18:13.572Z"
+          },
+          {
+            "receipt": "deliveries/0b6f79c9-b330-432d-b32c-6f357d03eeda",
+            "createdAt": "2026-10-03T23:17:31.605Z"
+          },
+          {
+            "receipt": "deliveries/1d36fba5-cc4f-4d86-9e6a-96dae96f32d7",
+            "createdAt": "2026-10-04T09:05:01.361Z"
+          },
+          {
+            "receipt": "deliveries/30ed41fd-0f01-4959-bb05-c17fcdf7aa17",
+            "createdAt": "2026-10-04T23:40:25.643Z"
+          },
+          {
+            "receipt": "deliveries/3efcfbea-06b0-4a65-9c94-f979d9b80413",
+            "createdAt": "2026-10-04T02:10:26.105Z"
+          },
+          {
+            "receipt": "deliveries/51aaf242-662c-4fd7-ad78-de357e5de95c",
+            "createdAt": "2026-10-04T12:51:45.459Z"
+          },
+          {
+            "receipt": "deliveries/527b88fc-7c6d-4cdc-967f-e13001c8a3aa",
+            "createdAt": "2026-10-04T14:56:19.471Z"
+          },
+          {
+            "receipt": "deliveries/5dafbb76-e21d-4b4c-9983-5375af063e7a",
+            "createdAt": "2026-10-05T01:30:18.329Z"
+          },
+          {
+            "receipt": "deliveries/71936908-034d-40ef-a583-82360a0a45b2",
+            "createdAt": "2026-10-04T11:10:31.146Z"
+          },
+          {
+            "receipt": "deliveries/7fc407e0-c12b-4b49-8735-10e6f1b3d667",
+            "createdAt": "2026-10-04T08:28:02.195Z"
+          },
+          {
+            "receipt": "deliveries/8e27214d-6ad3-4269-b415-196b359f8165",
+            "createdAt": "2026-10-04T09:32:48.194Z"
+          },
+          {
+            "receipt": "deliveries/b305d086-6c51-4d7a-986c-4083b2c4bd43",
+            "createdAt": "2026-10-04T11:18:33.530Z"
+          },
+          {
+            "receipt": "deliveries/bc010543-8b95-4f54-aff7-2ee9eef378cc",
+            "createdAt": "2026-10-05T04:07:48.312Z"
+          },
+          {
+            "receipt": "deliveries/dafb431e-97da-4b42-8f43-8dfdca52d41b",
+            "createdAt": "2026-10-05T00:22:50.060Z"
+          },
+          {
+            "receipt": "deliveries/e7cb77fd-db5a-4fa7-a192-1bbe886c856c",
+            "createdAt": "2026-10-04T14:22:58.018Z"
+          },
+          {
+            "receipt": "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
+            "createdAt": "2026-10-02T08:43:58.862Z"
+          }
+        ]
+      },
+      "2": {
+        "bodySha256": "a4e46e5e921416460b0f5ac422c2369140396e01a73f82ff2395ecc31c26a1ec",
+        "source": "delivery-history",
+        "evidence": [
+          {
+            "receipt": "deliveries/05154270-70a3-432a-b1c4-fea0785ad38b",
+            "createdAt": "2026-10-04T05:18:13.572Z"
+          },
+          {
+            "receipt": "deliveries/0f57a43e-eed5-41fd-9e41-6a8886910409",
+            "createdAt": "2026-10-06T04:35:38.998Z"
+          },
+          {
+            "receipt": "deliveries/1d36fba5-cc4f-4d86-9e6a-96dae96f32d7",
+            "createdAt": "2026-10-04T09:05:01.361Z"
+          },
+          {
+            "receipt": "deliveries/3efcfbea-06b0-4a65-9c94-f979d9b80413",
+            "createdAt": "2026-10-04T02:10:26.105Z"
+          },
+          {
+            "receipt": "deliveries/51aaf242-662c-4fd7-ad78-de357e5de95c",
+            "createdAt": "2026-10-04T12:51:45.459Z"
+          },
+          {
+            "receipt": "deliveries/527b88fc-7c6d-4cdc-967f-e13001c8a3aa",
+            "createdAt": "2026-10-04T14:56:19.471Z"
+          },
+          {
+            "receipt": "deliveries/5dafbb76-e21d-4b4c-9983-5375af063e7a",
+            "createdAt": "2026-10-05T01:30:18.329Z"
+          },
+          {
+            "receipt": "deliveries/71936908-034d-40ef-a583-82360a0a45b2",
+            "createdAt": "2026-10-04T11:10:31.146Z"
+          },
+          {
+            "receipt": "deliveries/7fc407e0-c12b-4b49-8735-10e6f1b3d667",
+            "createdAt": "2026-10-04T08:28:02.195Z"
+          },
+          {
+            "receipt": "deliveries/8e27214d-6ad3-4269-b415-196b359f8165",
+            "createdAt": "2026-10-04T09:32:48.194Z"
+          },
+          {
+            "receipt": "deliveries/b305d086-6c51-4d7a-986c-4083b2c4bd43",
+            "createdAt": "2026-10-04T11:18:33.530Z"
+          },
+          {
+            "receipt": "deliveries/bc010543-8b95-4f54-aff7-2ee9eef378cc",
+            "createdAt": "2026-10-05T04:07:48.312Z"
+          },
+          {
+            "receipt": "deliveries/dafb431e-97da-4b42-8f43-8dfdca52d41b",
+            "createdAt": "2026-10-05T00:22:50.060Z"
+          },
+          {
+            "receipt": "deliveries/e7cb77fd-db5a-4fa7-a192-1bbe886c856c",
+            "createdAt": "2026-10-04T14:22:58.018Z"
+          }
+        ]
+      },
+      "3": {
+        "bodySha256": "75b23dd079a54a53d2765f2692dc09902977a9ce7ef5d9396ddc37e2c2b0d3d3",
+        "source": "delivery-history",
+        "evidence": [
+          {
+            "receipt": "deliveries/05154270-70a3-432a-b1c4-fea0785ad38b",
+            "createdAt": "2026-10-04T05:18:13.572Z"
+          },
+          {
+            "receipt": "deliveries/0f57a43e-eed5-41fd-9e41-6a8886910409",
+            "createdAt": "2026-10-06T04:35:38.998Z"
+          },
+          {
+            "receipt": "deliveries/1d36fba5-cc4f-4d86-9e6a-96dae96f32d7",
+            "createdAt": "2026-10-04T09:05:01.361Z"
+          },
+          {
+            "receipt": "deliveries/30ed41fd-0f01-4959-bb05-c17fcdf7aa17",
+            "createdAt": "2026-10-04T23:40:25.643Z"
+          },
+          {
+            "receipt": "deliveries/3344c17b-b6e8-4593-b32b-966ba37c417e",
+            "createdAt": "2026-10-06T03:23:45.713Z"
+          },
+          {
+            "receipt": "deliveries/51aaf242-662c-4fd7-ad78-de357e5de95c",
+            "createdAt": "2026-10-04T12:51:45.459Z"
+          },
+          {
+            "receipt": "deliveries/527b88fc-7c6d-4cdc-967f-e13001c8a3aa",
+            "createdAt": "2026-10-04T14:56:19.471Z"
+          },
+          {
+            "receipt": "deliveries/5dafbb76-e21d-4b4c-9983-5375af063e7a",
+            "createdAt": "2026-10-05T01:30:18.329Z"
+          },
+          {
+            "receipt": "deliveries/71936908-034d-40ef-a583-82360a0a45b2",
+            "createdAt": "2026-10-04T11:10:31.146Z"
+          },
+          {
+            "receipt": "deliveries/7fc407e0-c12b-4b49-8735-10e6f1b3d667",
+            "createdAt": "2026-10-04T08:28:02.195Z"
+          },
+          {
+            "receipt": "deliveries/8e27214d-6ad3-4269-b415-196b359f8165",
+            "createdAt": "2026-10-04T09:32:48.194Z"
+          },
+          {
+            "receipt": "deliveries/b305d086-6c51-4d7a-986c-4083b2c4bd43",
+            "createdAt": "2026-10-04T11:18:33.530Z"
+          },
+          {
+            "receipt": "deliveries/bc010543-8b95-4f54-aff7-2ee9eef378cc",
+            "createdAt": "2026-10-05T04:07:48.312Z"
+          },
+          {
+            "receipt": "deliveries/dafb431e-97da-4b42-8f43-8dfdca52d41b",
+            "createdAt": "2026-10-05T00:22:50.060Z"
+          },
+          {
+            "receipt": "deliveries/e7cb77fd-db5a-4fa7-a192-1bbe886c856c",
+            "createdAt": "2026-10-04T14:22:58.018Z"
+          },
+          {
+            "receipt": "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
+            "createdAt": "2026-10-02T08:43:58.862Z"
+          }
+        ]
+      },
+      "4": {
+        "bodySha256": "c2c057f3df5ccef30b2d1458186693d1f578a6adc19dfae501f555fcb95fa0c9",
+        "source": "delivery-history",
+        "evidence": [
+          {
+            "receipt": "deliveries/30ed41fd-0f01-4959-bb05-c17fcdf7aa17",
+            "createdAt": "2026-10-04T23:40:25.643Z"
+          },
+          {
+            "receipt": "deliveries/51aaf242-662c-4fd7-ad78-de357e5de95c",
+            "createdAt": "2026-10-04T12:51:45.459Z"
+          },
+          {
+            "receipt": "deliveries/527b88fc-7c6d-4cdc-967f-e13001c8a3aa",
+            "createdAt": "2026-10-04T14:56:19.471Z"
+          },
+          {
+            "receipt": "deliveries/5dafbb76-e21d-4b4c-9983-5375af063e7a",
+            "createdAt": "2026-10-05T01:30:18.329Z"
+          },
+          {
+            "receipt": "deliveries/71936908-034d-40ef-a583-82360a0a45b2",
+            "createdAt": "2026-10-04T11:10:31.146Z"
+          },
+          {
+            "receipt": "deliveries/7fc407e0-c12b-4b49-8735-10e6f1b3d667",
+            "createdAt": "2026-10-04T08:28:02.195Z"
+          },
+          {
+            "receipt": "deliveries/8e27214d-6ad3-4269-b415-196b359f8165",
+            "createdAt": "2026-10-04T09:32:48.194Z"
+          },
+          {
+            "receipt": "deliveries/b305d086-6c51-4d7a-986c-4083b2c4bd43",
+            "createdAt": "2026-10-04T11:18:33.530Z"
+          },
+          {
+            "receipt": "deliveries/bc010543-8b95-4f54-aff7-2ee9eef378cc",
+            "createdAt": "2026-10-05T04:07:48.312Z"
+          },
+          {
+            "receipt": "deliveries/dafb431e-97da-4b42-8f43-8dfdca52d41b",
+            "createdAt": "2026-10-05T00:22:50.060Z"
+          },
+          {
+            "receipt": "deliveries/e7cb77fd-db5a-4fa7-a192-1bbe886c856c",
+            "createdAt": "2026-10-04T14:22:58.018Z"
+          },
+          {
+            "receipt": "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
+            "createdAt": "2026-10-02T08:43:58.862Z"
+          }
+        ]
+      },
+      "5": {
+        "bodySha256": "f77b42c8cc3355fa57d3465822a7ef552edd7aa01e24aa24ebbdaff53c85b783",
+        "source": "delivery-history",
+        "evidence": [
+          {
+            "receipt": "deliveries/1d36fba5-cc4f-4d86-9e6a-96dae96f32d7",
+            "createdAt": "2026-10-04T09:05:01.361Z"
+          },
+          {
+            "receipt": "deliveries/30ed41fd-0f01-4959-bb05-c17fcdf7aa17",
+            "createdAt": "2026-10-04T23:40:25.643Z"
+          },
+          {
+            "receipt": "deliveries/51aaf242-662c-4fd7-ad78-de357e5de95c",
+            "createdAt": "2026-10-04T12:51:45.459Z"
+          },
+          {
+            "receipt": "deliveries/527b88fc-7c6d-4cdc-967f-e13001c8a3aa",
+            "createdAt": "2026-10-04T14:56:19.471Z"
+          },
+          {
+            "receipt": "deliveries/5dafbb76-e21d-4b4c-9983-5375af063e7a",
+            "createdAt": "2026-10-05T01:30:18.329Z"
+          },
+          {
+            "receipt": "deliveries/71936908-034d-40ef-a583-82360a0a45b2",
+            "createdAt": "2026-10-04T11:10:31.146Z"
+          },
+          {
+            "receipt": "deliveries/8e27214d-6ad3-4269-b415-196b359f8165",
+            "createdAt": "2026-10-04T09:32:48.194Z"
+          },
+          {
+            "receipt": "deliveries/b305d086-6c51-4d7a-986c-4083b2c4bd43",
+            "createdAt": "2026-10-04T11:18:33.530Z"
+          },
+          {
+            "receipt": "deliveries/bc010543-8b95-4f54-aff7-2ee9eef378cc",
+            "createdAt": "2026-10-05T04:07:48.312Z"
+          },
+          {
+            "receipt": "deliveries/dafb431e-97da-4b42-8f43-8dfdca52d41b",
+            "createdAt": "2026-10-05T00:22:50.060Z"
+          },
+          {
+            "receipt": "deliveries/e7cb77fd-db5a-4fa7-a192-1bbe886c856c",
+            "createdAt": "2026-10-04T14:22:58.018Z"
+          },
+          {
+            "receipt": "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
+            "createdAt": "2026-10-02T08:43:58.862Z"
+          }
+        ]
+      },
+      "6": {
+        "bodySha256": "e910e5d7f4239eddd00a93961b0b9f9128405f4c2f8f9d3df7925bc1e05199b3",
+        "source": "delivery-history",
+        "evidence": [
+          {
+            "receipt": "deliveries/0f57a43e-eed5-41fd-9e41-6a8886910409",
+            "createdAt": "2026-10-06T04:35:38.998Z"
+          },
+          {
+            "receipt": "deliveries/30ed41fd-0f01-4959-bb05-c17fcdf7aa17",
+            "createdAt": "2026-10-04T23:40:25.643Z"
+          },
+          {
+            "receipt": "deliveries/3344c17b-b6e8-4593-b32b-966ba37c417e",
+            "createdAt": "2026-10-06T03:23:45.713Z"
+          },
+          {
+            "receipt": "deliveries/51aaf242-662c-4fd7-ad78-de357e5de95c",
+            "createdAt": "2026-10-04T12:51:45.459Z"
+          },
+          {
+            "receipt": "deliveries/527b88fc-7c6d-4cdc-967f-e13001c8a3aa",
+            "createdAt": "2026-10-04T14:56:19.471Z"
+          },
+          {
+            "receipt": "deliveries/5dafbb76-e21d-4b4c-9983-5375af063e7a",
+            "createdAt": "2026-10-05T01:30:18.329Z"
+          },
+          {
+            "receipt": "deliveries/71936908-034d-40ef-a583-82360a0a45b2",
+            "createdAt": "2026-10-04T11:10:31.146Z"
+          },
+          {
+            "receipt": "deliveries/b305d086-6c51-4d7a-986c-4083b2c4bd43",
+            "createdAt": "2026-10-04T11:18:33.530Z"
+          },
+          {
+            "receipt": "deliveries/bc010543-8b95-4f54-aff7-2ee9eef378cc",
+            "createdAt": "2026-10-05T04:07:48.312Z"
+          },
+          {
+            "receipt": "deliveries/dafb431e-97da-4b42-8f43-8dfdca52d41b",
+            "createdAt": "2026-10-05T00:22:50.060Z"
+          },
+          {
+            "receipt": "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
+            "createdAt": "2026-10-02T08:43:58.862Z"
+          },
+          {
+            "receipt": "cancelled-deliveries/26e91acb-485c-4d25-b83e-3bf17953ae80",
+            "createdAt": "2026-10-05T04:56:53.500Z"
+          }
+        ]
+      },
+      "7": {
+        "bodySha256": "a556c9a12c6769bf56a5b5adbb0a51f2e05a50110656a31c2456b30250c0f360",
+        "source": "delivery-history",
+        "evidence": [
+          {
+            "receipt": "deliveries/0f57a43e-eed5-41fd-9e41-6a8886910409",
+            "createdAt": "2026-10-06T04:35:38.998Z"
+          },
+          {
+            "receipt": "deliveries/30ed41fd-0f01-4959-bb05-c17fcdf7aa17",
+            "createdAt": "2026-10-04T23:40:25.643Z"
+          },
+          {
+            "receipt": "deliveries/3344c17b-b6e8-4593-b32b-966ba37c417e",
+            "createdAt": "2026-10-06T03:23:45.713Z"
+          },
+          {
+            "receipt": "deliveries/527b88fc-7c6d-4cdc-967f-e13001c8a3aa",
+            "createdAt": "2026-10-04T14:56:19.471Z"
+          },
+          {
+            "receipt": "deliveries/5dafbb76-e21d-4b4c-9983-5375af063e7a",
+            "createdAt": "2026-10-05T01:30:18.329Z"
+          },
+          {
+            "receipt": "deliveries/bc010543-8b95-4f54-aff7-2ee9eef378cc",
+            "createdAt": "2026-10-05T04:07:48.312Z"
+          },
+          {
+            "receipt": "deliveries/dafb431e-97da-4b42-8f43-8dfdca52d41b",
+            "createdAt": "2026-10-05T00:22:50.060Z"
+          },
+          {
+            "receipt": "deliveries/e7cb77fd-db5a-4fa7-a192-1bbe886c856c",
+            "createdAt": "2026-10-04T14:22:58.018Z"
+          },
+          {
+            "receipt": "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
+            "createdAt": "2026-10-02T08:43:58.862Z"
+          },
+          {
+            "receipt": "cancelled-deliveries/26e91acb-485c-4d25-b83e-3bf17953ae80",
+            "createdAt": "2026-10-05T04:56:53.500Z"
+          }
+        ]
+      },
+      "8": {
+        "bodySha256": "c18bf57adca21b0880799bc16645c2916591bfa63d4dac492ca73a879becc7de",
+        "source": "delivery-history",
+        "evidence": [
+          {
+            "receipt": "deliveries/0f57a43e-eed5-41fd-9e41-6a8886910409",
+            "createdAt": "2026-10-06T04:35:38.998Z"
+          },
+          {
+            "receipt": "deliveries/3344c17b-b6e8-4593-b32b-966ba37c417e",
+            "createdAt": "2026-10-06T03:23:45.713Z"
+          },
+          {
+            "receipt": "deliveries/5dafbb76-e21d-4b4c-9983-5375af063e7a",
+            "createdAt": "2026-10-05T01:30:18.329Z"
+          },
+          {
+            "receipt": "deliveries/bc010543-8b95-4f54-aff7-2ee9eef378cc",
+            "createdAt": "2026-10-05T04:07:48.312Z"
+          },
+          {
+            "receipt": "deliveries/dafb431e-97da-4b42-8f43-8dfdca52d41b",
+            "createdAt": "2026-10-05T00:22:50.060Z"
+          },
+          {
+            "receipt": "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
+            "createdAt": "2026-10-02T08:43:58.862Z"
+          },
+          {
+            "receipt": "cancelled-deliveries/26e91acb-485c-4d25-b83e-3bf17953ae80",
+            "createdAt": "2026-10-05T04:56:53.500Z"
+          }
+        ]
+      },
+      "9": {
+        "bodySha256": "0d5e7bd7f355a320445ff3824e667e7fbaae7ff76240afc9f7245962d120f902",
+        "source": "delivery-history",
+        "evidence": [
+          {
+            "receipt": "deliveries/5dafbb76-e21d-4b4c-9983-5375af063e7a",
+            "createdAt": "2026-10-05T01:30:18.329Z"
+          },
+          {
+            "receipt": "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
+            "createdAt": "2026-10-02T08:43:58.862Z"
+          }
+        ]
+      },
+      "10": {
+        "bodySha256": "52ad13a34c0484f14134e96fc0a54d21f8baa314abb739fac87f1d413a22dea7",
+        "source": "delivery-history",
+        "evidence": [
+          {
+            "receipt": "deliveries/bc010543-8b95-4f54-aff7-2ee9eef378cc",
+            "createdAt": "2026-10-05T04:07:48.312Z"
+          },
+          {
+            "receipt": "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
+            "createdAt": "2026-10-02T08:43:58.862Z"
+          }
+        ]
+      }
+    },
+    "acceptedStages": {
+      "stage-1-5": {
+        "start": 1,
+        "end": 5,
+        "reportSha256": "3b9779aa1b904748d776f379fc12cb1fce445cc2e40c394d72c76ddc021e5409",
+        "acceptedAt": "2026-10-05T00:15:40.498Z",
+        "frozenBodies": {
+          "1": "ea61d7ff75efc7e6774e796595892efbf0651ebb178bd9a72721d5dceb590ada",
+          "2": "a4e46e5e921416460b0f5ac422c2369140396e01a73f82ff2395ecc31c26a1ec",
+          "3": "75b23dd079a54a53d2765f2692dc09902977a9ce7ef5d9396ddc37e2c2b0d3d3",
+          "4": "c2c057f3df5ccef30b2d1458186693d1f578a6adc19dfae501f555fcb95fa0c9",
+          "5": "f77b42c8cc3355fa57d3465822a7ef552edd7aa01e24aa24ebbdaff53c85b783"
+        }
+      }
+    },
+    "legacyDeliveryMigration": {
+      "version": 1,
+      "receipts": [
+        "deliveries/05154270-70a3-432a-b1c4-fea0785ad38b",
+        "deliveries/0b6f79c9-b330-432d-b32c-6f357d03eeda",
+        "deliveries/0f57a43e-eed5-41fd-9e41-6a8886910409",
+        "deliveries/1d36fba5-cc4f-4d86-9e6a-96dae96f32d7",
+        "deliveries/30ed41fd-0f01-4959-bb05-c17fcdf7aa17",
+        "deliveries/3344c17b-b6e8-4593-b32b-966ba37c417e",
+        "deliveries/3efcfbea-06b0-4a65-9c94-f979d9b80413",
+        "deliveries/51aaf242-662c-4fd7-ad78-de357e5de95c",
+        "deliveries/527b88fc-7c6d-4cdc-967f-e13001c8a3aa",
+        "deliveries/5dafbb76-e21d-4b4c-9983-5375af063e7a",
+        "deliveries/71936908-034d-40ef-a583-82360a0a45b2",
+        "deliveries/7fc407e0-c12b-4b49-8735-10e6f1b3d667",
+        "deliveries/8e27214d-6ad3-4269-b415-196b359f8165",
+        "deliveries/b305d086-6c51-4d7a-986c-4083b2c4bd43",
+        "deliveries/bc010543-8b95-4f54-aff7-2ee9eef378cc",
+        "deliveries/dafb431e-97da-4b42-8f43-8dfdca52d41b",
+        "deliveries/e7cb77fd-db5a-4fa7-a192-1bbe886c856c",
+        "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
+        "cancelled-deliveries/26e91acb-485c-4d25-b83e-3bf17953ae80"
+      ]
+    }
   }
 }
