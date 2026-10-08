@@ -8,7 +8,7 @@
     "location": "l",
     "endingNote": "e"
   },
-  "historicalDrafts": "chapters/第001—第010章：旧版草稿保留，未重写的部分不属于当前正典。",
+  "historicalDrafts": "第1—3章为已发布正典，位于chapters/；旧版第4—10章正文已归档到notes/retrofit/snapshots/第NNN章-旧分章稿-20261008.md，不在chapters目录内。",
   "lastSummary": "notes/chapter-summaries/第010章-交接摘要.md",
   "appliedChapters": {
     "1": "ea61d7ff75efc7e6774e796595892efbf0651ebb178bd9a72721d5dceb590ada",

@@ -9,8 +9,8 @@
   "minBodyChars": 2000,
   "minBodyCharsSource": "user-specified",
   "targetBodyChars": [
-    2500,
-    4000
+    2000,
+    2900
   ],
   "writingMode": "serial",
   "cognitionAuditMode": "deep",
@@ -89,51 +89,98 @@
         },
         {
           "id": "V1E04",
-          "event": "许成用具体矛盾要求解释，王栋退还1999元；小蓝诊断账号缺少具体读者和信息增量",
+          "event": "售后申请由商家当天直接处理，1999元原路退回；小蓝诊断账号缺少具体读者和信息增量",
           "stagedInChapters": [
             4
           ]
         },
         {
           "id": "V1E05",
-          "event": "许成确定夜班通勤方向，杜勇提供现场问题，两人核验后完成A稿",
+          "event": "许成确定夜班通勤方向，自付300元请杜勇陪同核验，完成A稿并发布",
           "stagedInChapters": [
-            5
-          ]
-        },
-        {
-          "id": "V1E06",
-          "event": "A稿阅读从37升到412再升至5860，读者追问并带来商家询价",
-          "stagedInChapters": [
-            6
-          ]
-        },
-        {
-          "id": "V1E07",
-          "event": "许成谈清3000元项目范围与付款节点，收到1500元首付款",
-          "stagedInChapters": [
-            7
-          ]
-        },
-        {
-          "id": "V1E08",
-          "event": "陈骏跟做已公开内容，许成用当天新核验材料推进项目并完成B稿",
-          "stagedInChapters": [
+            5,
+            6,
+            7,
             8
           ]
         },
         {
-          "id": "V1E09",
-          "event": "项目通过验收，1500元尾款到账，3000元首单形成完整闭环",
+          "id": "V1E06",
+          "event": "A稿48小时累计5860阅读、586关注，读者追问并纠错；越过100粉后提交流量主申请",
           "stagedInChapters": [
-            9
+            9,
+            10
+          ]
+        },
+        {
+          "id": "V1E07",
+          "event": "陈骏的号复述同题材并写错封路信息，许成截屏存证，不公开对骂",
+          "stagedInChapters": [
+            11
+          ]
+        },
+        {
+          "id": "V1E08",
+          "event": "商户顺着文章找上门询价，许成随口报价失败后撤回，重新问清需求",
+          "stagedInChapters": [
+            12
+          ]
+        },
+        {
+          "id": "V1E09",
+          "event": "许成谈清3000元范围、修改次数与付款节点，收到1500元首付款",
+          "stagedInChapters": [
+            13,
+            14
           ]
         },
         {
           "id": "V1E10",
-          "event": "B稿48小时累计24600阅读，总关注约2860；许成交租、结算劳务并向周敏确认结果",
+          "event": "现场拍摄与信息核对完成，初稿获得口头认可，但尾款未按约定结清",
           "stagedInChapters": [
-            10
+            15
+          ]
+        },
+        {
+          "id": "V1E11",
+          "event": "陈骏抢发南桥“通车”攻略并直接撬动客户，赵老板要求许成给出更强承诺",
+          "stagedInChapters": [
+            16
+          ]
+        },
+        {
+          "id": "V1E12",
+          "event": "许成当晚取证，用带时间戳的现场说服客户；客户挪开挡门招牌，B稿发布",
+          "stagedInChapters": [
+            17
+          ]
+        },
+        {
+          "id": "V1E13",
+          "event": "对手评论区翻车，读者照文章进店；许成尾款被拖，同时收到新的商业询价",
+          "stagedInChapters": [
+            18
+          ]
+        },
+        {
+          "id": "V1E14",
+          "event": "项目通过验收，1500元尾款到账，首单形成完整闭环，个人余额9140元",
+          "stagedInChapters": [
+            19
+          ]
+        },
+        {
+          "id": "V1E15",
+          "event": "三档报价标准落地并用于汽配城新客户；公司商务组同时进场同一片区",
+          "stagedInChapters": [
+            20
+          ]
+        },
+        {
+          "id": "V1E16",
+          "event": "B稿48小时累计24600阅读、总关注约2860；交租结算后个人余额7440元",
+          "stagedInChapters": [
+            21
           ]
         }
       ]
@@ -193,7 +240,7 @@
       "volumeNumber": 1,
       "title": "1999块，我买了个“有人带你走一遍”",
       "filePath": "chapters/第001章 1999块，我买了个“有人带你走一遍”.md",
-      "status": "in_progress",
+      "status": "completed",
       "chapterRole": "在职做号开篇",
       "readerPayoff": "许成算清工资、家庭转款和房租后，承认一份工作没有安全余量；账号0关注、模板稿只有十几个阅读和极少收益让读者看见做号新手真实的数据焦虑。",
       "mustHappen": [
@@ -254,7 +301,7 @@
         }
       },
       "retrofitReason": "?2026-10-02???????????0?????????????????1999??????213??????????????",
-      "firstReadStatus": "pass",
+      "firstReadStatus": "published-locked",
       "validationProgress": {
         "version": 1,
         "bodyDigest": "09bb77355244d0c31d389912e237e4b7d36760209c147f4aa511d14891475a92",
@@ -294,7 +341,8 @@
           }
         ],
         "updatedAt": "2026-10-04T00:53:29.728Z"
-      }
+      },
+      "publishedLock": "已于2026-10-04前发布，正文、标题、字数与已发事实不得修改；后续章节必须向本章对齐。"
     },
     {
       "chapterNumber": 2,
@@ -416,7 +464,8 @@
           }
         ],
         "updatedAt": "2026-10-04T23:45:19.593Z"
-      }
+      },
+      "publishedLock": "已于2026-10-04前发布，正文、标题、字数与已发事实不得修改；后续章节必须向本章对齐。"
     },
     {
       "chapterNumber": 3,
@@ -538,7 +587,8 @@
           }
         ],
         "updatedAt": "2026-10-06T03:31:54.870Z"
-      }
+      },
+      "publishedLock": "已于2026-10-04前发布，正文、标题、字数与已发事实不得修改；后续章节必须向本章对齐。"
     },
     {
       "chapterNumber": 4,
@@ -546,770 +596,764 @@
       "title": "他退钱退得太快了",
       "filePath": "chapters/第004章 他退钱退得太快了.md",
       "status": "in_progress",
-      "chapterRole": "退款与账号诊断章",
-      "readerPayoff": "许成只追问可核验矛盾，迫使王栋退回1999元；小蓝把账号问题从玄学权重改成具体读者与信息增量。",
+      "chapterRole": "退款到账与账号诊断章",
+      "readerPayoff": "退款当天由商家直接处理、1999元原路退回，6740元回到账上；小蓝把账号问题从玄学权重改成具体读者和具体承诺。",
       "mustHappen": [
-        "许成按付款、承诺、交付和截图矛盾整理材料，不伪造聊天、不公开无关学员信息",
-        "王栋用流程、法务和“你自己没执行”转移话题，许成只要求解释具体矛盾",
-        "王栋为保招生退款1999元并实际到账，个人现金回到6740元",
-        "许成明确退款是收回旧钱，不是新收入",
-        "小蓝诊断账号不是被后台固定降权，而是没有具体读者、信息增量和连续性；0关注里有真实老读者"
+        "售后申请当天被商家直接处理，1999元原路退回，个人余额回到6740元",
+        "退款记为收回旧钱，不计营收；备忘录改成课程全额退款原路收回",
+        "上班摩擦几句带过：王文洁要当天下午的demo和接口文档",
+        "小蓝指出新号不是被后台判死，而是那篇生活随笔通篇是情绪，读者拿不走能当场用的东西",
+        "许成删掉空泛的功能介绍，把简介改成写给凌晨下班的人"
       ],
       "scenePlan": [
         {
-          "purpose": "用程序员习惯完成现实反制",
-          "characterGoal": "让对方回应无法绕开的矛盾",
-          "obstacle": "王栋不断转移话题并施压",
-          "change": "小蓝帮助他选择追问顺序，发送仍由许成完成",
-          "result": "退款实际到账，证据链收束"
+          "purpose": "把被骗的账收回来，不加戏",
+          "characterGoal": "确认钱真的回来了，也别被算成收入",
+          "obstacle": "对方没有任何解释，也没有任何人承认交付不符",
+          "change": "小蓝把退款和收入拆开，提醒这只是拿回旧钱",
+          "result": "6740元回到账上，记账口径改正"
         },
         {
           "purpose": "把注意力从骗局拉回内容",
-          "characterGoal": "判断账号还有没有价值",
-          "obstacle": "低阅读容易被误判为账号废掉",
+          "characterGoal": "判断这个号还有没有价值",
+          "obstacle": "0关注加十几个阅读，很容易被误判成账号已经废掉",
           "change": "小蓝区分账号权限、内容问题和读者需求",
-          "result": "许成定下第一位目标读者：凌晨下班后还要想办法回家的人"
+          "result": "简介改成服务凌晨下班的人，第一位目标读者定下"
         }
       ],
-      "stateChange": "1999元损失被追回，小蓝能力从识别矛盾升级为现实止损；临江杂谈从无定位生活号转向服务夜班通勤者。",
-      "endingMomentum": "目标读者已经明确，下一步必须找到网上没有、读者当场能用的事实。",
+      "stateChange": "1999元损失原路追回，个人余额回到6740元；临江杂谈从无定位生活号转向服务夜班通勤者。",
+      "endingMomentum": "简介改完了，关注还是0；整篇文章底下唯一提要求的留言，问的是一条他自己也没核实过的路线。",
       "comedyExecution": null,
       "wordCount": null,
       "wordCountPass": null,
       "qualityPass": false,
-      "validationRounds": 6,
+      "validationRounds": 0,
       "checks": {
         "agentFirstRead": {
           "mode": "background-free-independent-agent",
           "verdict": "pass-with-fixes",
-          "readerModel": "deepseek-v4-flash",
+          "readerModel": "claude-fable-5",
           "reportPath": "notes/first-reads/第004章-首读.json"
-        },
-        "semanticAuditRecord": {
-          "auditedChapter": 4,
-          "window": [
-            3,
-            4,
-            5
-          ],
-          "auditPhase": "retrospective",
-          "inputSha256": "cca9481d3d957ac25fb6c4fefb2f04b9f7160470594de8d61d3b48984d2a6a86",
-          "auditId": "642ef964-6f7a-49bf-ac86-64bb0860885b",
-          "reportPath": "notes/semantic-audits/第004章-语义审计.json",
-          "verdict": "pass"
         }
       },
-      "retrofitReason": "旧版使用213粉停更旧号；新版需改为0粉新号、部分欠薪、从零涨粉与流量主开通教学线。",
-      "firstReadStatus": "requires-new-setting-first-read",
-      "validationProgress": {
-        "version": 1,
-        "bodyDigest": "02eb11fef3b4b1dabfbbe561bca8273cf73bdd4ce1c200e659aeb718435918dc",
-        "blockerFingerprint": "bd4a82cfe71ce77d2ec038b9f4c664e4b289abc3afbe0fe245c5434b2e783ec9",
-        "blockers": [
-          {
-            "id": "check_language_review",
-            "what": "标点/断句/破折号/翻译腔语义复核：每个候选都有处置，缺失或过期须重建证据",
-            "outcome": "fail",
-            "exitCode": 1,
-            "reason": "退出码 1：\n[硬错误]\n位置：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\1d36fba5-cc4f-4d86-9e6a-96dae96f32d7\\stage\\notes\\semantic-audits\\第004章-语义审计.json\n语言问题 languageReview.checks.chineseUsage：原句 '小蓝斜眼打量它：“昨天你也没见得多清醒。连大纲都没翻全，就先把两千块转出去了。”'；依据与修改要求：“小蓝”是动作发出者，其打量对象应是正在被它回应和评价的叙述者“我”；当前“它”指代错位，读者会误以为小蓝在打量自己或无生命物。因本章采用第一人称叙述，应改为“小蓝斜眼打量我”。\n期望值：标点、断句、破折号和中文表达符合具体语义\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点",
-            "stdout": "[硬错误]\r\n位置：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\1d36fba5-cc4f-4d86-9e6a-96dae96f32d7\\stage\\notes\\semantic-audits\\第004章-语义审计.json\r\n语言问题 languageReview.checks.chineseUsage：原句 '小蓝斜眼打量它：“昨天你也没见得多清醒。连大纲都没翻全，就先把两千块转出去了。”'；依据与修改要求：“小蓝”是动作发出者，其打量对象应是正在被它回应和评价的叙述者“我”；当前“它”指代错位，读者会误以为小蓝在打量自己或无生命物。因本章采用第一人称叙述，应改为“小蓝斜眼打量我”。\r\n期望值：标点、断句、破折号和中文表达符合具体语义\r\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点\r\n",
-            "stderr": "",
-            "argv": [
-              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_language_review.py",
-              "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\1d36fba5-cc4f-4d86-9e6a-96dae96f32d7\\stage",
-              "--chapter",
-              "4"
-            ],
-            "evidence": {
-              "script": "check_language_review.py",
-              "argv": [
-                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_language_review.py",
-                "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\1d36fba5-cc4f-4d86-9e6a-96dae96f32d7\\stage",
-                "--chapter",
-                "4"
-              ],
-              "exitCode": 1,
-              "stdout": "[硬错误]\r\n位置：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\1d36fba5-cc4f-4d86-9e6a-96dae96f32d7\\stage\\notes\\semantic-audits\\第004章-语义审计.json\r\n语言问题 languageReview.checks.chineseUsage：原句 '小蓝斜眼打量它：“昨天你也没见得多清醒。连大纲都没翻全，就先把两千块转出去了。”'；依据与修改要求：“小蓝”是动作发出者，其打量对象应是正在被它回应和评价的叙述者“我”；当前“它”指代错位，读者会误以为小蓝在打量自己或无生命物。因本章采用第一人称叙述，应改为“小蓝斜眼打量我”。\r\n期望值：标点、断句、破折号和中文表达符合具体语义\r\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点\r\n",
-              "stderr": "",
-              "timedOut": false,
-              "startedAt": "2026-10-04T09:13:47.937Z",
-              "ms": 134
-            }
-          }
-        ],
-        "updatedAt": "2026-10-04T09:13:48.354Z"
-      }
+      "retrofitReason": "旧版写多轮协商退款，与网购售后实际流程不符；新版改为商家直接退款并删掉扯皮过程。",
+      "firstReadStatus": "pending"
     },
     {
       "chapterNumber": 5,
       "volumeNumber": 1,
-      "title": "末班车开走以后，下一条选题来了",
-      "filePath": "chapters/第005章 末班车开走以后，下一条选题来了.md",
+      "title": "你到底想把文章写给谁看",
+      "filePath": "chapters/第005章 你到底想把文章写给谁看.md",
       "status": "in_progress",
-      "chapterRole": "定位与选题核验章",
-      "readerPayoff": "许成不刷粉、不洗权重，把一道夜班通勤问题核验成有真实信息增量的A稿并发布。",
+      "chapterRole": "选题起点与首次雇人章",
+      "readerPayoff": "周敏一句话把他从自怜里拽出来；他第一次为一条路线自掏钱雇人核验。",
       "mustHappen": [
-        "小蓝帮助许成把账号收束到夜班通勤读者，不把全部0关注当假粉",
-        "许成重新写简介和选题，不购买刷粉、互推或所谓洗权重服务",
-        "杜勇提供网上没有的路线问题，两人下班后核验时间、换乘、营业时段和实际限制",
-        "许成用程序员习惯整理现场资料，小蓝指出初稿像交接口文档，帮他把结构改为先回答具体困境",
-        "许成完成《凌晨一点下班，临江这几段路怎么回家》并按下发布"
+        "周敏确认钱退回来了，追问文章到底写给谁看，许成答不上来",
+        "后台收到买粉买流量的私信，他举报拉黑，不把刚追回的钱再投进去",
+        "他找杜勇按工时付300元，约第5天十二点二十在东平仓储物流园南三门见面",
+        "杜勇先立规矩：不拍工牌正脸、不许临时加码"
       ],
       "scenePlan": [
         {
-          "purpose": "把定位变成一次具体选择",
-          "characterGoal": "让账号真正服务一类人",
-          "obstacle": "生活记录太散，夜班通勤素材不足",
-          "change": "杜勇提供现场问题，两人实际核验",
-          "result": "文章拿到可追溯的时间、路线与限制"
+          "purpose": "把选题标准从自我表达换成读者处境",
+          "characterGoal": "说清楚这个号写给谁",
+          "obstacle": "他只能说得出“临江的打工人”这种谁都不算数的话",
+          "change": "周敏用他每天半夜找吃的、赶末班车的日子反问",
+          "result": "他接受“先帮一个具体的人解决一个具体麻烦”作为选题标准"
         },
         {
-          "purpose": "让系统给判断，不替主角写完整文章",
-          "characterGoal": "把现场资料写成读者愿意看的内容",
-          "obstacle": "许成初稿全是说明和参数，没有先回答问题",
-          "change": "小蓝给出切入结构与标题方向，许成重写表达",
-          "result": "A稿完成并发布"
+          "purpose": "用可控成本换一手信息",
+          "characterGoal": "拿到网上查不到的现场",
+          "obstacle": "他不确定该核哪一趟车，也不确定这钱花得值不值",
+          "change": "按工时而不是按交情定价，先立规矩再出发",
+          "result": "核验落到具体时间和地点，300元记在他自己账上"
         }
       ],
-      "stateChange": "临江杂谈获得明确读者定位和一篇由真实核验支撑的内容，系统优势第一次落到公众号主线。",
-      "endingMomentum": "文章刚刚发布，阅读和读者是否认可还没有答案。",
+      "stateChange": "选题标准从自身情绪改成读者处境；他第一次自掏钱买一手信息。",
+      "endingMomentum": "杜勇问到底要核哪一趟——东站通宵那班，还是往南站拐的野鸡中巴；网上给的时间互相打架。",
       "comedyExecution": null,
       "wordCount": null,
       "wordCountPass": null,
       "qualityPass": false,
-      "validationRounds": 4,
-      "checks": {
-        "agentFirstRead": {
-          "mode": "background-free-independent-agent",
-          "verdict": "pass-with-fixes",
-          "readerModel": "deepseek-v4-flash",
-          "reportPath": "notes/first-reads/第005章-首读.json"
-        },
-        "semanticAuditRecord": {
-          "auditedChapter": 5,
-          "window": [
-            4,
-            5,
-            6
-          ],
-          "auditPhase": "retrospective",
-          "inputSha256": "cf03b8778805446fffecd1872a2aa5228216002f912f3be94ef5498deabd553a",
-          "auditId": "daffe155-5c06-463f-a02c-b87884e2f846",
-          "reportPath": "notes/semantic-audits/第005章-语义审计.json",
-          "verdict": "pass"
-        }
-      },
-      "retrofitReason": "旧版使用213粉停更旧号；新版需改为0粉新号、部分欠薪、从零涨粉与流量主开通教学线。",
-      "firstReadStatus": "requires-new-setting-first-read",
-      "validationProgress": {
-        "version": 1,
-        "bodyDigest": "2027db7933a9efc425cbb81a8f6e272e434e899a68187556d81ff90776b1f6cd",
-        "blockerFingerprint": "41677575576c0cbafb0f7a469204cb8d0c261a456b6ae2e37e46cf338f2f4da1",
-        "blockers": [
-          {
-            "id": "check_language_review",
-            "what": "标点/断句/破折号/翻译腔语义复核：每个候选都有处置，缺失或过期须重建证据",
-            "outcome": "fail",
-            "exitCode": 1,
-            "reason": "退出码 1：\n[硬错误]\n位置：D:\\novelist\\被裁后，我靠公众号杀疯了\\notes\\semantic-audits\\第005章-语义审计.json\n语言问题 languageReview.checks.semanticPunctuation：原句 '“说好的按工时算钱，我哪敢迟到。”'；依据与修改要求：“我哪敢迟到”中的“哪敢”构成反问，实际语义是“我不敢迟到”；按本书“反问一律用问号”的规则，句末不应使用句号，应改为“说好的按工时算钱，我哪敢迟到？”\n期望值：标点、断句、破折号和中文表达符合具体语义\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点",
-            "stdout": "[硬错误]\r\n位置：D:\\novelist\\被裁后，我靠公众号杀疯了\\notes\\semantic-audits\\第005章-语义审计.json\r\n语言问题 languageReview.checks.semanticPunctuation：原句 '“说好的按工时算钱，我哪敢迟到。”'；依据与修改要求：“我哪敢迟到”中的“哪敢”构成反问，实际语义是“我不敢迟到”；按本书“反问一律用问号”的规则，句末不应使用句号，应改为“说好的按工时算钱，我哪敢迟到？”\r\n期望值：标点、断句、破折号和中文表达符合具体语义\r\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点\r\n",
-            "stderr": "",
-            "argv": [
-              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_language_review.py",
-              "D:\\novelist\\被裁后，我靠公众号杀疯了",
-              "--chapter",
-              "5"
-            ],
-            "evidence": {
-              "script": "check_language_review.py",
-              "argv": [
-                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_language_review.py",
-                "D:\\novelist\\被裁后，我靠公众号杀疯了",
-                "--chapter",
-                "5"
-              ],
-              "exitCode": 1,
-              "stdout": "[硬错误]\r\n位置：D:\\novelist\\被裁后，我靠公众号杀疯了\\notes\\semantic-audits\\第005章-语义审计.json\r\n语言问题 languageReview.checks.semanticPunctuation：原句 '“说好的按工时算钱，我哪敢迟到。”'；依据与修改要求：“我哪敢迟到”中的“哪敢”构成反问，实际语义是“我不敢迟到”；按本书“反问一律用问号”的规则，句末不应使用句号，应改为“说好的按工时算钱，我哪敢迟到？”\r\n期望值：标点、断句、破折号和中文表达符合具体语义\r\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点\r\n",
-              "stderr": "",
-              "timedOut": false,
-              "startedAt": "2026-10-04T09:04:08.492Z",
-              "ms": 134
-            }
-          }
-        ],
-        "updatedAt": "2026-10-04T09:04:08.893Z"
-      }
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版把选题讨论放在小蓝单方面指导下完成；新版由周敏的追问推动，小蓝只给操作判断。",
+      "firstReadStatus": "pending"
     },
     {
       "chapterNumber": 6,
       "volumeNumber": 1,
-      "title": "刚有几百个人看，就有人照着写",
-      "filePath": "chapters/第006章 刚有几百个人看，就有人照着写.md",
-      "status": "completed",
-      "chapterRole": "发布反馈与商业萌芽章",
-      "readerPayoff": "A稿阅读从37升到412，再累计5860，约586关注；读者用具体追问证明内容有用，商户主动询价。",
+      "title": "站牌上写着零点三十，车零点十五就走了",
+      "filePath": "chapters/第006章 站牌上写着零点三十，车零点十五就走了.md",
+      "status": "in_progress",
+      "chapterRole": "第一次夜班现场核验（上）",
+      "readerPayoff": "站牌上的末班时间和真实调度当场对不上，读者第一次看见“网上查不到”长什么样。",
       "mustHappen": [
-        "A稿阅读先停在37，随后升到412并收到读者具体追问",
-        "48小时累计5860阅读，总关注约586，数据口径明确为后台实测",
-        "旧同事轻视阅读成绩，许成不争吵，优先回复读者和记录反馈",
-        "小蓝从留言和已有材料中选出值得继续核验的第二条问题",
-        "一位并非文中推广对象的商户主动询价，陈骏同时发出同类文章"
+        "站牌写明末班00:30，零点十五分一辆车头亮着“暂停运营”的绿皮大巴贴着主道开走，直接拐上回库高架",
+        "他打站牌上的监督电话，得到“夜间车辆周转与临时调度、部分班次空车回送”的答复",
+        "立交桥匝道下的金杯中巴：单人三十、凑满七人发车、包车两百，白天同一趟大巴四块",
+        "许成只记时刻、换乘和答复，不编造公交政策，也不把热线答复写成官方定论"
       ],
       "scenePlan": [
         {
-          "purpose": "让数字增长产生真实反馈",
-          "characterGoal": "确认文章有没有帮到人",
-          "obstacle": "早期数据低，旧同事嘲讽几百阅读不算成绩",
-          "change": "读者主动追问并转发，阅读持续增长",
-          "result": "许成首次得到内容有效的现实证据"
+          "purpose": "让“实测”产生具体信息差",
+          "characterGoal": "弄清半夜到底还有没有车",
+          "obstacle": "站牌、时刻表和热线各说各话",
+          "change": "杜勇给出夜班调度惯例，现场亲眼证实末班空车回库",
+          "result": "他拿到第一条网上查不到的事实"
         },
         {
-          "purpose": "把影响力连接业务",
-          "characterGoal": "决定下一步做内容还是先谈钱",
-          "obstacle": "商户只说想做，不愿先讲需求",
-          "change": "许成先把追问记录清楚，同时要求商户说明范围和用途",
-          "result": "询价与竞争者跟题同时出现"
+          "purpose": "把交通成本摆到读者面前",
+          "characterGoal": "算清一个夜班工人回家的代价",
+          "obstacle": "正规车没了，黑车价格随时翻",
+          "change": "他记下要价规则，不写司机骂人的部分",
+          "result": "回家这件事第一次有了明码标价的成本"
         }
       ],
-      "stateChange": "临江杂谈首次获得有效阅读和主动反馈，许成开始同时面对内容延续、商业询价与同行竞争。",
-      "endingMomentum": "商户想先看方案，陈骏的账号已经发出同类文章。",
+      "stateChange": "他掌握“末班空车回库”与黑中巴定价两条一手事实，也第一次意识到钱是这条路线上的硬门槛。",
+      "endingMomentum": "口袋里那点钱撑不起包车价，只剩最后一条路——走回去。",
       "comedyExecution": null,
       "wordCount": null,
       "wordCountPass": null,
-      "validationRounds": 4,
-      "checks": {
-        "agentFirstRead": {
-          "mode": "background-free-independent-agent",
-          "verdict": "pass-with-fixes",
-          "readerModel": "deepseek-v4-flash",
-          "reportPath": "notes/first-reads/第006章-首读.json"
-        },
-        "semanticAuditRecord": {
-          "auditedChapter": 6,
-          "window": [
-            5,
-            6,
-            7
-          ],
-          "auditPhase": "retrospective",
-          "inputSha256": "67029df081618be12fc4f16134461e88738a6d695b6e001f6b85bbcff62643cf",
-          "auditId": "9876cc47-db09-4ae6-b8eb-3e4106044902",
-          "reportPath": "notes/semantic-audits/第006章-语义审计.json",
-          "verdict": "pass"
-        },
-        "scriptExitCodes": {
-          "check_chapter_wordcount": 0,
-          "check_body_format": 0,
-          "check_prose": 0,
-          "check_dialogue_punctuation": 0,
-          "check_style_fingerprint": 0,
-          "check_semantic_audit": 0,
-          "check_language_review": 0,
-          "check_agent_first_read": 0,
-          "check_plot_fingerprint": 0,
-          "check_continuity_candidate": 0,
-          "plotFingerprint": 0
-        }
-      },
-      "qualityPass": true,
-      "retrofitReason": "旧版使用213粉停更旧号；新版需改为0粉新号、部分欠薪、从零涨粉与流量主开通教学线。",
-      "firstReadStatus": "requires-new-setting-first-read",
-      "validationProgress": {
-        "version": 1,
-        "bodyDigest": "fceb8870ea09764c799e9a9a381a2aef3be6cb5c9cf07f07892a5f8c815375a8",
-        "blockerFingerprint": "1c2d6acf348f52b5898d2b41193b5f5f9e24f6e1e0be4be7772c8973158c9506",
-        "blockers": [
-          {
-            "id": "check_language_review",
-            "what": "标点/断句/破折号/翻译腔语义复核：每个候选都有处置，缺失或过期须重建证据",
-            "outcome": "fail",
-            "exitCode": 1,
-            "reason": "退出码 1：\n[硬错误]\n位置：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\e7cb77fd-db5a-4fa7-a192-1bbe886c856c\\stage\\notes\\semantic-audits\\第006章-语义审计.json\n语言问题 languageReview.checks.semanticPunctuation：原句 '真到了现实里，哪有什么发出去就爆的奇迹。'；依据与修改要求：“哪有什么……”是反问，不是单纯陈述；按本书规则，反问必须使用问号。应改为“真到了现实里，哪有什么发出去就爆的奇迹？”\n期望值：标点、断句、破折号和中文表达符合具体语义\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点",
-            "stdout": "[硬错误]\r\n位置：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\e7cb77fd-db5a-4fa7-a192-1bbe886c856c\\stage\\notes\\semantic-audits\\第006章-语义审计.json\r\n语言问题 languageReview.checks.semanticPunctuation：原句 '真到了现实里，哪有什么发出去就爆的奇迹。'；依据与修改要求：“哪有什么……”是反问，不是单纯陈述；按本书规则，反问必须使用问号。应改为“真到了现实里，哪有什么发出去就爆的奇迹？”\r\n期望值：标点、断句、破折号和中文表达符合具体语义\r\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点\r\n",
-            "stderr": "",
-            "argv": [
-              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_language_review.py",
-              "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\e7cb77fd-db5a-4fa7-a192-1bbe886c856c\\stage",
-              "--chapter",
-              "6"
-            ],
-            "evidence": {
-              "script": "check_language_review.py",
-              "argv": [
-                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_language_review.py",
-                "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\e7cb77fd-db5a-4fa7-a192-1bbe886c856c\\stage",
-                "--chapter",
-                "6"
-              ],
-              "exitCode": 1,
-              "stdout": "[硬错误]\r\n位置：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\e7cb77fd-db5a-4fa7-a192-1bbe886c856c\\stage\\notes\\semantic-audits\\第006章-语义审计.json\r\n语言问题 languageReview.checks.semanticPunctuation：原句 '真到了现实里，哪有什么发出去就爆的奇迹。'；依据与修改要求：“哪有什么……”是反问，不是单纯陈述；按本书规则，反问必须使用问号。应改为“真到了现实里，哪有什么发出去就爆的奇迹？”\r\n期望值：标点、断句、破折号和中文表达符合具体语义\r\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点\r\n",
-              "stderr": "",
-              "timedOut": false,
-              "startedAt": "2026-10-04T14:28:46.555Z",
-              "ms": 142
-            }
-          }
-        ],
-        "updatedAt": "2026-10-04T14:28:47.265Z"
-      }
+      "qualityPass": false,
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版这一趟只写了空车与热线，黑中巴与走路成本混在同一章里被压缩；新版拆开写透。",
+      "firstReadStatus": "pending"
     },
     {
       "chapterNumber": 7,
       "volumeNumber": 1,
-      "title": "“先做着看，以后长期合作”",
-      "filePath": "chapters/第007章 “先做着看，以后长期合作”.md",
+      "title": "那五公里中间，有两截断头路",
+      "filePath": "chapters/第007章 那五公里中间，有两截断头路.md",
       "status": "in_progress",
-      "chapterRole": "首单谈判章",
-      "readerPayoff": "许成挡住免费试做和长期合作画饼，谈清3000元服务范围并收到1500元首付款。",
+      "chapterRole": "第一次夜班现场核验（下）",
+      "readerPayoff": "三百块买到的是会翻的铁板和一条没人管的断头路，读者能感到这笔钱花在了什么地方。",
       "mustHappen": [
-        "商户用以后长期合作试探免费试做和低价",
-        "小蓝判断真实工作量与风险，许成谈清拍摄、文案、修改、素材授权和付款节点",
-        "项目限定为3000元小店基础图文，不承诺专业棚拍、全案策划、销量或阅读",
-        "合同约定与实际到账分开记录；许成收到1500元首付款",
-        "杜勇按任务参与并另列报酬，不把帮忙写成免单"
+        "两米多高的蓝铁皮围挡横在路中，没有反光警示，也不写怎么绕",
+        "涵洞下的排污盖板松动，杜勇提到前天有人抄近路在这里摔断锁骨",
+        "整条街只有一家便利店还亮着半扇灯箱，是这条路上唯一的落脚点",
+        "许成当场给杜勇转300元，个人余额从6740元变成6440元"
       ],
       "scenePlan": [
         {
-          "purpose": "让内容价值进入商务谈判",
-          "characterGoal": "把一篇样稿转成明确服务",
-          "obstacle": "客户用长期合作压价并要求免费试做",
-          "change": "许成拆清交付和不包含事项",
-          "result": "双方签下两阶段付款项目"
+          "purpose": "用真实路线和身体风险换可用信息",
+          "characterGoal": "把夜班回家的每一步走清楚",
+          "obstacle": "路面黑、盖板松、没有路灯，直接闯过去有风险",
+          "change": "杜勇带他从涵洞绕行而不是硬走封路那头",
+          "result": "拍照取证完成，路线节点全部落地"
         },
         {
-          "purpose": "兑现第一笔新业务收入",
-          "characterGoal": "拿到启动款并按时履约",
-          "obstacle": "白天仍要上班，时间和交付都不能吹牛",
-          "change": "他确认范围后收1500元首付款",
-          "result": "副业第一次变成真实到账收入，同时承担交付义务"
+          "purpose": "把钱当场结清",
+          "characterGoal": "不欠朋友的人情账",
+          "obstacle": "杜勇可以不要钱，但那样这笔核验就变成人情",
+          "change": "按事先说好的工时当场微信转300元",
+          "result": "个人余额6440元，前期调研费记在他自己头上"
         }
       ],
-      "stateChange": "许成首次签下工资外服务合同并收到1500元新收入，A稿影响力转化为有履约义务的业务。",
-      "endingMomentum": "第二天仍有晨会，陈骏开始询问同一商户，项目执行期出现竞争和时间冲突。",
+      "stateChange": "核验完成，他手里有站牌、封路、铁板、便利店四组现场材料；个人余额6440元。",
+      "endingMomentum": "三百块花出去了，照片和时间点都在手里，可他还不知道该把这些东西写成什么。",
       "comedyExecution": null,
       "wordCount": null,
       "wordCountPass": null,
-      "validationRounds": 3,
-      "checks": {
-        "agentFirstRead": {
-          "mode": "background-free-independent-agent",
-          "verdict": "pass",
-          "readerModel": "deepseek-v4-flash",
-          "reportPath": "notes/first-reads/第007章-首读.json"
-        },
-        "semanticAuditRecord": {
-          "auditedChapter": 7,
-          "window": [
-            6,
-            7,
-            8
-          ],
-          "auditPhase": "retrospective",
-          "inputSha256": "6494b326d429006ba3d8834eb291be693bf71a348c447dfd6f9efd4ac0222a55",
-          "auditId": "ce34e886-6572-41ba-ba10-8ec4f5442947",
-          "reportPath": "notes/semantic-audits/第007章-语义审计.json",
-          "verdict": "pass"
-        }
-      },
       "qualityPass": false,
-      "retrofitReason": "旧版使用213粉停更旧号；新版需改为0粉新号、部分欠薪、从零涨粉与流量主开通教学线。",
-      "firstReadStatus": "requires-new-setting-first-read",
-      "validationProgress": {
-        "version": 1,
-        "bodyDigest": "c21297cb17d3921f2cba8c65dcc00bd24f1c41b5f51ba57fc07349119e14ce1c",
-        "blockerFingerprint": "1b490ef870a920efcd38e35016d206a2bb5b3dcc4cef4d2d2003732feb311d7a",
-        "blockers": [
-          {
-            "id": "check_semantic_audit",
-            "what": "语义审计记录的引用落地与五项覆盖门槛（区分「未发现」与「没去看」）",
-            "outcome": "fail",
-            "exitCode": 1,
-            "reason": "退出码 1：\n[硬错误]\n- cognition 第8项的 sourceQuote 为空\n- 以下 2 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\n- 阻断项 cognition 第8项：判定 fail\nspeaker: 小蓝\ncitedInfo: 上周那篇被工友挑过错，他这期多半想拿几家真店补回来。\nsourceQuote: （空字符串）\nacquisition: 它看到陈骏在本地群征集深夜餐饮资源，并结合陈骏上篇防汛堤描述与现场不符作推断；但第6章没有工友公开挑错的记录。\nsourceWhere: prev\nverdict: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n- 阻断项 observations 第1项：判定 fail\ntype: 知情来源\nquote: 上周那篇被工友挑过错，他这期多半想拿几家真店补回来。\nnote: 小蓝说“上周那篇被工友挑过错”，但第6章只写到陈骏的防汛堤描述与许成现场所见不符、许成想质疑又删除，未出现工友公开挑错或小蓝读取该评论的依据；应删去“被工友挑过错”或补出可核验互动。\nsourceWhere: chapter\nverdict: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n结论：失败，共 4 项硬错误。",
-            "stdout": "==============================================================\r\n语义审计记录检查（只验证记录与引用，不判断小说语义）\r\n==============================================================\r\n被审章节：D:\\novelist\\被裁后，我靠公众号杀疯了\\chapters\\第007章 “先做着看，以后长期合作”.md\r\n审计记录：D:\\novelist\\被裁后，我靠公众号杀疯了\\notes\\semantic-audits\\第007章-语义审计.json\r\n[已转交阶段校验，本章不阻塞] observations 第2项 → 第8章完成后的跨章接缝、现金与知情台账校验\r\n\r\n[硬错误]\r\n  - cognition 第8项的 sourceQuote 为空\r\n  - 以下 2 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\r\n  - 阻断项 cognition 第8项：判定 fail\r\n  speaker: 小蓝\r\n  citedInfo: 上周那篇被工友挑过错，他这期多半想拿几家真店补回来。\r\n  sourceQuote: （空字符串）\r\n  acquisition: 它看到陈骏在本地群征集深夜餐饮资源，并结合陈骏上篇防汛堤描述与现场不符作推断；但第6章没有工友公开挑错的记录。\r\n  sourceWhere: prev\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 observations 第1项：判定 fail\r\n  type: 知情来源\r\n  quote: 上周那篇被工友挑过错，他这期多半想拿几家真店补回来。\r\n  note: 小蓝说“上周那篇被工友挑过错”，但第6章只写到陈骏的防汛堤描述与许成现场所见不符、许成想质疑又删除，未出现工友公开挑错或小蓝读取该评论的依据；应删去“被工友挑过错”或补出可核验互动。\r\n  sourceWhere: chapter\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n\r\n结论：失败，共 4 项硬错误。\r\n",
-            "stderr": "",
-            "argv": [
-              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_semantic_audit.py",
-              "D:\\novelist\\被裁后，我靠公众号杀疯了",
-              "--chapter",
-              "7"
-            ],
-            "evidence": {
-              "script": "check_semantic_audit.py",
-              "argv": [
-                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_semantic_audit.py",
-                "D:\\novelist\\被裁后，我靠公众号杀疯了",
-                "--chapter",
-                "7"
-              ],
-              "exitCode": 1,
-              "stdout": "==============================================================\r\n语义审计记录检查（只验证记录与引用，不判断小说语义）\r\n==============================================================\r\n被审章节：D:\\novelist\\被裁后，我靠公众号杀疯了\\chapters\\第007章 “先做着看，以后长期合作”.md\r\n审计记录：D:\\novelist\\被裁后，我靠公众号杀疯了\\notes\\semantic-audits\\第007章-语义审计.json\r\n[已转交阶段校验，本章不阻塞] observations 第2项 → 第8章完成后的跨章接缝、现金与知情台账校验\r\n\r\n[硬错误]\r\n  - cognition 第8项的 sourceQuote 为空\r\n  - 以下 2 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\r\n  - 阻断项 cognition 第8项：判定 fail\r\n  speaker: 小蓝\r\n  citedInfo: 上周那篇被工友挑过错，他这期多半想拿几家真店补回来。\r\n  sourceQuote: （空字符串）\r\n  acquisition: 它看到陈骏在本地群征集深夜餐饮资源，并结合陈骏上篇防汛堤描述与现场不符作推断；但第6章没有工友公开挑错的记录。\r\n  sourceWhere: prev\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 observations 第1项：判定 fail\r\n  type: 知情来源\r\n  quote: 上周那篇被工友挑过错，他这期多半想拿几家真店补回来。\r\n  note: 小蓝说“上周那篇被工友挑过错”，但第6章只写到陈骏的防汛堤描述与许成现场所见不符、许成想质疑又删除，未出现工友公开挑错或小蓝读取该评论的依据；应删去“被工友挑过错”或补出可核验互动。\r\n  sourceWhere: chapter\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n\r\n结论：失败，共 4 项硬错误。\r\n",
-              "stderr": "",
-              "timedOut": false,
-              "startedAt": "2026-10-04T14:03:54.339Z",
-              "ms": 113
-            }
-          },
-          {
-            "id": "check_language_review",
-            "what": "标点/断句/破折号/翻译腔语义复核：每个候选都有处置，缺失或过期须重建证据",
-            "outcome": "fail",
-            "exitCode": 1,
-            "reason": "退出码 1：\n[硬错误]\n位置：D:\\novelist\\被裁后，我靠公众号杀疯了\\notes\\semantic-audits\\第007章-语义审计.json\n语言问题 languageReview.checks.chineseUsage：原句 '顺着路走，先看到的是一家挂着“二十四小时补胎电焊”的大红铁牌，足有两米多高，横在人行道边上。'；依据与修改要求：“一家”只能修饰店铺等经营单位，这里却直接落到中心语“大红铁牌”，量词与中心语失配，像把招牌写成了“一家”。可改为“先看到的是一块挂着‘二十四小时补胎电焊’字样的大红铁牌”，或改写成“一家挂着……招牌的修车铺，招牌足有两米多高”。\n期望值：标点、断句、破折号和中文表达符合具体语义\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点",
-            "stdout": "[硬错误]\r\n位置：D:\\novelist\\被裁后，我靠公众号杀疯了\\notes\\semantic-audits\\第007章-语义审计.json\r\n语言问题 languageReview.checks.chineseUsage：原句 '顺着路走，先看到的是一家挂着“二十四小时补胎电焊”的大红铁牌，足有两米多高，横在人行道边上。'；依据与修改要求：“一家”只能修饰店铺等经营单位，这里却直接落到中心语“大红铁牌”，量词与中心语失配，像把招牌写成了“一家”。可改为“先看到的是一块挂着‘二十四小时补胎电焊’字样的大红铁牌”，或改写成“一家挂着……招牌的修车铺，招牌足有两米多高”。\r\n期望值：标点、断句、破折号和中文表达符合具体语义\r\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点\r\n",
-            "stderr": "",
-            "argv": [
-              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_language_review.py",
-              "D:\\novelist\\被裁后，我靠公众号杀疯了",
-              "--chapter",
-              "7"
-            ],
-            "evidence": {
-              "script": "check_language_review.py",
-              "argv": [
-                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_language_review.py",
-                "D:\\novelist\\被裁后，我靠公众号杀疯了",
-                "--chapter",
-                "7"
-              ],
-              "exitCode": 1,
-              "stdout": "[硬错误]\r\n位置：D:\\novelist\\被裁后，我靠公众号杀疯了\\notes\\semantic-audits\\第007章-语义审计.json\r\n语言问题 languageReview.checks.chineseUsage：原句 '顺着路走，先看到的是一家挂着“二十四小时补胎电焊”的大红铁牌，足有两米多高，横在人行道边上。'；依据与修改要求：“一家”只能修饰店铺等经营单位，这里却直接落到中心语“大红铁牌”，量词与中心语失配，像把招牌写成了“一家”。可改为“先看到的是一块挂着‘二十四小时补胎电焊’字样的大红铁牌”，或改写成“一家挂着……招牌的修车铺，招牌足有两米多高”。\r\n期望值：标点、断句、破折号和中文表达符合具体语义\r\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点\r\n",
-              "stderr": "",
-              "timedOut": false,
-              "startedAt": "2026-10-04T14:03:54.460Z",
-              "ms": 148
-            }
-          }
-        ],
-        "updatedAt": "2026-10-04T14:03:54.911Z"
-      }
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版把付钱、回屋和写稿挤在同一章后段；新版只写核验与付账，写稿单独成章。",
+      "firstReadStatus": "pending"
     },
     {
       "chapterNumber": 8,
       "volumeNumber": 1,
-      "title": "南桥的灯还没亮，陈骏先发了",
-      "filePath": "chapters/第008章 南桥的灯还没亮，陈骏先发了.md",
-      "status": "completed",
-      "chapterRole": "竞争与核验章",
-      "readerPayoff": "许成不被对骂拖走，用当天现场、照片和路线更新完成B稿，稳住客户第一轮验收。",
+      "title": "我先把它写成了接口文档",
+      "filePath": "chapters/第008章 我先把它写成了接口文档.md",
+      "status": "in_progress",
+      "chapterRole": "初稿失败与改写章",
+      "readerPayoff": "同一批现场资料，换个读者对象就活了；标题从参数核验改成一句人话。",
       "mustHappen": [
-        "陈骏借更大账号复述已公开信息并试图截客户",
-        "许成不取消履约去对骂，小蓝区分公开稿已知信息与尚未掌握的材料",
-        "许成只能用下班和休息时间补做当天核验，不无故请假",
-        "B稿带着新现场和新答案发布，与陈骏的旧信息复述拉开差距",
-        "客户确认第一轮交付继续验收"
+        "他把现场整理成接口异常表：对象、模块、异常节点、危险等级",
+        "小蓝指出这是给交建局交验收报告，凌晨一点半下班的人不会先看八百字模块定义",
+        "标题改成《凌晨一点下班，临江这几段路怎么回家》，正文按走路的人遇到的顺序排",
+        "配图裁掉路人、涂掉厂区标牌、避开杜勇的工牌",
+        "清晨五点十分按下群发，后台显示阅读1、关注0"
       ],
       "scenePlan": [
         {
-          "purpose": "把竞争从吵架改成信息速度",
-          "characterGoal": "稳住客户和读者",
-          "obstacle": "陈骏账号更大、动作更快，已经复述旧路线",
-          "change": "许成当晚补做现场核验并保留时间记录",
-          "result": "B稿拿到陈骏没有的最新事实"
+          "purpose": "让程序员习惯第一次撞上读者",
+          "characterGoal": "把一路核到的东西写清楚",
+          "obstacle": "他默认“信息齐全”就等于有人愿意看",
+          "change": "小蓝直说读者要的是第一眼看到结论和绕行办法",
+          "result": "结构推翻重写，标题落地"
         },
         {
-          "purpose": "让副业成本真实存在",
-          "characterGoal": "在上班之外完成项目修改",
-          "obstacle": "白天会议和本职工作占满时间",
-          "change": "他压缩休息并明确告诉客户可验收节点",
-          "result": "第一轮交付通过，尾款只差实际支付"
+          "purpose": "把发布和结果分开",
+          "characterGoal": "发出去",
+          "obstacle": "没有任何第二条反馈可以依靠",
+          "change": "按走路顺序写完全篇并做过脱敏",
+          "result": "文章发布，数字停在阅读1"
         }
       ],
-      "stateChange": "许成在同一天稳住客户并完成B稿核验，竞争从内容抄袭转入资料更新与交付能力。",
-      "endingMomentum": "陈骏仍按旧信息下结论，许成手里已有当天照片和确认记录；尾款尚未到账。",
+      "stateChange": "他完成第一篇真正的服务型文章；账号数据仍然是零。",
+      "endingMomentum": "两个小时后是七点的闹钟，他得挤早高峰去公司周会，面对王文洁追的接口进度。",
       "comedyExecution": null,
       "wordCount": null,
       "wordCountPass": null,
-      "validationRounds": 4,
-      "checks": {
-        "agentFirstRead": {
-          "mode": "background-free-independent-agent",
-          "verdict": "pass",
-          "readerModel": "deepseek-v4-flash",
-          "reportPath": "notes/first-reads/第008章-首读.json"
-        },
-        "semanticAuditRecord": {
-          "auditedChapter": 8,
-          "window": [
-            7,
-            8,
-            9
-          ],
-          "auditPhase": "retrospective",
-          "inputSha256": "cbc67ae8e5c68c481e1a4333095f39be110ac38e5ddf1f86a9c6e1ff486b0a29",
-          "auditId": "c9a0b023-47e2-4e8f-9d9e-6c47d93eb5ff",
-          "reportPath": "notes/semantic-audits/第008章-语义审计.json",
-          "verdict": "pass"
-        },
-        "scriptExitCodes": {
-          "check_chapter_wordcount": 0,
-          "check_body_format": 0,
-          "check_prose": 0,
-          "check_dialogue_punctuation": 0,
-          "check_style_fingerprint": 0,
-          "check_semantic_audit": 0,
-          "check_language_review": 0,
-          "check_agent_first_read": 0,
-          "check_plot_fingerprint": 0,
-          "check_continuity_candidate": 0,
-          "plotFingerprint": 0
-        }
-      },
-      "qualityPass": true,
-      "retrofitReason": "旧版使用213粉停更旧号；新版需改为0粉新号、部分欠薪、从零涨粉与流量主开通教学线。",
-      "firstReadStatus": "requires-new-setting-first-read",
-      "validationProgress": {
-        "version": 1,
-        "bodyDigest": "21f3545f897ee7a963528365d2c9bf51874f52acf4a8d8fcc02c7ddeb50278fb",
-        "blockerFingerprint": "12e4851d03529ff8bb6a4a41655ac21756be27c862d717fa6f4c37a643a8771c",
-        "blockers": [
-          {
-            "id": "check_semantic_audit",
-            "what": "语义审计记录的引用落地与五项覆盖门槛（区分「未发现」与「没去看」）",
-            "outcome": "fail",
-            "exitCode": 1,
-            "reason": "退出码 1：\n[硬错误]\n- cognition 第2项的 sourceQuote 为空\n- 以下 5 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\n- 阻断项 minimumChecks.highImpactInformation：判定 fail\n条目原文: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n- 阻断项 cognition 第2项：判定 fail\nspeaker: 小蓝\ncitedInfo: 他根本没去过现场，全靠在空调房里抄通报。\nsourceQuote: （空字符串）\nacquisition: 小蓝只在南桥现场看过封路、灯未通和店面关闭，并读到陈骏推文；这只能证明信息与现场不符，不能直接证明陈骏从未到场或在空调房抄稿。\nsourceWhere: chapter\nverdict: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n- 阻断项 cognition 第3项：判定 fail\nspeaker: 小蓝\ncitedInfo: 陈骏自己引的市政通报原话是‘主体工程完工，进入路灯与管网调试阶段’。\nsourceQuote: 文章开头大段引用了上周五市政官方发布的南桥改造工程通报，第一段挂着原话：“主体工程完工，进入路灯与管网调试阶段”\nacquisition: 小蓝从陈骏推文中的二次引用得到该句，但本章没有市政原通报、链接、快照或前章逐字原文。\nsourceWhere: chapter\nverdict: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n- 阻断项 observations 第1项：判定 fail\ntype: 引用依据\nquote: 文章开头大段引用了上周五市政官方发布的南桥改造工程通报，第一段挂着原话：“主体工程完工，进入路灯与管网调试阶段”\nnote: 市政通报原话仍来自陈骏推文的二次引用，本章未给原文、链接或前章逐字依据；应补原通报或把该句明确降为转述待核。\nsourceWhere: chapter\nverdict: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n- 阻断项 observations 第2项：判定 fail\ntype: 知情与证据\nquote: 他根本没去过现场，全靠在空调房里抄通报。\nnote: 小蓝把自己从文章与现场差异得出的推断说成“他根本没去过现场”，没有行程、现场记录或知情证人；应改成小蓝明确说“我判断”或补证据链。\nsourceWhere: chapter\nverdict: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n结论：失败，共 7 项硬错误。",
-            "stdout": "==============================================================\r\n语义审计记录检查（只验证记录与引用，不判断小说语义）\r\n==============================================================\r\n被审章节：D:\\novelist\\被裁后，我靠公众号杀疯了\\chapters\\第008章 南桥的灯还没亮，陈骏先发了.md\r\n审计记录：D:\\novelist\\被裁后，我靠公众号杀疯了\\notes\\semantic-audits\\第008章-语义审计.json\r\n[已转交阶段校验，本章不阻塞] observations 第3项 → 第9章完成后的邻章接缝校验\r\n[已转交阶段校验，本章不阻塞] observations 第4项 → 第10章前的第一卷现金与公开数据台账核验\r\n\r\n[硬错误]\r\n  - cognition 第2项的 sourceQuote 为空\r\n  - 以下 5 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\r\n  - 阻断项 minimumChecks.highImpactInformation：判定 fail\r\n  条目原文: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 cognition 第2项：判定 fail\r\n  speaker: 小蓝\r\n  citedInfo: 他根本没去过现场，全靠在空调房里抄通报。\r\n  sourceQuote: （空字符串）\r\n  acquisition: 小蓝只在南桥现场看过封路、灯未通和店面关闭，并读到陈骏推文；这只能证明信息与现场不符，不能直接证明陈骏从未到场或在空调房抄稿。\r\n  sourceWhere: chapter\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 cognition 第3项：判定 fail\r\n  speaker: 小蓝\r\n  citedInfo: 陈骏自己引的市政通报原话是‘主体工程完工，进入路灯与管网调试阶段’。\r\n  sourceQuote: 文章开头大段引用了上周五市政官方发布的南桥改造工程通报，第一段挂着原话：“主体工程完工，进入路灯与管网调试阶段”\r\n  acquisition: 小蓝从陈骏推文中的二次引用得到该句，但本章没有市政原通报、链接、快照或前章逐字原文。\r\n  sourceWhere: chapter\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 observations 第1项：判定 fail\r\n  type: 引用依据\r\n  quote: 文章开头大段引用了上周五市政官方发布的南桥改造工程通报，第一段挂着原话：“主体工程完工，进入路灯与管网调试阶段”\r\n  note: 市政通报原话仍来自陈骏推文的二次引用，本章未给原文、链接或前章逐字依据；应补原通报或把该句明确降为转述待核。\r\n  sourceWhere: chapter\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 observations 第2项：判定 fail\r\n  type: 知情与证据\r\n  quote: 他根本没去过现场，全靠在空调房里抄通报。\r\n  note: 小蓝把自己从文章与现场差异得出的推断说成“他根本没去过现场”，没有行程、现场记录或知情证人；应改成小蓝明确说“我判断”或补证据链。\r\n  sourceWhere: chapter\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n\r\n结论：失败，共 7 项硬错误。\r\n",
-            "stderr": "",
-            "argv": [
-              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_semantic_audit.py",
-              "D:\\novelist\\被裁后，我靠公众号杀疯了",
-              "--chapter",
-              "8"
-            ],
-            "evidence": {
-              "script": "check_semantic_audit.py",
-              "argv": [
-                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_semantic_audit.py",
-                "D:\\novelist\\被裁后，我靠公众号杀疯了",
-                "--chapter",
-                "8"
-              ],
-              "exitCode": 1,
-              "stdout": "==============================================================\r\n语义审计记录检查（只验证记录与引用，不判断小说语义）\r\n==============================================================\r\n被审章节：D:\\novelist\\被裁后，我靠公众号杀疯了\\chapters\\第008章 南桥的灯还没亮，陈骏先发了.md\r\n审计记录：D:\\novelist\\被裁后，我靠公众号杀疯了\\notes\\semantic-audits\\第008章-语义审计.json\r\n[已转交阶段校验，本章不阻塞] observations 第3项 → 第9章完成后的邻章接缝校验\r\n[已转交阶段校验，本章不阻塞] observations 第4项 → 第10章前的第一卷现金与公开数据台账核验\r\n\r\n[硬错误]\r\n  - cognition 第2项的 sourceQuote 为空\r\n  - 以下 5 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\r\n  - 阻断项 minimumChecks.highImpactInformation：判定 fail\r\n  条目原文: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 cognition 第2项：判定 fail\r\n  speaker: 小蓝\r\n  citedInfo: 他根本没去过现场，全靠在空调房里抄通报。\r\n  sourceQuote: （空字符串）\r\n  acquisition: 小蓝只在南桥现场看过封路、灯未通和店面关闭，并读到陈骏推文；这只能证明信息与现场不符，不能直接证明陈骏从未到场或在空调房抄稿。\r\n  sourceWhere: chapter\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 cognition 第3项：判定 fail\r\n  speaker: 小蓝\r\n  citedInfo: 陈骏自己引的市政通报原话是‘主体工程完工，进入路灯与管网调试阶段’。\r\n  sourceQuote: 文章开头大段引用了上周五市政官方发布的南桥改造工程通报，第一段挂着原话：“主体工程完工，进入路灯与管网调试阶段”\r\n  acquisition: 小蓝从陈骏推文中的二次引用得到该句，但本章没有市政原通报、链接、快照或前章逐字原文。\r\n  sourceWhere: chapter\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 observations 第1项：判定 fail\r\n  type: 引用依据\r\n  quote: 文章开头大段引用了上周五市政官方发布的南桥改造工程通报，第一段挂着原话：“主体工程完工，进入路灯与管网调试阶段”\r\n  note: 市政通报原话仍来自陈骏推文的二次引用，本章未给原文、链接或前章逐字依据；应补原通报或把该句明确降为转述待核。\r\n  sourceWhere: chapter\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 observations 第2项：判定 fail\r\n  type: 知情与证据\r\n  quote: 他根本没去过现场，全靠在空调房里抄通报。\r\n  note: 小蓝把自己从文章与现场差异得出的推断说成“他根本没去过现场”，没有行程、现场记录或知情证人；应改成小蓝明确说“我判断”或补证据链。\r\n  sourceWhere: chapter\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n\r\n结论：失败，共 7 项硬错误。\r\n",
-              "stderr": "",
-              "timedOut": false,
-              "startedAt": "2026-10-05T00:15:48.143Z",
-              "ms": 110
-            }
-          }
-        ],
-        "updatedAt": "2026-10-05T00:15:48.896Z"
-      }
+      "qualityPass": false,
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版写稿与核验同章；新版把“写成什么样”当成独立冲突，让读者看见信息齐全和有人愿意看之间的差。",
+      "firstReadStatus": "pending"
     },
     {
       "chapterNumber": 9,
       "volumeNumber": 1,
-      "title": "钱到账了，最先问我的还是阅读数",
-      "filePath": "chapters/第009章 钱到账了，最先问我的还是阅读数.md",
+      "title": "三十七，一百一十二，四百一十二",
+      "filePath": "chapters/第009章 三十七，一百一十二，四百一十二.md",
       "status": "in_progress",
-      "chapterRole": "首单闭环与打脸章",
-      "readerPayoff": "1500元尾款实际到账，3000元项目完整闭环；许成不靠争吵，用真实到账和下一档报价回应轻视。",
+      "chapterRole": "低数据与第一批真实反馈章",
+      "readerPayoff": "没有暴涨，只有六条具体留言和一处实景纠错，但这是第一次有陌生人照他写的路去走。",
       "mustHappen": [
-        "服务通过验收，客户实际支付1500元尾款",
-        "3000元首单形成完整闭环；合同额、首付款、尾款和到账分别记账",
-        "旧同事仍把成绩说成运气，许成不拿后台数据当场争面子",
-        "许成确认下一档价格和可承接范围，但本职工作仍是现金流主力",
-        "小蓝确认本卷识局闭环，并把注意力指向更大的真实需求"
+        "阅读从1爬到37、112，下班时412，留言六条",
+        "一个读者指出便利店后半夜只开小窗、热水壶两点半断电，他回复并把这条纠错设为精选置顶",
+        "他回复问路的人，不把关注设成看答案的门槛",
+        "茶水间里陈骏第一次知道他在做号，当面说文字没人看、几百阅读连烟钱都挣不回来",
+        "小蓝从留言里筛出值得跑的第二条线索：东站"
       ],
       "scenePlan": [
         {
-          "purpose": "兑现项目尾款",
-          "characterGoal": "完成交付并拿到剩余收入",
-          "obstacle": "客户要确认修改和公开展示授权",
-          "change": "许成按约定完成验收与授权",
-          "result": "1500元尾款实际到账，首单闭环"
+          "purpose": "让真实反馈取代数字焦虑",
+          "characterGoal": "弄清文章有没有帮到人",
+          "obstacle": "从1到412的速度远不如别人晒出来的成绩",
+          "change": "他把纠错置顶并写清“这是我实测当晚的个例”",
+          "result": "留言变成下一条选题的来源"
         },
         {
-          "purpose": "让打脸落在真实后果",
-          "characterGoal": "回应同事“瞎折腾”的判断",
-          "obstacle": "旁人只看阅读，不信副业能挣钱",
-          "change": "许成不吵，核对余额和下一档报价",
-          "result": "另一客户开始询问价格，他第一次需要在上班时间处理商务消息"
+          "purpose": "用旁人的轻视照出他现在的真实位置",
+          "characterGoal": "不被带着解释自己",
+          "obstacle": "陈骏当众贬低，办公室其他人在听",
+          "change": "他不翻后台也不争，回工位继续干本职",
+          "result": "副业仍在自己手里，不靠别人的评价定价"
         }
       ],
-      "stateChange": "许成的首单新收入完整到账，系统优势经过交付验证，旧同事的评价不再能定义他的能力。",
-      "endingMomentum": "B稿仍在增长，新客户主动询问下一档价格，收入开始向可持续经营推进。",
+      "stateChange": "文章第一次产生真实互动；他确认读者要的是可核验的现场，不是情绪。",
+      "endingMomentum": "问路的人追问的下一站还是东站——和买课那篇失败模板稿底下唯一那条留言，问的是同一个地方。",
       "comedyExecution": null,
       "wordCount": null,
       "wordCountPass": null,
-      "validationRounds": 9,
-      "checks": {
-        "agentFirstRead": {
-          "mode": "background-free-independent-agent",
-          "verdict": "pass-with-fixes",
-          "readerModel": "deepseek-v4-flash",
-          "reportPath": "notes/first-reads/第009章-首读.json"
-        },
-        "semanticAuditRecord": {
-          "auditedChapter": 9,
-          "window": [
-            8,
-            9,
-            10
-          ],
-          "auditPhase": "retrospective",
-          "inputSha256": "7d75112788725a91f989294775139f89e31eac850da7b6778e13940df01610e3",
-          "auditId": "55de0b69-ec60-4a52-9a2e-a44fbc940c60",
-          "reportPath": "notes/semantic-audits/第009章-语义审计.json",
-          "verdict": "pass"
-        }
-      },
       "qualityPass": false,
-      "retrofitReason": "旧版使用213粉停更旧号；新版需改为0粉新号、部分欠薪、从零涨粉与流量主开通教学线。",
-      "firstReadStatus": "requires-new-setting-first-read",
-      "validationProgress": {
-        "version": 1,
-        "bodyDigest": "5815548c1ceb2c637f4cce5ac034ce57e76763d6dcd9a7aa0ec732295e893846",
-        "blockerFingerprint": "6df2d8ee1cf0dfa7427455ca08a1548c1309907f2ad6602692f80abc7c3e88a0",
-        "blockers": [
-          {
-            "id": "check_semantic_audit",
-            "what": "语义审计记录的引用落地与五项覆盖门槛（区分「未发现」与「没去看」）",
-            "outcome": "fail",
-            "exitCode": 1,
-            "reason": "退出码 1：\n[硬错误]\n- cognition 第10项的 sourceQuote 为空\n- 以下 4 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\n- 阻断项 minimumChecks.adjacentContinuity：判定 fail\n条目原文: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n- 阻断项 cognition 第10项：判定 fail\nspeaker: 陈骏\ncitedInfo: 下个月公司要搞数字化商户名录，王经理点名让我牵头南门片区，那种大体量的正规预算才是正道。”\nsourceQuote: （空字符串）\nacquisition: 他在茶水间当众声称这是公司安排，但正文没有展示王经理通知、邮件或公司群公告。\nsourceWhere: chapter\nverdict: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n- 阻断项 observations 第3项：判定 fail\ntype: data-accumulation\nquote: 那篇写老街夜宵和夜班路线的稿子，发布刚满四十八小时。\nnote: 第8章B稿在夜间“晚上十点十分。文章正式群发推送。”，第9章末为“周二晚上十点十分”，第10章同晚却写“发布刚满四十八小时”，连续时间最多约二十四小时；需补两日时间跳并同步相对日期，或改掉四十八小时。\nsourceWhere: next\nverdict: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n- 阻断项 joins.auditedToNext：判定 fail\nauditedTailQuote: 周二晚上十点十分，我才重新回到桌前。\nnextHeadQuote: 热水壶里的水漫过面饼，脱水蔬菜的葱香里混着廉价牛油味，在出租屋里散开。\nverdict: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n结论：失败，共 6 项硬错误。",
-            "stdout": "==============================================================\r\n语义审计记录检查（只验证记录与引用，不判断小说语义）\r\n==============================================================\r\n被审章节：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\bc010543-8b95-4f54-aff7-2ee9eef378cc\\stage\\chapters\\第009章 钱到账了，最先问我的还是阅读数.md\r\n审计记录：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\bc010543-8b95-4f54-aff7-2ee9eef378cc\\stage\\notes\\semantic-audits\\第009章-语义审计.json\r\n\r\n[硬错误]\r\n  - cognition 第10项的 sourceQuote 为空\r\n  - 以下 4 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\r\n  - 阻断项 minimumChecks.adjacentContinuity：判定 fail\r\n  条目原文: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 cognition 第10项：判定 fail\r\n  speaker: 陈骏\r\n  citedInfo: 下个月公司要搞数字化商户名录，王经理点名让我牵头南门片区，那种大体量的正规预算才是正道。”\r\n  sourceQuote: （空字符串）\r\n  acquisition: 他在茶水间当众声称这是公司安排，但正文没有展示王经理通知、邮件或公司群公告。\r\n  sourceWhere: chapter\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 observations 第3项：判定 fail\r\n  type: data-accumulation\r\n  quote: 那篇写老街夜宵和夜班路线的稿子，发布刚满四十八小时。\r\n  note: 第8章B稿在夜间“晚上十点十分。文章正式群发推送。”，第9章末为“周二晚上十点十分”，第10章同晚却写“发布刚满四十八小时”，连续时间最多约二十四小时；需补两日时间跳并同步相对日期，或改掉四十八小时。\r\n  sourceWhere: next\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 joins.auditedToNext：判定 fail\r\n  auditedTailQuote: 周二晚上十点十分，我才重新回到桌前。\r\n  nextHeadQuote: 热水壶里的水漫过面饼，脱水蔬菜的葱香里混着廉价牛油味，在出租屋里散开。\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n\r\n结论：失败，共 6 项硬错误。\r\n",
-            "stderr": "",
-            "argv": [
-              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_semantic_audit.py",
-              "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\bc010543-8b95-4f54-aff7-2ee9eef378cc\\stage",
-              "--chapter",
-              "9"
-            ],
-            "evidence": {
-              "script": "check_semantic_audit.py",
-              "argv": [
-                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_semantic_audit.py",
-                "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\bc010543-8b95-4f54-aff7-2ee9eef378cc\\stage",
-                "--chapter",
-                "9"
-              ],
-              "exitCode": 1,
-              "stdout": "==============================================================\r\n语义审计记录检查（只验证记录与引用，不判断小说语义）\r\n==============================================================\r\n被审章节：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\bc010543-8b95-4f54-aff7-2ee9eef378cc\\stage\\chapters\\第009章 钱到账了，最先问我的还是阅读数.md\r\n审计记录：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\bc010543-8b95-4f54-aff7-2ee9eef378cc\\stage\\notes\\semantic-audits\\第009章-语义审计.json\r\n\r\n[硬错误]\r\n  - cognition 第10项的 sourceQuote 为空\r\n  - 以下 4 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\r\n  - 阻断项 minimumChecks.adjacentContinuity：判定 fail\r\n  条目原文: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 cognition 第10项：判定 fail\r\n  speaker: 陈骏\r\n  citedInfo: 下个月公司要搞数字化商户名录，王经理点名让我牵头南门片区，那种大体量的正规预算才是正道。”\r\n  sourceQuote: （空字符串）\r\n  acquisition: 他在茶水间当众声称这是公司安排，但正文没有展示王经理通知、邮件或公司群公告。\r\n  sourceWhere: chapter\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 observations 第3项：判定 fail\r\n  type: data-accumulation\r\n  quote: 那篇写老街夜宵和夜班路线的稿子，发布刚满四十八小时。\r\n  note: 第8章B稿在夜间“晚上十点十分。文章正式群发推送。”，第9章末为“周二晚上十点十分”，第10章同晚却写“发布刚满四十八小时”，连续时间最多约二十四小时；需补两日时间跳并同步相对日期，或改掉四十八小时。\r\n  sourceWhere: next\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 joins.auditedToNext：判定 fail\r\n  auditedTailQuote: 周二晚上十点十分，我才重新回到桌前。\r\n  nextHeadQuote: 热水壶里的水漫过面饼，脱水蔬菜的葱香里混着廉价牛油味，在出租屋里散开。\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n\r\n结论：失败，共 6 项硬错误。\r\n",
-              "stderr": "",
-              "timedOut": false,
-              "startedAt": "2026-10-05T04:21:56.229Z",
-              "ms": 101
-            }
-          }
-        ],
-        "updatedAt": "2026-10-05T04:21:56.770Z"
-      }
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版把低数据、对手轻视和两天增长压在同一章；新版让低数据与真实反馈独占一章。",
+      "firstReadStatus": "pending"
     },
     {
       "chapterNumber": 10,
       "volumeNumber": 1,
-      "title": "三千块到账，我还不敢把它当工资",
-      "filePath": "chapters/第010章 三千块到账，我还不敢把它当工资.md",
+      "title": "关注爬到586，先别说自己会做号",
+      "filePath": "chapters/第010章 关注爬到586，先别说自己会做号.md",
       "status": "in_progress",
-      "chapterRole": "卷末结算与升级章",
-      "readerPayoff": "许成交租、结算杜勇劳务并确认B稿24600阅读和约2860关注；3000元没有替代工资，但他真实取得了下班后的第二收入。",
+      "chapterRole": "第一轮增长与功能申请章",
+      "readerPayoff": "48小时5860阅读、586关注，越过100粉提交流量主申请；同时把阅读、关注、申请和到账四件事分开记。",
       "mustHappen": [
-        "B稿48小时后台累计24600阅读，账号总关注约2860，明确是本书设计的超常成绩",
-        "许成支付1600元房租，给杜勇结算300元劳务，个人余额与现金台账对得上",
-        "3000元首单完整到账，但仍低于12000元家庭转款，不能写成已经替代工资",
-        "周敏确认副业有真实结果，同时要求别影响工作、别把合同额当到手钱",
-        "许成仍在职，没有辞职，也没有在同事面前逆天翻盘；新的更大询价已经出现"
+        "当晚阅读过九百、关注96；第二天早晨累计阅读3218、关注342",
+        "发布满48小时累计5860阅读、586关注",
+        "关注越过100后按知识库R02提交流量主申请，只截图标时点，不插后台教程",
+        "申请提交后账上一分钱没多，申请不等于开通",
+        "小蓝提醒峰值会过去，要留住的是人和问题",
+        "他在本地群里看见“临江潮生活”发出同题材文章，作者是陈骏"
       ],
       "scenePlan": [
         {
-          "purpose": "完成现金和生活闭环",
-          "characterGoal": "把第一笔业务收入变成可核对的现实结果",
-          "obstacle": "房租、劳务、生活支出和原有家庭责任仍在",
-          "change": "许成按台账结算并核对余额",
-          "result": "账号累计关注约2860，个人现金7440元且未支付第26天转款"
+          "purpose": "让第一轮增长落地但不夸大",
+          "characterGoal": "确认这些数字到底意味着什么",
+          "obstacle": "数字好看，可是现金一分没多",
+          "change": "小蓝把阅读、关注、资格和到账逐项拆开",
+          "result": "他按口径归档申请状态，不把资格当收入"
         },
         {
-          "purpose": "让家庭与职业选择保持现实",
-          "characterGoal": "向周敏说明副业结果",
-          "obstacle": "3000元与新收入相关，但还不能覆盖家庭转款",
-          "change": "两人只确认事实和边界，不夸大成功",
-          "result": "许成得到继续经营的空间，同时保留本职工作"
+          "purpose": "把对手推到台前",
+          "characterGoal": "继续找下一条真实需求",
+          "obstacle": "同一批公开事实正在被别人复述",
+          "change": "他在本地群里发现陈骏的号已经发了同类文",
+          "result": "竞争进入视线"
         }
       ],
-      "stateChange": "第一卷完成现金、内容、关系和系统阶段闭环，许成从一次成功走向下一轮规模竞争，但仍在职。",
-      "endingMomentum": "陌生大客户主动询价，同一需求已经进入陈骏的工作安排；本职工作和副业时间即将发生正面冲突。",
+      "stateChange": "临江杂谈越过100关注并提交流量主申请；陈骏的号开始做同一题材。",
+      "endingMomentum": "他点开陈骏那篇，发现最后关于封路段的那半句，和当晚看到的不一样。",
       "comedyExecution": null,
       "wordCount": null,
       "wordCountPass": null,
-      "validationRounds": 8,
-      "checks": {
-        "agentFirstRead": {
-          "mode": "background-free-independent-agent",
-          "verdict": "pass",
-          "readerModel": "deepseek-v4-flash",
-          "reportPath": "notes/first-reads/第010章-首读.json"
-        },
-        "semanticAuditRecord": {
-          "auditedChapter": 10,
-          "window": [
-            9,
-            10
-          ],
-          "auditPhase": "immediate",
-          "inputSha256": "5e5d437d6d2a51764169885bd3546c6a1aae27e7c1867606f736c53b79bc65af",
-          "auditId": "1709d3e7-7f85-4b2f-9e23-841ebec7ebf4",
-          "reportPath": "notes/semantic-audits/第010章-语义审计.json",
-          "verdict": "pass"
-        }
-      },
       "qualityPass": false,
-      "retrofitReason": "旧版使用213粉停更旧号；新版需改为0粉新号、部分欠薪、从零涨粉与流量主开通教学线。",
-      "firstReadStatus": "requires-new-setting-first-read",
-      "validationProgress": {
-        "version": 1,
-        "bodyDigest": "210dbdb8f3f6ae027ac16bbcc3ce5b531a87c0ac8213fc686c1ea65ef3f989b5",
-        "blockerFingerprint": "7181d888830081e9e8d348d890adf042896089d91d003e41db280540fba6c9a4",
-        "blockers": [
-          {
-            "id": "check_semantic_audit",
-            "what": "语义审计记录的引用落地与五项覆盖门槛（区分「未发现」与「没去看」）",
-            "outcome": "fail",
-            "exitCode": 1,
-            "reason": "退出码 1：\n[硬错误]\n- 以下 2 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\n- 阻断项 minimumChecks.adjacentContinuity：判定 fail\n条目原文: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n- 阻断项 claims 第1项：判定 冲突\ntype: 时刻与时长\nquote: “群里昨晚就发了。”我低声说，“名单第三行，就是老杨。”\npriorRef: 第9章：“各位同事，明天上午九点，我带商务组去南门汽配城走访重点汽修商户，落实本地数字化名录的首批入驻协议。”\nassertion: 陈骏的客户走访安排与名单是在昨晚发到公司群里的。\nbasis: 第9章这条群消息写的是当晚才发，并预告“明天上午九点”；本章杜勇仍说“明早九点准时进汽配城”，说明本章承接同一晚，不能称“昨晚”。\nverdict: 冲突\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n结论：失败，共 3 项硬错误。",
-            "stdout": "==============================================================\r\n语义审计记录检查（只验证记录与引用，不判断小说语义）\r\n==============================================================\r\n被审章节：D:\\novelist\\被裁后，我靠公众号杀疯了\\chapters\\第010章 三千块到账，我还不敢把它当工资.md\r\n审计记录：D:\\novelist\\被裁后，我靠公众号杀疯了\\notes\\semantic-audits\\第010章-语义审计.json\r\n[已转交阶段校验，本章不阻塞] observations 第1项 → 下一章正文完成后的相邻章接缝与排期校验\r\n[已转交阶段校验，本章不阻塞] observations 第2项 → 第一卷分卷台账与第26天家庭转款校验\r\n[已转交阶段校验，本章不阻塞] observations 第3项 → 后续广告实际结算章节与分卷财务校验\r\n\r\n[硬错误]\r\n  - 以下 2 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\r\n  - 阻断项 minimumChecks.adjacentContinuity：判定 fail\r\n  条目原文: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 claims 第1项：判定 冲突\r\n  type: 时刻与时长\r\n  quote: “群里昨晚就发了。”我低声说，“名单第三行，就是老杨。”\r\n  priorRef: 第9章：“各位同事，明天上午九点，我带商务组去南门汽配城走访重点汽修商户，落实本地数字化名录的首批入驻协议。”\r\n  assertion: 陈骏的客户走访安排与名单是在昨晚发到公司群里的。\r\n  basis: 第9章这条群消息写的是当晚才发，并预告“明天上午九点”；本章杜勇仍说“明早九点准时进汽配城”，说明本章承接同一晚，不能称“昨晚”。\r\n  verdict: 冲突\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n\r\n结论：失败，共 3 项硬错误。\r\n",
-            "stderr": "",
-            "argv": [
-              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_semantic_audit.py",
-              "D:\\novelist\\被裁后，我靠公众号杀疯了",
-              "--chapter",
-              "10"
-            ],
-            "evidence": {
-              "script": "check_semantic_audit.py",
-              "argv": [
-                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
-                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_semantic_audit.py",
-                "D:\\novelist\\被裁后，我靠公众号杀疯了",
-                "--chapter",
-                "10"
-              ],
-              "exitCode": 1,
-              "stdout": "==============================================================\r\n语义审计记录检查（只验证记录与引用，不判断小说语义）\r\n==============================================================\r\n被审章节：D:\\novelist\\被裁后，我靠公众号杀疯了\\chapters\\第010章 三千块到账，我还不敢把它当工资.md\r\n审计记录：D:\\novelist\\被裁后，我靠公众号杀疯了\\notes\\semantic-audits\\第010章-语义审计.json\r\n[已转交阶段校验，本章不阻塞] observations 第1项 → 下一章正文完成后的相邻章接缝与排期校验\r\n[已转交阶段校验，本章不阻塞] observations 第2项 → 第一卷分卷台账与第26天家庭转款校验\r\n[已转交阶段校验，本章不阻塞] observations 第3项 → 后续广告实际结算章节与分卷财务校验\r\n\r\n[硬错误]\r\n  - 以下 2 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\r\n  - 阻断项 minimumChecks.adjacentContinuity：判定 fail\r\n  条目原文: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 claims 第1项：判定 冲突\r\n  type: 时刻与时长\r\n  quote: “群里昨晚就发了。”我低声说，“名单第三行，就是老杨。”\r\n  priorRef: 第9章：“各位同事，明天上午九点，我带商务组去南门汽配城走访重点汽修商户，落实本地数字化名录的首批入驻协议。”\r\n  assertion: 陈骏的客户走访安排与名单是在昨晚发到公司群里的。\r\n  basis: 第9章这条群消息写的是当晚才发，并预告“明天上午九点”；本章杜勇仍说“明早九点准时进汽配城”，说明本章承接同一晚，不能称“昨晚”。\r\n  verdict: 冲突\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n\r\n结论：失败，共 3 项硬错误。\r\n",
-              "stderr": "",
-              "timedOut": false,
-              "startedAt": "2026-10-05T04:02:26.427Z",
-              "ms": 105
-            }
-          }
-        ],
-        "updatedAt": "2026-10-05T04:02:26.934Z"
-      }
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版把流量主申请写成开通即有效；新版只写提交申请，资格与广告数据另行记录。",
+      "firstReadStatus": "pending"
+    },
+    {
+      "chapterNumber": 11,
+      "volumeNumber": 1,
+      "title": "他抄的那段，最后半句是错的",
+      "filePath": "chapters/第011章 他抄的那段，最后半句是错的.md",
+      "status": "in_progress",
+      "chapterRole": "对手出现与存证章",
+      "readerPayoff": "对手复述公开信息却写错了关键半句，许成手里留着当晚的现场，不靠对骂。",
+      "mustHappen": [
+        "陈骏的号复述夜班路线、封路、桥洞与夜宵顺序，配图是网上扒来的模糊街景",
+        "写到封路段时称“防汛堤步道夜间照明良好，建议步行通过”",
+        "小蓝的判断是推断：对方至少没走到围挡前，不写成已证实的抄袭结论",
+        "许成不公开喊抄袭、不在群里点名字，把两篇稿子、发布时间和阅读数截屏存档",
+        "后台进来一条陌生私信，问接不接推广、多少钱"
+      ],
+      "scenePlan": [
+        {
+          "purpose": "让竞争落在证据而不是骂战上",
+          "characterGoal": "确认对方写错了什么",
+          "obstacle": "他没有渠道知道对方怎么拿到这些点，也可能只是撞题",
+          "change": "他把两篇稿子逐段对照，连发布时间一起截屏存档",
+          "result": "手里有一份可用的现场记录"
+        },
+        {
+          "purpose": "把注意力转回自己的生意",
+          "characterGoal": "找到下一件有价值的事",
+          "obstacle": "公开争论不会带来任何回报",
+          "change": "他决定不回应，先看真正找上门的需求",
+          "result": "第一条商业询价进入视野"
+        }
+      ],
+      "stateChange": "他第一次面对同题材竞争，选择存证而不是对骂；商业询价出现。",
+      "endingMomentum": "有人问接不接推广、多少钱——而他连对方要什么都不知道。",
+      "comedyExecution": null,
+      "wordCount": null,
+      "wordCountPass": null,
+      "qualityPass": false,
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版把抄题与商户询价压在同一章，并用旧同事言语轻视承担打脸；新版改成对手复述且写错关键信息。",
+      "firstReadStatus": "pending"
+    },
+    {
+      "chapterNumber": 12,
+      "volumeNumber": 1,
+      "title": "五百块那条消息，我发完就后悔了",
+      "filePath": "chapters/第012章 五百块那条消息，我发完就后悔了.md",
+      "status": "in_progress",
+      "chapterRole": "第一次报价与翻车章",
+      "readerPayoff": "第一次有人顺着文章找上门问价，而他的第一反应是不懂就承认，不用低价把单子接死。",
+      "mustHappen": [
+        "“老街夜宵铺”私信问价，他张口报了五百",
+        "对方追问是只写稿还是连拍带发、能保证带来多少客，两个他都答不上来",
+        "他撤回报价，重新问清营业时段、桌数、后厨人手、堂食还是打包",
+        "他不承诺客流，也不承诺阅读量",
+        "对方回复：先弄个方案给我看看，预算也带上，合适再见面谈"
+      ],
+      "scenePlan": [
+        {
+          "purpose": "把“会写文章”和“会做生意”分开",
+          "characterGoal": "接住第一单生意",
+          "obstacle": "他没有报价依据，也没有交付标准",
+          "change": "他把不确定的地方直接问回去",
+          "result": "需求被问清楚，报价推迟到有依据再给"
+        },
+        {
+          "purpose": "让主角主动承认能力边界",
+          "characterGoal": "不靠低价抢时间",
+          "obstacle": "五百块听起来比大号免费试做更有诚意",
+          "change": "他撤回那条消息并说明理由",
+          "result": "客户没有走，反而要他出方案"
+        }
+      ],
+      "stateChange": "他第一次接住商业询价，也第一次承认自己不会报价。",
+      "endingMomentum": "对方要他先出方案、把预算带上——方案长什么样，他还没写过。",
+      "comedyExecution": null,
+      "wordCount": null,
+      "wordCountPass": null,
+      "qualityPass": false,
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版这一节缩在章末，报价翻车只写了几句；新版单独成章，让“不会报价”成为一次具体失败。",
+      "firstReadStatus": "pending"
+    },
+    {
+      "chapterNumber": 13,
+      "volumeNumber": 1,
+      "title": "三千块，我先拆成七条写给他看",
+      "filePath": "chapters/第013章 三千块，我先拆成七条写给他看.md",
+      "status": "in_progress",
+      "chapterRole": "报价与范围确认章",
+      "readerPayoff": "3000元不是喊出来的，是按工时和交付件拆出来的七条；“以后长期合作”被挡回合同里。",
+      "mustHappen": [
+        "他按工时倒推出3000元一口价，把交付拆成七条",
+        "七条包含拍摄范围、稿件字数、是否在本号发布另行确认、修改限两次、素材授权范围、不承诺客流、首付1500",
+        "赵老板发来五十秒语音压价，拿大号免费试做和“下个月大学城第二家店全案”许诺",
+        "许成不接免费试做，用自己上一篇的阅读和读者构成说明差别",
+        "他叫上杜勇，先把这笔钱算成项目成本、验收后结清"
+      ],
+      "scenePlan": [
+        {
+          "purpose": "把口头承诺换成可验收的条款",
+          "characterGoal": "让对方知道三千块买到什么",
+          "obstacle": "对方拿大号免费试做当参照系",
+          "change": "他用工时和交付件把价钱一条条拆开",
+          "result": "清单发过去，对方约他当面谈"
+        },
+        {
+          "purpose": "把“以后长期合作”从筹码降回条款",
+          "characterGoal": "不接没有边界的活",
+          "obstacle": "长期合作听起来比三千块值钱",
+          "change": "他要求首付、节点和范围先落到纸上",
+          "result": "价格没有松口，项目进入见面环节"
+        }
+      ],
+      "stateChange": "他第一次给出自己的报价标准，也第一次把“长期合作”拆成付款节点。",
+      "endingMomentum": "赵老板约他七点半到店里当面谈，带上那张清单。",
+      "comedyExecution": null,
+      "wordCount": null,
+      "wordCountPass": null,
+      "qualityPass": false,
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版把清单、砍价、见面签约挤在一章；新版把报价与见面拆开。",
+      "firstReadStatus": "pending"
+    },
+    {
+      "chapterNumber": 14,
+      "volumeNumber": 1,
+      "title": "“先做着看，以后长期合作”",
+      "filePath": "chapters/第014章 “先做着看，以后长期合作”.md",
+      "status": "in_progress",
+      "chapterRole": "首单签约与首款章",
+      "readerPayoff": "两份简易协议当场签字，1500元首付款到账，个人余额7940元；这是第一次由作品换来的真钱。",
+      "mustHappen": [
+        "店藏在补胎招牌背后，六张桌子，做的是夜班司机和网约车司机",
+        "赵老板先压价到两千，要求承诺客流，又提议不标广告看着更像真的",
+        "许成不承诺销量、不承诺客流，说明收了钱发在自己号上就要把关系写清楚",
+        "杜勇说明自己只是拿工时的，不替口味和口碑担责",
+        "两份协议签字，1500元首付到账，个人余额从6440元变成7940元"
+      ],
+      "scenePlan": [
+        {
+          "purpose": "让首单落在真实的谈判桌上",
+          "characterGoal": "把范围、价格和付款节点谈死",
+          "obstacle": "客户用压价、承诺客流和“不标广告”三件事同时试探",
+          "change": "他逐条挡回去并给出替代做法",
+          "result": "合同签字，首付款到账"
+        },
+        {
+          "purpose": "把预收款和收入分开",
+          "characterGoal": "确认这笔钱的性质",
+          "obstacle": "进账容易让人当成净赚",
+          "change": "他记下这是预收，对应着还没交付的义务",
+          "result": "账目和交付责任同时挂上"
+        }
+      ],
+      "stateChange": "首单签约并收到1500元预付款；个人余额7940元，同时承担交付义务。",
+      "endingMomentum": "钱收了，交付的担子跟着压上来；明天上午还有一场他躲不掉的例会。",
+      "comedyExecution": null,
+      "wordCount": null,
+      "wordCountPass": null,
+      "qualityPass": false,
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版把签约与当夜拍摄写在同一章；新版签约单独成章，交付准备另起一章。",
+      "firstReadStatus": "pending"
+    },
+    {
+      "chapterNumber": 15,
+      "volumeNumber": 1,
+      "title": "营业到几点，不能写死",
+      "filePath": null,
+      "status": "pending",
+      "chapterRole": "信息核对与交付准备章",
+      "readerPayoff": "“开到五点”和“两点半没客就熄火”对不上，他把文案改成弹性写法，读者不会扑空，店也不会被骂。",
+      "mustHappen": [
+        "赵老板私信里说开到早上五点，当面聊天时却漏出两点半没客就熄火",
+        "文案改成“营业至凌晨两点半，视当天备料情况弹性延长，到店前可电话确认”",
+        "手机拍后厨、出餐、补胎牌与巷口的对比图，避开夜班司机的正脸",
+        "他让赵老板把挡在巷口的补胎牌往里挪半米，赵老板当场应了",
+        "初稿预览发过去对方说好，却一个字没提协议里写着的“初稿确认结清余款”",
+        "本地群里陈骏开始收南门和老街的深夜餐饮资源"
+      ],
+      "scenePlan": [
+        {
+          "purpose": "把可核验的信息写进交付",
+          "characterGoal": "不让读者按文章跑空",
+          "obstacle": "店主的说法前后不一致",
+          "change": "他用弹性表述替对方兜住变量",
+          "result": "文案定稿，风险写清"
+        },
+        {
+          "purpose": "把交付与收款的不对称摆出来",
+          "characterGoal": "确认初稿通过就该结尾款",
+          "obstacle": "对方只夸稿子，不提钱",
+          "change": "他记下口头认可不等于到账",
+          "result": "尾款悬着，竞争同时逼近"
+        }
+      ],
+      "stateChange": "首单初稿获得口头认可但尾款未结；补胎牌问题被记下；陈骏开始收集同一片区的商户资源。",
+      "endingMomentum": "陈骏在群里收南门和老街的深夜餐饮资源——赵老板的店就在南门。",
+      "comedyExecution": null,
+      "wordCount": null,
+      "wordCountPass": null,
+      "qualityPass": false,
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版把核信息、拍摄、写稿、发预览全压在一夜写完；新版聚焦“信息核对”这一件主事件。",
+      "firstReadStatus": "pending"
+    },
+    {
+      "chapterNumber": 16,
+      "volumeNumber": 1,
+      "title": "南桥的灯还没亮，陈骏先发了",
+      "filePath": null,
+      "status": "pending",
+      "chapterRole": "对手抢发与失去信任章",
+      "readerPayoff": "对手把市政通报改写成“通车、路灯通明”，客户当场质疑许成，冲突第一次不再只是网上对稿。",
+      "mustHappen": [
+        "上午例会上王文洁提到南桥北引桥底下正在做排污管施工、设备箱移位",
+        "中午陈骏的号发出《南门夜归全攻略》，把“进入路灯与管网调试阶段”改写成“路灯通明、随时补给”，老街夜宵铺被排在第二个",
+        "赵老板打电话质问许成能不能保证比大号强、能带来多少人，扬言重新掂量已经签字的合同",
+        "小蓝指出对方引用的原话和后半段不一致，判断他没到过桥头",
+        "许成不承诺阅读量，只承诺今晚拿出现场"
+      ],
+      "scenePlan": [
+        {
+          "purpose": "让竞争造成真实损失",
+          "characterGoal": "保住已经签下的合同",
+          "obstacle": "客户只看阅读量，不看信息真假",
+          "change": "他把赌注从数据改成现场",
+          "result": "客户给了最后一晚，但信任已经在动摇"
+        },
+        {
+          "purpose": "把时间压力摆到明面",
+          "characterGoal": "当晚去现场",
+          "obstacle": "联调必须在六点四十前跑通，他不能请假",
+          "change": "他先把本职活干完再骑车过去",
+          "result": "时间冲突成为这一单的真实成本"
+        }
+      ],
+      "stateChange": "对手抢发同类内容并直接撬动客户；许成的履约被压到一个晚上。",
+      "endingMomentum": "挂了电话，他得先在六点四十之前把联调跑通，然后骑车去南桥。",
+      "comedyExecution": null,
+      "wordCount": null,
+      "wordCountPass": null,
+      "qualityPass": false,
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版对手抢发与许成取证同章；新版把冲突和解决拆成两章，让客户动摇本身成为事件。",
+      "firstReadStatus": "pending"
+    },
+    {
+      "chapterNumber": 17,
+      "volumeNumber": 1,
+      "title": "照片上的时间戳是今晚七点二十八",
+      "filePath": null,
+      "status": "pending",
+      "chapterRole": "现场取证与B稿发布章",
+      "readerPayoff": "同一条路，对手写在办公室里，他拍在当晚的桥上；客户连夜把挡门的招牌挪开。",
+      "mustHappen": [
+        "桥两侧高杆路灯全裹着防尘塑料膜没接线；水马和水泥防撞墩堵了大半幅路面，便道不足两米且全是泥坑碎石",
+        "陈骏写的“二十四小时便利店”贴着店面转让、夜间暂停营业；加油站拉着警戒带写着管道抢修",
+        "许成把带时间戳的照片推到赵老板面前，说明照对方写的走会迎面撞上水泥墩",
+        "赵老板连夜把挡在巷口的补胎牌拖进墙根，巷口重新露出来",
+        "B稿当晚发出，文末写明合作关系与卤蛋承诺"
+      ],
+      "scenePlan": [
+        {
+          "purpose": "用当天现场决定客户信谁",
+          "characterGoal": "把已经动摇的客户拉回来",
+          "obstacle": "对方仍然只看阅读量",
+          "change": "他给出带时间戳的照片和后果推演",
+          "result": "客户当场改口并动手挪牌"
+        },
+        {
+          "purpose": "让交付兑现成一次公开发布",
+          "characterGoal": "发稿",
+          "obstacle": "发布前要核对商业推广标识和可发布范围",
+          "change": "他按规矩写明合作关系再发",
+          "result": "B稿上线，对手那条还在涨阅读"
+        }
+      ],
+      "stateChange": "B稿发布，首单第二轮交付完成；客户从动摇转为配合。",
+      "endingMomentum": "文章发出去的时候，陈骏那条还在涨阅读——他只能等第二天早上读者用脚投票。",
+      "comedyExecution": null,
+      "wordCount": null,
+      "wordCountPass": null,
+      "qualityPass": false,
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版把取证、挪牌、发布挤在一章，尾款拖延又挤进第二天；新版把第二天的内容挪到第18章。",
+      "firstReadStatus": "pending"
+    },
+    {
+      "chapterNumber": 18,
+      "volumeNumber": 1,
+      "title": "他写的是通车，读者推着车走了三公里",
+      "filePath": null,
+      "status": "pending",
+      "chapterRole": "打脸落地与尾款拖延章",
+      "readerPayoff": "对手的评论区翻车，两个下夜班的工人拿着文章摸进店里；但尾款当天没到。",
+      "mustHappen": [
+        "陈骏那篇的评论区贴出封路、关店、推车的实况",
+        "许成那篇避坑指南阅读过五百，留言全是问收摊时间",
+        "赵老板发来照片：两个下夜班的工人凭文章进店，进门就问送不送卤蛋",
+        "尾款当天没结，赵老板说“明早盘完账给你”",
+        "许成没有催第二遍，也没有在文章里提这件事",
+        "一个新读者问南门汽配城周边的路线和图文怎么收费"
+      ],
+      "scenePlan": [
+        {
+          "purpose": "让错误信息的代价落在对手身上",
+          "characterGoal": "确认自己写的是对的",
+          "obstacle": "他没有平台数据能证明谁对",
+          "change": "读者自己贴出现场并互相指路",
+          "result": "对手在这一片读者里的信誉受损"
+        },
+        {
+          "purpose": "把爽感和现金流分开",
+          "characterGoal": "收回尾款",
+          "obstacle": "客户口头认可但拖延付款",
+          "change": "他选择不撕破脸，把时间留给下一单",
+          "result": "尾款悬着，新询价已经进来"
+        }
+      ],
+      "stateChange": "对手失去这一片读者的信任；许成的读者第一次真的按文章进店；尾款仍未结。",
+      "endingMomentum": "新读者问汽配城周边的路线怎么收费——他手里还没有价目表。",
+      "comedyExecution": null,
+      "wordCount": null,
+      "wordCountPass": null,
+      "qualityPass": false,
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版这一天的内容被拆散在两章里；新版独立成章，打脸落地但钱没到，避免爽感一次给满。",
+      "firstReadStatus": "pending"
+    },
+    {
+      "chapterNumber": 19,
+      "volumeNumber": 1,
+      "title": "一千五到账，他们还在问我阅读数",
+      "filePath": null,
+      "status": "pending",
+      "chapterRole": "首单闭环与职场打脸章",
+      "readerPayoff": "1500元尾款到账，首单闭环、余额9140元；公司茶水间里他仍然只被问阅读数。",
+      "mustHappen": [
+        "水厂联调卡在网关鉴权，他两行调试代码定位到对方机房今早改了策略，三分钟后告警全绿",
+        "散会后1500元尾款到账，个人余额9140元，首单闭环",
+        "赵老板要删掉南桥泥路的段落、加上“每日限量五十个蛋”；后台能改的只有标题和文末几处文字",
+        "他没有删现场说明，只补了限量提示，并把能改与不能改原话告诉对方",
+        "茶水间里陈骏拿公司群“南桥施工点今天上午加焊铁板、便道已封”的现场反馈，说他那篇是撞时间差，问他阅读数",
+        "他不掏转账记录，也不提合同额"
+      ],
+      "scenePlan": [
+        {
+          "purpose": "把闭环落在到账而不是评价上",
+          "characterGoal": "收回尾款并处理客户的追加要求",
+          "obstacle": "后台可修改范围有限，客户要删掉真实信息",
+          "change": "他只在允许范围内改，并如实说明边界",
+          "result": "尾款到账，首单完整闭环"
+        },
+        {
+          "purpose": "让打脸落在对方判断失效上",
+          "characterGoal": "不被拖进阅读量的比较",
+          "obstacle": "同事只看阅读数，并预判他下一步没戏",
+          "change": "他把事实收回自己这里，不摆证据争面子",
+          "result": "他没有赢下争论，但手里有到账和下一单"
+        }
+      ],
+      "stateChange": "首单3000元全额到账，个人余额9140元；他明确拒绝删掉真实信息。",
+      "endingMomentum": "他回工位把旧报价备忘录里那行“基础图文1000—2000元”删掉，重新写过。",
+      "comedyExecution": null,
+      "wordCount": null,
+      "wordCountPass": null,
+      "qualityPass": false,
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版把尾款、改文、茶水间打脸和报价体系挤在一章；新版把报价体系挪到第20章。",
+      "firstReadStatus": "pending"
+    },
+    {
+      "chapterNumber": 20,
+      "volumeNumber": 1,
+      "title": "八百、两千、四千五",
+      "filePath": null,
+      "status": "pending",
+      "chapterRole": "报价体系与第二客户章",
+      "readerPayoff": "第一单跑通之后，他把报价写成三档标准；新客户按标准报，不承诺流量包。",
+      "mustHappen": [
+        "小蓝给出三档：基础图文整理800元、实地路线核验加图文推广2000元、商圈节点连带推广4500元起",
+        "许成写成《临江杂谈商户服务标准V1.0》，每一档都不承诺转化",
+        "南门汽配城做夜间货车流动补胎的老杨询价，他按新标准报800和2000",
+        "他不承诺流量包，约后天晚上八点半在汽配城东门见",
+        "公司大群里陈骏发通知，明早九点带商务组进南门汽配城签首批商户，名单第三行是老杨"
+      ],
+      "scenePlan": [
+        {
+          "purpose": "把一次成功变成可复用的标准",
+          "characterGoal": "不再靠临场估价接单",
+          "obstacle": "他没有定价依据，也怕报高丢客户",
+          "change": "小蓝按工时和交付件拆出三档",
+          "result": "报价标准落地并立刻用上"
+        },
+        {
+          "purpose": "让第二单撞上公司资源",
+          "characterGoal": "拿下汽配城客户",
+          "obstacle": "公司商务组明早就进场，他只有晚上",
+          "change": "他按标准报价并约在双方都能接受的时间",
+          "result": "新客户约好见面，对手提前一天进场"
+        }
+      ],
+      "stateChange": "他有了自己的三档报价标准，接手第二个付费客户；公司商务组同时盯上同一片区。",
+      "endingMomentum": "陈骏明早九点进汽配城，老杨在名单第三行；他约的是后天晚上八点半。",
+      "comedyExecution": null,
+      "wordCount": null,
+      "wordCountPass": null,
+      "qualityPass": false,
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版报价体系与新客户询价混在第九章后段；新版独立成章，让标准和客户各自落地。",
+      "firstReadStatus": "pending"
+    },
+    {
+      "chapterNumber": 21,
+      "volumeNumber": 1,
+      "title": "三千块到账，我还不敢把它当工资",
+      "filePath": null,
+      "status": "pending",
+      "chapterRole": "卷末兑现与家庭账章",
+      "readerPayoff": "48小时24600阅读、2860关注，广告位出现第一笔很小的预估数据；现金7440元，但他仍然不敢把这笔钱当工资。",
+      "mustHappen": [
+        "B稿48小时累计24600阅读，账号总关注约2860；均为本书设定的超常成绩，不由固定转化率生成",
+        "流量主申请已过审，底部广告位出现第一笔可见但很小的广告数据，后台写的是“预估”",
+        "交房租1600元与日常杂支100元，个人余额从9140元变成7440元",
+        "给杜勇两笔劳务共600元结清",
+        "首单3000元全额到账，仍低于第26天原定的12000元家庭转款；公司欠付工资没有因为公众号收入自动补上",
+        "周敏确认副业有了真实结果，同时明确三千块只能算外快、副业一周最多两个晚上"
+      ],
+      "scenePlan": [
+        {
+          "purpose": "按口径兑现一轮闭环的成果",
+          "characterGoal": "确认这一轮到底赚到了什么",
+          "obstacle": "阅读、关注、广告预估和到账是四种不同的东西",
+          "change": "他逐项分开记并留档",
+          "result": "账目、数据和功能状态各自归位"
+        },
+        {
+          "purpose": "让家庭账回到主线",
+          "characterGoal": "向周敏交代结果",
+          "obstacle": "三千块仍然撑不起12000元的家庭转款",
+          "change": "他把到账、欠薪和下次转款一起说清",
+          "result": "家里认可结果，但边界被明确"
+        }
+      ],
+      "stateChange": "第一卷闭环完成：首单到账、余额7440元、关注约2860、流量主已过审并有首笔广告数据；家庭转款压力与欠薪仍未解决。",
+      "endingMomentum": "新客户约的是明晚八点半，公司复盘会是明早八点半，顺通重卡给的也是八点半——谁都没打算等他。",
+      "comedyExecution": null,
+      "wordCount": null,
+      "wordCountPass": null,
+      "qualityPass": false,
+      "validationRounds": 0,
+      "checks": {},
+      "retrofitReason": "旧版卷末数据与交租结算分在两章；新版合并成一次按口径的完整兑现。",
+      "firstReadStatus": "pending"
     }
   ],
   "settingRevision": {
@@ -1336,9 +1380,20 @@
       7,
       8,
       9,
-      10
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
     ],
-    "oldDraftPolicy": "第1—10章旧正文保留在chapters目录，作为历史草稿；未完成重写前不得称为新设定正典。"
+    "oldDraftPolicy": "第1—3章为已发布正典，不得修改；旧版第4—10章正文已于2026-10-08移出chapters目录，归档到notes/retrofit/snapshots/第NNN章-旧分章稿-20261008.md，按事件重排后由第4—21章取代。chapters目录内每个章号只允许存在一个文件。"
   },
   "serialWorkflow": {
     "version": 1,
@@ -1826,8 +1881,8 @@
           "1": "ea61d7ff75efc7e6774e796595892efbf0651ebb178bd9a72721d5dceb590ada",
           "2": "a4e46e5e921416460b0f5ac422c2369140396e01a73f82ff2395ecc31c26a1ec",
           "3": "75b23dd079a54a53d2765f2692dc09902977a9ce7ef5d9396ddc37e2c2b0d3d3",
-          "4": "c2c057f3df5ccef30b2d1458186693d1f578a6adc19dfae501f555fcb95fa0c9",
-          "5": "f77b42c8cc3355fa57d3465822a7ef552edd7aa01e24aa24ebbdaff53c85b783"
+          "4": "8f773beabc26c83b855dce5fa81928711ccfd206c144f45aa5ea03fcc9516bfd",
+          "5": "355fc02cc2bd3cbeaa713741c8fae238bad4e546443a816dd220781866b522bf"
         }
       }
     },
@@ -1854,6 +1909,67 @@
         "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
         "cancelled-deliveries/26e91acb-485c-4d25-b83e-3bf17953ae80"
       ]
+    },
+    "authorBaselines": {
+      "4": {
+        "bodySha256": "8f773beabc26c83b855dce5fa81928711ccfd206c144f45aa5ea03fcc9516bfd",
+        "confirmedAt": "2026-10-08T01:54:36.667Z",
+        "ownerId": "5a43488a-0474-4832-8fb8-8e9ba24d907b",
+        "archive": "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\history-confirmations\\a431bafb0a8d92603cbee846817aabddb6b4d64b9b5bb704ea772ca44c84b158.json"
+      },
+      "5": {
+        "bodySha256": "355fc02cc2bd3cbeaa713741c8fae238bad4e546443a816dd220781866b522bf",
+        "confirmedAt": "2026-10-08T01:54:36.667Z",
+        "ownerId": "5a43488a-0474-4832-8fb8-8e9ba24d907b",
+        "archive": "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\history-confirmations\\a431bafb0a8d92603cbee846817aabddb6b4d64b9b5bb704ea772ca44c84b158.json"
+      },
+      "6": {
+        "bodySha256": "0ffdfeba82c413fbd8a2d6f5e5d3ac2492da43c8cac733c76c957f63998eea54",
+        "confirmedAt": "2026-10-08T01:54:36.667Z",
+        "ownerId": "5a43488a-0474-4832-8fb8-8e9ba24d907b",
+        "archive": "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\history-confirmations\\a431bafb0a8d92603cbee846817aabddb6b4d64b9b5bb704ea772ca44c84b158.json"
+      },
+      "7": {
+        "bodySha256": "9e2d07442bfd7e14d4762b9a8ad472d06a3569d3b9384956431bd965f224e6c4",
+        "confirmedAt": "2026-10-08T01:54:36.667Z",
+        "ownerId": "5a43488a-0474-4832-8fb8-8e9ba24d907b",
+        "archive": "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\history-confirmations\\a431bafb0a8d92603cbee846817aabddb6b4d64b9b5bb704ea772ca44c84b158.json"
+      },
+      "8": {
+        "bodySha256": "55bbab18c3dd1e90ac75bfbc7ae50baf703729d263165009b39cd8f774e51799",
+        "confirmedAt": "2026-10-08T01:54:36.667Z",
+        "ownerId": "5a43488a-0474-4832-8fb8-8e9ba24d907b",
+        "archive": "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\history-confirmations\\a431bafb0a8d92603cbee846817aabddb6b4d64b9b5bb704ea772ca44c84b158.json"
+      },
+      "9": {
+        "bodySha256": "1acde083ea6f7eba1b815f9cd3f98a8e3e2f13eee2809192ea4c2e76495acf67",
+        "confirmedAt": "2026-10-08T01:54:36.667Z",
+        "ownerId": "5a43488a-0474-4832-8fb8-8e9ba24d907b",
+        "archive": "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\history-confirmations\\a431bafb0a8d92603cbee846817aabddb6b4d64b9b5bb704ea772ca44c84b158.json"
+      },
+      "10": {
+        "bodySha256": "35c839feec6d169d6098e11c259d8fe79431809c5bbddfb9e99f29e8da96af1e",
+        "confirmedAt": "2026-10-08T01:54:36.667Z",
+        "ownerId": "5a43488a-0474-4832-8fb8-8e9ba24d907b",
+        "archive": "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\history-confirmations\\a431bafb0a8d92603cbee846817aabddb6b4d64b9b5bb704ea772ca44c84b158.json"
+      }
     }
+  },
+  "targetBodyCharsNote": "2026-10-07用户口径：硬下限2000汉字不变；一章只承接一个主事件及其直接后果，目标2400汉字左右，不追求超过2900。第1—3章已发布，字数与正文不得改动。",
+  "rechapterRevision": {
+    "date": "2026-10-07",
+    "reason": "旧版一章承接四到六个剧情功能，单章被推到4300—6000汉字，属紧凑失真；按事件重排，一章一个主事件。",
+    "volume1ChaptersBefore": 10,
+    "volume1ChaptersAfter": 21,
+    "targetBodyChars": [
+      2000,
+      2900
+    ],
+    "publishedChaptersLocked": [
+      1,
+      2,
+      3
+    ],
+    "refundFlowCorrection": "网购售后退款由商家直接处理，不写多轮协商与平台仲裁教程。"
   }
 }

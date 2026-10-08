@@ -391,8 +391,9 @@
     },
     "auditedToNext": {
       "auditedTailQuote": "它安静地躺在那里，像什么都没有发生过。",
-      "nextHeadQuote": "我盯着昨晚没发出去的那句话看了十几秒，拇指最终按下了发送。",
-      "verdict": "pass"
+      "nextHeadQuote": "早上七点二十，二号线挤得转不开身。我在手机上把昨晚那段话翻出来，从头读了一遍，按下发送。",
+      "verdict": "pass",
+      "revisionNote": "2026-10-07第4章按事件重排并重写，开头由“我盯着昨晚没发出去的那句话看了十几秒，拇指最终按下了发送。”改为现在这句；引用同步更新，交接关系不变。"
     }
   },
   "auditPhase": "retrospective",
