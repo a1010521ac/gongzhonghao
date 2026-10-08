@@ -4,68 +4,123 @@
   "promises": [
     {
       "id": "P-0001",
-      "type": "threat",
-      "content": "公司只发部分工资且项目组要缩编，许成的在职稳定可能进一步恶化，欠薪金额与补发时间都未确定。",
+      "type": "mystery",
+      "content": "1999元买下的七天课程是否真能兑现“从零起号、涨粉、流量主开通”的交付承诺。",
       "introducedChapter": 1,
-      "status": "open",
-      "lastAdvancedChapter": 9,
-      "plannedWindow": "后续数章",
-      "resolutionChapter": null,
+      "status": "resolved",
+      "lastAdvancedChapter": 4,
+      "plannedWindow": "七天课程期间",
+      "resolutionChapter": 4,
       "relatedFactIds": [
-        "F-0001",
-        "F-0002"
+        "F-0008",
+        "F-0009"
       ]
     },
     {
       "id": "P-0002",
-      "type": "relationship",
-      "content": "周敏的有条件同意：许成必须拿结果证明课程有用，否则不许多投钱、不许把亏空带回家。",
+      "type": "threat",
+      "content": "公司工资只发一部分，剩余部分能否补齐、项目组是否最终裁到许成头上。",
       "introducedChapter": 1,
-      "status": "resolved",
-      "lastAdvancedChapter": 4,
-      "plannedWindow": "课程进行期间及后续",
-      "resolutionChapter": 4,
+      "status": "open",
+      "lastAdvancedChapter": 2,
+      "plannedWindow": "下一次发薪前后",
+      "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0009",
-        "F-0010"
+        "F-0001",
+        "F-0003"
       ]
     },
     {
       "id": "P-0003",
-      "type": "mystery",
-      "content": "王栋的课程能否兑现从零起号、涨粉与流量主开通；“1999之后还有别的费用吗”只被以“进阶服务看个人需求”带过，是否留有后续收费口子。",
+      "type": "relationship",
+      "content": "周敏给出的底线：拿结果给她看，挣不到别把窟窿带到家里——课程若无效果，许成要面对家里的交代。",
       "introducedChapter": 1,
-      "status": "resolved",
-      "lastAdvancedChapter": 4,
-      "plannedWindow": "课程进行期间",
-      "resolutionChapter": 4,
+      "status": "open",
+      "lastAdvancedChapter": 5,
+      "plannedWindow": "课程结束、有收入结果时",
+      "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0007",
-        "F-0008"
+        "F-0011",
+        "F-0012"
       ]
     },
     {
       "id": "P-0004",
-      "type": "mystery",
-      "content": "“临江杂谈”0关注、第一篇只有4阅读，所谓的第一步到底是那张付款截图，还是他第一次想清楚要写给谁看。",
+      "type": "threat",
+      "content": "许成对同事和组长隐瞒自己做公众号，一旦“临江杂谈”被刷到，可能在公司组内传开。",
       "introducedChapter": 1,
-      "status": "resolved",
-      "lastAdvancedChapter": 4,
-      "plannedWindow": "第2章",
-      "resolutionChapter": 4,
+      "status": "open",
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "账号被熟人发现时",
+      "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0005",
-        "F-0006"
+        "F-0006",
+        "F-0007"
       ]
     },
     {
       "id": "P-0005",
       "type": "mystery",
-      "content": "管理员置顶的三张学员收益截图疑似同一张底图换三个数字（同一块橙色桌角与灰点），背后是学员造假还是课程方伪造数据，尚未揭开。",
+      "content": "账号还没想清楚写给谁看，王栋所说的“第一步做对”究竟指什么。",
+      "introducedChapter": 1,
+      "status": "resolved",
+      "lastAdvancedChapter": 2,
+      "plannedWindow": "从零第一课",
+      "resolutionChapter": 2,
+      "relatedFactIds": [
+        "F-0013"
+      ]
+    },
+    {
+      "id": "P-0006",
+      "type": "mystery",
+      "content": "管理员置顶的三张收益截图背景左上角橙色桌角、木纹断口与灰点位置完全一致，疑似同一底图换数字，课程方晒出的收益数据真实性存疑。",
+      "introducedChapter": 2,
+      "status": "resolved",
+      "lastAdvancedChapter": 3,
+      "plannedWindow": "后续核对课程方证据时",
+      "resolutionChapter": 3,
+      "relatedFactIds": [
+        "F-0027",
+        "F-0032"
+      ]
+    },
+    {
+      "id": "P-0007",
+      "type": "threat",
+      "content": "3999元进阶营与许成自设的2000元试错上限直接冲突，他是否会报名、还是会转向退款或止损。",
+      "introducedChapter": 2,
+      "status": "resolved",
+      "lastAdvancedChapter": 4,
+      "plannedWindow": "报名截止前后",
+      "resolutionChapter": 4,
+      "relatedFactIds": [
+        "F-0026",
+        "F-0030",
+        "F-0035"
+      ]
+    },
+    {
+      "id": "P-0008",
+      "type": "threat",
+      "content": "许成已把“删除文章”“退出群聊”“注销账号”三个确认页面同时打开，是否会真的点下其中一个。",
+      "introducedChapter": 2,
+      "status": "resolved",
+      "lastAdvancedChapter": 4,
+      "plannedWindow": "",
+      "resolutionChapter": 4,
+      "relatedFactIds": [
+        "F-0033"
+      ]
+    },
+    {
+      "id": "P-0009",
+      "type": "mystery",
+      "content": "去掉群内互推后第一篇文章还剩多少真实阅读，15阅读、0关注算不算课程承诺中的“起步”和是否会给出下一步。",
       "introducedChapter": 2,
       "status": "open",
       "lastAdvancedChapter": 4,
-      "plannedWindow": "后续数章",
+      "plannedWindow": "",
       "resolutionChapter": null,
       "relatedFactIds": [
         "F-0023",
@@ -73,475 +128,398 @@
       ]
     },
     {
-      "id": "P-0006",
-      "type": "mystery",
-      "content": "许成新建的“退款申请”文档只写了一段就写不下去，他到底会不会把未兑现条目列出来、真的提出退款，尚未定。",
-      "introducedChapter": 2,
-      "status": "resolved",
-      "lastAdvancedChapter": 4,
-      "plannedWindow": "后续数章",
-      "resolutionChapter": 4,
-      "relatedFactIds": [
-        "F-0026",
-        "F-0027",
-        "F-0022"
-      ]
-    },
-    {
-      "id": "P-0007",
-      "type": "threat",
-      "content": "“删除文章”“退出群聊”“注销账号”三个确认页面都被打开并亮着，许成随时可能保不住这篇唯一发表的文章和这个0关注的号。",
-      "introducedChapter": 2,
-      "status": "open",
-      "lastAdvancedChapter": 2,
-      "plannedWindow": "第3章及之后",
-      "resolutionChapter": null,
-      "relatedFactIds": [
-        "F-0028"
-      ]
-    },
-    {
-      "id": "P-0008",
-      "type": "relationship",
-      "content": "许成对自己的定位产生怀疑——它也许只是把焦虑重新描述了一遍，还没变成读者能拿走的东西；真实阅读与下一步选题仍无答案。",
-      "introducedChapter": 2,
-      "status": "resolved",
-      "lastAdvancedChapter": 4,
-      "plannedWindow": "后续数章",
-      "resolutionChapter": 4,
-      "relatedFactIds": [
-        "F-0017",
-        "F-0021"
-      ]
-    },
-    {
-      "id": "P-0009",
-      "type": "mystery",
-      "content": "小蓝到底是什么、为什么会从“临江杂谈”的头像里钻出来、为何挑中许成；它只在许成真的在看材料并准备做选择时才出现，来历与目的完全没交代。",
-      "introducedChapter": 3,
-      "status": "open",
-      "lastAdvancedChapter": 6,
-      "plannedWindow": "后续数章",
-      "resolutionChapter": null,
-      "relatedFactIds": [
-        "F-0038",
-        "F-0045"
-      ]
-    },
-    {
       "id": "P-0010",
-      "type": "threat",
-      "content": "1999元能不能退回来悬而未决：客服已明确虚拟服务不支持退款，许成虽拿到矛盾证据并拟好追问，但输入了却没按发送键。",
+      "type": "mystery",
+      "content": "小蓝究竟是什么、为什么偏偏从许成的头像里钻出来、它的规则与目的是什么——它自称不是系统，不能发钱也不能替他改结果，只在许成真的在看材料、真的准备做选择时才出现。",
       "introducedChapter": 3,
-      "status": "resolved",
-      "lastAdvancedChapter": 4,
-      "plannedWindow": "第4章及之后",
-      "resolutionChapter": 4,
+      "status": "open",
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "后续章节",
+      "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0042",
         "F-0043",
         "F-0046",
-        "F-0027"
+        "F-0051"
       ]
     },
     {
       "id": "P-0011",
-      "type": "mystery",
-      "content": "第二篇作业“你的读者最怕什么”许成没有写，而群公告把连续完成三篇作业与进阶营优先名额挂钩，他是否会因此被挤出优先序列。",
+      "type": "threat",
+      "content": "客服以“虚拟服务一经开通不支持退款”拒绝、群公告把“资料全部上传”视为课程开始交付，许成通过退款渠道能否拿回1999元、会不会被彻底卡住。",
       "introducedChapter": 3,
-      "status": "abandoned",
+      "status": "resolved",
       "lastAdvancedChapter": 4,
-      "plannedWindow": "第4章",
-      "resolutionChapter": null,
+      "plannedWindow": "退款沟通期间",
+      "resolutionChapter": 4,
       "relatedFactIds": [
-        "F-0031",
-        "F-0032"
-      ],
-      "abandonedVolume": 1,
-      "abandonReason": "课程退款收场，他没写第二篇作业，也不再参与基础营作业与进阶营优先名额的竞争。"
+        "F-0042",
+        "F-0049"
+      ]
     },
     {
       "id": "P-0012",
-      "type": "threat",
-      "content": "王栋临走放话“以后圈子里路可就窄了”，退款虽到手，后续是否会在同行圈子里给许成使绊或施压未定。",
-      "introducedChapter": 4,
-      "status": "open",
+      "type": "mystery",
+      "content": "许成已经在客服窗口输入了要求具体列出各模块交付内容与文件位置的追问，却没有按下发送键，他会不会发出、对方如何回应尚无着落。",
+      "introducedChapter": 3,
+      "status": "resolved",
       "lastAdvancedChapter": 4,
-      "plannedWindow": "后续数章",
-      "resolutionChapter": null,
+      "plannedWindow": "下一章",
+      "resolutionChapter": 4,
       "relatedFactIds": [
-        "F-0059"
+        "F-0052"
       ]
     },
     {
       "id": "P-0013",
       "type": "mystery",
-      "content": "许成约杜勇明晚十二点后跟走核夜班回家路线：东平大道末班公交几点收车、沿途路灯与夜市摊是否还在、哪条线路易漏班全是空白；且到底核东站通宵那班还是往南站拐的野鸡中巴，他没急着回。",
+      "content": "许成打算明天下午联系在东平码头物流仓做夜班调度的杜勇，问他十二点二十出仓以后怎么回城南，为新定位取材——他会不会问、杜勇会给出什么。",
       "introducedChapter": 4,
       "status": "resolved",
-      "lastAdvancedChapter": 5,
-      "plannedWindow": "第5章",
-      "resolutionChapter": 5,
+      "lastAdvancedChapter": 6,
+      "plannedWindow": "明天下午",
+      "resolutionChapter": 6,
       "relatedFactIds": [
-        "F-0066",
-        "F-0067",
-        "F-0068"
+        "F-0068",
+        "F-0069"
       ]
     },
     {
       "id": "P-0014",
-      "type": "relationship",
-      "content": "“临江杂谈”改挂“专为临江凌晨下班的夜班族”定位，关注仍是0，能否靠实地核验的具体信息站住、第一篇的定位到底行不行，尚未验证。",
+      "type": "mystery",
+      "content": "功能介绍已改成写给临江上夜班、凌晨回家的人，他能否真写出对这类读者有用的内容、把0关注打开。",
       "introducedChapter": 4,
       "status": "resolved",
-      "lastAdvancedChapter": 6,
-      "plannedWindow": "后续数章",
-      "resolutionChapter": 6,
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "后续写作",
+      "resolutionChapter": 10,
       "relatedFactIds": [
-        "F-0064",
-        "F-0065"
+        "F-0066"
       ]
     },
     {
       "id": "P-0015",
-      "type": "mystery",
-      "content": "王栋咬定“具体履约节点以课程协议为准”，但许成通读学员后台没找到相关条款，协议是否真有约定、还是搪塞的托词，未验证。",
+      "type": "threat",
+      "content": "王文洁要求周五演示智慧水务导出接口的实测，客户当场验字段，许成下午虽已交日志，验收仍悬。",
       "introducedChapter": 4,
       "status": "open",
-      "lastAdvancedChapter": 4,
-      "plannedWindow": "后续数章",
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "本周五演示",
       "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0054"
+        "F-0054",
+        "F-0059"
       ]
     },
     {
       "id": "P-0016",
       "type": "mystery",
-      "content": "那位问“东站凌晨到底还有没有车往南走”的读者留言，许成尚未回复；东站那趟正规车的实际末班情况本章也没实测——他只核了东平仓储路的夜班线路和南站黑中巴。",
+      "content": "两人约定明晚十二点二十在东平仓储物流园南三门碰头，由杜勇带路实走一趟夜班回家路线（三百元、走完当场结清），这一趟能核到什么、路线能不能写实。",
       "introducedChapter": 5,
-      "status": "open",
-      "lastAdvancedChapter": 6,
-      "plannedWindow": "后续数章",
-      "resolutionChapter": null,
+      "status": "resolved",
+      "lastAdvancedChapter": 7,
+      "plannedWindow": "明晚十二点二十",
+      "resolutionChapter": 7,
       "relatedFactIds": [
-        "F-0072",
-        "F-0068"
+        "F-0078",
+        "F-0079",
+        "F-0080"
       ]
     },
     {
       "id": "P-0017",
-      "type": "threat",
-      "content": "职场压力升级：许成周五整日泡在公司改企业活动页面，闹铃定在七点就要去周会面对王文洁追企业客户项目的交付进度，demo 与接口的窟窿仍压在他身上。",
+      "type": "mystery",
+      "content": "东站通宵末班（零点三十，公交集团官方可查）与往南站拐的野鸡中巴（十一点半后才有、仅论坛两年前旧帖）哪趟真实可行，许成回了“两趟都得看”，两处说法能否对上。",
       "introducedChapter": 5,
-      "status": "open",
-      "lastAdvancedChapter": 9,
-      "plannedWindow": "第6章及之后",
-      "resolutionChapter": null,
+      "status": "resolved",
+      "lastAdvancedChapter": 6,
+      "plannedWindow": "夜班路线走访期间",
+      "resolutionChapter": 6,
       "relatedFactIds": [
-        "F-0051"
+        "F-0081",
+        "F-0082",
+        "F-0083"
       ]
     },
     {
       "id": "P-0018",
       "type": "threat",
-      "content": "河边蓝铁皮围挡封路、涵洞翻板暗坑与黑中巴坐地起价都还没人来整改，二号仓分拣小妹已因此摔断锁骨，夜班打工人随时可能再踩进同一个坑。",
+      "content": "后台仍是0关注，接连收到“五十元包五百真实活跃粉”这类冷启动刷量私信，许成会不会为了好看向周敏交差而买粉买数据。",
       "introducedChapter": 5,
       "status": "open",
-      "lastAdvancedChapter": 6,
-      "plannedWindow": "后续数章",
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "后续数据无起色时",
       "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0079"
+        "F-0076",
+        "F-0077"
       ]
     },
     {
       "id": "P-0019",
       "type": "relationship",
-      "content": "周敏那条“写夜班族真正用得上的信息”的建议第一次落了地，但第一篇实地核验文只有阅读1、关注0，他花掉的三百元和一夜，值不值、有没有人看，尚无答案。",
+      "content": "周敏把“你到底想把文章写给谁看”抛给许成、要求落到一个具体的人和事上，否则就是瞎折腾——他必须先答出这个问题。",
       "introducedChapter": 5,
-      "status": "resolved",
-      "lastAdvancedChapter": 6,
-      "plannedWindow": "第6章及之后",
-      "resolutionChapter": 6,
+      "status": "open",
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "后续写作定型前",
+      "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0086",
-        "F-0063"
+        "F-0073",
+        "F-0074"
       ]
     },
     {
       "id": "P-0020",
       "type": "mystery",
-      "content": "同事陈骏以“临江潮生活”实名发出与许成A稿关键点、顺序高度雷同的《最全避坑指南》，阅读迅速过千，许成手里只有对方防汛堤段与现场不符的截图、没有逐句抄的证据，这口气是否要咽下、两人会不会正面交锋未定。",
+      "content": "到南站以后还接不接得上车、后面怎么走，许成问了司机没得到答复，记录里换乘那一栏只写着“没问到”，这条链路仍是空白。",
       "introducedChapter": 6,
       "status": "open",
-      "lastAdvancedChapter": 9,
-      "plannedWindow": "后续数章",
+      "lastAdvancedChapter": 6,
+      "plannedWindow": "后续走访或成稿期间",
       "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0104",
-        "F-0105",
-        "F-0106",
-        "F-0107"
+        "F-0097",
+        "F-0081"
       ]
     },
     {
       "id": "P-0021",
       "type": "threat",
-      "content": "陈骏文里把施工断头路的防汛堤写成“正常通行、夜间照明良好，建议步行通过”，若真有夜班读者照着走，可能踩进围挡与烂泥里。",
+      "content": "河边近路三公里出头的暗路，杜勇只送到桥底下、过了桥往南他不熟，许成头一回走得一个人走完五十分钟打底，这段路上会遇上什么、能不能走通尚未可知。",
       "introducedChapter": 6,
-      "status": "open",
-      "lastAdvancedChapter": 9,
-      "plannedWindow": "后续数章",
-      "resolutionChapter": null,
+      "status": "resolved",
+      "lastAdvancedChapter": 7,
+      "plannedWindow": "本章结尾之后当晚",
+      "resolutionChapter": 7,
       "relatedFactIds": [
-        "F-0107"
+        "F-0098",
+        "F-0101"
       ]
     },
     {
       "id": "P-0022",
-      "type": "relationship",
-      "content": "“老街夜宵铺”要许成先拿方案和预算再谈见面，而报价、交付形式、拍摄范围、能承诺多少客流他一样都没干过，这单接不接得下来、按什么价接悬着。",
+      "type": "mystery",
+      "content": "野鸡金杯“凑齐七个才走、包车两百”的规矩下，许成没舍得花三十块坐一趟，他日后会不会为核实体验真花钱坐一次、又该怎么向读者交代这笔账。",
       "introducedChapter": 6,
-      "status": "resolved",
-      "lastAdvancedChapter": 7,
-      "plannedWindow": "接续数章",
-      "resolutionChapter": 7,
+      "status": "open",
+      "lastAdvancedChapter": 6,
+      "plannedWindow": "后续数据或成稿需要时",
+      "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0109",
-        "F-0110",
-        "F-0111"
+        "F-0095",
+        "F-0096"
       ]
     },
     {
       "id": "P-0023",
-      "type": "mystery",
-      "content": "流量主申请已提交，页面只说到账以后台通知为准，究竟批不批、什么时候有第一笔收入没有下文，账上目前仍没多一分钱。",
-      "introducedChapter": 6,
+      "type": "threat",
+      "content": "河边近路被两米多高蓝铁皮围挡封死，绕行的涵洞土路里几块排污盖板会翻，前天已有一个下夜班的小妹踩空摔断锁骨——这处没有警示的隐患会不会被人处理，许成会不会把它写出去。",
+      "introducedChapter": 7,
       "status": "open",
-      "lastAdvancedChapter": 6,
-      "plannedWindow": "后续数章",
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "成稿与后续再走这段路时",
       "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0094"
+        "F-0102",
+        "F-0103",
+        "F-0105"
       ]
     },
     {
       "id": "P-0024",
       "type": "mystery",
-      "content": "东站凌晨下车后怎么走成了两名读者的共同追问，许成只在横线本上记了三条待核信息、决定没跑之前不写，这段空白要靠哪一晚实测补上未定。",
-      "introducedChapter": 6,
+      "content": "便利店柜台边那张营业时间打印纸上，某一栏下面被人用圆珠笔划过一道，指代不明；这条路上为什么只剩这一家开到两点，也还没弄清。",
+      "introducedChapter": 7,
       "status": "open",
-      "lastAdvancedChapter": 6,
-      "plannedWindow": "后续数章",
+      "lastAdvancedChapter": 7,
+      "plannedWindow": "后续走访或成稿期间",
       "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0097",
-        "F-0114",
-        "F-0072"
+        "F-0115",
+        "F-0108"
       ]
     },
     {
       "id": "P-0025",
-      "type": "threat",
-      "content": "尾款一千五悬着：赵老板看完初稿只回“后天发吧”，对协议上“初稿确认结清余款一千五”半个字没提，许成必须在明天白天把尾款催结到位，否则后天发稿这笔钱就成了扯不清的糊涂账。",
+      "type": "relationship",
+      "content": "小蓝问许成手里的照片和记录“是准备给谁看的”，许成只答“给要看的人看”——这篇稿子写给谁、发到哪里、标题怎么定，都还没着落。",
       "introducedChapter": 7,
       "status": "resolved",
-      "lastAdvancedChapter": 9,
-      "plannedWindow": "第8章",
-      "resolutionChapter": 9,
+      "lastAdvancedChapter": 8,
+      "plannedWindow": "后续写作定型前",
+      "resolutionChapter": 8,
       "relatedFactIds": [
-        "F-0115",
-        "F-0125",
-        "F-0129"
+        "F-0116",
+        "F-0114"
       ]
     },
     {
       "id": "P-0026",
-      "type": "threat",
-      "content": "陈骏正在征集南门老街的深夜餐饮资源，随时可能摸到赵老板店里开低价，老街夜宵铺剩下一千五尾款和后天发稿的档期都可能生变。",
-      "introducedChapter": 7,
+      "type": "mystery",
+      "content": "文章五点十五发出后后台只有阅读1、在看0、关注0，那个孤零零的“1”是系统点的还是哪个半夜醒着的人随手划开的，会不会有人留言或关注，这篇用三百块和半宿寒夜换来的稿子究竟有没有人看。",
+      "introducedChapter": 8,
       "status": "resolved",
-      "lastAdvancedChapter": 8,
-      "plannedWindow": "第8章及之后",
-      "resolutionChapter": 8,
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "后续数据观察",
+      "resolutionChapter": 9,
       "relatedFactIds": [
-        "F-0130",
-        "F-0129"
+        "F-0124"
       ]
     },
     {
       "id": "P-0027",
-      "type": "relationship",
-      "content": "赵老板答应明早去跟表舅说把挡门的补胎红牌往马路内侧挪半米，可那块地皮是人家、修车铺老板又是亲戚，牌子到底挪不挪得动、门头能不能露出来未定。",
-      "introducedChapter": 7,
+      "type": "threat",
+      "content": "闹铃定在七点整，许成要挤早高峰去公司周会面对王文洁追的接口进度，夜里写稿与白天本职的挤压刚显形，他能不能两边都撑住。",
+      "introducedChapter": 8,
       "status": "resolved",
-      "lastAdvancedChapter": 8,
-      "plannedWindow": "后续数章",
-      "resolutionChapter": 8,
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "次日周会与本周五演示",
+      "resolutionChapter": 9,
       "relatedFactIds": [
-        "F-0122",
-        "F-0128"
+        "F-0125",
+        "F-0054"
       ]
     },
     {
       "id": "P-0028",
-      "type": "threat",
-      "content": "赵老板签完字撂下话：发了稿三天内连十个人都引不来就要找许成“说道说道”，这单还压着一层没人写在纸上的引流对赌。",
-      "introducedChapter": 7,
+      "type": "mystery",
+      "content": "中巴司机顺嘴说“早上六点以前这条路没有别的正经车”，许成核不了、没写进文章，这条信息能不能被核实、会不会影响夜班人的路线判断，暂时只能悬着。",
+      "introducedChapter": 8,
       "status": "open",
-      "lastAdvancedChapter": 9,
-      "plannedWindow": "发稿后数日",
+      "lastAdvancedChapter": 8,
+      "plannedWindow": "后续走访或成稿期间",
       "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0115"
+        "F-0123"
       ]
     },
     {
       "id": "P-0029",
-      "type": "threat",
-      "content": "八点半王经理主持的智慧水务接口例会，许成须交出改好的排期表，而他只剩五个多小时睡眠，迟到或交不出都会当着全组被追责。",
-      "introducedChapter": 7,
-      "status": "resolved",
-      "lastAdvancedChapter": 8,
-      "plannedWindow": "第8章开篇",
-      "resolutionChapter": 8,
+      "type": "mystery",
+      "content": "小唐私信里提出想让许成测东站那边凌晨下班怎么走，许成只在本子上记下“东站”没作答——这条新选题会不会去跑、能不能核出结果。",
+      "introducedChapter": 9,
+      "status": "open",
+      "lastAdvancedChapter": 9,
+      "plannedWindow": "后续走访与选题",
+      "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0131"
+        "F-0139",
+        "F-0141"
       ]
     },
     {
       "id": "P-0030",
-      "type": "threat",
-      "content": "赵老板口头认了第一轮验收算过，却把一千五尾款推到明早盘完账流水对齐再说，杜勇那三百块劳务费也随之继续挂着，这笔钱到底哪天到账未定。",
-      "introducedChapter": 8,
+      "type": "mystery",
+      "content": "关注涨到96，距开通流量主的门槛100只差4，明天有没有人取关、能不能顺利申请开通流量主并拿到第一笔收益。",
+      "introducedChapter": 9,
       "status": "resolved",
-      "lastAdvancedChapter": 9,
-      "plannedWindow": "第9章",
-      "resolutionChapter": 9,
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "次日",
+      "resolutionChapter": 10,
       "relatedFactIds": [
-        "F-0115",
-        "F-0125",
-        "F-0156"
+        "F-0143",
+        "F-0142"
       ]
     },
     {
       "id": "P-0031",
-      "type": "mystery",
-      "content": "后台冒出头像为汽配零件标志的陌生读者，问接不接南门汽配城周边的路线和图文推广、怎么收费，这是第一个主动上门的商务线索，接不接、按什么价接未定。",
-      "introducedChapter": 8,
-      "status": "resolved",
+      "type": "threat",
+      "content": "阿灰指出许成文章写的是赶巧的个例、半夜便利店其实反锁门，许成置顶纠错但埋下隐患：若有人照原文凌晨两点半去敲门发现锁着，回头会在后台骂他骗子，文章的口碑能不能守住。",
+      "introducedChapter": 9,
+      "status": "open",
       "lastAdvancedChapter": 9,
-      "plannedWindow": "后续数章",
-      "resolutionChapter": 9,
+      "plannedWindow": "后续读者按文实测时",
+      "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0157",
-        "F-0115"
+        "F-0135",
+        "F-0137"
       ]
     },
     {
       "id": "P-0032",
       "type": "threat",
-      "content": "陈骏的南门大盘点被读者拿避坑文当场打脸，评论里有人直接把矛头指向临江杂谈，两人一明一暗的较量会不会升级为正面交锋未定。",
-      "introducedChapter": 8,
+      "content": "小蓝警告别把一次运气当成流水线，再去跑一趟就交不出第二天该给王经理的接口——夜里写稿、外出取村与白天本职之间的挤压正式显形，许成能不能长期两边撑住。",
+      "introducedChapter": 9,
       "status": "open",
       "lastAdvancedChapter": 9,
-      "plannedWindow": "后续数章",
+      "plannedWindow": "后续白天交付与夜间外出冲突时",
       "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0105",
-        "F-0106",
-        "F-0154",
-        "F-0155"
+        "F-0144",
+        "F-0054"
       ]
     },
     {
       "id": "P-0033",
       "type": "relationship",
-      "content": "赵老板只给了口头认可，先前许诺的第二家分店全案宣传和长期合作一个字也没落纸，这一千五尾款和后续合作都还悬着。",
-      "introducedChapter": 8,
+      "content": "同公司市场组、手握预算与万粉矩阵的陈骏已经知道许成在弄个人公众号，还当面劝他别做图文改研究短视频——这条同公司熟人线会不会把“临江杂谈”在组内传开、或以别的方式再碰上。",
+      "introducedChapter": 9,
       "status": "open",
-      "lastAdvancedChapter": 9,
-      "plannedWindow": "后续数章",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "后续公司场景",
       "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0116",
-        "F-0156"
+        "F-0129",
+        "F-0130",
+        "F-0131"
       ]
     },
     {
       "id": "P-0034",
-      "type": "threat",
-      "content": "陈骏周四上午九点要带商务组走访南门汽配城重点汽修商户、落实数字化名录首批入驻，名单第三行正是老杨的宏达货车流动救援中心；而许成与老杨约的是周四晚八点半汽配城东门见面——同一家商户，许成可能被陈骏抢先截胡、也可能在见面时撞上。",
-      "introducedChapter": 9,
+      "type": "mystery",
+      "content": "流量主入口已出现、申请书已提交，但结果页不给任何收入数字、只说“以后台通知为准”，开通是否通过、第一笔收益何时到账都还悬着。",
+      "introducedChapter": 10,
       "status": "open",
-      "lastAdvancedChapter": 9,
-      "plannedWindow": "第10章",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "后续后台通知到来时",
       "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0184",
-        "F-0185",
-        "F-0172",
-        "F-0174"
+        "F-0146",
+        "F-0147"
       ]
     },
     {
       "id": "P-0035",
       "type": "threat",
-      "content": "部门群现场反馈称南桥施工点当天上午加焊铁皮挡板、便道已封、行人绕北口，许成前一夜刚发的那篇避坑文写的便道路线可能已经过期，读者照走会跑空。",
-      "introducedChapter": 9,
+      "content": "同公司市场组的陈骏发出《凌晨下班别乱跑！临江夜班族最全避坑指南》，结构与细节几乎照搬许成那篇，却把已被封死的沿河景观道写成“夜间照明良好、建议步行通过”——这篇曝光量远大于许成小号的稿子会不会把夜班人带错路，许成会不会指认、会不会在公司或内容圈正面撞上他。",
+      "introducedChapter": 10,
       "status": "open",
-      "lastAdvancedChapter": 9,
-      "plannedWindow": "后续数章",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "后续公司场景或内容碰撞时",
       "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0181",
-        "F-0152",
-        "F-0143"
+        "F-0155",
+        "F-0156",
+        "F-0157"
       ]
     },
     {
       "id": "P-0036",
-      "type": "relationship",
-      "content": "赵老板的表舅看了文章皱眉，嫌提南桥施工泥巴烂、路灯没通把老街写得像黑煤窑；赵老板只准许成先补“限量”那一句、不许动正文，商家对文章口径的不满与后续改稿、续约的摩擦未定。",
-      "introducedChapter": 9,
+      "type": "mystery",
+      "content": "许成见到雷同与失实，只把两篇并排截屏存进相册，删掉了那句“这条堤上的路你走过吗”——他会不会、用别的方式回应陈骏。",
+      "introducedChapter": 10,
       "status": "open",
-      "lastAdvancedChapter": 9,
-      "plannedWindow": "后续数章",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "后续",
       "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0165",
-        "F-0166"
+        "F-0158",
+        "F-0159"
       ]
     },
     {
       "id": "P-0037",
-      "type": "relationship",
-      "content": "许成私下拟定《临江杂谈商户服务标准V1.0》三档报价（800／2000／4500起），但老杨只走了2000元实地档、还坚持要许成到现场见面；这套报价体系能不能被商家接受、会不会把客户逼走，尚未验证。",
-      "introducedChapter": 9,
-      "status": "open",
-      "lastAdvancedChapter": 9,
-      "plannedWindow": "后续数章",
-      "resolutionChapter": null,
-      "relatedFactIds": [
-        "F-0170",
-        "F-0173",
-        "F-0174"
-      ]
-    },
-    {
-      "id": "P-0038",
       "type": "threat",
-      "content": "许成答应今晚回出租屋给赵老板补开收据、并承诺周四晚去汽配城东门见老杨，而陈骏的商务组周四上午就要进同一家店，日程与人手（他只有一个人、只能下班后跑）撞在一起，怎么排还没定。",
-      "introducedChapter": 9,
+      "content": "杜勇转来的截图显示文章已进物流园夜班群、有工友拿文章里金杯中巴“单人加价”规则骂调度，内容影响力外溢到中巴与园区一方，会不会引来线下麻烦。",
+      "introducedChapter": 10,
       "status": "open",
-      "lastAdvancedChapter": 9,
-      "plannedWindow": "第10章",
+      "lastAdvancedChapter": 10,
+      "plannedWindow": "后续线下场景",
       "resolutionChapter": null,
       "relatedFactIds": [
-        "F-0169",
-        "F-0174",
-        "F-0184"
+        "F-0148",
+        "F-0095",
+        "F-0096"
       ]
     }
   ]

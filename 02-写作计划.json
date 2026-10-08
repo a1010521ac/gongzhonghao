@@ -595,7 +595,7 @@
       "volumeNumber": 1,
       "title": "他退钱退得太快了",
       "filePath": "chapters/第004章 他退钱退得太快了.md",
-      "status": "in_progress",
+      "status": "completed",
       "chapterRole": "退款到账与账号诊断章",
       "readerPayoff": "退款当天由商家直接处理、1999元原路退回，6740元回到账上；小蓝把账号问题从玄学权重改成具体读者和具体承诺。",
       "mustHappen": [
@@ -626,14 +626,40 @@
       "comedyExecution": null,
       "wordCount": null,
       "wordCountPass": null,
-      "qualityPass": false,
+      "qualityPass": true,
       "validationRounds": 0,
       "checks": {
         "agentFirstRead": {
           "mode": "background-free-independent-agent",
-          "verdict": "pass-with-fixes",
-          "readerModel": "claude-fable-5",
+          "verdict": "pass",
+          "readerModel": "gpt-6-luna → gemini-3.7-flash-high",
           "reportPath": "notes/first-reads/第004章-首读.json"
+        },
+        "semanticAuditRecord": {
+          "auditedChapter": 4,
+          "window": [
+            3,
+            4,
+            5
+          ],
+          "auditPhase": "retrospective",
+          "inputSha256": "b1b5502ae292ae7d882bb2eb6c125401dabce4bdd3468da5bd8550435a77eb1c",
+          "auditId": "c115535b-12fa-4827-aedd-8c4c5966b7fe",
+          "reportPath": "notes/semantic-audits/第004章-语义审计.json",
+          "verdict": "pass"
+        },
+        "scriptExitCodes": {
+          "check_chapter_wordcount": 0,
+          "check_body_format": 0,
+          "check_prose": 0,
+          "check_dialogue_punctuation": 0,
+          "check_style_fingerprint": 0,
+          "check_semantic_audit": 0,
+          "check_language_review": 0,
+          "check_agent_first_read": 0,
+          "check_plot_fingerprint": 0,
+          "check_continuity_candidate": 0,
+          "plotFingerprint": 0
         }
       },
       "retrofitReason": "旧版写多轮协商退款，与网购售后实际流程不符；新版改为商家直接退款并删掉扯皮过程。",
@@ -644,7 +670,7 @@
       "volumeNumber": 1,
       "title": "你到底想把文章写给谁看",
       "filePath": "chapters/第005章 你到底想把文章写给谁看.md",
-      "status": "in_progress",
+      "status": "completed",
       "chapterRole": "选题起点与首次雇人章",
       "readerPayoff": "周敏一句话把他从自怜里拽出来；他第一次为一条路线自掏钱雇人核验。",
       "mustHappen": [
@@ -674,18 +700,149 @@
       "comedyExecution": null,
       "wordCount": null,
       "wordCountPass": null,
-      "qualityPass": false,
-      "validationRounds": 0,
-      "checks": {},
+      "qualityPass": true,
+      "validationRounds": 3,
+      "checks": {
+        "agentFirstRead": {
+          "mode": "background-free-independent-agent",
+          "verdict": "pass-with-fixes",
+          "readerModel": "claude-fable-5",
+          "reportPath": "notes/first-reads/第005章-首读.json"
+        },
+        "semanticAuditRecord": {
+          "auditedChapter": 5,
+          "window": [
+            4,
+            5,
+            6
+          ],
+          "auditPhase": "retrospective",
+          "inputSha256": "fb4587692ef002771af4c4d675b39b8df788cc8411245f2f64dde6a73b348d9f",
+          "auditId": "92d598ea-695a-4047-8236-f652a32826ec",
+          "reportPath": "notes/semantic-audits/第005章-语义审计.json",
+          "verdict": "pass"
+        },
+        "scriptExitCodes": {
+          "check_chapter_wordcount": 0,
+          "check_body_format": 0,
+          "check_prose": 0,
+          "check_dialogue_punctuation": 0,
+          "check_style_fingerprint": 0,
+          "check_semantic_audit": 0,
+          "check_language_review": 0,
+          "check_agent_first_read": 0,
+          "check_plot_fingerprint": 0,
+          "check_continuity_candidate": 0,
+          "plotFingerprint": 0
+        }
+      },
       "retrofitReason": "旧版把选题讨论放在小蓝单方面指导下完成；新版由周敏的追问推动，小蓝只给操作判断。",
-      "firstReadStatus": "pending"
+      "firstReadStatus": "pending",
+      "validationProgress": {
+        "version": 1,
+        "bodyDigest": "62a370f5357b3fc8b5390202974c2d7e74afd842493e6ffcb36606dbf65c0ce4",
+        "blockerFingerprint": "29547dfcc10d21fdea1cec06e0b805e6c799347d257b4ddc0816854376164a46",
+        "blockers": [
+          {
+            "id": "check_chapter_wordcount",
+            "what": "纯正文汉字数是否达到项目下限（跳过标题与元数据）",
+            "outcome": "fail",
+            "exitCode": 1,
+            "reason": "退出码 1：\nstdout:\n==============================================================\r\n章节纯正文字数检查\r\n==============================================================\r\n\r\n❌ 第005章 你到底想把文章写给谁看.md\r\n   纯正文汉字：1932（不足，至少需要 2000）\r\n   提取方式：标题/旧元数据兼容模式\r\n\r\n--------------------------------------------------------------\r\n总计：1 章｜达标 0｜不足 1｜错误 0｜纯正文汉字 1,932\r\n--------------------------------------------------------------\r\n\r\n有 1 章低于 2000 个纯正文汉字。不要先补景物、心理、回忆或重复对话，按顺序检查：\r\n  1. 是否漏写 mustHappen 事件；\r\n  2. 是否缺少主动阻碍；\r\n  3. 第一次方案是否过于顺利，是否需要合理失败与第二方案；\r\n  4. 是否跳过行动后果；\r\n  5. 是否缺少人物选择及代价；\r\n  6. 是否缺少关系变化或认知变化；\r\n  7. 上述内容完整后，再补理解剧情真正需要的动作、环境、感官和内心细节。\r\n参考：references/guides/content-expansion.md",
+            "stdout": "\r\n==============================================================\r\n章节纯正文字数检查\r\n==============================================================\r\n\r\n❌ 第005章 你到底想把文章写给谁看.md\r\n   纯正文汉字：1932（不足，至少需要 2000）\r\n   提取方式：标题/旧元数据兼容模式\r\n\r\n--------------------------------------------------------------\r\n总计：1 章｜达标 0｜不足 1｜错误 0｜纯正文汉字 1,932\r\n--------------------------------------------------------------\r\n\r\n有 1 章低于 2000 个纯正文汉字。不要先补景物、心理、回忆或重复对话，按顺序检查：\r\n  1. 是否漏写 mustHappen 事件；\r\n  2. 是否缺少主动阻碍；\r\n  3. 第一次方案是否过于顺利，是否需要合理失败与第二方案；\r\n  4. 是否跳过行动后果；\r\n  5. 是否缺少人物选择及代价；\r\n  6. 是否缺少关系变化或认知变化；\r\n  7. 上述内容完整后，再补理解剧情真正需要的动作、环境、感官和内心细节。\r\n参考：references/guides/content-expansion.md\r\n",
+            "stderr": "",
+            "argv": [
+              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_chapter_wordcount.py",
+              "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\6cb1822a-03e6-49a5-8ec4-4e706fd06cad\\stage\\chapters\\第005章 你到底想把文章写给谁看.md",
+              "2000"
+            ],
+            "evidence": {
+              "script": "check_chapter_wordcount.py",
+              "argv": [
+                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_chapter_wordcount.py",
+                "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\6cb1822a-03e6-49a5-8ec4-4e706fd06cad\\stage\\chapters\\第005章 你到底想把文章写给谁看.md",
+                "2000"
+              ],
+              "exitCode": 1,
+              "stdout": "\r\n==============================================================\r\n章节纯正文字数检查\r\n==============================================================\r\n\r\n❌ 第005章 你到底想把文章写给谁看.md\r\n   纯正文汉字：1932（不足，至少需要 2000）\r\n   提取方式：标题/旧元数据兼容模式\r\n\r\n--------------------------------------------------------------\r\n总计：1 章｜达标 0｜不足 1｜错误 0｜纯正文汉字 1,932\r\n--------------------------------------------------------------\r\n\r\n有 1 章低于 2000 个纯正文汉字。不要先补景物、心理、回忆或重复对话，按顺序检查：\r\n  1. 是否漏写 mustHappen 事件；\r\n  2. 是否缺少主动阻碍；\r\n  3. 第一次方案是否过于顺利，是否需要合理失败与第二方案；\r\n  4. 是否跳过行动后果；\r\n  5. 是否缺少人物选择及代价；\r\n  6. 是否缺少关系变化或认知变化；\r\n  7. 上述内容完整后，再补理解剧情真正需要的动作、环境、感官和内心细节。\r\n参考：references/guides/content-expansion.md\r\n",
+              "stderr": "",
+              "timedOut": false,
+              "startedAt": "2026-10-08T04:34:50.210Z",
+              "ms": 86
+            }
+          },
+          {
+            "id": "check_prose",
+            "what": "半角标点、【】句末标点、旁白越权、自指计数（硬错误）＋翻译腔（候选）",
+            "outcome": "fail",
+            "exitCode": 1,
+            "reason": "退出码 1：\n[硬错误] 旁白越权：0 处\n[硬错误] 半角标点：0 处\n[硬错误] 【】句末标点：0 处\n[硬错误] 自指计数不符：1 处\nL73: 正文称「2个字」，实际 5 个汉字　对象=「你认识几个」（上一行引用定位）\n数一遍被数的那串字，把数目改对；改不了就别报数目（降精度）。人物故意数错必须在正文里被纠正或付出代价，否则是作者数错",
+            "stdout": "\r\n=== 第005章 你到底想把文章写给谁看.md ===\r\n正文行 71｜旁白越权 0 处（硬错误）｜半角标点 0 处（硬错误）｜【】句末标点 0 处（硬错误）｜自指计数不符 1 处（硬错误）｜翻译腔 0 处（候选）\r\n\r\n[硬错误] 旁白越权：0 处\r\n\r\n[硬错误] 半角标点：0 处\r\n\r\n[硬错误] 【】句末标点：0 处\r\n\r\n[硬错误] 自指计数不符：1 处\r\n  L73: 正文称「2个字」，实际 5 个汉字　对象=「你认识几个」（上一行引用定位）\r\n       数一遍被数的那串字，把数目改对；改不了就别报数目（降精度）。人物故意数错必须在正文里被纠正或付出代价，否则是作者数错\r\n\r\n[候选] 翻译腔：0 处\r\n",
+            "stderr": "",
+            "argv": [
+              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_prose.py",
+              "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\6cb1822a-03e6-49a5-8ec4-4e706fd06cad\\stage\\chapters\\第005章 你到底想把文章写给谁看.md"
+            ],
+            "evidence": {
+              "script": "check_prose.py",
+              "argv": [
+                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_prose.py",
+                "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\6cb1822a-03e6-49a5-8ec4-4e706fd06cad\\stage\\chapters\\第005章 你到底想把文章写给谁看.md"
+              ],
+              "exitCode": 1,
+              "stdout": "\r\n=== 第005章 你到底想把文章写给谁看.md ===\r\n正文行 71｜旁白越权 0 处（硬错误）｜半角标点 0 处（硬错误）｜【】句末标点 0 处（硬错误）｜自指计数不符 1 处（硬错误）｜翻译腔 0 处（候选）\r\n\r\n[硬错误] 旁白越权：0 处\r\n\r\n[硬错误] 半角标点：0 处\r\n\r\n[硬错误] 【】句末标点：0 处\r\n\r\n[硬错误] 自指计数不符：1 处\r\n  L73: 正文称「2个字」，实际 5 个汉字　对象=「你认识几个」（上一行引用定位）\r\n       数一遍被数的那串字，把数目改对；改不了就别报数目（降精度）。人物故意数错必须在正文里被纠正或付出代价，否则是作者数错\r\n\r\n[候选] 翻译腔：0 处\r\n",
+              "stderr": "",
+              "timedOut": false,
+              "startedAt": "2026-10-08T04:34:50.412Z",
+              "ms": 95
+            }
+          },
+          {
+            "id": "check_agent_first_read",
+            "what": "独立首读记录：十五问题面与答案、standingLadder 排序、两轮交付物证",
+            "outcome": "fail",
+            "exitCode": 1,
+            "reason": "退出码 1：\n[硬错误] speakers[3].sharpestLine 在最终正文里逐字找不到：““能写，不能推荐。””\n[硬错误] speakers[4].sharpestLine 在最终正文里逐字找不到：““你是要交标书，还是要有人看。””\n[硬错误] standingLadder.order[1].quote 在最终正文里逐字找不到：““你是要交标书，还是要有人看。””\n[硬错误] standingLadder.order[5].quote 在最终正文里逐字找不到：““这个点去仓库？””\n[硬错误] standingLadder.order[6].quote 在最终正文里逐字找不到：““您稍等。”键盘声停了一下，“您说的这一趟，今晚车辆临时调度”\n[硬错误] 修改后冷读引用缺失：C11、C12、C14、C4、C5\n[硬错误] reactionScale[5] 的 quote 在最终正文里逐字找不到：“还是 0。”\n[硬错误] volumeRange.lightestQuote 在最终正文里逐字找不到：“他哦了一声，没再问。”\n[硬错误] emotionSources[2] 的 quote 在最终正文里逐字找不到：“他把背心脱下来，团了团塞进包里。”\n[硬错误] emotionSources[3] 的 quote 在最终正文里逐字找不到：“我把手机扣在桌上。”\n[硬错误] emotionSources[4] 的 quote 在最终正文里逐字找不到：““我不知道。”小蓝说，“我只知道第一句该给谁看。””\n[硬错误] emotionSources[5] 的 quote 在最终正文里逐字找不到：“司机从后视镜里看了我一眼：“这个点去仓库？””\n[硬错误] emotionSources[6] 的 quote 在最终正文里逐字找不到：““您稍等。”键盘声停了一下，“您说的这一趟，今晚车辆临时调度”\n[硬错误] boundaryReview.tail.startQuote 未在最终正文逐字找到\n[硬错误] boundaryReview.tail.endQuote 未在最终正文逐字找到\n[硬错误] boundaryReview.tail.startQuote 不在正文后两段内\n[硬错误] boundaryReview.tail.endQuote 不在正文后两段内\n[硬错误] 候选 S2（判为误报）.startQuote 未在最终正文逐字找到\n[硬错误] 候选 S2（判为误报）.endQuote 未在最终正文逐字找到\n[硬错误] dispositions[3].replacement.startQuote 未在最终正文逐字找到\n[硬错误] dispositions[3].replacement.endQuote 未在最终正文逐字找到",
+            "stdout": "首读记录校验失败：第 5 章\r\n[硬错误] speakers[3].sharpestLine 在最终正文里逐字找不到：““能写，不能推荐。””\r\n[硬错误] speakers[4].sharpestLine 在最终正文里逐字找不到：““你是要交标书，还是要有人看。””\r\n[硬错误] standingLadder.order[1].quote 在最终正文里逐字找不到：““你是要交标书，还是要有人看。””\r\n[硬错误] standingLadder.order[5].quote 在最终正文里逐字找不到：““这个点去仓库？””\r\n[硬错误] standingLadder.order[6].quote 在最终正文里逐字找不到：““您稍等。”键盘声停了一下，“您说的这一趟，今晚车辆临时调度”\r\n[硬错误] 修改后冷读引用缺失：C11、C12、C14、C4、C5\r\n[硬错误] reactionScale[5] 的 quote 在最终正文里逐字找不到：“还是 0。”\r\n[硬错误] volumeRange.lightestQuote 在最终正文里逐字找不到：“他哦了一声，没再问。”\r\n[硬错误] emotionSources[2] 的 quote 在最终正文里逐字找不到：“他把背心脱下来，团了团塞进包里。”\r\n[硬错误] emotionSources[3] 的 quote 在最终正文里逐字找不到：“我把手机扣在桌上。”\r\n[硬错误] emotionSources[4] 的 quote 在最终正文里逐字找不到：““我不知道。”小蓝说，“我只知道第一句该给谁看。””\r\n[硬错误] emotionSources[5] 的 quote 在最终正文里逐字找不到：“司机从后视镜里看了我一眼：“这个点去仓库？””\r\n[硬错误] emotionSources[6] 的 quote 在最终正文里逐字找不到：““您稍等。”键盘声停了一下，“您说的这一趟，今晚车辆临时调度”\r\n[硬错误] boundaryReview.tail.startQuote 未在最终正文逐字找到\r\n[硬错误] boundaryReview.tail.endQuote 未在最终正文逐字找到\r\n[硬错误] boundaryReview.tail.startQuote 不在正文后两段内\r\n[硬错误] boundaryReview.tail.endQuote 不在正文后两段内\r\n[硬错误] 候选 S2（判为误报）.startQuote 未在最终正文逐字找到\r\n[硬错误] 候选 S2（判为误报）.endQuote 未在最终正文逐字找到\r\n[硬错误] dispositions[3].replacement.startQuote 未在最终正文逐字找到\r\n[硬错误] dispositions[3].replacement.endQuote 未在最终正文逐字找到\r\n",
+            "stderr": "",
+            "argv": [
+              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_agent_first_read.py",
+              "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\6cb1822a-03e6-49a5-8ec4-4e706fd06cad\\stage",
+              "--chapter",
+              "5"
+            ],
+            "evidence": {
+              "script": "check_agent_first_read.py",
+              "argv": [
+                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_agent_first_read.py",
+                "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\6cb1822a-03e6-49a5-8ec4-4e706fd06cad\\stage",
+                "--chapter",
+                "5"
+              ],
+              "exitCode": 1,
+              "stdout": "首读记录校验失败：第 5 章\r\n[硬错误] speakers[3].sharpestLine 在最终正文里逐字找不到：““能写，不能推荐。””\r\n[硬错误] speakers[4].sharpestLine 在最终正文里逐字找不到：““你是要交标书，还是要有人看。””\r\n[硬错误] standingLadder.order[1].quote 在最终正文里逐字找不到：““你是要交标书，还是要有人看。””\r\n[硬错误] standingLadder.order[5].quote 在最终正文里逐字找不到：““这个点去仓库？””\r\n[硬错误] standingLadder.order[6].quote 在最终正文里逐字找不到：““您稍等。”键盘声停了一下，“您说的这一趟，今晚车辆临时调度”\r\n[硬错误] 修改后冷读引用缺失：C11、C12、C14、C4、C5\r\n[硬错误] reactionScale[5] 的 quote 在最终正文里逐字找不到：“还是 0。”\r\n[硬错误] volumeRange.lightestQuote 在最终正文里逐字找不到：“他哦了一声，没再问。”\r\n[硬错误] emotionSources[2] 的 quote 在最终正文里逐字找不到：“他把背心脱下来，团了团塞进包里。”\r\n[硬错误] emotionSources[3] 的 quote 在最终正文里逐字找不到：“我把手机扣在桌上。”\r\n[硬错误] emotionSources[4] 的 quote 在最终正文里逐字找不到：““我不知道。”小蓝说，“我只知道第一句该给谁看。””\r\n[硬错误] emotionSources[5] 的 quote 在最终正文里逐字找不到：“司机从后视镜里看了我一眼：“这个点去仓库？””\r\n[硬错误] emotionSources[6] 的 quote 在最终正文里逐字找不到：““您稍等。”键盘声停了一下，“您说的这一趟，今晚车辆临时调度”\r\n[硬错误] boundaryReview.tail.startQuote 未在最终正文逐字找到\r\n[硬错误] boundaryReview.tail.endQuote 未在最终正文逐字找到\r\n[硬错误] boundaryReview.tail.startQuote 不在正文后两段内\r\n[硬错误] boundaryReview.tail.endQuote 不在正文后两段内\r\n[硬错误] 候选 S2（判为误报）.startQuote 未在最终正文逐字找到\r\n[硬错误] 候选 S2（判为误报）.endQuote 未在最终正文逐字找到\r\n[硬错误] dispositions[3].replacement.startQuote 未在最终正文逐字找到\r\n[硬错误] dispositions[3].replacement.endQuote 未在最终正文逐字找到\r\n",
+              "stderr": "",
+              "timedOut": false,
+              "startedAt": "2026-10-08T04:34:51.011Z",
+              "ms": 154
+            }
+          }
+        ],
+        "updatedAt": "2026-10-08T04:34:51.316Z"
+      }
     },
     {
       "chapterNumber": 6,
       "volumeNumber": 1,
       "title": "站牌上写着零点三十，车零点十五就走了",
       "filePath": "chapters/第006章 站牌上写着零点三十，车零点十五就走了.md",
-      "status": "in_progress",
+      "status": "completed",
       "chapterRole": "第一次夜班现场核验（上）",
       "readerPayoff": "站牌上的末班时间和真实调度当场对不上，读者第一次看见“网上查不到”长什么样。",
       "mustHappen": [
@@ -715,18 +872,123 @@
       "comedyExecution": null,
       "wordCount": null,
       "wordCountPass": null,
-      "qualityPass": false,
-      "validationRounds": 0,
-      "checks": {},
+      "qualityPass": true,
+      "validationRounds": 2,
+      "checks": {
+        "agentFirstRead": {
+          "mode": "background-free-independent-agent",
+          "verdict": "pass-with-fixes",
+          "readerModel": "claude-fable-5",
+          "reportPath": "notes/first-reads/第006章-首读.json"
+        },
+        "semanticAuditRecord": {
+          "auditedChapter": 6,
+          "window": [
+            5,
+            6,
+            7
+          ],
+          "auditPhase": "retrospective",
+          "inputSha256": "cfcd8d1184d0b49bb072cf6e69c49afb59f03fd5590418cffdbb48f3ac8e0ef3",
+          "auditId": "fd97984f-6e7c-4187-9d79-fe6af6f61d2c",
+          "reportPath": "notes/semantic-audits/第006章-语义审计.json",
+          "verdict": "pass"
+        },
+        "scriptExitCodes": {
+          "check_chapter_wordcount": 0,
+          "check_body_format": 0,
+          "check_prose": 0,
+          "check_dialogue_punctuation": 0,
+          "check_style_fingerprint": 0,
+          "check_semantic_audit": 0,
+          "check_language_review": 0,
+          "check_agent_first_read": 0,
+          "check_plot_fingerprint": 0,
+          "check_continuity_candidate": 0,
+          "plotFingerprint": 0
+        }
+      },
       "retrofitReason": "旧版这一趟只写了空车与热线，黑中巴与走路成本混在同一章里被压缩；新版拆开写透。",
-      "firstReadStatus": "pending"
+      "firstReadStatus": "pending",
+      "validationProgress": {
+        "version": 1,
+        "bodyDigest": "a9b647003bc0876bdb9db9bad151d1b2aabfc12d1b8641efef7f4d9f5e9801c8",
+        "blockerFingerprint": "6e016185c632058cb70f5ecd603933faea20fde0b227f40bfb0ec14c221f9975",
+        "blockers": [
+          {
+            "id": "check_semantic_audit",
+            "what": "语义审计记录的引用落地与五项覆盖门槛（区分「未发现」与「没去看」）",
+            "outcome": "fail",
+            "exitCode": 1,
+            "reason": "退出码 1：\n[硬错误]\n- 以下 3 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\n- 阻断项 minimumChecks.adjacentContinuity：判定 fail\n条目原文: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n- 阻断项 observations 第1项：判定 fail\ntype: 相邻章道具连续性\nquote: 走过去把电瓶车推到墙根锁上。\nnote: 本章结尾杜勇把电瓶车锁上、拔钥匙、两人改步行（“走过去把电瓶车推到墙根锁上。”“他把钥匙拔下来揣进兜里”）；下一章开头却是“电瓶车拐进河边那条没名字的沥青路时，手机信号掉了一格。”与“杜勇重新上车”，交通工具状态前后矛盾，须统一。\nsourceWhere: chapter\nverdict: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n- 阻断项 joins.auditedToNext：判定 fail\nauditedTailQuote: 走过去把电瓶车推到墙根锁上。\nnextHeadQuote: 电瓶车拐进河边那条没名字的沥青路时，手机信号掉了一格。\nverdict: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n结论：失败，共 4 项硬错误。",
+            "stdout": "==============================================================\r\n语义审计记录检查（只验证记录与引用，不判断小说语义）\r\n==============================================================\r\n被审章节：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\486a2e2c-4a55-46a3-94df-645d0da7dfe2\\stage\\chapters\\第006章 站牌上写着零点三十，车零点十五就走了.md\r\n审计记录：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\486a2e2c-4a55-46a3-94df-645d0da7dfe2\\stage\\notes\\semantic-audits\\第006章-语义审计.json\r\n[已转交阶段校验，本章不阻塞] observations 第3项 → 第一卷分卷校验\r\n\r\n[硬错误]\r\n  - 以下 3 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\r\n  - 阻断项 minimumChecks.adjacentContinuity：判定 fail\r\n  条目原文: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 observations 第1项：判定 fail\r\n  type: 相邻章道具连续性\r\n  quote: 走过去把电瓶车推到墙根锁上。\r\n  note: 本章结尾杜勇把电瓶车锁上、拔钥匙、两人改步行（“走过去把电瓶车推到墙根锁上。”“他把钥匙拔下来揣进兜里”）；下一章开头却是“电瓶车拐进河边那条没名字的沥青路时，手机信号掉了一格。”与“杜勇重新上车”，交通工具状态前后矛盾，须统一。\r\n  sourceWhere: chapter\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 joins.auditedToNext：判定 fail\r\n  auditedTailQuote: 走过去把电瓶车推到墙根锁上。\r\n  nextHeadQuote: 电瓶车拐进河边那条没名字的沥青路时，手机信号掉了一格。\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n\r\n结论：失败，共 4 项硬错误。\r\n",
+            "stderr": "",
+            "argv": [
+              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_semantic_audit.py",
+              "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\486a2e2c-4a55-46a3-94df-645d0da7dfe2\\stage",
+              "--chapter",
+              "6"
+            ],
+            "evidence": {
+              "script": "check_semantic_audit.py",
+              "argv": [
+                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_semantic_audit.py",
+                "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\486a2e2c-4a55-46a3-94df-645d0da7dfe2\\stage",
+                "--chapter",
+                "6"
+              ],
+              "exitCode": 1,
+              "stdout": "==============================================================\r\n语义审计记录检查（只验证记录与引用，不判断小说语义）\r\n==============================================================\r\n被审章节：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\486a2e2c-4a55-46a3-94df-645d0da7dfe2\\stage\\chapters\\第006章 站牌上写着零点三十，车零点十五就走了.md\r\n审计记录：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\486a2e2c-4a55-46a3-94df-645d0da7dfe2\\stage\\notes\\semantic-audits\\第006章-语义审计.json\r\n[已转交阶段校验，本章不阻塞] observations 第3项 → 第一卷分卷校验\r\n\r\n[硬错误]\r\n  - 以下 3 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\r\n  - 阻断项 minimumChecks.adjacentContinuity：判定 fail\r\n  条目原文: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 observations 第1项：判定 fail\r\n  type: 相邻章道具连续性\r\n  quote: 走过去把电瓶车推到墙根锁上。\r\n  note: 本章结尾杜勇把电瓶车锁上、拔钥匙、两人改步行（“走过去把电瓶车推到墙根锁上。”“他把钥匙拔下来揣进兜里”）；下一章开头却是“电瓶车拐进河边那条没名字的沥青路时，手机信号掉了一格。”与“杜勇重新上车”，交通工具状态前后矛盾，须统一。\r\n  sourceWhere: chapter\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 joins.auditedToNext：判定 fail\r\n  auditedTailQuote: 走过去把电瓶车推到墙根锁上。\r\n  nextHeadQuote: 电瓶车拐进河边那条没名字的沥青路时，手机信号掉了一格。\r\n  verdict: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n\r\n结论：失败，共 4 项硬错误。\r\n",
+              "stderr": "",
+              "timedOut": false,
+              "startedAt": "2026-10-08T06:23:45.399Z",
+              "ms": 102
+            }
+          },
+          {
+            "id": "check_language_review",
+            "what": "标点/断句/破折号/翻译腔语义复核：每个候选都有处置，缺失或过期须重建证据",
+            "outcome": "fail",
+            "exitCode": 1,
+            "reason": "退出码 1：\n[硬错误]\n位置：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\486a2e2c-4a55-46a3-94df-645d0da7dfe2\\stage\\notes\\semantic-audits\\第006章-语义审计.json\n语言问题 languageReview.checks.semanticPunctuation：原句 '“听见没。”杜勇把手揣回兜里'；依据与修改要求：先判言语行为再定标点：全章真正发问处均用了问号（“干什么的？”“看够了？”“走回去要多久？”“后面还接得上车吗？”等），但有一处确认问被句号压平。“听见没。”是杜勇在免提通话结束后要求对方确认“听清了没有”，属确认性发问，按本书规则应用问号，不因语气平淡而保留句号，故判 fail。改法：把“听见没。”改为“听见没？”（若要强调其冷硬的质问味可作“听见没！”），后接叙述标签的逗号不动。另核对分布提醒：全章对白无感叹号，但确无必须以感叹号呈现的喊叫或情绪爆发——唯一的喊句“里头的人喊了一句‘上车’”把引语嵌在叙述句中，句末句号属外层句；人物各处警告（“一律不许进镜头”“过了一点我可不管”“嫌贵你腿着去啊”）都以冷硬陈述呈现，符合夜班司机身份与场景，不因缺感叹号判错。\n语言问题 languageReview.checks.dashUsage：原句 '我在备忘录里又添一行：热线答复——临时调度，不可作依据；没有工单号。'；依据与修改要求：全章仅一处破折号，即所引这句中的“热线答复——临时调度”。它不是被突然打断的话（后文并非另起话轮），也不是非用破折号不可的强插入，而是备忘录条目里用破折号顶替冒号的普通“标签—内容”分隔，正属本书要求少用、不滥用的普通解释类用法，故判 fail。可执行改法：改为冒号，并把外层引导语降为逗号以避免两个冒号叠用——“我在备忘录里又添一行，热线答复：临时调度，不可作依据；没有工单号。”；或干脆写成“我在备忘录里又添一行：热线答复是临时调度，不可作依据；没有工单号。”\n语言问题 languageReview.candidates.L83-98060759608a：原句 '我在备忘录里又添一行：热线答复——临时调度，不可作依据；没有工单号。'；依据与修改要求：此处破折号并非突然被打断的话，也不是不可替代的强插入，而是备忘录条目中用破折号替代冒号的普通“标签—内容”分隔（热线答复＝临时调度），属本书要求少用的解释类用法。改法：换成冒号，并把外层引导语降为逗号以避免冒号叠用——“我在备忘录里又添一行，热线答复：临时调度，不可作依据；没有工单号。”；或改写为“我在备忘录里又添一行：热线答复是临时调度，不可作依据；没有工单号。”本轮未改正文，此改法待落实。\n期望值：标点、断句、破折号和中文表达符合具体语义\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点",
+            "stdout": "[硬错误]\r\n位置：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\486a2e2c-4a55-46a3-94df-645d0da7dfe2\\stage\\notes\\semantic-audits\\第006章-语义审计.json\r\n语言问题 languageReview.checks.semanticPunctuation：原句 '“听见没。”杜勇把手揣回兜里'；依据与修改要求：先判言语行为再定标点：全章真正发问处均用了问号（“干什么的？”“看够了？”“走回去要多久？”“后面还接得上车吗？”等），但有一处确认问被句号压平。“听见没。”是杜勇在免提通话结束后要求对方确认“听清了没有”，属确认性发问，按本书规则应用问号，不因语气平淡而保留句号，故判 fail。改法：把“听见没。”改为“听见没？”（若要强调其冷硬的质问味可作“听见没！”），后接叙述标签的逗号不动。另核对分布提醒：全章对白无感叹号，但确无必须以感叹号呈现的喊叫或情绪爆发——唯一的喊句“里头的人喊了一句‘上车’”把引语嵌在叙述句中，句末句号属外层句；人物各处警告（“一律不许进镜头”“过了一点我可不管”“嫌贵你腿着去啊”）都以冷硬陈述呈现，符合夜班司机身份与场景，不因缺感叹号判错。\r\n语言问题 languageReview.checks.dashUsage：原句 '我在备忘录里又添一行：热线答复——临时调度，不可作依据；没有工单号。'；依据与修改要求：全章仅一处破折号，即所引这句中的“热线答复——临时调度”。它不是被突然打断的话（后文并非另起话轮），也不是非用破折号不可的强插入，而是备忘录条目里用破折号顶替冒号的普通“标签—内容”分隔，正属本书要求少用、不滥用的普通解释类用法，故判 fail。可执行改法：改为冒号，并把外层引导语降为逗号以避免两个冒号叠用——“我在备忘录里又添一行，热线答复：临时调度，不可作依据；没有工单号。”；或干脆写成“我在备忘录里又添一行：热线答复是临时调度，不可作依据；没有工单号。”\r\n语言问题 languageReview.candidates.L83-98060759608a：原句 '我在备忘录里又添一行：热线答复——临时调度，不可作依据；没有工单号。'；依据与修改要求：此处破折号并非突然被打断的话，也不是不可替代的强插入，而是备忘录条目中用破折号替代冒号的普通“标签—内容”分隔（热线答复＝临时调度），属本书要求少用的解释类用法。改法：换成冒号，并把外层引导语降为逗号以避免冒号叠用——“我在备忘录里又添一行，热线答复：临时调度，不可作依据；没有工单号。”；或改写为“我在备忘录里又添一行：热线答复是临时调度，不可作依据；没有工单号。”本轮未改正文，此改法待落实。\r\n期望值：标点、断句、破折号和中文表达符合具体语义\r\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点\r\n",
+            "stderr": "",
+            "argv": [
+              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_language_review.py",
+              "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\486a2e2c-4a55-46a3-94df-645d0da7dfe2\\stage",
+              "--chapter",
+              "6"
+            ],
+            "evidence": {
+              "script": "check_language_review.py",
+              "argv": [
+                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_language_review.py",
+                "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\486a2e2c-4a55-46a3-94df-645d0da7dfe2\\stage",
+                "--chapter",
+                "6"
+              ],
+              "exitCode": 1,
+              "stdout": "[硬错误]\r\n位置：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\486a2e2c-4a55-46a3-94df-645d0da7dfe2\\stage\\notes\\semantic-audits\\第006章-语义审计.json\r\n语言问题 languageReview.checks.semanticPunctuation：原句 '“听见没。”杜勇把手揣回兜里'；依据与修改要求：先判言语行为再定标点：全章真正发问处均用了问号（“干什么的？”“看够了？”“走回去要多久？”“后面还接得上车吗？”等），但有一处确认问被句号压平。“听见没。”是杜勇在免提通话结束后要求对方确认“听清了没有”，属确认性发问，按本书规则应用问号，不因语气平淡而保留句号，故判 fail。改法：把“听见没。”改为“听见没？”（若要强调其冷硬的质问味可作“听见没！”），后接叙述标签的逗号不动。另核对分布提醒：全章对白无感叹号，但确无必须以感叹号呈现的喊叫或情绪爆发——唯一的喊句“里头的人喊了一句‘上车’”把引语嵌在叙述句中，句末句号属外层句；人物各处警告（“一律不许进镜头”“过了一点我可不管”“嫌贵你腿着去啊”）都以冷硬陈述呈现，符合夜班司机身份与场景，不因缺感叹号判错。\r\n语言问题 languageReview.checks.dashUsage：原句 '我在备忘录里又添一行：热线答复——临时调度，不可作依据；没有工单号。'；依据与修改要求：全章仅一处破折号，即所引这句中的“热线答复——临时调度”。它不是被突然打断的话（后文并非另起话轮），也不是非用破折号不可的强插入，而是备忘录条目里用破折号顶替冒号的普通“标签—内容”分隔，正属本书要求少用、不滥用的普通解释类用法，故判 fail。可执行改法：改为冒号，并把外层引导语降为逗号以避免两个冒号叠用——“我在备忘录里又添一行，热线答复：临时调度，不可作依据；没有工单号。”；或干脆写成“我在备忘录里又添一行：热线答复是临时调度，不可作依据；没有工单号。”\r\n语言问题 languageReview.candidates.L83-98060759608a：原句 '我在备忘录里又添一行：热线答复——临时调度，不可作依据；没有工单号。'；依据与修改要求：此处破折号并非突然被打断的话，也不是不可替代的强插入，而是备忘录条目中用破折号替代冒号的普通“标签—内容”分隔（热线答复＝临时调度），属本书要求少用的解释类用法。改法：换成冒号，并把外层引导语降为逗号以避免冒号叠用——“我在备忘录里又添一行，热线答复：临时调度，不可作依据；没有工单号。”；或改写为“我在备忘录里又添一行：热线答复是临时调度，不可作依据；没有工单号。”本轮未改正文，此改法待落实。\r\n期望值：标点、断句、破折号和中文表达符合具体语义\r\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点\r\n",
+              "stderr": "",
+              "timedOut": false,
+              "startedAt": "2026-10-08T06:23:45.502Z",
+              "ms": 129
+            }
+          }
+        ],
+        "updatedAt": "2026-10-08T06:23:45.904Z"
+      }
     },
     {
       "chapterNumber": 7,
       "volumeNumber": 1,
       "title": "那五公里中间，有两截断头路",
       "filePath": "chapters/第007章 那五公里中间，有两截断头路.md",
-      "status": "in_progress",
+      "status": "completed",
       "chapterRole": "第一次夜班现场核验（下）",
       "readerPayoff": "三百块买到的是会翻的铁板和一条没人管的断头路，读者能感到这笔钱花在了什么地方。",
       "mustHappen": [
@@ -756,18 +1018,123 @@
       "comedyExecution": null,
       "wordCount": null,
       "wordCountPass": null,
-      "qualityPass": false,
-      "validationRounds": 0,
-      "checks": {},
+      "qualityPass": true,
+      "validationRounds": 3,
+      "checks": {
+        "agentFirstRead": {
+          "mode": "background-free-independent-agent",
+          "verdict": "pass-with-fixes",
+          "readerModel": "claude-fable-5",
+          "reportPath": "notes/first-reads/第007章-首读.json"
+        },
+        "semanticAuditRecord": {
+          "auditedChapter": 7,
+          "window": [
+            6,
+            7,
+            8
+          ],
+          "auditPhase": "retrospective",
+          "inputSha256": "2918830bc0e8ecc165c434d3189f879bd7dab631cdd2dc97f8ac8d05eae9cdb3",
+          "auditId": "c72525c8-c978-4eab-b36e-beb8f5533af2",
+          "reportPath": "notes/semantic-audits/第007章-语义审计.json",
+          "verdict": "pass"
+        },
+        "scriptExitCodes": {
+          "check_chapter_wordcount": 0,
+          "check_body_format": 0,
+          "check_prose": 0,
+          "check_dialogue_punctuation": 0,
+          "check_style_fingerprint": 0,
+          "check_semantic_audit": 0,
+          "check_language_review": 0,
+          "check_agent_first_read": 0,
+          "check_plot_fingerprint": 0,
+          "check_continuity_candidate": 0,
+          "plotFingerprint": 0
+        }
+      },
       "retrofitReason": "旧版把付钱、回屋和写稿挤在同一章后段；新版只写核验与付账，写稿单独成章。",
-      "firstReadStatus": "pending"
+      "firstReadStatus": "pending",
+      "validationProgress": {
+        "version": 1,
+        "bodyDigest": "35e2a6c801ba2b41536f364c2ce781051a9baa3363cb197052c34f15c01c5d41",
+        "blockerFingerprint": "4086c41c8b554980970c67227cd8ee7ddd2bff4ac6175de21a4edc40e514e14c",
+        "blockers": [
+          {
+            "id": "check_semantic_audit",
+            "what": "语义审计记录的引用落地与五项覆盖门槛（区分「未发现」与「没去看」）",
+            "outcome": "fail",
+            "exitCode": 1,
+            "reason": "退出码 1：\n[硬错误]\n- 以下 2 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\n- 阻断项 minimumChecks.adjacentContinuity：判定 fail\n条目原文: fail\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n- 阻断项 claims 第9项：判定 冲突\ntype: 距离与移动\nquote: 我的电瓶车就锁在便利店侧墙下。\npriorRef: 第6章：十二点十五分，我把那辆二手电瓶车锁在了南三门对面的电线杆上。\nassertion: 许成的电瓶车停在城南便利店侧墙下，他骑这辆车回城中村。\nbasis: 第6章明确把他的车锁在南三门对面，全程由杜勇骑车带他（「杜勇骑上电瓶车，我坐上后座。」），本章末尾他的车却出现在数公里外的城南便利店，中间没有交代车辆转移，位置上对不上。\nverdict: 冲突\nexpected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\nactual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\n建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\n结论：失败，共 3 项硬错误。",
+            "stdout": "==============================================================\r\n语义审计记录检查（只验证记录与引用，不判断小说语义）\r\n==============================================================\r\n被审章节：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\9abedfbb-2c2a-4b2c-9d4a-59a5776873aa\\stage\\chapters\\第007章 那五公里中间，有两截断头路.md\r\n审计记录：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\9abedfbb-2c2a-4b2c-9d4a-59a5776873aa\\stage\\notes\\semantic-audits\\第007章-语义审计.json\r\n[已转交阶段校验，本章不阻塞] observations 第1项 → 第8章配图一致性核对\r\n\r\n[硬错误]\r\n  - 以下 2 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\r\n  - 阻断项 minimumChecks.adjacentContinuity：判定 fail\r\n  条目原文: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 claims 第9项：判定 冲突\r\n  type: 距离与移动\r\n  quote: 我的电瓶车就锁在便利店侧墙下。\r\n  priorRef: 第6章：十二点十五分，我把那辆二手电瓶车锁在了南三门对面的电线杆上。\r\n  assertion: 许成的电瓶车停在城南便利店侧墙下，他骑这辆车回城中村。\r\n  basis: 第6章明确把他的车锁在南三门对面，全程由杜勇骑车带他（「杜勇骑上电瓶车，我坐上后座。」），本章末尾他的车却出现在数公里外的城南便利店，中间没有交代车辆转移，位置上对不上。\r\n  verdict: 冲突\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n\r\n结论：失败，共 3 项硬错误。\r\n",
+            "stderr": "",
+            "argv": [
+              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_semantic_audit.py",
+              "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\9abedfbb-2c2a-4b2c-9d4a-59a5776873aa\\stage",
+              "--chapter",
+              "7"
+            ],
+            "evidence": {
+              "script": "check_semantic_audit.py",
+              "argv": [
+                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_semantic_audit.py",
+                "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\9abedfbb-2c2a-4b2c-9d4a-59a5776873aa\\stage",
+                "--chapter",
+                "7"
+              ],
+              "exitCode": 1,
+              "stdout": "==============================================================\r\n语义审计记录检查（只验证记录与引用，不判断小说语义）\r\n==============================================================\r\n被审章节：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\9abedfbb-2c2a-4b2c-9d4a-59a5776873aa\\stage\\chapters\\第007章 那五公里中间，有两截断头路.md\r\n审计记录：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\9abedfbb-2c2a-4b2c-9d4a-59a5776873aa\\stage\\notes\\semantic-audits\\第007章-语义审计.json\r\n[已转交阶段校验，本章不阻塞] observations 第1项 → 第8章配图一致性核对\r\n\r\n[硬错误]\r\n  - 以下 2 个条目判定为 fail／冲突，必须先修正文或审计记录，不能标记 completed：\r\n  - 阻断项 minimumChecks.adjacentContinuity：判定 fail\r\n  条目原文: fail\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n  - 阻断项 claims 第9项：判定 冲突\r\n  type: 距离与移动\r\n  quote: 我的电瓶车就锁在便利店侧墙下。\r\n  priorRef: 第6章：十二点十五分，我把那辆二手电瓶车锁在了南三门对面的电线杆上。\r\n  assertion: 许成的电瓶车停在城南便利店侧墙下，他骑这辆车回城中村。\r\n  basis: 第6章明确把他的车锁在南三门对面，全程由杜勇骑车带他（「杜勇骑上电瓶车，我坐上后座。」），本章末尾他的车却出现在数公里外的城南便利店，中间没有交代车辆转移，位置上对不上。\r\n  verdict: 冲突\r\n  expected: （记录未提供 expected，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  actual: （记录未提供 actual，请以本条 reason／note／assertion／basis 所述差异为准）\r\n  建议动作: 按本条 reason／note／basis 逐字核对正文与引文；正文与记录不一致时修正文或改记录，改完重跑本章语义审计，不能直接标记 completed\r\n\r\n结论：失败，共 3 项硬错误。\r\n",
+              "stderr": "",
+              "timedOut": false,
+              "startedAt": "2026-10-08T06:59:35.129Z",
+              "ms": 131
+            }
+          },
+          {
+            "id": "check_agent_first_read",
+            "what": "独立首读记录：十五问题面与答案、standingLadder 排序、两轮交付物证",
+            "outcome": "fail",
+            "exitCode": 1,
+            "reason": "退出码 1：\n[硬错误] 修改后冷读引用缺失：C1\n[硬错误] reactionScale[2] 的 quote 在最终正文里逐字找不到：““救护车来的。”杜勇重新上车”\n[硬错误] reactionScale[4] 的 quote 在最终正文里逐字找不到：““不过你想过没有，这三百块如果没人看你的文章，就白花了。””\n[硬错误] boundaryReview.tail.startQuote 未在最终正文逐字找到\n[硬错误] boundaryReview.tail.endQuote 未在最终正文逐字找到\n[硬错误] boundaryReview.tail.startQuote 不在正文后两段内\n[硬错误] boundaryReview.tail.endQuote 不在正文后两段内",
+            "stdout": "首读记录校验失败：第 7 章\r\n[硬错误] 修改后冷读引用缺失：C1\r\n[硬错误] reactionScale[2] 的 quote 在最终正文里逐字找不到：““救护车来的。”杜勇重新上车”\r\n[硬错误] reactionScale[4] 的 quote 在最终正文里逐字找不到：““不过你想过没有，这三百块如果没人看你的文章，就白花了。””\r\n[硬错误] boundaryReview.tail.startQuote 未在最终正文逐字找到\r\n[硬错误] boundaryReview.tail.endQuote 未在最终正文逐字找到\r\n[硬错误] boundaryReview.tail.startQuote 不在正文后两段内\r\n[硬错误] boundaryReview.tail.endQuote 不在正文后两段内\r\n",
+            "stderr": "",
+            "argv": [
+              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_agent_first_read.py",
+              "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\9abedfbb-2c2a-4b2c-9d4a-59a5776873aa\\stage",
+              "--chapter",
+              "7"
+            ],
+            "evidence": {
+              "script": "check_agent_first_read.py",
+              "argv": [
+                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_agent_first_read.py",
+                "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\9abedfbb-2c2a-4b2c-9d4a-59a5776873aa\\stage",
+                "--chapter",
+                "7"
+              ],
+              "exitCode": 1,
+              "stdout": "首读记录校验失败：第 7 章\r\n[硬错误] 修改后冷读引用缺失：C1\r\n[硬错误] reactionScale[2] 的 quote 在最终正文里逐字找不到：““救护车来的。”杜勇重新上车”\r\n[硬错误] reactionScale[4] 的 quote 在最终正文里逐字找不到：““不过你想过没有，这三百块如果没人看你的文章，就白花了。””\r\n[硬错误] boundaryReview.tail.startQuote 未在最终正文逐字找到\r\n[硬错误] boundaryReview.tail.endQuote 未在最终正文逐字找到\r\n[硬错误] boundaryReview.tail.startQuote 不在正文后两段内\r\n[硬错误] boundaryReview.tail.endQuote 不在正文后两段内\r\n",
+              "stderr": "",
+              "timedOut": false,
+              "startedAt": "2026-10-08T06:59:35.424Z",
+              "ms": 956
+            }
+          }
+        ],
+        "updatedAt": "2026-10-08T06:59:36.549Z"
+      }
     },
     {
       "chapterNumber": 8,
       "volumeNumber": 1,
       "title": "我先把它写成了接口文档",
       "filePath": "chapters/第008章 我先把它写成了接口文档.md",
-      "status": "in_progress",
+      "status": "completed",
       "chapterRole": "初稿失败与改写章",
       "readerPayoff": "同一批现场资料，换个读者对象就活了；标题从参数核验改成一句人话。",
       "mustHappen": [
@@ -798,11 +1165,84 @@
       "comedyExecution": null,
       "wordCount": null,
       "wordCountPass": null,
-      "qualityPass": false,
-      "validationRounds": 0,
-      "checks": {},
+      "qualityPass": true,
+      "validationRounds": 2,
+      "checks": {
+        "agentFirstRead": {
+          "mode": "background-free-independent-agent",
+          "verdict": "pass-with-fixes",
+          "readerModel": "claude-fable-5",
+          "reportPath": "notes/first-reads/第008章-首读.json"
+        },
+        "semanticAuditRecord": {
+          "auditedChapter": 8,
+          "window": [
+            7,
+            8,
+            9
+          ],
+          "auditPhase": "retrospective",
+          "inputSha256": "f7afce0fd4a8526e0c3200d4598caff9cb3ce0c5c67bb2c67a428979df85fa27",
+          "auditId": "6d3a9bf8-1834-4d1a-b45e-ebf096773a55",
+          "reportPath": "notes/semantic-audits/第008章-语义审计.json",
+          "verdict": "pass"
+        },
+        "scriptExitCodes": {
+          "check_chapter_wordcount": 0,
+          "check_body_format": 0,
+          "check_prose": 0,
+          "check_dialogue_punctuation": 0,
+          "check_style_fingerprint": 0,
+          "check_semantic_audit": 0,
+          "check_language_review": 0,
+          "check_agent_first_read": 0,
+          "check_plot_fingerprint": 0,
+          "check_continuity_candidate": 0,
+          "plotFingerprint": 0
+        }
+      },
       "retrofitReason": "旧版写稿与核验同章；新版把“写成什么样”当成独立冲突，让读者看见信息齐全和有人愿意看之间的差。",
-      "firstReadStatus": "pending"
+      "firstReadStatus": "pending",
+      "validationProgress": {
+        "version": 1,
+        "bodyDigest": "6682f44ea3489ecc88c1e9011d748f3ff286869e9bac8c98b8e9112a38980824",
+        "blockerFingerprint": "f4e26f50e466ebe9721037c00281511454a0efad7a54e9b9ac617ce84a2a88cb",
+        "blockers": [
+          {
+            "id": "check_language_review",
+            "what": "标点/断句/破折号/翻译腔语义复核：每个候选都有处置，缺失或过期须重建证据",
+            "outcome": "fail",
+            "exitCode": 1,
+            "reason": "退出码 1：\n[硬错误]\n位置：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\8c082914-891d-4a98-accd-ae7f05444b61\\stage\\notes\\semantic-audits\\第008章-语义审计.json\n语言问题 languageReview.checks.semanticPunctuation：原句 '“逻辑清楚顶什么用。”'；依据与修改要求：“顶什么用”是反问／质问的固定说法，按本书规则反问、质问一律用问号，句号把发问压平成陈述；可改为“逻辑清楚顶什么用？”（情绪强时“！”）。同一段“你的读者是谁？”“你让他先看八百字的模块定义和接口异常？”都用了问号，可见此处系漏标。另需说明：全章对白无感叹号本身不算错，确无喊叫、喝止或情绪爆发需要“！”，暂不建议补。\n语言问题 languageReview.candidates.L40-4f632e4df193：原句 '“逻辑清楚顶什么用。”它站起来，飘到屏幕正中，小手对着表格一划，“你的读者是谁？是凌晨一点半刚从分拣线上下来、腰都直不起来的装卸工。人家站在零下两度的风里，手指冻得发抖点开你的文章，你让他先看八百字的模块定义和接口异常？”'；依据与修改要求：台词以“逻辑清楚顶什么用。”收句，这是反问／质问（顶什么用＝有什么顶用的），按本书规则反问、质问一律用问号，句号把发问压平成陈述；应改为“逻辑清楚顶什么用？”（语气强烈可用“！”）。同段“你的读者是谁？”“你让他先看八百字的模块定义和接口异常？”均已用问号，可佐证此处漏标。\n语言问题 languageReview.candidates.L50-af7ea3666f75：原句 '“你数数，从这一行到你写的那块铁板，中间隔着多少个字。”'；依据与修改要求：“你数数……中间隔着多少个字”以疑问词“多少个”收句，是质问，逼许成正视字数差距，不属于陈述句里的宾语从句、泛指、话题或条件，按规则应用问号；且许成随即以“一千多字”回应，说明这是发问。应改为“……中间隔着多少个字？”\n期望值：标点、断句、破折号和中文表达符合具体语义\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点",
+            "stdout": "[硬错误]\r\n位置：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\8c082914-891d-4a98-accd-ae7f05444b61\\stage\\notes\\semantic-audits\\第008章-语义审计.json\r\n语言问题 languageReview.checks.semanticPunctuation：原句 '“逻辑清楚顶什么用。”'；依据与修改要求：“顶什么用”是反问／质问的固定说法，按本书规则反问、质问一律用问号，句号把发问压平成陈述；可改为“逻辑清楚顶什么用？”（情绪强时“！”）。同一段“你的读者是谁？”“你让他先看八百字的模块定义和接口异常？”都用了问号，可见此处系漏标。另需说明：全章对白无感叹号本身不算错，确无喊叫、喝止或情绪爆发需要“！”，暂不建议补。\r\n语言问题 languageReview.candidates.L40-4f632e4df193：原句 '“逻辑清楚顶什么用。”它站起来，飘到屏幕正中，小手对着表格一划，“你的读者是谁？是凌晨一点半刚从分拣线上下来、腰都直不起来的装卸工。人家站在零下两度的风里，手指冻得发抖点开你的文章，你让他先看八百字的模块定义和接口异常？”'；依据与修改要求：台词以“逻辑清楚顶什么用。”收句，这是反问／质问（顶什么用＝有什么顶用的），按本书规则反问、质问一律用问号，句号把发问压平成陈述；应改为“逻辑清楚顶什么用？”（语气强烈可用“！”）。同段“你的读者是谁？”“你让他先看八百字的模块定义和接口异常？”均已用问号，可佐证此处漏标。\r\n语言问题 languageReview.candidates.L50-af7ea3666f75：原句 '“你数数，从这一行到你写的那块铁板，中间隔着多少个字。”'；依据与修改要求：“你数数……中间隔着多少个字”以疑问词“多少个”收句，是质问，逼许成正视字数差距，不属于陈述句里的宾语从句、泛指、话题或条件，按规则应用问号；且许成随即以“一千多字”回应，说明这是发问。应改为“……中间隔着多少个字？”\r\n期望值：标点、断句、破折号和中文表达符合具体语义\r\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点\r\n",
+            "stderr": "",
+            "argv": [
+              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_language_review.py",
+              "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\8c082914-891d-4a98-accd-ae7f05444b61\\stage",
+              "--chapter",
+              "8"
+            ],
+            "evidence": {
+              "script": "check_language_review.py",
+              "argv": [
+                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_language_review.py",
+                "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\8c082914-891d-4a98-accd-ae7f05444b61\\stage",
+                "--chapter",
+                "8"
+              ],
+              "exitCode": 1,
+              "stdout": "[硬错误]\r\n位置：C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\8c082914-891d-4a98-accd-ae7f05444b61\\stage\\notes\\semantic-audits\\第008章-语义审计.json\r\n语言问题 languageReview.checks.semanticPunctuation：原句 '“逻辑清楚顶什么用。”'；依据与修改要求：“顶什么用”是反问／质问的固定说法，按本书规则反问、质问一律用问号，句号把发问压平成陈述；可改为“逻辑清楚顶什么用？”（情绪强时“！”）。同一段“你的读者是谁？”“你让他先看八百字的模块定义和接口异常？”都用了问号，可见此处系漏标。另需说明：全章对白无感叹号本身不算错，确无喊叫、喝止或情绪爆发需要“！”，暂不建议补。\r\n语言问题 languageReview.candidates.L40-4f632e4df193：原句 '“逻辑清楚顶什么用。”它站起来，飘到屏幕正中，小手对着表格一划，“你的读者是谁？是凌晨一点半刚从分拣线上下来、腰都直不起来的装卸工。人家站在零下两度的风里，手指冻得发抖点开你的文章，你让他先看八百字的模块定义和接口异常？”'；依据与修改要求：台词以“逻辑清楚顶什么用。”收句，这是反问／质问（顶什么用＝有什么顶用的），按本书规则反问、质问一律用问号，句号把发问压平成陈述；应改为“逻辑清楚顶什么用？”（语气强烈可用“！”）。同段“你的读者是谁？”“你让他先看八百字的模块定义和接口异常？”均已用问号，可佐证此处漏标。\r\n语言问题 languageReview.candidates.L50-af7ea3666f75：原句 '“你数数，从这一行到你写的那块铁板，中间隔着多少个字。”'；依据与修改要求：“你数数……中间隔着多少个字”以疑问词“多少个”收句，是质问，逼许成正视字数差距，不属于陈述句里的宾语从句、泛指、话题或条件，按规则应用问号；且许成随即以“一千多字”回应，说明这是发问。应改为“……中间隔着多少个字？”\r\n期望值：标点、断句、破折号和中文表达符合具体语义\r\n建议动作：按以上原句与依据针对性改稿，不按候选数量机械删标点\r\n",
+              "stderr": "",
+              "timedOut": false,
+              "startedAt": "2026-10-08T07:26:24.565Z",
+              "ms": 125
+            }
+          }
+        ],
+        "updatedAt": "2026-10-08T07:26:24.970Z"
+      }
     },
     {
       "chapterNumber": 9,
@@ -841,7 +1281,7 @@
       "wordCount": null,
       "wordCountPass": null,
       "qualityPass": false,
-      "validationRounds": 0,
+      "validationRounds": 1,
       "checks": {},
       "retrofitReason": "旧版把低数据、对手轻视和两天增长压在同一章；新版让低数据与真实反馈独占一章。",
       "firstReadStatus": "pending"
@@ -1601,246 +2041,24 @@
         ]
       },
       "4": {
-        "bodySha256": "c2c057f3df5ccef30b2d1458186693d1f578a6adc19dfae501f555fcb95fa0c9",
-        "source": "delivery-history",
-        "evidence": [
-          {
-            "receipt": "deliveries/30ed41fd-0f01-4959-bb05-c17fcdf7aa17",
-            "createdAt": "2026-10-04T23:40:25.643Z"
-          },
-          {
-            "receipt": "deliveries/51aaf242-662c-4fd7-ad78-de357e5de95c",
-            "createdAt": "2026-10-04T12:51:45.459Z"
-          },
-          {
-            "receipt": "deliveries/527b88fc-7c6d-4cdc-967f-e13001c8a3aa",
-            "createdAt": "2026-10-04T14:56:19.471Z"
-          },
-          {
-            "receipt": "deliveries/5dafbb76-e21d-4b4c-9983-5375af063e7a",
-            "createdAt": "2026-10-05T01:30:18.329Z"
-          },
-          {
-            "receipt": "deliveries/71936908-034d-40ef-a583-82360a0a45b2",
-            "createdAt": "2026-10-04T11:10:31.146Z"
-          },
-          {
-            "receipt": "deliveries/7fc407e0-c12b-4b49-8735-10e6f1b3d667",
-            "createdAt": "2026-10-04T08:28:02.195Z"
-          },
-          {
-            "receipt": "deliveries/8e27214d-6ad3-4269-b415-196b359f8165",
-            "createdAt": "2026-10-04T09:32:48.194Z"
-          },
-          {
-            "receipt": "deliveries/b305d086-6c51-4d7a-986c-4083b2c4bd43",
-            "createdAt": "2026-10-04T11:18:33.530Z"
-          },
-          {
-            "receipt": "deliveries/bc010543-8b95-4f54-aff7-2ee9eef378cc",
-            "createdAt": "2026-10-05T04:07:48.312Z"
-          },
-          {
-            "receipt": "deliveries/dafb431e-97da-4b42-8f43-8dfdca52d41b",
-            "createdAt": "2026-10-05T00:22:50.060Z"
-          },
-          {
-            "receipt": "deliveries/e7cb77fd-db5a-4fa7-a192-1bbe886c856c",
-            "createdAt": "2026-10-04T14:22:58.018Z"
-          },
-          {
-            "receipt": "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
-            "createdAt": "2026-10-02T08:43:58.862Z"
-          }
-        ]
+        "bodySha256": "2a14b917e4f27b0b220090e09206af980360f99c4f258b1b9e7cf0960ddd64a2",
+        "source": "verified-delivery"
       },
       "5": {
-        "bodySha256": "f77b42c8cc3355fa57d3465822a7ef552edd7aa01e24aa24ebbdaff53c85b783",
-        "source": "delivery-history",
-        "evidence": [
-          {
-            "receipt": "deliveries/1d36fba5-cc4f-4d86-9e6a-96dae96f32d7",
-            "createdAt": "2026-10-04T09:05:01.361Z"
-          },
-          {
-            "receipt": "deliveries/30ed41fd-0f01-4959-bb05-c17fcdf7aa17",
-            "createdAt": "2026-10-04T23:40:25.643Z"
-          },
-          {
-            "receipt": "deliveries/51aaf242-662c-4fd7-ad78-de357e5de95c",
-            "createdAt": "2026-10-04T12:51:45.459Z"
-          },
-          {
-            "receipt": "deliveries/527b88fc-7c6d-4cdc-967f-e13001c8a3aa",
-            "createdAt": "2026-10-04T14:56:19.471Z"
-          },
-          {
-            "receipt": "deliveries/5dafbb76-e21d-4b4c-9983-5375af063e7a",
-            "createdAt": "2026-10-05T01:30:18.329Z"
-          },
-          {
-            "receipt": "deliveries/71936908-034d-40ef-a583-82360a0a45b2",
-            "createdAt": "2026-10-04T11:10:31.146Z"
-          },
-          {
-            "receipt": "deliveries/8e27214d-6ad3-4269-b415-196b359f8165",
-            "createdAt": "2026-10-04T09:32:48.194Z"
-          },
-          {
-            "receipt": "deliveries/b305d086-6c51-4d7a-986c-4083b2c4bd43",
-            "createdAt": "2026-10-04T11:18:33.530Z"
-          },
-          {
-            "receipt": "deliveries/bc010543-8b95-4f54-aff7-2ee9eef378cc",
-            "createdAt": "2026-10-05T04:07:48.312Z"
-          },
-          {
-            "receipt": "deliveries/dafb431e-97da-4b42-8f43-8dfdca52d41b",
-            "createdAt": "2026-10-05T00:22:50.060Z"
-          },
-          {
-            "receipt": "deliveries/e7cb77fd-db5a-4fa7-a192-1bbe886c856c",
-            "createdAt": "2026-10-04T14:22:58.018Z"
-          },
-          {
-            "receipt": "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
-            "createdAt": "2026-10-02T08:43:58.862Z"
-          }
-        ]
+        "bodySha256": "d5a804772df135e11bd5273c205e2f3fd4c70160a91920e1bd93fe06b425b561",
+        "source": "verified-delivery"
       },
       "6": {
-        "bodySha256": "e910e5d7f4239eddd00a93961b0b9f9128405f4c2f8f9d3df7925bc1e05199b3",
-        "source": "delivery-history",
-        "evidence": [
-          {
-            "receipt": "deliveries/0f57a43e-eed5-41fd-9e41-6a8886910409",
-            "createdAt": "2026-10-06T04:35:38.998Z"
-          },
-          {
-            "receipt": "deliveries/30ed41fd-0f01-4959-bb05-c17fcdf7aa17",
-            "createdAt": "2026-10-04T23:40:25.643Z"
-          },
-          {
-            "receipt": "deliveries/3344c17b-b6e8-4593-b32b-966ba37c417e",
-            "createdAt": "2026-10-06T03:23:45.713Z"
-          },
-          {
-            "receipt": "deliveries/51aaf242-662c-4fd7-ad78-de357e5de95c",
-            "createdAt": "2026-10-04T12:51:45.459Z"
-          },
-          {
-            "receipt": "deliveries/527b88fc-7c6d-4cdc-967f-e13001c8a3aa",
-            "createdAt": "2026-10-04T14:56:19.471Z"
-          },
-          {
-            "receipt": "deliveries/5dafbb76-e21d-4b4c-9983-5375af063e7a",
-            "createdAt": "2026-10-05T01:30:18.329Z"
-          },
-          {
-            "receipt": "deliveries/71936908-034d-40ef-a583-82360a0a45b2",
-            "createdAt": "2026-10-04T11:10:31.146Z"
-          },
-          {
-            "receipt": "deliveries/b305d086-6c51-4d7a-986c-4083b2c4bd43",
-            "createdAt": "2026-10-04T11:18:33.530Z"
-          },
-          {
-            "receipt": "deliveries/bc010543-8b95-4f54-aff7-2ee9eef378cc",
-            "createdAt": "2026-10-05T04:07:48.312Z"
-          },
-          {
-            "receipt": "deliveries/dafb431e-97da-4b42-8f43-8dfdca52d41b",
-            "createdAt": "2026-10-05T00:22:50.060Z"
-          },
-          {
-            "receipt": "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
-            "createdAt": "2026-10-02T08:43:58.862Z"
-          },
-          {
-            "receipt": "cancelled-deliveries/26e91acb-485c-4d25-b83e-3bf17953ae80",
-            "createdAt": "2026-10-05T04:56:53.500Z"
-          }
-        ]
+        "bodySha256": "931ee5acf1d9bf328a7158b52ecba25d45a3ce15ea717b2173b5722e4f1ecf33",
+        "source": "verified-delivery"
       },
       "7": {
-        "bodySha256": "a556c9a12c6769bf56a5b5adbb0a51f2e05a50110656a31c2456b30250c0f360",
-        "source": "delivery-history",
-        "evidence": [
-          {
-            "receipt": "deliveries/0f57a43e-eed5-41fd-9e41-6a8886910409",
-            "createdAt": "2026-10-06T04:35:38.998Z"
-          },
-          {
-            "receipt": "deliveries/30ed41fd-0f01-4959-bb05-c17fcdf7aa17",
-            "createdAt": "2026-10-04T23:40:25.643Z"
-          },
-          {
-            "receipt": "deliveries/3344c17b-b6e8-4593-b32b-966ba37c417e",
-            "createdAt": "2026-10-06T03:23:45.713Z"
-          },
-          {
-            "receipt": "deliveries/527b88fc-7c6d-4cdc-967f-e13001c8a3aa",
-            "createdAt": "2026-10-04T14:56:19.471Z"
-          },
-          {
-            "receipt": "deliveries/5dafbb76-e21d-4b4c-9983-5375af063e7a",
-            "createdAt": "2026-10-05T01:30:18.329Z"
-          },
-          {
-            "receipt": "deliveries/bc010543-8b95-4f54-aff7-2ee9eef378cc",
-            "createdAt": "2026-10-05T04:07:48.312Z"
-          },
-          {
-            "receipt": "deliveries/dafb431e-97da-4b42-8f43-8dfdca52d41b",
-            "createdAt": "2026-10-05T00:22:50.060Z"
-          },
-          {
-            "receipt": "deliveries/e7cb77fd-db5a-4fa7-a192-1bbe886c856c",
-            "createdAt": "2026-10-04T14:22:58.018Z"
-          },
-          {
-            "receipt": "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
-            "createdAt": "2026-10-02T08:43:58.862Z"
-          },
-          {
-            "receipt": "cancelled-deliveries/26e91acb-485c-4d25-b83e-3bf17953ae80",
-            "createdAt": "2026-10-05T04:56:53.500Z"
-          }
-        ]
+        "bodySha256": "0f08c3d3f5ece078fff28750b0860844333ae656fcbdcaa4241b42cbfe06bea7",
+        "source": "verified-delivery"
       },
       "8": {
-        "bodySha256": "c18bf57adca21b0880799bc16645c2916591bfa63d4dac492ca73a879becc7de",
-        "source": "delivery-history",
-        "evidence": [
-          {
-            "receipt": "deliveries/0f57a43e-eed5-41fd-9e41-6a8886910409",
-            "createdAt": "2026-10-06T04:35:38.998Z"
-          },
-          {
-            "receipt": "deliveries/3344c17b-b6e8-4593-b32b-966ba37c417e",
-            "createdAt": "2026-10-06T03:23:45.713Z"
-          },
-          {
-            "receipt": "deliveries/5dafbb76-e21d-4b4c-9983-5375af063e7a",
-            "createdAt": "2026-10-05T01:30:18.329Z"
-          },
-          {
-            "receipt": "deliveries/bc010543-8b95-4f54-aff7-2ee9eef378cc",
-            "createdAt": "2026-10-05T04:07:48.312Z"
-          },
-          {
-            "receipt": "deliveries/dafb431e-97da-4b42-8f43-8dfdca52d41b",
-            "createdAt": "2026-10-05T00:22:50.060Z"
-          },
-          {
-            "receipt": "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
-            "createdAt": "2026-10-02T08:43:58.862Z"
-          },
-          {
-            "receipt": "cancelled-deliveries/26e91acb-485c-4d25-b83e-3bf17953ae80",
-            "createdAt": "2026-10-05T04:56:53.500Z"
-          }
-        ]
+        "bodySha256": "a16ac414444b0b9eccbdce3877a3b3527658b27216659904d6309d6141cdc7f0",
+        "source": "verified-delivery"
       },
       "9": {
         "bodySha256": "0d5e7bd7f355a320445ff3824e667e7fbaae7ff76240afc9f7245962d120f902",
@@ -1881,8 +2099,8 @@
           "1": "ea61d7ff75efc7e6774e796595892efbf0651ebb178bd9a72721d5dceb590ada",
           "2": "a4e46e5e921416460b0f5ac422c2369140396e01a73f82ff2395ecc31c26a1ec",
           "3": "75b23dd079a54a53d2765f2692dc09902977a9ce7ef5d9396ddc37e2c2b0d3d3",
-          "4": "8f773beabc26c83b855dce5fa81928711ccfd206c144f45aa5ea03fcc9516bfd",
-          "5": "355fc02cc2bd3cbeaa713741c8fae238bad4e546443a816dd220781866b522bf"
+          "4": "2a14b917e4f27b0b220090e09206af980360f99c4f258b1b9e7cf0960ddd64a2",
+          "5": "d5a804772df135e11bd5273c205e2f3fd4c70160a91920e1bd93fe06b425b561"
         }
       }
     },
@@ -1911,36 +2129,6 @@
       ]
     },
     "authorBaselines": {
-      "4": {
-        "bodySha256": "8f773beabc26c83b855dce5fa81928711ccfd206c144f45aa5ea03fcc9516bfd",
-        "confirmedAt": "2026-10-08T01:54:36.667Z",
-        "ownerId": "5a43488a-0474-4832-8fb8-8e9ba24d907b",
-        "archive": "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\history-confirmations\\a431bafb0a8d92603cbee846817aabddb6b4d64b9b5bb704ea772ca44c84b158.json"
-      },
-      "5": {
-        "bodySha256": "355fc02cc2bd3cbeaa713741c8fae238bad4e546443a816dd220781866b522bf",
-        "confirmedAt": "2026-10-08T01:54:36.667Z",
-        "ownerId": "5a43488a-0474-4832-8fb8-8e9ba24d907b",
-        "archive": "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\history-confirmations\\a431bafb0a8d92603cbee846817aabddb6b4d64b9b5bb704ea772ca44c84b158.json"
-      },
-      "6": {
-        "bodySha256": "0ffdfeba82c413fbd8a2d6f5e5d3ac2492da43c8cac733c76c957f63998eea54",
-        "confirmedAt": "2026-10-08T01:54:36.667Z",
-        "ownerId": "5a43488a-0474-4832-8fb8-8e9ba24d907b",
-        "archive": "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\history-confirmations\\a431bafb0a8d92603cbee846817aabddb6b4d64b9b5bb704ea772ca44c84b158.json"
-      },
-      "7": {
-        "bodySha256": "9e2d07442bfd7e14d4762b9a8ad472d06a3569d3b9384956431bd965f224e6c4",
-        "confirmedAt": "2026-10-08T01:54:36.667Z",
-        "ownerId": "5a43488a-0474-4832-8fb8-8e9ba24d907b",
-        "archive": "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\history-confirmations\\a431bafb0a8d92603cbee846817aabddb6b4d64b9b5bb704ea772ca44c84b158.json"
-      },
-      "8": {
-        "bodySha256": "55bbab18c3dd1e90ac75bfbc7ae50baf703729d263165009b39cd8f774e51799",
-        "confirmedAt": "2026-10-08T01:54:36.667Z",
-        "ownerId": "5a43488a-0474-4832-8fb8-8e9ba24d907b",
-        "archive": "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\history-confirmations\\a431bafb0a8d92603cbee846817aabddb6b4d64b9b5bb704ea772ca44c84b158.json"
-      },
       "9": {
         "bodySha256": "1acde083ea6f7eba1b815f9cd3f98a8e3e2f13eee2809192ea4c2e76495acf67",
         "confirmedAt": "2026-10-08T01:54:36.667Z",
