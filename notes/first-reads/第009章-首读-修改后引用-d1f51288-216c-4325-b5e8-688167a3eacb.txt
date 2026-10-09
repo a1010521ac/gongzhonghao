@@ -1,1 +1,0 @@
-{"quoteUpdates":[{"path":"speakers[2].sharpestLine","quote":"能招来吃面的人就行！"},{"path":"emotionSources[4].quote","quote":"“头一回接这种活你早说啊，别拿我店里的文章练手。能招来吃面的人就行！中午先只补限量那句，别的别乱动。”"},{"path":"reactionScale[2].quote","quote":"能招来吃面的人就行！"},{"path":"standingLadder.order[4].quote","quote":"你要是真去，后天晚上叫上我，我骑电瓶车带你认路，省得你被大货车别在路口。"}]}

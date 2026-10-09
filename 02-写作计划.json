@@ -301,7 +301,7 @@
         }
       },
       "retrofitReason": "?2026-10-02???????????0?????????????????1999??????213??????????????",
-      "firstReadStatus": "published-locked",
+      "firstReadStatus": "needs-reread",
       "validationProgress": {
         "version": 1,
         "bodyDigest": "09bb77355244d0c31d389912e237e4b7d36760209c147f4aa511d14891475a92",
@@ -342,7 +342,12 @@
         ],
         "updatedAt": "2026-10-04T00:53:29.728Z"
       },
-      "publishedLock": "已于2026-10-04前发布，正文、标题、字数与已发事实不得修改；后续章节必须向本章对齐。"
+      "publishedLock": "已于2026-10-04前发布，正文、标题、字数与已发事实不得修改；后续章节必须向本章对齐。",
+      "postReadRevision": {
+        "at": "2026-10-09",
+        "reason": "已发布冻结，但现存首读记录读的是冻结前的稿；冷读引文与冻结正文对不上，需按冻结正文重做一次两轮首读。",
+        "rereadNeeded": true
+      }
     },
     {
       "chapterNumber": 2,
@@ -547,7 +552,7 @@
         }
       },
       "retrofitReason": "?2026-10-02?????????????????????????????????????????????????????????????????",
-      "firstReadStatus": "pass",
+      "firstReadStatus": "needs-reread",
       "validationProgress": {
         "version": 1,
         "bodyDigest": "88843c53eac2084b9c7dceb35c276cee337fabf1906de489ded43f3a0b40e4fa",
@@ -588,7 +593,12 @@
         ],
         "updatedAt": "2026-10-06T03:31:54.870Z"
       },
-      "publishedLock": "已于2026-10-04前发布，正文、标题、字数与已发事实不得修改；后续章节必须向本章对齐。"
+      "publishedLock": "已于2026-10-04前发布，正文、标题、字数与已发事实不得修改；后续章节必须向本章对齐。",
+      "postReadRevision": {
+        "at": "2026-10-09",
+        "reason": "已发布冻结，但现存首读记录读的是冻结前的稿；冷读引文与冻结正文对不上，需按冻结正文重做一次两轮首读。",
+        "rereadNeeded": true
+      }
     },
     {
       "chapterNumber": 4,
@@ -633,7 +643,9 @@
           "mode": "background-free-independent-agent",
           "verdict": "pass",
           "readerModel": "gpt-6-luna → gemini-3.7-flash-high",
-          "reportPath": "notes/first-reads/第004章-首读.json"
+          "reportPath": "notes/first-reads/第004章-首读.json",
+          "pendingCleanRead": true,
+          "cleanReadReason": "技能或人工修改了首读所依据的正文，需按当前正文重新净读"
         },
         "semanticAuditRecord": {
           "auditedChapter": 4,
@@ -663,7 +675,12 @@
         }
       },
       "retrofitReason": "旧版写多轮协商退款，与网购售后实际流程不符；新版改为商家直接退款并删掉扯皮过程。",
-      "firstReadStatus": "pending"
+      "firstReadStatus": "needs-reread",
+      "postReadRevision": {
+        "at": "2026-10-09",
+        "reason": "第4章已发布冻结，但现存首读记录读的是冻结前的稿；冷读引文与冻结正文对不上，需按冻结正文重做一次两轮首读。",
+        "rereadNeeded": true
+      }
     },
     {
       "chapterNumber": 5,
@@ -671,13 +688,16 @@
       "title": "你到底想把文章写给谁看",
       "filePath": "chapters/第005章 你到底想把文章写给谁看.md",
       "status": "completed",
-      "chapterRole": "选题起点与首次雇人章",
-      "readerPayoff": "周敏一句话把他从自怜里拽出来；他第一次为一条路线自掏钱雇人核验。",
+      "chapterRole": "定位的第一次检验与“不买捷径”",
+      "readerPayoff": "一句话把空定位问穿，又一句话把他第二次伸手买捷径按住：这一趟改成搭车，不花钱。",
       "mustHappen": [
-        "周敏确认钱退回来了，追问文章到底写给谁看，许成答不上来",
-        "后台收到买粉买流量的私信，他举报拉黑，不把刚追回的钱再投进去",
-        "他找杜勇按工时付300元，约第5天十二点二十在东平仓储物流园南三门见面",
-        "杜勇先立规矩：不拍工牌正脸、不许临时加码"
+        "周敏确认1999元全额退回，并说清这次是运气、下次没这么好说话的人",
+        "她拿楼下两点收摊的烧烤摊主试他那句定位，再用“那你说说他们。车几点停，人往哪边走，到不了家怎么办”把他问空，最后追问“你发给谁看过”",
+        "他先把功能介绍的最后半句从“为你提供最真实的信息”收回成“我先走一遍再写”",
+        "他估了三百想请人带路，被小蓝按住——上一回花一九九九买的也是别人走过的路；他把那笔预算划掉，改成跟杜勇搭车，欠下的是人情",
+        "后台两条买粉私信被他点开主页核对后截图、举报、拉黑，一分钱没花",
+        "杜勇把边界立在前头：他是回自己家、不专门跑这一趟，别拍工牌和脸、别为拍招牌绕路、别中途加戏、稿子先给他看",
+        "他查到东站零点三十与南站十一点半两个互相打架的时间，回“两趟都得看”"
       ],
       "scenePlan": [
         {
@@ -695,19 +715,20 @@
           "result": "核验落到具体时间和地点，300元记在他自己账上"
         }
       ],
-      "stateChange": "选题标准从自身情绪改成读者处境；他第一次自掏钱买一手信息。",
-      "endingMomentum": "杜勇问到底要核哪一趟——东站通宵那班，还是往南站拐的野鸡中巴；网上给的时间互相打架。",
+      "stateChange": "定位从一句形容词收成一件可核实的事；三百元没有花出去，换成欠杜勇的一趟人情；账号仍是0关注。",
+      "endingMomentum": "两个数并排写在横线本上，看着一样真；这一趟就是去把其中一个划掉。",
       "comedyExecution": null,
-      "wordCount": null,
-      "wordCountPass": null,
+      "wordCount": 2436,
+      "wordCountPass": true,
       "qualityPass": true,
       "validationRounds": 3,
       "checks": {
         "agentFirstRead": {
           "mode": "background-free-independent-agent",
           "verdict": "pass-with-fixes",
-          "readerModel": "claude-fable-5",
-          "reportPath": "notes/first-reads/第005章-首读.json"
+          "reportPath": "notes/first-reads/第005章-首读.json",
+          "pendingCleanRead": false,
+          "readRounds": 2
         },
         "semanticAuditRecord": {
           "auditedChapter": 5,
@@ -736,8 +757,8 @@
           "plotFingerprint": 0
         }
       },
-      "retrofitReason": "旧版把选题讨论放在小蓝单方面指导下完成；新版由周敏的追问推动，小蓝只给操作判断。",
-      "firstReadStatus": "pending",
+      "retrofitReason": "可把“第一次为劳务付费”挪到首单收入之后，改成搭车与人情；起号阶段不花钱这条由他当场划掉预算体现。",
+      "firstReadStatus": "pass",
       "validationProgress": {
         "version": 1,
         "bodyDigest": "62a370f5357b3fc8b5390202974c2d7e74afd842493e6ffcb36606dbf65c0ce4",
@@ -870,16 +891,17 @@
       "stateChange": "他掌握“末班空车回库”与黑中巴定价两条一手事实，也第一次意识到钱是这条路线上的硬门槛。",
       "endingMomentum": "口袋里那点钱撑不起包车价，只剩最后一条路——走回去。",
       "comedyExecution": null,
-      "wordCount": null,
-      "wordCountPass": null,
+      "wordCount": 2620,
+      "wordCountPass": true,
       "qualityPass": true,
       "validationRounds": 2,
       "checks": {
         "agentFirstRead": {
           "mode": "background-free-independent-agent",
           "verdict": "pass-with-fixes",
-          "readerModel": "claude-fable-5",
-          "reportPath": "notes/first-reads/第006章-首读.json"
+          "reportPath": "notes/first-reads/第006章-首读.json",
+          "pendingCleanRead": false,
+          "readRounds": 2
         },
         "semanticAuditRecord": {
           "auditedChapter": 6,
@@ -909,7 +931,7 @@
         }
       },
       "retrofitReason": "旧版这一趟只写了空车与热线，黑中巴与走路成本混在同一章里被压缩；新版拆开写透。",
-      "firstReadStatus": "pending",
+      "firstReadStatus": "pass",
       "validationProgress": {
         "version": 1,
         "bodyDigest": "a9b647003bc0876bdb9db9bad151d1b2aabfc12d1b8641efef7f4d9f5e9801c8",
@@ -981,6 +1003,11 @@
           }
         ],
         "updatedAt": "2026-10-08T06:23:45.904Z"
+      },
+      "postReadRevision": {
+        "at": "2026-10-09",
+        "reason": "正文随第5章改动而改（删掉按工时算钱的说法），首读对象已实质改变，需重做。",
+        "rereadNeeded": true
       }
     },
     {
@@ -1016,16 +1043,17 @@
       "stateChange": "核验完成，他手里有站牌、封路、铁板、便利店四组现场材料；个人余额6440元。",
       "endingMomentum": "三百块花出去了，照片和时间点都在手里，可他还不知道该把这些东西写成什么。",
       "comedyExecution": null,
-      "wordCount": null,
-      "wordCountPass": null,
+      "wordCount": 2353,
+      "wordCountPass": true,
       "qualityPass": true,
       "validationRounds": 3,
       "checks": {
         "agentFirstRead": {
           "mode": "background-free-independent-agent",
           "verdict": "pass-with-fixes",
-          "readerModel": "claude-fable-5",
-          "reportPath": "notes/first-reads/第007章-首读.json"
+          "reportPath": "notes/first-reads/第007章-首读.json",
+          "readRounds": 2,
+          "pendingCleanRead": false
         },
         "semanticAuditRecord": {
           "auditedChapter": 7,
@@ -1055,7 +1083,7 @@
         }
       },
       "retrofitReason": "旧版把付钱、回屋和写稿挤在同一章后段；新版只写核验与付账，写稿单独成章。",
-      "firstReadStatus": "pending",
+      "firstReadStatus": "pass",
       "validationProgress": {
         "version": 1,
         "bodyDigest": "35e2a6c801ba2b41536f364c2ce781051a9baa3363cb197052c34f15c01c5d41",
@@ -1163,16 +1191,17 @@
       "stateChange": "他完成第一篇真正的服务型文章；账号数据仍然是零。",
       "endingMomentum": "两个小时后是七点的闹钟，他得挤早高峰去公司周会，面对王文洁追的接口进度。",
       "comedyExecution": null,
-      "wordCount": null,
-      "wordCountPass": null,
+      "wordCount": 2166,
+      "wordCountPass": true,
       "qualityPass": true,
       "validationRounds": 2,
       "checks": {
         "agentFirstRead": {
           "mode": "background-free-independent-agent",
           "verdict": "pass-with-fixes",
-          "readerModel": "claude-fable-5",
-          "reportPath": "notes/first-reads/第008章-首读.json"
+          "reportPath": "notes/first-reads/第008章-首读.json",
+          "readRounds": 2,
+          "pendingCleanRead": false
         },
         "semanticAuditRecord": {
           "auditedChapter": 8,
@@ -1202,7 +1231,7 @@
         }
       },
       "retrofitReason": "旧版写稿与核验同章；新版把“写成什么样”当成独立冲突，让读者看见信息齐全和有人愿意看之间的差。",
-      "firstReadStatus": "pending",
+      "firstReadStatus": "pass",
       "validationProgress": {
         "version": 1,
         "bodyDigest": "6682f44ea3489ecc88c1e9011d748f3ff286869e9bac8c98b8e9112a38980824",
@@ -1249,7 +1278,7 @@
       "volumeNumber": 1,
       "title": "三十七，一百一十二，四百一十二",
       "filePath": "chapters/第009章 三十七，一百一十二，四百一十二.md",
-      "status": "in_progress",
+      "status": "completed",
       "chapterRole": "低数据与第一批真实反馈章",
       "readerPayoff": "没有暴涨，只有六条具体留言和一处实景纠错，但这是第一次有陌生人照他写的路去走。",
       "mustHappen": [
@@ -1278,20 +1307,94 @@
       "stateChange": "文章第一次产生真实互动；他确认读者要的是可核验的现场，不是情绪。",
       "endingMomentum": "问路的人追问的下一站还是东站——和买课那篇失败模板稿底下唯一那条留言，问的是同一个地方。",
       "comedyExecution": null,
-      "wordCount": null,
-      "wordCountPass": null,
-      "qualityPass": false,
-      "validationRounds": 1,
-      "checks": {},
+      "wordCount": 2323,
+      "wordCountPass": true,
+      "qualityPass": true,
+      "validationRounds": 4,
+      "checks": {
+        "agentFirstRead": {
+          "mode": "background-free-independent-agent",
+          "verdict": "pass-with-fixes",
+          "reportPath": "notes/first-reads/第009章-首读.json",
+          "readRounds": 2,
+          "pendingCleanRead": false
+        },
+        "semanticAuditRecord": {
+          "auditedChapter": 9,
+          "window": [
+            8,
+            9,
+            10
+          ],
+          "auditPhase": "retrospective",
+          "inputSha256": "97eac28ddbb8fb2f00a9568d6105df6c3558245319ae6e053471bf58889ecd04",
+          "auditId": "1e0ffeca-5b85-4aaa-a1e0-371aa938a6aa",
+          "reportPath": "notes/semantic-audits/第009章-语义审计.json",
+          "verdict": "pass"
+        },
+        "scriptExitCodes": {
+          "check_chapter_wordcount": 0,
+          "check_body_format": 0,
+          "check_prose": 0,
+          "check_dialogue_punctuation": 0,
+          "check_style_fingerprint": 0,
+          "check_semantic_audit": 0,
+          "check_language_review": 0,
+          "check_agent_first_read": 0,
+          "check_plot_fingerprint": 0,
+          "check_continuity_candidate": 0,
+          "plotFingerprint": 0
+        }
+      },
       "retrofitReason": "旧版把低数据、对手轻视和两天增长压在同一章；新版让低数据与真实反馈独占一章。",
-      "firstReadStatus": "pending"
+      "firstReadStatus": "pass",
+      "validationProgress": {
+        "version": 1,
+        "bodyDigest": "2b064fcfd728d7ede6fa1a7c40c5267029212b6515898843e6d1ee0656e82f07",
+        "blockerFingerprint": "197a49ffb81effde91631efdcb4e3b3a829e9d98f20a739840d6a61ede849ef6",
+        "blockers": [
+          {
+            "id": "check_agent_first_read",
+            "what": "独立首读记录：十五问题面与答案、standingLadder 排序、两轮交付物证",
+            "outcome": "fail",
+            "exitCode": 1,
+            "reason": "退出码 1：\n[硬错误] speakers[3].sharpestLine 在最终正文里逐字找不到：“不承诺阅读，不承诺到店。”\n[硬错误] speakers[4].sharpestLine 在最终正文里逐字找不到：“九十几就有人掏三千。”\n[硬错误] 修改后冷读引用缺失：C3、C5、C6、C7、C8、C9\n[硬错误] reactionScale[2] 的 quote 在最终正文里逐字找不到：“我在窗台上靠了一会儿。”\n[硬错误] volumeRange.heaviestQuote 在最终正文里逐字找不到：“离第26天要转回家的12000还差一截，公司欠着的那半截工资”\n[硬错误] emotionSources[4] 的 quote 在最终正文里逐字找不到：“他摆了摆手：“转。””\n[硬错误] emotionSources[6] 的 quote 在最终正文里逐字找不到：“他回了个抱拳”\n[硬错误] flatStretches[1].startQuote 未在最终正文逐字找到\n[硬错误] flatStretches[1].endQuote 未在最终正文逐字找到\n[硬错误] dispositions[1].replacement.startQuote 未在最终正文逐字找到\n[硬错误] dispositions[1].replacement.endQuote 未在最终正文逐字找到\n[硬错误] 候选 S2（判为误报）.startQuote 未在最终正文逐字找到\n[硬错误] 候选 S2（判为误报）.endQuote 未在最终正文逐字找到\n[硬错误] styleFingerprint 缺少对 negated-action 的处置：最终正文该项为 3.03，诊断线 3.0。确认则写 action，判为人物特征则写具体 basis——不得无声忽略",
+            "stdout": "首读记录校验失败：第 9 章\r\n[硬错误] speakers[3].sharpestLine 在最终正文里逐字找不到：“不承诺阅读，不承诺到店。”\r\n[硬错误] speakers[4].sharpestLine 在最终正文里逐字找不到：“九十几就有人掏三千。”\r\n[硬错误] 修改后冷读引用缺失：C3、C5、C6、C7、C8、C9\r\n[硬错误] reactionScale[2] 的 quote 在最终正文里逐字找不到：“我在窗台上靠了一会儿。”\r\n[硬错误] volumeRange.heaviestQuote 在最终正文里逐字找不到：“离第26天要转回家的12000还差一截，公司欠着的那半截工资”\r\n[硬错误] emotionSources[4] 的 quote 在最终正文里逐字找不到：“他摆了摆手：“转。””\r\n[硬错误] emotionSources[6] 的 quote 在最终正文里逐字找不到：“他回了个抱拳”\r\n[硬错误] flatStretches[1].startQuote 未在最终正文逐字找到\r\n[硬错误] flatStretches[1].endQuote 未在最终正文逐字找到\r\n[硬错误] dispositions[1].replacement.startQuote 未在最终正文逐字找到\r\n[硬错误] dispositions[1].replacement.endQuote 未在最终正文逐字找到\r\n[硬错误] 候选 S2（判为误报）.startQuote 未在最终正文逐字找到\r\n[硬错误] 候选 S2（判为误报）.endQuote 未在最终正文逐字找到\r\n[硬错误] styleFingerprint 缺少对 negated-action 的处置：最终正文该项为 3.03，诊断线 3.0。确认则写 action，判为人物特征则写具体 basis——不得无声忽略\r\n",
+            "stderr": "",
+            "argv": [
+              "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+              "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_agent_first_read.py",
+              "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\51f3924c-b1e9-4c58-bfc6-c395d5fcda6b\\stage",
+              "--chapter",
+              "9"
+            ],
+            "evidence": {
+              "script": "check_agent_first_read.py",
+              "argv": [
+                "C:\\Users\\zgs10\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+                "D:\\gitTools\\novellistApp\\packages\\gates\\scripts\\check_agent_first_read.py",
+                "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\deliveries\\51f3924c-b1e9-4c58-bfc6-c395d5fcda6b\\stage",
+                "--chapter",
+                "9"
+              ],
+              "exitCode": 1,
+              "stdout": "首读记录校验失败：第 9 章\r\n[硬错误] speakers[3].sharpestLine 在最终正文里逐字找不到：“不承诺阅读，不承诺到店。”\r\n[硬错误] speakers[4].sharpestLine 在最终正文里逐字找不到：“九十几就有人掏三千。”\r\n[硬错误] 修改后冷读引用缺失：C3、C5、C6、C7、C8、C9\r\n[硬错误] reactionScale[2] 的 quote 在最终正文里逐字找不到：“我在窗台上靠了一会儿。”\r\n[硬错误] volumeRange.heaviestQuote 在最终正文里逐字找不到：“离第26天要转回家的12000还差一截，公司欠着的那半截工资”\r\n[硬错误] emotionSources[4] 的 quote 在最终正文里逐字找不到：“他摆了摆手：“转。””\r\n[硬错误] emotionSources[6] 的 quote 在最终正文里逐字找不到：“他回了个抱拳”\r\n[硬错误] flatStretches[1].startQuote 未在最终正文逐字找到\r\n[硬错误] flatStretches[1].endQuote 未在最终正文逐字找到\r\n[硬错误] dispositions[1].replacement.startQuote 未在最终正文逐字找到\r\n[硬错误] dispositions[1].replacement.endQuote 未在最终正文逐字找到\r\n[硬错误] 候选 S2（判为误报）.startQuote 未在最终正文逐字找到\r\n[硬错误] 候选 S2（判为误报）.endQuote 未在最终正文逐字找到\r\n[硬错误] styleFingerprint 缺少对 negated-action 的处置：最终正文该项为 3.03，诊断线 3.0。确认则写 action，判为人物特征则写具体 basis——不得无声忽略\r\n",
+              "stderr": "",
+              "timedOut": false,
+              "startedAt": "2026-10-08T12:03:23.152Z",
+              "ms": 169
+            }
+          }
+        ],
+        "updatedAt": "2026-10-08T12:06:09.038Z"
+      }
     },
     {
       "chapterNumber": 10,
       "volumeNumber": 1,
       "title": "关注爬到586，先别说自己会做号",
       "filePath": "chapters/第010章 关注爬到586，先别说自己会做号.md",
-      "status": "in_progress",
+      "status": "completed",
       "chapterRole": "第一轮增长与功能申请章",
       "readerPayoff": "48小时5860阅读、586关注，越过100粉提交流量主申请；同时把阅读、关注、申请和到账四件事分开记。",
       "mustHappen": [
@@ -1321,13 +1424,47 @@
       "stateChange": "临江杂谈越过100关注并提交流量主申请；陈骏的号开始做同一题材。",
       "endingMomentum": "他点开陈骏那篇，发现最后关于封路段的那半句，和当晚看到的不一样。",
       "comedyExecution": null,
-      "wordCount": null,
-      "wordCountPass": null,
-      "qualityPass": false,
-      "validationRounds": 0,
-      "checks": {},
+      "wordCount": 2246,
+      "wordCountPass": true,
+      "qualityPass": true,
+      "validationRounds": 1,
+      "checks": {
+        "agentFirstRead": {
+          "mode": "background-free-independent-agent",
+          "verdict": "pass-with-fixes",
+          "reportPath": "notes/first-reads/第010章-首读.json",
+          "readRounds": 2,
+          "pendingCleanRead": false
+        },
+        "semanticAuditRecord": {
+          "auditedChapter": 10,
+          "window": [
+            9,
+            10,
+            11
+          ],
+          "auditPhase": "retrospective",
+          "inputSha256": "0a1014e6c98a87862ef918b418bad9b63cfb6b514450ca9949afa31e025f23f0",
+          "auditId": "7ee741e7-7002-4ebc-b089-1fb0a1b81843",
+          "reportPath": "notes/semantic-audits/第010章-语义审计.json",
+          "verdict": "pass"
+        },
+        "scriptExitCodes": {
+          "check_chapter_wordcount": 0,
+          "check_body_format": 0,
+          "check_prose": 0,
+          "check_dialogue_punctuation": 0,
+          "check_style_fingerprint": 0,
+          "check_semantic_audit": 0,
+          "check_language_review": 0,
+          "check_agent_first_read": 0,
+          "check_plot_fingerprint": 0,
+          "check_continuity_candidate": 0,
+          "plotFingerprint": 0
+        }
+      },
       "retrofitReason": "旧版把流量主申请写成开通即有效；新版只写提交申请，资格与广告数据另行记录。",
-      "firstReadStatus": "pending"
+      "firstReadStatus": "pass"
     },
     {
       "chapterNumber": 11,
@@ -1366,7 +1503,7 @@
       "wordCount": null,
       "wordCountPass": null,
       "qualityPass": false,
-      "validationRounds": 0,
+      "validationRounds": 2,
       "checks": {},
       "retrofitReason": "旧版把抄题与商户询价压在同一章，并用旧同事言语轻视承担打脸；新版改成对手复述且写错关键信息。",
       "firstReadStatus": "pending"
@@ -1411,7 +1548,12 @@
       "validationRounds": 0,
       "checks": {},
       "retrofitReason": "旧版这一节缩在章末，报价翻车只写了几句；新版单独成章，让“不会报价”成为一次具体失败。",
-      "firstReadStatus": "pending"
+      "firstReadStatus": "needs-reread",
+      "postReadRevision": {
+        "at": "2026-10-09",
+        "reason": "旧稿，随第5章改动改过一句报价参照，且本身尚未重写；重写时一并补首读。",
+        "rereadNeeded": true
+      }
     },
     {
       "chapterNumber": 13,
@@ -1453,7 +1595,12 @@
       "validationRounds": 0,
       "checks": {},
       "retrofitReason": "旧版把清单、砍价、见面签约挤在一章；新版把报价与见面拆开。",
-      "firstReadStatus": "pending"
+      "firstReadStatus": "needs-reread",
+      "postReadRevision": {
+        "at": "2026-10-09",
+        "reason": "旧稿，随第5章改动改过两处劳务口径；重写时一并补首读。",
+        "rereadNeeded": true
+      }
     },
     {
       "chapterNumber": 14,
@@ -2061,32 +2208,12 @@
         "source": "verified-delivery"
       },
       "9": {
-        "bodySha256": "0d5e7bd7f355a320445ff3824e667e7fbaae7ff76240afc9f7245962d120f902",
-        "source": "delivery-history",
-        "evidence": [
-          {
-            "receipt": "deliveries/5dafbb76-e21d-4b4c-9983-5375af063e7a",
-            "createdAt": "2026-10-05T01:30:18.329Z"
-          },
-          {
-            "receipt": "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
-            "createdAt": "2026-10-02T08:43:58.862Z"
-          }
-        ]
+        "bodySha256": "43da2d10bff23621d1c44ace8e6231fad7b3262290f12be1b827570a0db3f6ae",
+        "source": "verified-delivery"
       },
       "10": {
-        "bodySha256": "52ad13a34c0484f14134e96fc0a54d21f8baa314abb739fac87f1d413a22dea7",
-        "source": "delivery-history",
-        "evidence": [
-          {
-            "receipt": "deliveries/bc010543-8b95-4f54-aff7-2ee9eef378cc",
-            "createdAt": "2026-10-05T04:07:48.312Z"
-          },
-          {
-            "receipt": "cancelled-deliveries/0748fe9a-ab9e-4df8-bc23-48299ac95459",
-            "createdAt": "2026-10-02T08:43:58.862Z"
-          }
-        ]
+        "bodySha256": "e0bff9c2e7c94cb6267a6ac05d7e7fffbb6798eaebcbcd097319a60e3ec873b2",
+        "source": "verified-delivery"
       }
     },
     "acceptedStages": {
@@ -2099,8 +2226,8 @@
           "1": "ea61d7ff75efc7e6774e796595892efbf0651ebb178bd9a72721d5dceb590ada",
           "2": "a4e46e5e921416460b0f5ac422c2369140396e01a73f82ff2395ecc31c26a1ec",
           "3": "75b23dd079a54a53d2765f2692dc09902977a9ce7ef5d9396ddc37e2c2b0d3d3",
-          "4": "2a14b917e4f27b0b220090e09206af980360f99c4f258b1b9e7cf0960ddd64a2",
-          "5": "d5a804772df135e11bd5273c205e2f3fd4c70160a91920e1bd93fe06b425b561"
+          "4": "f56214798126c7cf077917d351175e5c349ca622b194ca866cb1ec9dc058ac0d",
+          "5": "396705badf682519c2bd3a185e511ff5d4b5de4a276e205307893937ee7cd43c"
         }
       }
     },
@@ -2129,19 +2256,20 @@
       ]
     },
     "authorBaselines": {
-      "9": {
-        "bodySha256": "1acde083ea6f7eba1b815f9cd3f98a8e3e2f13eee2809192ea4c2e76495acf67",
-        "confirmedAt": "2026-10-08T01:54:36.667Z",
+      "4": {
+        "bodySha256": "f56214798126c7cf077917d351175e5c349ca622b194ca866cb1ec9dc058ac0d",
+        "confirmedAt": "2026-10-08T11:53:56.998Z",
         "ownerId": "5a43488a-0474-4832-8fb8-8e9ba24d907b",
-        "archive": "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\history-confirmations\\a431bafb0a8d92603cbee846817aabddb6b4d64b9b5bb704ea772ca44c84b158.json"
+        "archive": "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\history-confirmations\\da04f9f314961bf52f302cb4d9e555c7d56fe337b66d32a6b5de37c85afed2ae.json"
       },
-      "10": {
-        "bodySha256": "35c839feec6d169d6098e11c259d8fe79431809c5bbddfb9e99f29e8da96af1e",
-        "confirmedAt": "2026-10-08T01:54:36.667Z",
+      "5": {
+        "bodySha256": "396705badf682519c2bd3a185e511ff5d4b5de4a276e205307893937ee7cd43c",
+        "confirmedAt": "2026-10-08T11:53:56.998Z",
         "ownerId": "5a43488a-0474-4832-8fb8-8e9ba24d907b",
-        "archive": "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\history-confirmations\\a431bafb0a8d92603cbee846817aabddb6b4d64b9b5bb704ea772ca44c84b158.json"
+        "archive": "C:\\Users\\zgs10\\AppData\\Local\\novellistApp\\runs\\75c63d90ed229944\\history-confirmations\\da04f9f314961bf52f302cb4d9e555c7d56fe337b66d32a6b5de37c85afed2ae.json"
       }
-    }
+    },
+    "firstReadDebtNote": "2026-10-09：第5章已完成两轮独立首读并按报告修订，门禁通过。第1、3、4、6、7、8、9、10、12、13章的首读记录读的是各自改前或冻结前的稿，引文与当前正文对不上——这类只能按当前正文重做一次两轮首读，不得靠替换引文凑过。第5章的旧版首读证据已归档到 notes/retrofit/snapshots/。"
   },
   "targetBodyCharsNote": "2026-10-07用户口径：硬下限2000汉字不变；一章只承接一个主事件及其直接后果，目标2400汉字左右，不追求超过2900。第1—3章已发布，字数与正文不得改动。",
   "rechapterRevision": {
